@@ -1,0 +1,909 @@
+{
+  "levels": [
+    {
+      "id": 13,
+      "title": "עתיד ומצביים",
+      "description": "פעלים המביעים פעולות עתידיות, היפותטיות, אפשרויות ומשאלות מנומסות.",
+      "words": [
+        {
+          "word": "Credere",
+          "filename": "credere",
+          "translations": ["להאמין", "לחשוב"],
+          "definition": "לקבל משהו כאמת או מציאות ללא ראיות מוצקות בהכרח. דוגמה: \"Credo che tu sia un serpente!\" (אני מאמין שאתה נחש!)."
+        },
+        {
+          "word": "Direste",
+          "filename": "direste",
+          "translations": ["תאמרו"],
+          "definition": "צורת הווה היפותטית של \"dire\" (לומר) המשמשת לשאול מה קבוצת אנשים תאמר בסיטואציה היפותטית. דוגמה: \"Cosa direste se non funzionasse?\" (מה תאמרו אם זה לא יעבוד?).",
+          "info": "\"Direste\" היא צורת רבים בלתי רשמית (voi). צורת יחיד בלתי רשמית (tu) היא \"diresti\". צורת רבים בלתי רשמית (voi) היא \"direste\". צורת יחיד רשמית (lei) היא \"direbbe\". צורת רבים רשמית (loro) היא \"direbbero\". צורת הדובר (io) היא \"direi\"."
+        },
+        {
+          "word": "Vedere",
+          "filename": "vedere",
+          "translations": ["לראות"],
+          "definition": "להבחין בעיניים או להבין משהו מנטלית. יכול גם להצביע על ציפייה לאירועים עתידיים."
+        },
+        {
+          "word": "Vedo",
+          "filename": "vedo",
+          "translations": ["אני רואה"],
+          "definition": "צורת הווה של \"vedere\" המציינת תפיסה חזותית או הבנה נוכחית. דוגמה: \"Ti vedo dal balcone\" (אני רואה אותך מהמרפסת)."
+        },
+        {
+          "word": "Vediamo",
+          "filename": "vediamo",
+          "translations": ["בואו נראה", "אנחנו רואים"],
+          "definition": "צורת הווה של \"vedere\" המשמשת כביטוי שיחה המציעה לחכות ולראות תוצאה. דוגמה: \"Vediamo cosa succede\" (בואו נראה מה קורה).",
+          "info": "\"Vediamo\" היא צורת רבים (noi). צורת יחיד בלתי רשמית (tu) היא \"vedi\". צורת רבים בלתי רשמית (voi) היא \"vedete\". צורת יחיד רשמית (lei) היא \"vede\". צורת רבים רשמית (loro) היא \"vedono\". צורת הדובר (io) היא \"vedo\"."
+        },
+        {
+          "word": "Vorrei",
+          "filename": "vorrei",
+          "translations": ["הייתי רוצה"],
+          "definition": "צורת הווה של \"volere\" (לרצות) המשמשת כדרך מנומסת לבקשה. דוגמה: \"Vorrei un tè verde, per favore\" (הייתי רוצה תה ירוק, בבקשה).",
+          "info": "\"Vorrei\" היא צורת הדובר (io). צורת יחיד בלתי רשמית (tu) היא \"vorresti\". צורת רבים בלתי רשמית (voi) היא \"vorreste\". צורת יחיד רשמית (lei) היא \"vorrebbe\". צורת רבים רשמית (loro) היא \"vorrebbero\"."
+        },
+        {
+          "word": "Potere",
+          "filename": "potere",
+          "translations": ["להיות מסוגל", "יכול", "מותר"],
+          "definition": "מביע יכולת פיזית או מנטלית לביצוע פעולה, רשות לבצע משהו, או אפשרות שמשהו יכול להתרחש."
+        },
+        {
+          "word": "Dovere",
+          "filename": "dovere",
+          "translations": ["חייב", "צריך"],
+          "definition": "משמש בעיקר להבעת חובה, הכרח או תפקיד לביצוע פעולה או התנהגות מסוימת. לעיתים יכול גם להעביר הסתברות או ציפייה. דוגמאות: \"Devo restituire il prestito.\" (אני חייב להחזיר את ההלוואה. [חובה]) | \"Devi mettere il cappotto in inverno.\" (אתה חייב ללבוש מעיל בחורף. [הכרח]) | \"Dovrebbe piovere nel pomeriggio.\" (צפוי לרדת גשם אחר הצהריים. [הסתברות])."
+        },
+        {
+          "word": "Partisse",
+          "filename": "partisse",
+          "translations": ["היה יוצא"],
+          "definition": "צורת עבר היפותטית של \"partire\" (לצאת). מתאר פעולות יציאה שדמיינו שהתרחשו בעבר אך לא התרחשו בפועל — לא הושלמו ולא נמשכו במציאות.",
+          "info": "\"Partisse\" היא צורת יחיד רשמית (lei). צורת יחיד בלתי רשמית (tu) היא \"partissi\". צורת רבים בלתי רשמית (voi) היא \"partiste\". צורת רבים רשמית (loro) היא \"partissero\". צורת הדובר (io) היא \"partissi\"."
+        },
+        {
+          "word": "Bastare",
+          "filename": "bastare",
+          "translations": ["להספיק"],
+          "definition": "להיות מספיק בכמות או באיכות כדי לענות על צורך או תנאי. דוגמה: \"Mi basta una tazza di tè\" (כוס תה אחת מספיקה לי)."
+        },
+        {
+          "word": "Scommettere",
+          "filename": "scommettere",
+          "translations": ["להמר"],
+          "definition": "להמר כסף או משהו בעל ערך על תוצאה לא ודאית, או לטעון בביטחון שמשהו יקרה. דוגמה: \"Scommetto cento dollari che questa squadra vince.\" (אני מהמר מאה דולר שהקבוצה הזו תנצח)."
+        },
+        {
+          "word": "Vincere",
+          "filename": "vincere",
+          "translations": ["לנצח"],
+          "definition": "להשיג ניצחון או הצלחה בתחרות. דוגמה: \"Vincerò la partita\" (אנצח במשחק)."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "יצורים ודמויות",
+      "description": "בעלי חיים ודמויות ממפגשיה הפנטסטיים של אליס.",
+      "words": [
+        {
+          "word": "Gatto",
+          "filename": "gatto",
+          "translations": ["חתול"],
+          "definition": "בעל חיים ביתי הידוע בצליל גררור איקוני.",
+          "info": "הצורה הנקבית של מילה זו היא \"gatta\""
+        },
+        {
+          "word": "Coniglio bianco",
+          "filename": "coniglio bianco",
+          "translations": ["ארנב לבן"],
+          "definition": "\"Coniglio\" (ארנב) | \"Bianco\" (לבן). הדמות המהולה, לובשת אפוד, שמובילה את אליס למאורת הארנב, ממלמלת ללא הרף על כך שהיא מאחרת."
+        },
+        {
+          "word": "Fante di cuori",
+          "filename": "fante di cuori",
+          "translations": ["פנטה של לבבות", "אביר לבבות"],
+          "definition": "\"Fante\" (פנטה, אביר) | \"Di cuori\" (של לבבות).",
+          "info": "בהקשר של 'אליס בארץ הפלאות' (Le Avventure d'Alice nel Paese delle Meraviglie), אביר הלבבות (Fante di cuori) הואשם בגניבת מאפים של המלכה."
+        },
+        {
+          "word": "Porcellini d'india",
+          "filename": "porcellini d'india",
+          "translations": ["חזירי גינאה"],
+          "definition": "\"Porcellini\" (חזירונים קטנים) | \"D'India\" (מהודו). מכרסמים קטנים מקורם בדרום אמריקה, לא בהודו; השם נובע מטעות — המילה \"India\" עשויה להיות שגויה ולהתייחס לחוף גינאה במערב אפריקה, אולי משום שהחיות הועברו דרך גינאה או דמו לחזירים הודיים.",
+          "info": "בהקשר של 'אליס בארץ הפלאות' (Le Avventure d'Alice nel Paese delle Meraviglie), החיות הללו היו צופים במהלך הלעג למשפט שבו אביר הלבבות (Fante di Cuori) הואשם בגניבת מאפי המלכה. שני חזירי הגינאה מחאו כפיים במהלך עדות הכובען ונדכאו מיד: קצינים הכניסו כל אחד ראשון לשק בד גדול, קשרו אותו והתיישבו על השקים."
+        },
+        {
+          "word": "Dieci soldati",
+          "filename": "dieci soldati",
+          "translations": ["עשרה חיילים"],
+          "definition": "\"Dieci\" (עשרה) | \"Soldati\" (חיילים). אנשי צבא."
+        },
+        {
+          "word": "Armati di bastoni",
+          "filename": "armati di bastoni",
+          "translations": ["חמושים במקלות", "חמושים בשרביטים", "חמושים במועדונים"],
+          "definition": "\"Armati\" (חמושים) | \"Di bastoni\" (במקלות, בשרביטים, במועדונים). מצוידים במקלות כבדים המשמשים כנשק.",
+          "info": "בהקשר של 'אליס בארץ הפלאות' (Le Avventure d'Alice nel Paese delle Meraviglie) המילה \"bastoni\" פירושה חפיסת ה-Trefles בקלפי איטלקיים."
+        },
+        {
+          "word": "Tre giardinieri",
+          "filename": "tre giardinieri",
+          "translations": ["שלושה גננים"],
+          "definition": "\"Tre\" (שלושה) | \"Giardinieri\" (גננים). אנשים שמטפלים בגנים."
+        },
+        {
+          "word": "Fenicottero",
+          "filename": "fenicottero",
+          "translations": ["פלמינגו"],
+          "definition": "ציפור מים גבוהה בעלת נוצות ורודות ומקור מעוקל.",
+          "info": "בהקשר של 'אליס בארץ הפלאות' (Le Avventure d'Alice nel Paese delle Meraviglie), הפלמינגו (fenicottero) הוא הציפור שאליס מנסה להשתמש בה כמקל קרוקט חי, צווארה המתפתל והלא משתף פעולה מוסיף לאבסורד של משחקה הפנטסטי של המלכה."
+        },
+        {
+          "word": "Cagnolino",
+          "filename": "cagnolino",
+          "translations": ["גור כלבלב"],
+          "definition": "כלב קטן, מונח חיבה לגור חיית מחמד משחקי."
+        },
+        {
+          "word": "Vigliaccone",
+          "filename": "vigliaccone",
+          "translations": ["פחדן"],
+          "definition": "אדם חסר אומץ."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "מצבים ואיכויות",
+      "description": "מילים המביעות מצבים, מצב רוח ומאפיינים.",
+      "words": [
+        {
+          "word": "Altro",
+          "filename": "altro",
+          "translations": ["אחר", "עוד אחד"],
+          "definition": "מתייחס למשהו שונה או נוסף לעומת מה שכבר הוזכר. דוגמה: \"Prendo un altro biscotto\" (אקח עוד עוגייה)."
+        },
+        {
+          "word": "Ancora",
+          "filename": "ancora",
+          "translations": ["עדיין", "גם", "שוב"],
+          "definition": "משמש להבעת המשכיות, חזרה או פעולה שלא הסתיימה. דוגמאות: \"Sto ancora lavorando.\" (אני עדיין עובד. [המשכיות]) | \"Il taxi non è arrivato ancora.\" (המונית עדיין לא הגיעה. [לא הושלם]) | \"Voglio sentire quella canzone ancora!\" (אני רוצה לשמוע את השיר הזה שוב! [חזרה])."
+        },
+        {
+          "word": "Bellino",
+          "filename": "bellino",
+          "translations": ["חמוד", "יפה", "נחמד"],
+          "definition": "מקסים או מושך באופן חביב או עדין. דוגמה: \"Quel gattino è davvero bellino\" (החתלתול הזה ממש חמוד)."
+        },
+        {
+          "word": "Curioso",
+          "filename": "curioso",
+          "translations": ["סקרן"],
+          "definition": "נלהב לדעת או ללמוד משהו. דוגמה: \"È un bambino curioso\" (זה ילד סקרן)."
+        },
+        {
+          "word": "Disperata",
+          "filename": "disperata",
+          "translations": ["מיואשת"],
+          "definition": "ללא תקווה לחלוטין; מלאה ייאוש. דוגמה: \"Era in una situazione disperata.\" (היא הייתה במצב מיואש.)",
+          "info": "הצורה הזכרית של מילה זו היא \"disperato\""
+        },
+        {
+          "word": "Profumato",
+          "filename": "profumato",
+          "translations": ["מבושם", "ריחני"],
+          "definition": "בעל ריח או ניחוח נעים. דוגמה: \"Un fiore molto profumato\" (פרח ריחני מאוד)."
+        },
+        {
+          "word": "Sospeso",
+          "filename": "sospeso",
+          "translations": ["תלוי", "מושהה"],
+          "definition": "נשמר במצב של אי ודאות או תלוי פיזית. דוגמה: \"Il tempo sembrava sospeso durante il tramonto\" (הזמן נראה כאילו הושהה בזמן השקיעה)."
+        },
+        {
+          "word": "Cruda",
+          "filename": "cruda",
+          "translations": ["גולמי", "אכזרי"],
+          "definition": "צורת נקבה של \"crudo\"; לרוב פירושו גולמי, לא גמור או לא מעובד, במיוחד בהקשר של מזון כמו בשר, דגים או ירקות שלא בושלו כלל, כמו ב-\"carne cruda\" (בשר גולמי). יכול גם לתאר משהו או מישהו רגשית גולמי, קשה או אכזרי.",
+          "info": "יחיד זכר: \"crudo\"; רבים זכר: \"crudi\"; רבות נקבה: \"crude\""
+        },
+        {
+          "word": "Stato",
+          "filename": "stato",
+          "translations": ["מצב", "קונדיציה"],
+          "definition": "מצב, סיטואציה, דרך הוויה או מעמד משפטי/חברתי. דוגמה: \"È questo lo stato attuale delle cose\" (זהו מצב הדברים הנוכחי)."
+        },
+        {
+          "word": "Nuove",
+          "filename": "nuove",
+          "translations": ["חדשות"],
+          "definition": "צורת רבים נקבית של \"nuovo\"; שהוכן או נתגלה לאחרונה.",
+          "info": "יחיד זכר: \"nuovo\"; יחיד נקבה: \"nuova\"; רבים זכר: \"nuovi\""
+        },
+        {
+          "word": "Silenzio",
+          "filename": "silenzio",
+          "translations": ["שקט"],
+          "definition": "היעדר מוחלט של צליל."
+        },
+        {
+          "word": "Veramente",
+          "filename": "veramente",
+          "translations": ["באמת"],
+          "definition": "באמת; בכנות."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "שינויים ומצבים",
+      "description": "מילים לשינויים, מצבים וסיטואציות נובעות.",
+      "words": [
+        {
+          "word": "Apice",
+          "filename": "apice",
+          "translations": ["שיא", "פסגה", "גובה"],
+          "definition": "הנקודה הגבוהה ביותר, הפסגה, השיא או הקצה של משהו פיזי או מופשט. משמש לציון הנקודה או המיקום הגבוה ביותר ללא קצבה מספרית מילולית. דוגמאות: \"Il caldo estivo ha raggiunto l'apice a luglio.\" (חום הקיץ הגיע לשיאו ביולי. [שיא מטפורי]) | \"L'apice della montagna.\" (פסגת ההר. [שיא פיזי])."
+        },
+        {
+          "word": "La verità",
+          "filename": "la verità",
+          "translations": ["האמת"],
+          "definition": "איכות או מצב של התאמה לעובדות או למציאות. מתאר הצהרות, אמונות או טענות המייצגות במדויק את המצב, בניגוד לשקרים."
+        },
+        {
+          "word": "Bugia",
+          "filename": "bugia",
+          "translations": ["שקר"],
+          "definition": "הצהרה שקרית שנאמרה בכוונה להטעות. דוגמה: \"Hai detto una bugia\" (אמרת שקר)."
+        },
+        {
+          "word": "Caduta",
+          "filename": "caduta",
+          "translations": ["נפילה", "ירידה"],
+          "definition": "פעולת הנפילה או ירידה פתאומית ממצב גבוה יותר. דוגמה: \"Una caduta improvvisa\" (נפילה פתאומית)."
+        },
+        {
+          "word": "Cambiato",
+          "filename": "cambiato",
+          "translations": ["שונה", "שופר", "השתנה"],
+          "definition": "צורת עבר מושלמת של \"cambiare\" (לשנות). מתאר משהו שהפך שונה ממה שהיה קודם. דוגמה: \"Alice era cambiata dopo aver bevuto la pozione\" (אליס השתנתה לאחר ששתתה את השיקוי)."
+        },
+        {
+          "word": "Confusione",
+          "filename": "confusione",
+          "translations": ["בלבול", "ערבוביה", "בלגן"],
+          "definition": "מצב של בלבול מנטלי או פיזי שבו הדברים לא ברורים או מעורבבים. דוגמה: \"C'era molta confusione nella sala.\" (היה הרבה בלבול באולם)."
+        },
+        {
+          "word": "Impiccolire",
+          "filename": "impiccolire",
+          "translations": ["להקטין", "לצמצם", "להצריך"],
+          "definition": "מתאר פעולת גרימת משהו להפוך לקטן יותר או פחות משמעותי, פיזית או מטפורית. דוגמה: \"La bottiglia misteriosa impiccolì Alice fino a farla passare sotto la porta\" (הבקבוקון המסתורי הקטין את אליס עד שהתאים לעבור מתחת לדלת)."
+        },
+        {
+          "word": "Piccolire",
+          "filename": "piccolire",
+          "translations": ["להקטן"],
+          "definition": "מתאר תהליך של הקטנה, בין אם על ידי קסם או שינוי. דוגמה: \"Ogni sorso faceva Alice piccolire un po' di più\" (כל לגימה הקטינה את אליס עוד קצת)."
+        },
+        {
+          "word": "Certamente",
+          "filename": "certamente",
+          "translations": ["בוודאי", "ללא ספק"],
+          "definition": "מביע ביטחון מלא או ודאות שמשהו אמיתי או עומד להתרחש. דוגמה: \"Certamente verrò alla festa\" (בוודאי אבוא למסיבה)."
+        },
+        {
+          "word": "Dubbio",
+          "filename": "dubbio",
+          "translations": ["ספק", "אי ודאות"],
+          "definition": "תחושת חוסר ודאות או תהייה אם משהו אמיתי."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "סצנות ארץ הפלאות של אליס",
+      "description": "מילים מגן אליס, שינויים ומפגשים סוריאליסטיים.",
+      "words": [
+        {
+          "word": "Giardino",
+          "filename": "giardino",
+          "translations": ["גן"],
+          "definition": "שטח חיצוני סגור מלא צמחים, פרחים ומסלולים. דוגמה: \"Alice corse nel giardino dove crescevano fiori parlanti.\" (אליס רצה לגן שבו גדלו פרחים מדברים.)"
+        },
+        {
+          "word": "Giardinieri",
+          "filename": "giardinieri",
+          "translations": ["גננים"],
+          "definition": "אנשים שמטפלים ומטפחים גנים, דואגים לצמחים ולקרקע. דוגמה: \"I giardinieri curano le piante ogni mattina\" (הגננים מטפלים בצמחים כל בוקר)."
+        },
+        {
+          "word": "Scala",
+          "filename": "scala",
+          "translations": ["סולם", "מדרגות"],
+          "definition": "מבנה עם מדרגות או ספסלים המשמש לטיפוס למעלה או למטה. דוגמה: \"La scala scendeva senza fine nel buio\" (המדרגות ירדו בלי סוף אל החושך)."
+        },
+        {
+          "word": "Finestra",
+          "filename": "finestra",
+          "translations": ["חלון"],
+          "definition": "פתח בקיר עם זכוכית שמאפשר כניסת אור וראייה החוצה. דוגמה: \"Dalla finestra minuscola, Alice vide il giardino magico\" (מהחלון הקטנטן, אליס ראתה את הגן הקסום)."
+        },
+        {
+          "word": "Terreno",
+          "filename": "terreno",
+          "translations": ["קרקע", "אדמה", "שטח"],
+          "definition": "האדמה או הקרקע מתחת לרגליים, או שטח קרקע. דוגמה: \"Il terreno qui è molto fertile\" (הקרקע כאן פורייה מאוד)."
+        },
+        {
+          "word": "Tagliate",
+          "filename": "tagliate",
+          "translations": ["חתוכות", "נקטעות", "פרוסות"],
+          "definition": "צורת עבר מושלמת של \"tagliare\" (לחתוך). מתאר משהו שנקטע והפעולה הסתיימה."
+        },
+        {
+          "word": "Siepe",
+          "filename": "siepe",
+          "translations": ["גדר חיה"],
+          "definition": "שורה צפופה של שיחים המהווה גבול או קיר טבעי. דוגמה: \"Una siepe dividia i due giardini\" (גדר חיה הפרידה בין שני הגנים)."
+        },
+        {
+          "word": "Casettina",
+          "filename": "casettina",
+          "translations": ["בית קטן", "קוטג'", "מחסן קטן"],
+          "definition": "צורת קטנה של \"casa\" (בית). בית קטן מאוד, קוטג' או בקתה. דוגמה: \"La casettina nel giardino aveva finestre a forma di cuore.\" (הבית הקטן בגן היה בעל חלונות בצורת לב.)"
+        },
+        {
+          "word": "Liquore",
+          "filename": "liquore",
+          "translations": ["משקה", "נוזל", "ליקר"],
+          "definition": "כל נוזל שניתן לשתות, לעיתים חזק, מתוק או בעל תכונות מיוחדות. דוגמה: \"Nascondevano il liquore bootleg sotto il pavimento\" (הסתירו ליקר לא חוקי מתחת לרצפה)."
+        },
+        {
+          "word": "Pasticcino",
+          "filename": "pasticcino",
+          "translations": ["עוגייה קטנה", "מאפה קטן", "ממתק קטן"],
+          "definition": "צורת קטנה של \"pasticcio\" (מאפה). עוגייה קטנה או ממתק. דוגמה: \"Sul tavolo c'era un pasticcino che diceva 'Mangiami'\". (על השולחן הייתה עוגייה קטנה שעליה כתוב 'תאכלי אותי')."
+        },
+        {
+          "word": "Paese delle Meraviglie",
+          "filename": "paese delle meraviglie",
+          "translations": ["ארץ הפלאות"],
+          "definition": "\"Paese\" (מדינה, ארץ) | \"Delle Meraviglie\" (של פלאים)."
+        },
+        {
+          "word": "Meraviglie",
+          "filename": "meraviglie",
+          "translations": ["פלאים"],
+          "definition": "רבים של \"meraviglia\" (פלא). דבר יוצא דופן, קסום או מדהים."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "צללי עימות",
+      "description": "מילים המתארות עימות, סכנה וגורלות טרגיים.",
+      "words": [
+        {
+          "word": "Contro",
+          "filename": "contro",
+          "translations": ["נגד", "מול", "לעומת"],
+          "definition": "מציין התנגדות, ניגוד או קרבה פיזית נגד משהו. דוגמאות: \"Lancaster combatté contro York nelle Guerre delle Due Rose\" (לנקסטר נלחם נגד יורק במלחמות שושניות)."
+        },
+        {
+          "word": "Inferma",
+          "filename": "inferma",
+          "translations": ["חולה"],
+          "definition": "צורת נקבה של \"infermo\" (חולה). מתייחס למישהו במצב פיזי מוחלש עקב מחלה, פציעה או סבל ממושך.",
+          "info": "יחיד זכר: \"infermo\"; רבים זכר: \"infermi\"; רבות נקבה: \"inferme\"."
+        },
+        {
+          "word": "Pericolo",
+          "filename": "pericolo",
+          "translations": ["סכנה"],
+          "definition": "מצב או נסיבות שסביר שיגרמו נזק או פגיעה חמורה."
+        },
+        {
+          "word": "Prigione",
+          "filename": "prigione",
+          "translations": ["כלא"],
+          "definition": "מבנה שבו שומרים אנשים כעונש או עד למשפט."
+        },
+        {
+          "word": "Prigionieri",
+          "filename": "prigionieri",
+          "translations": ["אסירים"],
+          "definition": "רבים של \"prigioniero\" (אסיר). אנשים המוחזקים בשבי או בכלא."
+        },
+        {
+          "word": "Crudeltà",
+          "filename": "crudeltà",
+          "translations": ["אכזריות"],
+          "definition": "הטלת סבל מכוונת על אחרים."
+        },
+        {
+          "word": "Difficoltà",
+          "filename": "difficoltà",
+          "translations": ["קושי"],
+          "definition": "האיכות או המצב של היות קשה לביצוע, הבנה או התגברות."
+        },
+        {
+          "word": "Morto",
+          "filename": "morto",
+          "translations": ["מת"],
+          "definition": "מתייחס לאדם שנפטר או למצב חסר חיים שנגרם מפציעה, אלימות, תאונה או נסיבות קטלניות אחרות."
+        },
+        {
+          "word": "Disperso",
+          "filename": "disperso",
+          "translations": ["נעדר", "מפוזר", "אבוד"],
+          "definition": "מתאר אדם שנעדר, מפוזר או לא נמצא, לעיתים קרובות בהקשר אסון, המעיד על סכנה חמורה ואי ודאות לגבי הישרדות."
+        },
+        {
+          "word": "Danno",
+          "filename": "danno",
+          "translations": ["נזק"],
+          "definition": "אובדן או פגיעה ברכוש חומרי, בלתי חומרי, בשלמות או בתפקוד, לעיתים קרובות שנגרם מבחוץ."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "ביטויי זמן",
+      "description": "מילים וביטויים המציינים תזמון, תדירות וסדר.",
+      "words": [
+        {
+          "word": "Due volte la settimana",
+          "filename": "due volte la settimana",
+          "translations": ["פעמיים בשבוע"],
+          "definition": "\"Due\" (שניים) | \"volte\" (פעמים) | \"la\" (ה) | \"settimana\" (שבוע). מציין פעולה או אירוע שמתרחשים פעמיים בתוך שבוע אחד."
+        },
+        {
+          "word": "Pomeriggio",
+          "filename": "pomeriggio",
+          "translations": ["אחר הצהריים"],
+          "definition": "זמן היום מאמצע היום לערב מוקדם (בערך מ-12:00 עד 18:00)."
+        },
+        {
+          "word": "Precedente",
+          "filename": "precedente",
+          "translations": ["קודם", "לפני"],
+          "definition": "מתייחס למשהו שמגיע לפני משהו אחר ברצף, סדרה, זמן או סדר. מדגיש מיקום או התרחשות לפני נקודת התייחסות. דוגמה: \"Il mese precedente\" (החודש הקודם)."
+        },
+        {
+          "word": "Scorso",
+          "filename": "scorso",
+          "translations": ["אחרון"],
+          "definition": "מתייחס לתקופת הזמן בעבר הכי קרובה (למשל: השבוע/חודש/שנה שעברו) מנקודת מבט ההווה. משתלב בדרך כלל עם שמות זמן כמו anno, mese, settimana. דוגמה: \"L'anno scorso ho viaggiato in Italia\" (לשנה שעברה נסעתי לאיטליה)."
+        },
+        {
+          "word": "Sera",
+          "filename": "sera",
+          "translations": ["ערב"],
+          "definition": "זמן היום מאחר הצהריים עד תחילת הלילה, בדרך כלל אחרי 17:00-18:00 ועד חצות בערך."
+        },
+        {
+          "word": "Tardi",
+          "filename": "tardi",
+          "translations": ["מאוחר"],
+          "definition": "מתייחס למשהו שמתרחש אחרי הזמן הצפוי או הרגיל. יכול לתאר גם זמן ביום וגם עיכוב. דוגמה: \"Arrivo tardi stasera\" (אגיע מאוחר הערב)."
+        },
+        {
+          "word": "Sempre",
+          "filename": "sempre",
+          "translations": ["תמיד"],
+          "definition": "משהו שמתרחש כל הזמן או ללא יוצא מן הכלל."
+        },
+        {
+          "word": "Presto",
+          "filename": "presto",
+          "translations": ["בקרוב", "מוקדם", "מהר"],
+          "definition": "לפני הזמן הצפוי או אחרי עיכוב קצר."
+        },
+        {
+          "word": "Subito",
+          "filename": "subito",
+          "translations": ["מייד"],
+          "definition": "ללא המתנה, מיד או בבת אחת."
+        },
+        {
+          "word": "Secondo",
+          "filename": "secondo",
+          "translations": ["שנייה"],
+          "definition": "יחידת זמן (שישית של דקה); גם מספר סדרתי המציין מיקום במקום השני ברצף."
+        },
+        {
+          "word": "Più",
+          "filename": "più",
+          "translations": ["יותר"],
+          "definition": "כמות, דרגה, גודל, איכות או תדירות גדולים יותר. דוגמה: \"L'Italia ha più foreste della Svizzera\" (לאיטליה יש יותר יערות מבשוויץ)."
+        },
+        {
+          "word": "Meno",
+          "filename": "meno",
+          "translations": ["פחות"],
+          "definition": "שוואה המציינת כמות, דרגה או מספר קטנים יותר. דוגמה: \"Fuma meno sigarette ultimamente\" (היא מעשנת פחות סיגריות לאחרונה)."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "מושגי חיים",
+      "description": "מושגים הקשורים למחשבות, רגשות ותקשורת אנושית.",
+      "words": [
+        {
+          "word": "Anima",
+          "filename": "anima",
+          "translations": ["נשמה"],
+          "definition": "המהות הרוחנית או הרגשית של אדם או דבר. דוגמה: \"L'anima della città\" (נשמת העיר)."
+        },
+        {
+          "word": "Commedia",
+          "filename": "commedia",
+          "translations": ["קומדיה"],
+          "definition": "יצירה תיאטרלית הומוריסטית, מחזה או סיטואציה הדומה לכך. דוגמה: \"Questa commedia è esilarante\" (קומדיה זו מצחיקה מאוד)."
+        },
+        {
+          "word": "Crede",
+          "filename": "credo",
+          "translations": ["אני מאמין", "אני חושב"],
+          "definition": "דרך נפוצה להבעת אמונה או הנחה. דוגמה: \"Credo che tu abbia ragione.\" (אני מאמין שלך צדק.)",
+          "info": "\"Credo\" היא צורת הדובר (io) של \"credere\" (להאמין). צורת יחיד בלתי רשמית (tu) היא \"credi\". צורת יחיד רשמית (lei) היא \"crede\". צורת רבים בלתי רשמית (voi) היא \"credete\". צורת רבים רשמית (loro) היא \"credono\"."
+        },
+        {
+          "word": "Sposa",
+          "filename": "sposa",
+          "translations": ["כלה"],
+          "definition": "אישה שעומדת להינשא או נישאה לאחרונה. דוגמה: \"La sposa indossava un abito bianco\" (הכלה לבשה שמלה לבנה).",
+          "info": "הצורה הזכרית של מילה זו היא \"sposo\" (חתן); צורת הרבים היא \"sposi\" (חתן וכלה או זוג טרי)."
+        },
+        {
+          "word": "Frase",
+          "filename": "frase",
+          "translations": ["משפט", "ביטוי"],
+          "definition": "קבוצת מילים המביעה מחשבה שלמה. דוגמה: \"Ogni frase conta\" (כל משפט חשוב)."
+        },
+        {
+          "word": "Lettera",
+          "filename": "lettera",
+          "translations": ["מכתב", "אות"],
+          "definition": "הודעה כתובה שנשלחת למישהו; גם תו בודד באלפבית. דוגמה: \"Scrivo una lettera\" (אני כותב מכתב)."
+        },
+        {
+          "word": "Nascosto",
+          "filename": "nascosto",
+          "translations": ["מוסתר"],
+          "definition": "מוסתר מעין או ידיעה; לא גלוי."
+        },
+        {
+          "word": "Peccato",
+          "filename": "peccato",
+          "translations": ["חטא", "חבל", "בושה"],
+          "definition": "עבירה מוסרית או דתית; גם ביטוי של חרטה או אכזבה."
+        },
+        {
+          "word": "Pensiero",
+          "filename": "pensiero",
+          "translations": ["מחשבה", "רעיון", "התבוננות"],
+          "definition": "תוצר של פעילות נפשית הנוצרת במוח. לעיתים קרובות נושאת משקל רגשי, מייצגת גם חשיבה רציונלית והתבוננות כנה."
+        },
+        {
+          "word": "Fiato",
+          "filename": "fiato",
+          "translations": ["נשימה"],
+          "definition": "אוויר הנשאף ונושף בנשימה. דוגמה: \"Scommetto che la vista di quel villaggio svizzero ti toglierebbe il fiato\" (אני מהמר שהנוף של הכפר השוויצרי הזה יחתוך לך את הנשימה)."
+        },
+        {
+          "word": "Certezza",
+          "filename": "certezza",
+          "translations": ["ודאות"],
+          "definition": "תחושת ביטחון או שכנוע חזקה. דוגמה: \"Parlava con grande certezza\" (דיברה בודאות גדולה)."
+        },
+        {
+          "word": "Vita",
+          "filename": "vita",
+          "translations": ["חיים"],
+          "definition": "מצב החיות, קיום או אורח החיים של אדם. דוגמה: \"La vita è strana\" (החיים מוזרים)."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "בית וסביבה",
+      "description": "מונחים נפוצים של בית ומרחב.",
+      "words": [
+        {
+          "word": "Comodino",
+          "filename": "comodino",
+          "translations": ["שולחן לילה", "שידת לילה"],
+          "definition": "שולחן או ארון קטן המוצב לצד המיטה, המשמש לאחסון או הנחת חפצים קטנים כמו מנורה או ספרים."
+        },
+        {
+          "word": "Coperte",
+          "filename": "coperte",
+          "translations": ["שמיכות", "מכסים"],
+          "definition": "רבים של \"coperta\" (שמיכה). מפות בד המשמשות לשמירה על חום בזמן שינה. דוגמה: \"Le coperte erano spesse e calde\" (השמיכות היו עבות וחמות)."
+        },
+        {
+          "word": "Letto",
+          "filename": "letto",
+          "translations": ["מיטה"],
+          "definition": "רהיט המשמש לשינה או מנוחה. דוגמה: \"Alice saltò sul letto stanca della lunga giornata\" (אליס קפצה על המיטה עייפה מיום ארוך)."
+        },
+        {
+          "word": "Fiammiferi",
+          "filename": "fiammiferi",
+          "translations": ["גפרורים"],
+          "definition": "רבים של \"fiammifero\" (גפרור). מקלות קטנים מצופים בחומר שנדלק כשהם מושפשים על משטח מתאים, המשמשים ליצירת להבה."
+        },
+        {
+          "word": "Cantone",
+          "filename": "cantone",
+          "translations": ["פינה", "קנטון"],
+          "definition": "יכול להתייחס לפינה פיזית או לנפת מנהלית, כמו קנטון שוויצרי."
+        },
+        {
+          "word": "Quadrante",
+          "filename": "quadrante",
+          "translations": ["מחוגה", "רבע", "פני שעון"],
+          "definition": "החלק העגול או הפרצוף המשמש להצגת מדידה או זמן, כמו בשעון."
+        },
+        {
+          "word": "Seggiolone",
+          "filename": "seggiolone",
+          "translations": ["כיסא גבוה"],
+          "definition": "כיסא גבוה המשמש להאכילת פעוטות ליד שולחן."
+        },
+        {
+          "word": "Cipolle",
+          "filename": "cipolle",
+          "translations": ["בצלים"],
+          "definition": "רבים של \"cipolla\". בצלים אכילים עם טעם וריח חזקים, המשמשים בבישול."
+        },
+        {
+          "word": "Terrazzino",
+          "filename": "terrazzino",
+          "translations": ["מרפסת קטנה", "מרפסתון"],
+          "definition": "צורת קטנה של \"terrazza\" (מרפסת). פלטפורמה חיצונית קטנה המחוברת לבניין, לעיתים עם נוף. דוגמה: \"Dal terrazzino si vedeva tutto il giardino\" (מהמרפסת הקטנה ניתן היה לראות את כל הגן)."
+        },
+        {
+          "word": "Boccetta panciuta",
+          "filename": "boccetta panciuta",
+          "translations": ["בקבוקון עגלגל", "בקבוקון בולט"],
+          "definition": "בקבוקון קטן עם צורה עגולה או בולטת, לעיתים משמש לשיקויים או לבשמים. דוגמה: \"Nella boccetta panciuta brillava un liquido misterioso\" (בבקבוקון העגלגל נצץ נוזל מסתורי)."
+        },
+        {
+          "word": "Poltroncina",
+          "filename": "poltroncina",
+          "translations": ["כורסה קטנה", "כיסא נוח קטן"],
+          "definition": "צורת קטנה של \"poltrona\" (כורסה). כיסא קטן ונוח בדרך כלל עם משענות ידיים."
+        },
+        {
+          "word": "Nome",
+          "filename": "nome",
+          "translations": ["שם"],
+          "definition": "מילה או ביטוי שמזהים או מכירים באמצעותו אדם או דבר."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "קולות ותגובות",
+      "description": "הברות, קריאות וביטויי תגובה קוליים.",
+      "words": [
+        {
+          "word": "Sì",
+          "filename": "sì",
+          "translations": ["כן"],
+          "definition": "משמש להבעת הסכמה או אישור. דוגמה: \"Sì, verrò alla festa.\" (כן, אבוא למסיבה)."
+        },
+        {
+          "word": "No",
+          "filename": "no",
+          "translations": ["לא"],
+          "definition": "משמש להבעת סירוב, הכחשה או חוסר הסכמה. דוגמה: \"No, non voglio mangiare\" (לא, אני לא רוצה לאכול)."
+        },
+        {
+          "word": "Ah",
+          "filename": "ah",
+          "translations": ["אה"],
+          "definition": "הברה רכה להבנה, הקלה או הפתעה קלה. דוגמה: \"Ah, ecco la risposta!\" (אה, זו התשובה!)."
+        },
+        {
+          "word": "Oh",
+          "filename": "oh", 
+          "translations": ["או"],
+          "definition": "הברה חזקה להפתעה, התפעלות, תשומת לב או אכזבה. דוגמה: \"Oh, guarda!\" (או, תסתכל!)."
+        },
+        {
+          "word": "Voce",
+          "filename": "voce",
+          "translations": ["קול"],
+          "definition": "הצליל המיוצר בדיבור או בשירה; גם הצבעה או שמועה."
+        },
+        {
+          "word": "Voci",
+          "filename": "voci",
+          "translations": ["קולות"],
+          "definition": "רבים של \"voce\" (קול). מתייחס למספר צלילים אנושיים מובחנים או שמועות. דוגמה: \"Le voci riempivano il corridoio\" (הקולות מילאו את המסדרון)."
+        },
+        {
+          "word": "Voce rabbiosa",
+          "filename": "voce rabbiosa",
+          "translations": ["קול זועם"],
+          "definition": "גוון דיבור המביע כעס, גירוי או תסכול. דוגמה: \"Parlò con voce rabbiosa\" (דיבר בקול זועם)."
+        },
+        {
+          "word": "Voce bassa",
+          "filename": "voce bassa",
+          "translations": ["קול נמוך", "טון שקט"],
+          "definition": "מתאר דיבור רך או שקט. דוגמה: \"Rispose a voce bassa per non svegliare nessuno\" (ענתה בקול שקט כדי לא להעיר אף אחד)."
+        },
+        {
+          "word": "Una voce di fuori",
+          "filename": "una voce di fuori",
+          "translations": ["קול מבחוץ"],
+          "definition": "מתייחס לשמיעת מישהו מדבר מבחוץ או ממיקום אחר. דוגמה: \"Sentì una voce di fuori chiamarla\" (שמעה קול מבחוץ קורא לה)."
+        },
+        {
+          "word": "Piangete",
+          "filename": "piangete",
+          "translations": ["אתם בוכים", "בכו כולכם"],
+          "definition": "צורת הווה של \"piangere\" (לבכות). משמשת כשפונים לאנשים רבים שבוכים או מצווים עליהם לבכות. דוגמה: \"Perché piangete?\" (למה אתם בוכים?).",
+          "info": "\"Piangete\" היא צורת רבים בלתי רשמית (voi). צורת יחיד בלתי רשמית (tu) היא \"piangi\". צורת יחיד רשמית (lei) היא \"piange\". צורת רבים רשמית (loro) היא \"piangono\". צורת הדובר (io) היא \"piango\"."
+        },
+        {
+          "word": "Sentita",
+          "filename": "sentita",
+          "translations": ["חווה", "שמעה"],
+          "definition": "צורת עבר מושלמת של \"sentire\" (להרגיש, לשמוע). מתאר משהו שנתפס רגשית או קולית והסתיים כעת. דוגמה: \"Una gioia mai sentita prima\" (שמחה שלא חוותה קודם)."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "חילופי יום יום",
+      "description": "מילים וביטויים שיחתיים נפוצים המשמשים בחילופי יום יום להבעת ניגוד, הסכמה, ודאות, תזמון או דגש.",
+      "words": [
+        {
+          "word": "Ancora intatta",
+          "filename": "ancora intatta",
+          "translations": ["עדיין שלם"],
+          "definition": "\"Ancora\" (עדיין, עדיין לא) | \"Intatta\" (שלם, לא נגוע, לא פגום). מתאר משהו שנשאר במצב לא פגום ולא משתנה, לעיתים למרות נסיבות."
+        },
+        {
+          "word": "Anzi",
+          "filename": "anzi",
+          "translations": ["אדרבה", "למעשה", "להיפך"],
+          "definition": "משמש לתיקון או הדגשה של הצהרה, לעיתים מחליף את מה שאמרו זה עתה במשהו חזק יותר או מנוגד. דוגמה: \"Non è semplice, anzi è difficilissimo!\" (זה לא פשוט — למעשה, זה קשה מאוד!)."
+        },
+        {
+          "word": "Appunto",
+          "filename": "appunto",
+          "translations": ["בדיוק", "אכן", "הערה"],
+          "definition": "יכול להביע הסכמה או לשמש כמילוי שמשמעותו במדויק; גם מתייחס לפתק כתוב. דוגמה: \"Appunto! È quello che dicevo\" (בדיוק! זה מה שאמרתי)."
+        },
+        {
+          "word": "Tuttavia",
+          "filename": "tuttavia",
+          "translations": ["עם זאת", "למרות זאת", "אף על פי כן"],
+          "definition": "מביע ויתור או התמדה בניגוד — משהו נשאר נכון למרות תנאים מנוגדים. דוגמה: \"Il compito era difficile, tuttavia lo finì\" (המטלה הייתה קשה, ועם זאת סיים אותה)."
+        },
+        {
+          "word": "Però",
+          "filename": "però",
+          "translations": ["אבל", "עם זאת", "אך"],
+          "definition": "משמש להצגת ניגוד או פרט בלתי צפוי. דוגמה: \"Volevo uscire, però piove\" (רציתי לצאת, אבל יורד גשם)."
+        },
+        {
+          "word": "Precisamente",
+          "filename": "precisamente",
+          "translations": ["בדיוק", "בדיוק כך"],
+          "definition": "משמש לאישור דיוק או נכונות בפרטים או בתזמון. דוגמה: \"Ci incontriamo alle sei, precisamente\" (ניפגש בשש, בדיוק)."
+        },
+        {
+          "word": "Bentosto",
+          "filename": "bentosto",
+          "translations": ["בעוד זמן קצר", "בקרוב מאוד"],
+          "definition": "ביטוי ישן או ספרותי שמשמעותו שמשהו יקרה בזמן קצר. דוגמה: \"Ci rivedremo bentosto\" (ניפגש שוב בעוד זמן קצר)."
+        },
+        {
+          "word": "Assenti",
+          "filename": "assenti",
+          "translations": ["נעדרים", "חסרים"],
+          "definition": "צורת רבים של \"assente\" (נעדר). מתאר אנשים שאינם נוכחים באירוע או במיקום. דוגמה: \"Molti erano assenti alla riunione\" (רבים היו נעדרים מהישיבה)."
+        },
+        {
+          "word": "Piano",
+          "filename": "piano",
+          "translations": ["בלי חום, קומה, תוכנית, פסנתר"],
+          "definition": "מילה רב-משמעית שמשמעותה נקבעת לפי ההקשר. יכולה לרַמֵז ל\"בלי חום\" או \"בשקט\" בהקשר מוזיקלי, \"קומה\" או \"תוכנית\" בהקשר אדריכלי או כללי, וגם משמשת כקיצור של \"pianoforte\", הכלי המוזיקלי שנקרא \"פסנתר\" באנגלית."
+        },
+        {
+          "word": "Pubblico",
+          "filename": "pubblico",
+          "translations": ["ציבור", "קהל", "צופים"],
+          "definition": "מתייחס לאנשים בכלל או לקהל מאוגד. דוגמה: \"Il pubblico applaudì alla fine dello spettacolo\" (הקהל מחא כפיים בסוף המופע)."
+        },
+        {
+          "word": "Proviamo",
+          "filename": "proviamo",
+          "translations": ["בואו ננסה", "אנחנו מנסים"],
+          "definition": "צורת הווה של \"provare\" (לנסות). מביע הצעה לנסות משהו יחד. דוגמה: \"Proviamo di nuovo\" (בואו ננסה שוב).",
+          "info": "\"Proviamo\" היא צורת רבים (noi). צורת יחיד בלתי רשמית (tu) היא \"provi\". צורת יחיד רשמית (lei) היא \"prova\". צורת רבים בלתי רשמית (voi) היא \"provate\". צורת רבים רשמית (loro) היא \"provano\"."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "מבני מעבר",
+      "description": "מילים ששוזרות מתחים, התכנסויות ותנועות מסודרות דרך תיאטראות עצומים.",
+      "words": [
+        {
+          "word": "Distanza",
+          "filename": "distanza",
+          "translations": ["מרחק"],
+          "definition": "המרחב המילולי או המטפורי, הפער או ההפרדה בין מקומות, אנשים או דברים. דוגמה: \"La distanza tra Miami e Roma è di oltre cinquemila miglia\" (המרחק בין מיאמי לרומא הוא יותר מחמשת אלפים מיילים)."
+        },
+        {
+          "word": "In quell'istante",
+          "filename": "in quell'istante",
+          "translations": ["ברגע ההוא"],
+          "definition": "מתייחס לרגע מדויק בעבר שבו משהו התרחש פתאום או באופן מכריע. דוגמה: \"In quell'istante, il mercato stava ancora riprendendosi dallo shock\" (ברגע ההוא, השוק עדיין התאושש מהמכה)."
+        },
+        {
+          "word": "Fuori",
+          "filename": "fuori",
+          "translations": ["בחוץ"],
+          "definition": "מציין היות מעבר למרחב או גבול מסוים. דוגמה: \"Sta piovendo fuori\" (יורד גשם בחוץ)."
+        },
+        {
+          "word": "Insieme",
+          "filename": "insieme",
+          "translations": ["יחד"],
+          "definition": "מתאר אנשים או דברים הפועלים או קיימים במשותף. דוגמה: \"Viviamo insieme da anni\" (אנו חיים יחד שנים)."
+        },
+        {
+          "word": "Fanteria",
+          "filename": "fanteria",
+          "translations": ["חיל רגלים"],
+          "definition": "זרוע בצבא המורכבת מחיילים הלוחמים ברגל, המהווים את כוחות הקרקע המרכזיים."
+        },
+        {
+          "word": "Informazioni",
+          "filename": "informazioni",
+          "translations": ["מידע"],
+          "definition": "רבים של \"informazione\". מתייחס למספר פריטי ידע, עובדות או נתונים המשמשים לתיאור, הסבר או הבנה של משהו."
+        },
+        {
+          "word": "Colonia",
+          "filename": "colonia",
+          "translations": ["מושבה", "התנחלות"],
+          "definition": "שטח או קבוצה תחת שליטה או השפעה חיצונית. דוגמה: \"L'Impero Britannico aveva colonie in ogni continente abitato\" (האימפריה הבריטית הייתה בעלת מושבות בכל יבשת מיושבת)."
+        },
+        {
+          "word": "Direzioni",
+          "filename": "direzioni",
+          "translations": ["הכוונים"],
+          "definition": "רבים של \"direzione\" (כיוון). מתייחס למסלולים, אוריינטציות או הוראות להגעה למקום או השגת מטרה. דוגמה: \"Chiese le direzioni per arrivare al museo\" (ביקש הכוונים להגיע למוזיאון)."
+        },
+        {
+          "word": "Servizi",
+          "filename": "servizi",
+          "translations": ["שירותים"],
+          "definition": "רבים של \"servizio\" (שירות). מתייחס לפונקציות מועילות, נוחויות או סיוע הניתנים. דוגמה: \"I servizi dell'hotel comprendono la colazione\" (שירותי המלון כוללים ארוחת בוקר)."
+        },
+        {
+          "word": "Processioni",
+          "filename": "processioni",
+          "translations": "תהלוכות",
+          "definition": "שורות מסודרות או טקסיות של אנשים הנעים יחד למטרות דתיות או ציבוריות. דוגמה: \"Le processioni riempivano la città durante la festa\" (התהלוכות מילאו את העיר במהלך החג)."
+        }
+      ]
+    }
+  ]
+}

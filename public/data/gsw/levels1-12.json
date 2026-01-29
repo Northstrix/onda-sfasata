@@ -1,0 +1,893 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Alltägligi Grundlag.",
+      "description": "Grundwörter, wo im alltägliche Italienisch bruucht wird.",
+      "words": [
+        {
+          "word": "Acqua",
+          "filename": "acqua",
+          "translations": ["Wasser"],
+          "definition": "S’klari, farblosi Flüssig, wo d’Meer, See, Flüsse und Räge bildet, und lebensnotwendig isch."
+        },
+        {
+          "word": "Albero",
+          "filename": "albero",
+          "translations": ["Baum"],
+          "definition": "E mehjohrigi Pflanz mit eme längleche Stamm, wo Äscht und Blätter treit."
+        },
+        {
+          "word": "Casa",
+          "filename": "casa",
+          "translations": ["Huus", "Heim"],
+          "definition": "E Gebäud zum Wohne für Lüt, vor allem Familie oder chlini Gruppe."
+        },
+        {
+          "word": "Mano",
+          "filename": "mano",
+          "translations": ["Hand"],
+          "definition": "Dr Ändi vom Arm nach em Handgelenk, mit Handflächi, Finger und Daume."
+        },
+        {
+          "word": "Giorno",
+          "filename": "giorno",
+          "translations": ["Tag"],
+          "definition": "D’Zyt vo vierzgi Stunden oder dr Hellzyt zwüsche Sunneufgang und Sunneuntergang."
+        },
+        {
+          "word": "Bene",
+          "filename": "bene",
+          "translations": ["Guet", "wohl"],
+          "definition": "E Adverb, wo e Zustand vo Güet, Richtig oder Zfriedeheit ausdrückt."
+        },
+        {
+          "word": "Dio",
+          "filename": "Dio",
+          "translations": ["Gott"],
+          "definition": "Dr höchsti Wese, Schöpfer und Herr vom Universum, wo i monotheistische Religionä verehrt wird."
+        },
+        {
+          "word": "Io",
+          "filename": "io",
+          "translations": ["Ich"],
+          "definition": "S’Fürwort, wo e Sprecher bruucht, wenn er sich selber meint."
+        },
+        {
+          "word": "Lui",
+          "filename": "lui",
+          "translations": ["Er", "ihn"],
+          "definition": "Fürwort, wo uf e maa Person verweist, wo scho erwähnt oder klar isch."
+        },
+        {
+          "word": "Lei",
+          "filename": "lei",
+          "translations": ["Si", "ihr"],
+          "definition": "Fürwort, wo uf e weibligi Person verweist, wo scho erwähnt oder klar isch.",
+          "info": "\"Lei\" wird au als höflichs \"Si\" bruucht, wenn mer Fremdi oder respekteerti Lüt aaredt, egal ob Maa oder Frau."
+        },
+        {
+          "word": "Mio",
+          "filename": "mio",
+          "translations": ["Min", "mine"],
+          "definition": "Besitzanzeigends Adjektiv oder Fürwort, wo meint „mir ghörend“."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Zahle und Menge.",
+      "description": "Italienisch Zahle und Ussdruck für Menge.",
+      "words": [
+        {
+          "word": "Due",
+          "filename": "due",
+          "translations": ["Zwoo"],
+          "definition": "D’Grundzahl, wo d’Mänge vo zwee Einheite zeigt."
+        },
+        {
+          "word": "Tre",
+          "filename": "tre",
+          "translations": ["Drei"],
+          "definition": "D’Grundzahl, wo d’Mänge vo drü Einheite zeigt."
+        },
+        {
+          "word": "Quattro",
+          "filename": "quattro",
+          "translations": ["Vier"],
+          "definition": "D’Grundzahl, wo d’Mänge vo vier Einheite zeigt."
+        },
+        {
+          "word": "Cinque",
+          "filename": "cinque",
+          "translations": ["Füf"],
+          "definition": "D’Grundzahl, wo d’Mänge vo füf Einheite zeigt."
+        },
+        {
+          "word": "Sette",
+          "filename": "sette",
+          "translations": ["Sibe"],
+          "definition": "D’Grundzahl, wo d’Mänge vo sibä Einheite zeigt."
+        },
+        {
+          "word": "Dodici mesi",
+          "filename": "dodici mesi",
+          "translations": ["Zwölfi Mönet"],
+          "definition": "\"Dodici\" (zwölf, Grundzahl 12) | \"Mesi\" (Mehrzahl vo Mönet). D’ganz Ussdruck meint dr voll Zyklus vo aim Jahr."
+        },
+        {
+          "word": "Quattordici mesi",
+          "filename": "quattordici mesi",
+          "translations": ["Vierzäh Mönet"],
+          "definition": "\"Quattordici\" (vierzehn, Grundzahl 14) | \"Mesi\" (Mehrzahl vo Mönet). D’ganzi Wendung meint e Dauer vo vierzäh Mönet."
+        },
+        {
+          "word": "Quindici",
+          "filename": "quindici",
+          "translations": ["Füfzäh"],
+          "definition": "D’Grundzahl, wo d’Mänge vo füfzäh Einheite zeigt."
+        },
+        {
+          "word": "Centoventitré",
+          "filename": "centoventitré",
+          "translations": ["Hundertzwänzgdrei"],
+          "definition": "D’Grundzahl 123, zämeghsetzt us \"hundert\" + \"zwänzg\" + \"drei\"."
+        },
+        {
+          "word": "Tanti fiori",
+          "filename": "tanti fiori",
+          "translations": ["Vil Blueme"],
+          "definition": "\"Tanti\" (Mehrzahl männlech vo „tanto“, bedütet „viel“ oder „viele“ bi zählbare Dinge) | \"Fiori\" (Mehrzahl vo \"Fiore\" (Bluemä)). D’ganzi Ussdruck meint zahlrich Blueme."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lüt und Familie.",
+      "description": "Häufigi italienischi Wört für Lüt und Familimiitglied.",
+      "words": [
+        {
+          "word": "Bambina",
+          "filename": "bambina",
+          "translations": ["Meitli", "Chind"],
+          "definition": "E weiblichs Chind, normal vo dr Geburt bis zur Jugendzit.",
+          "info": "Dr männlich Form vo dem Wort isch \"bambino\"."
+        },
+        {
+          "word": "Fratello",
+          "filename": "fratello",
+          "translations": ["Brüeder"],
+          "definition": "E maa Gschwüschter, wo mit ere andere Persoon mindeschtens ein Eltereteil teilt."
+        },
+        {
+          "word": "Nonna materna",
+          "filename": "nonna materna",
+          "translations": ["Muetters Grossmueter"],
+          "definition": "\"Nonna\" (Grossmueter, Mueter vo eine Eltere) | \"Materna\" (zu dr Mueter ghöörend). Meint d’Mueter vo dr Mueter."
+        },
+        {
+          "word": "Figli",
+          "filename": "figli",
+          "translations": ["Chind", "Söhne"],
+          "definition": "Mehrzahl männlich vo \"figlio\" (Sohn, Chind). Mehri maa Chind oder e gmischti Gruppe vo Buebe und Meitli."
+        },
+        {
+          "word": "Poverino",
+          "filename": "poverino",
+          "translations": ["Armi", "arme Siech"],
+          "definition": "Verchlinerigsform, wo Mitlied zeigt für öpper Unglückligs oder Leidends.",
+          "info": "Numes, wänn du s’Wort kenntisch, muesch es nöd unbedingt bruuche."
+        },
+        {
+          "word": "Reali",
+          "filename": "reali",
+          "translations": ["Königli"],
+          "definition": "Mehrzahl vo \"reale\" (königlich). Persone, wo zu ere Königsfamilie oder Monarchie ghöred."
+        },
+        {
+          "word": "Regina",
+          "filename": "regina",
+          "translations": ["Königin"],
+          "definition": "Weiblichi Herrscherin vo eme unabhängige Staat oder d’Frau vom König."
+        },
+        {
+          "word": "Ducchessa",
+          "filename": "ducchessa",
+          "translations": ["Herzogin"],
+          "definition": "Nobli Titel, wo d’Frau vom Herzog oder e weiblichi Herrscherin vo eme Herzogtum het."
+        },
+        {
+          "word": "Sorelle",
+          "filename": "sorelle",
+          "translations": ["Schwöschtere"],
+          "definition": "Mehrzahl weiblich vo \"sorella\" (Schwöster). Weiblich Gschwüschter, wo mindeschtens ein Eltere teilä."
+        },
+        {
+          "word": "Cameriera",
+          "filename": "cameriera",
+          "translations": ["Dieneri", "Bedieneri", "Hausdieneri"],
+          "definition": "E weiblichi Hilf, wo für s’Putzä, Choche und anderi Huusarbeit z’schtändig isch, oft im Dienscht vo ere Familie oder vo Höchi."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Zyt und Täg.",
+      "description": "Ussdruck, wo mit dr Zyt und mit Täg z’tue händ.",
+      "words": [
+        {
+          "word": "Giorni",
+          "filename": "giorni",
+          "translations": ["Täg"],
+          "definition": "Mehrzahl männlich vo \"giorno\" (Tag)."
+        },
+        {
+          "word": "Mese",
+          "filename": "mese",
+          "translations": ["Monet"],
+          "definition": "E vo dr zwölf Teile vom Jahr, ungefäär dreißg Täg."
+        },
+        {
+          "word": "Settimana",
+          "filename": "settimana",
+          "translations": ["Wuche"],
+          "definition": "Zytabschnitt vo sibä Täg nacheinander, normal vo Sunntig bis Samschtig."
+        },
+        {
+          "word": "Ogni giorno",
+          "filename": "ogni giorno",
+          "translations": ["Jede Tag"],
+          "definition": "\"Ogni\" (jede, all) | \"Giorno\" (Tag, 24-Stunde-Periode). Täglechi Wederholig."
+        },
+        {
+          "word": "Ogni sabato",
+          "filename": "ogni sabato",
+          "translations": ["Jede Samschtig"],
+          "definition": "\"Ogni\" (jede, all) | \"Sabato\" (Samschtig, Tag vor em Sunntig). Wöchentlechi Wiederholig am Samschtig."
+        },
+        {
+          "word": "Sabato",
+          "filename": "sabato",
+          "translations": ["Samschtig"],
+          "definition": "Dr sibte Tag vo dr Wuche, chunnt nach em Friitig und vor em Sunntig."
+        },
+        {
+          "word": "Ogni quindici giorni",
+          "filename": "ogni quindici giorni",
+          "translations": ["Jede füfzäh Tag"],
+          "definition": "\"Ogni\" (jede, all) | \"Quindici\" (füfzäh) | \"Giorni\" (Täg). Wiederholig all zwöi Wuche."
+        },
+        {
+          "word": "Momento",
+          "filename": "momento",
+          "translations": ["Moment"],
+          "definition": "E sehr churzi Zytspanne, e Augenblick."
+        },
+        {
+          "word": "Tempo",
+          "filename": "tempo",
+          "translations": ["Zyt", "Wätter"],
+          "definition": "Verlauf vom Läbe, cha aber au d’atmosphärische Bedingige meine."
+        },
+        {
+          "word": "Mattina",
+          "filename": "mattina",
+          "translations": ["Morge"],
+          "definition": "Dr früe Teil vom Tag, vo dr Dämmerig bis zum Mittag."
+        },
+        {
+          "word": "Anno",
+          "filename": "anno",
+          "translations": ["Jahr"],
+          "definition": "Zytabschnitt vo 365 Täg, Umlauf um d’Sunnä."
+        },
+        {
+          "word": "Due anni",
+          "filename": "due anni",
+          "translations": ["Zwoo Jahr"],
+          "definition": "\"Due\" (zwoo) | \"Anni\" (Mehrzahl vo \"anno\", Jahr). Dauer vo zwoo volle Jahr."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Natur und Element.",
+      "description": "Wörter, wo d’natürligi Element, s’Wätter und d’Wält beschriibe.",
+      "words": [
+        {
+          "word": "Terra",
+          "filename": "terra",
+          "translations": ["Ärd", "Land", "Bodä"],
+          "definition": "Dr Name vom Planet, wo mir druf lebed, cha aber au trockens Land oder d’obers Schicht vo dr Ärd si, wo Pflanze wachsed."
+        },
+        {
+          "word": "Foresta",
+          "filename": "foresta",
+          "translations": ["Wald"],
+          "definition": "Grosss Gebiet, das mit Bäum und Undergwächs bedeckt isch."
+        },
+        {
+          "word": "Fiore",
+          "filename": "fiore",
+          "translations": ["Bluemä"],
+          "definition": "Fortpflanzigsstruktür vo ere Pflanz, oft farbig und sichtbar."
+        },
+        {
+          "word": "Foglie",
+          "filename": "foglie",
+          "translations": ["Blätter"],
+          "definition": "Mehrzahl vo \"foglia\" (Blatt). Flachi grüeni Teile vo de Pflanze, wo d’Fotosynthes machend."
+        },
+        {
+          "word": "Ramuscello",
+          "filename": "ramuscello",
+          "translations": ["Aestli", "chlii Zwieg"],
+          "definition": "Chliine, dünne Zwieg, wo us eme grösseri Ast wachst."
+        },
+        {
+          "word": "Trifoglio",
+          "filename": "trifoglio",
+          "translations": ["Chlee"],
+          "definition": "Pflanz mit drü Blätter.",
+          "info": "Trotz em Name cha si dört mol drü oder vier Blätter ha, aber das isch sehr sälte."
+        },
+        {
+          "word": "Bosco sacro",
+          "filename": "bosco sacro",
+          "translations": ["Heilig Wald", "heilig Holz", "heilig Forst"],
+          "definition": "\"Bosco\" (bewaldets Gebiet, chliner Hain) | \"Sacro\" (heilig). E geweihte oder mystischi bewaldeti Stell."
+        },
+        {
+          "word": "Zolle",
+          "filename": "zolle",
+          "translations": ["Klumpä", "Erdbroche"],
+          "definition": "Mehrzahl vo \"zolla\" (Erdklumpä). Stucke vo Ärd, wo bim Grabe entstahned."
+        },
+        {
+          "word": "Luce",
+          "filename": "luce",
+          "translations": ["Liecht"],
+          "definition": "Beliichtung, wo s’Luege ermöglicht."
+        },
+        {
+          "word": "Filo di luce",
+          "filename": "filo di luce",
+          "translations": ["Liechtstrahl", "Liechträh"],
+          "definition": "Dünner Strahl vo Liecht."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Gfühl und Emotione.",
+      "description": "Italienischi Substantiv für Emotione und Adjektiv/Adverb, wo persönlechi Gfühlszuständ beschriebed.",
+      "words": [
+        {
+          "word": "Paura",
+          "filename": "paura",
+          "translations": ["Angscht"],
+          "definition": "E starchs, unangnehms Gfühl, usglöst dur d’Wahrnehmig vo Gfahr, Drohig oder Schmerz — egal ob echt oder vorgstellt."
+        },
+        {
+          "word": "Desiderio",
+          "filename": "desiderio",
+          "translations": ["Wunsch", "Verlangä"],
+          "definition": "Starche Wünsch, dass öppis passiert."
+        },
+        {
+          "word": "Mestizia",
+          "filename": "mestizia",
+          "translations": ["Truur", "Melancholie"],
+          "definition": "E sanfti Form vo Traurigkait."
+        },
+        {
+          "word": "Irritazione",
+          "filename": "irritazione",
+          "translations": ["Verärgerig"],
+          "definition": "E Gfühl vo lychte Wut oder Unruu."
+        },
+        {
+          "word": "Curiosità",
+          "filename": "curiosità",
+          "translations": ["Neugier"],
+          "definition": "Starchs Wünsch, öppis z’lerne oder z’wüsse."
+        },
+        {
+          "word": "Sorpresa",
+          "filename": "sorpresa",
+          "translations": ["Überraschig"],
+          "definition": "Reaktion uf öppis Unerwartets."
+        },
+        {
+          "word": "Piacere",
+          "filename": "piacere",
+          "translations": ["Freud", "Vergnüege"],
+          "definition": "E Gfühl vo Wohl oder Genuss."
+        },
+        {
+          "word": "Timidamente",
+          "filename": "timidamente",
+          "translations": ["Schüch", "zaghaft"],
+          "definition": "Uf e schüchi, zögerlichi Art und Wiis."
+        },
+        {
+          "word": "Angoscioso",
+          "filename": "angoscioso",
+          "translations": ["Bangvoll", "Angschtvoll"],
+          "definition": "Beschribt öppis, wo tiefff gfühleti Angscht oder Schmerz uslöst. Beispiel: \"Quell'esperienza è stata molto angosciosa\" (Die Erfahrig isch sehr bedrückend gsii)."
+        },
+        {
+          "word": "Nervosa",
+          "filename": "nervosa",
+          "translations": ["Nervös"],
+          "definition": "Beschribt e Frau oder e weiblichs Wort, wo sich unruhig oder ängstlich fühlt.",
+          "info": "Dr männlich Form vo dem Wort isch \"nervoso\"."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Huusgschtand und Gegeständ.",
+      "description": "Häufigi Sache, wo mer im Huus und im Alltagsläbe finde cha.",
+      "words": [
+        {
+          "word": "Candela",
+          "filename": "candela",
+          "translations": ["Kärzli"],
+          "definition": "Wächsstab, wo brennt, um Liecht z’geh."
+        },
+        {
+          "word": "Libro",
+          "filename": "libro",
+          "translations": ["Buech"],
+          "definition": "Sammlig vo bedruckti Syte."
+        },
+        {
+          "word": "Cassettone",
+          "filename": "cassettone",
+          "translations": ["Kommodä"],
+          "definition": "Möbelstück mit mehre Schublade."
+        },
+        {
+          "word": "Scrivania",
+          "filename": "scrivania",
+          "translations": ["Schriibtisch"],
+          "definition": "Möbelstück zum Schriibe oder Arbeite."
+        },
+        {
+          "word": "Tavolino da notte",
+          "filename": "tavolino da notte",
+          "translations": ["Nachttischli"],
+          "definition": "Chliinis Tischli näbe em Bett."
+        },
+        {
+          "word": "Ventaglio",
+          "filename": "ventaglio",
+          "translations": ["Fächer"],
+          "definition": "Handgliäderts Gerät, wo Luft bewegt zum Abchlühle."
+        },
+        {
+          "word": "Caminetto",
+          "filename": "caminetto",
+          "translations": ["Cheminé"],
+          "definition": "Bau zum Feuer mache im Huus."
+        },
+        {
+          "word": "Pantofole",
+          "filename": "pantofole",
+          "translations": ["Finke"],
+          "definition": "Mehrzahl vo \"pantofola\" (Fink). Bequemi Huusschuä."
+        },
+        {
+          "word": "Specchio",
+          "filename": "specchio",
+          "translations": ["Spiegu"],
+          "definition": "Spieglendi Gläserflächi."
+        },
+        {
+          "word": "Boccetta",
+          "filename": "boccetta",
+          "translations": ["Fläschli", "Gläsli"],
+          "definition": "Chlini Glas- oder Plastikfläschä für Flüssigkeite wie Parfüm oder Medizin."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Frogewörter.",
+      "description": "Wichtigi Wörter, wo mer bruucht zum Froge und Informations sueche.",
+      "words": [
+        {
+          "word": "Che cosa",
+          "filename": "che cosa",
+          "translations": ["Was"],
+          "definition": "\"Che\" (was, welchi) | \"Cosa\" (Sache). Froogformel, wo s’Wese oder d’Identität vo öppis erfragt."
+        },
+        {
+          "word": "Perché",
+          "filename": "perché",
+          "translations": ["Wieso", "will"],
+          "definition": "Frageadverb, wo d’Grund oder Ursach wott wüsse; au als Verbindig bruucht im Sinn vo ‚will‘."
+        },
+        {
+          "word": "Dunque",
+          "filename": "dunque",
+          "translations": ["Drum", "also", "denn"],
+          "definition": "Verbindig, wo zum Schluss zieh oder es Ergebnis azeigt."
+        },
+        {
+          "word": "Ebbene",
+          "filename": "ebbene",
+          "translations": ["Also denn", "na guet", "ha so"],
+          "definition": "Ausruf, wo im Gspräch zum Witerfahre oder Antwort aaregt."
+        },
+        {
+          "word": "Almeno",
+          "filename": "almeno",
+          "translations": ["Zumindest", "wenigschte"],
+          "definition": "Adverb, wo e minimal Erwartig oder Trost ausdrückt."
+        },
+        {
+          "word": "Purtroppo",
+          "filename": "purtroppo",
+          "translations": ["Leider", "bedauerligerwiis"],
+          "definition": "Adverb, wo Bedauerig oder Enttäuschig usdrückt."
+        },
+        {
+          "word": "Tutt'a un tratto",
+          "filename": "tutt’a un tratto",
+          "translations": ["Plötzlich", "uf einisch"],
+          "definition": "\"Tutto\" (alles) | \"A un tratto\" (uf einisch). Adverbial Uusdruck für öppis, wo abrupt und unerwartet passiert."
+        },
+        {
+          "word": "Per esempio",
+          "filename": "per esempio",
+          "translations": ["Zum Bispiel"],
+          "definition": "\"Per\" (für) | \"Esempio\" (Bispiel). Wendung, wo e Veranschaulichig oder e Fall zeigt."
+        },
+        {
+          "word": "Quale",
+          "filename": "quale",
+          "translations": ["Weli", "welä"],
+          "definition": "Einzahl Froogfürwort oder Adjektiv, wo d’Auswahl unter Optionä für ei Ding erkundet. Bispiel: \"Quale libro preferisci?\" (Weli Buech hesch lieber)."
+        },
+        {
+          "word": "Quali",
+          "filename": "quali",
+          "translations": ["Weli", "welchi"],
+          "definition": "Mehrzahl Froogfürwort oder Adjektiv, wo d’Auswahl unter mehri Dinge erkundet. Bispiel: \"Quali libri preferisci?\" (Welchi Büecher hesch lieber)."
+        },
+        {
+          "word": "Come non ritorna più",
+          "filename": "come non ritorna piú",
+          "translations": ["Wie wenn s’nüm zrugg chunnt", "Wie wenn s’nümme widr cho würd"],
+          "definition": "\"Come\" (wie, als ob) | \"Non\" (nöd) | \"Ritorna\" (3. Person Singular Präsens vo \"ritornare\", er/sie/es chunnt zrugg) | \"Più\" (nüm, nümme). Dichterischer Ausdruck, wo e irreversibli Verluscht oder d’Angst vom Nöd-Widrkhei ausdrückt.",
+          "info": "Im Kontext vo Alice im Wunderland (Le Avventure d'Alice nel Paese delle Meraviglie) bedüütet s’das, dass Alice bangt, si chönnt nüm zrugg in iri ursprüngligi Gstalt cho, während em chaotische Chlii- und Grosswärde."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Ds Wunderland-Gfühl.",
+      "description": "Fortgschrittni Adjektiv und Adverb, wo d’angespannte, chaotischi Stimmig i Alice im Wunderland und dervo use ifangend.",
+      "words": [
+        {
+          "word": "Bianca",
+          "filename": "bianca",
+          "translations": ["Wiiss"],
+          "definition": "Italienischs weiblichs Vorname. D’männlech Einzahl vo däm Wort isch \"bianco\" (wiiss), und meint e farbloosi Farb, wo d’Helligkeit maximal widerspiegelt oder streut und alli sichtbare Wällelängne enthaltet.",
+          "info": "Historisch gsehnd sind d’„bianchi“ (Wiisse) eins vo zwei politischi Lager i spätem 13. Jahrhundert Florenz gsi, wo dr „neri“ (Schwarze) gägüber gstange sind. D’Spaltung isch us dr Cancellieri-Familie i Pistoia entstande, wo Abstämmigi vo dr Bianca Cancellieri dur e Chindestreit d’Guelphen ufgspaltet händ."
+        },
+        {
+          "word": "Rose bianche",
+          "filename": "rose bianche",
+          "translations": ["Wiissi Röse"],
+          "definition": "Weiblich Mehrzahl vo \"rosa bianca\" (wiissi Rous). Blueme mit wiisse Blätter.",
+          "info": "Im Kontext vo Alice im Wunderland (Le Avventure d'Alice nel Paese delle Meraviglie) händ d’Gärtner die wiisse Röse rot agmalt, um dr Königin sini Strafe z’vermeidä."
+        },
+        {
+          "word": "Nero",
+          "filename": "nero",
+          "translations": ["Schwarz"],
+          "definition": "Farb ohni Farbton, wo dr Wahrnehmig vo dr maximal Dunkelheit entspricht, normal entstoht, wenn fascht keini sichtbari Wällelängne reflektiert werded.",
+          "info": "Weiblich Einzahl: \"nera\"; männlich Mehrzahl: \"neri\"; weiblich Mehrzahl: \"nere\"."
+        },
+        {
+          "word": "Gialla",
+          "filename": "gialla",
+          "translations": ["Gälb"],
+          "definition": "Helli Grundfarb im sichtbare Spektrum zwüsche Grün und Orang, meist wahrgnuu, wenn Liecht e dominanti Wällelängi vo öppe 575–585 Nanometer het.",
+          "info": "D’männlech Form vo dem Wort isch \"giallo\"."
+        },
+        {
+          "word": "Grande",
+          "filename": "grande",
+          "translations": ["Gross", "bedeutend", "wichtig"],
+          "definition": "Adjektiv für öppis, wo e beträchtlichi Grössi oder Bedeitig het."
+        },
+        {
+          "word": "Lungo",
+          "filename": "lungo",
+          "translations": ["Lang"],
+          "definition": "Adjektiv, wo e verlängerti Längi beschreibt."
+        },
+        {
+          "word": "Piccina",
+          "filename": "piccina",
+          "translations": ["Chliini", "winzigi"],
+          "definition": "Verchlinerigsform weiblich vo \"piccolo\" (chlii). Zeigt öppis sehr Chliis, Winzigs oder Härzlichs.",
+          "info": "Männlich Einzahl: \"piccino\"; männlich Mehrzahl: \"piccini\"; weiblich Mehrzahl: \"piccine\"."
+        },
+        {
+          "word": "Decollato",
+          "filename": "decollato",
+          "translations": ["Entchopft", "abchöpfet"],
+          "definition": "Vergange Form vo \"decollare\" (chöpfä). Beschribt, dass eme dr Chopf durch Hinrichti abghaue worde isch."
+        },
+        {
+          "word": "Luminosa",
+          "filename": "luminosa",
+          "translations": ["Liechtvoll", "strahlend"],
+          "definition": "Weiblich Form vo \"luminoso\"; wo Liecht usstrahlt oder widerspiegelt.",
+          "info": "Männlich Einzahl: \"luminoso\"; männlich Mehrzahl: \"luminosi\"; weiblich Mehrzahl: \"luminose\"."
+        },
+        {
+          "word": "Tremante",
+          "filename": "tremante",
+          "translations": ["Zitternd", "bebend", "schlotternd"],
+          "definition": "Gegenwärtigi Form vo \"tremare\" (zittere). Beschribt öppis oder öpper, wo unwillkürlich bebt, normal vor Angscht, Chälte oder Erregig.",
+          "info": "Im Kontext vo Alice im Wunderland (Le Avventure d'Alice nel Paese delle Meraviglie) zittered d’Figurä vor dr Zorn vo dr Königin."
+        },
+        {
+          "word": "Sibilante",
+          "filename": "sibilante",
+          "translations": ["Zischend", "flüsternd"],
+          "definition": "Gegenwärtigi Form vo \"sibilare\" (zische). Beschribt e scharfi, zischendi oder flüsterndi Tön. Bispiel: \"Vento sibilante\" (zischende Wind)."
+        },
+        {
+          "word": "Frettolosamente",
+          "filename": "frettolosamente",
+          "translations": ["Hastig"],
+          "definition": "Uf e schnelle oder ghetzte Art. Bispiel: \"Uscì frettolosamente.\" (Er isch hastig usegange).",
+          "info": "Im Kontext vo Alice im Wunderland (Le Avventure d'Alice nel Paese delle Meraviglie) isch dr Wiissi Hass busslig an Alice verbii gloffe bim erschte Bsäg."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Körperteil und Grössä.",
+      "description": "Wörter für Körperteil und körperlichi Bewegig.",
+      "words": [
+        {
+          "word": "Capo",
+          "filename": "capo",
+          "translations": ["Chopf", "Chef", "Boss"],
+          "definition": "Oberteil vom Körper oder dr Leitere vo öpperem."
+        },
+        {
+          "word": "Corpo",
+          "filename": "corpo",
+          "translations": ["Körper"],
+          "definition": "Physischi Struktür vo enem Mönsch oder Tier."
+        },
+        {
+          "word": "Faccia",
+          "filename": "faccia",
+          "translations": ["Gsicht"],
+          "definition": "Vorderteil vom Chopf mit Auge, Nase und Muul."
+        },
+        {
+          "word": "Fronte",
+          "filename": "fronte",
+          "translations": ["Stirn"],
+          "definition": "Teil vom Gsicht obe de Auge."
+        },
+        {
+          "word": "Gomito",
+          "filename": "gomito",
+          "translations": ["Ellboge"],
+          "definition": "Glenk zwüschem Obärm und Untersarm."
+        },
+        {
+          "word": "Scoppiettio",
+          "filename": "scoppiettio",
+          "translations": ["Chrächze", "Pflüpfe"],
+          "definition": "Reihe vo chline, scharfä Tön, wie bim Feuerprassle oder Fingerknacke."
+        },
+        {
+          "word": "Un braccio",
+          "filename": "un braccio",
+          "translations": ["E Arm"],
+          "definition": "\"Un\" (en) | \"Braccio\" (Arm). Obers Glied vo dr Schultär bis zur Hand.",
+          "info": "Im natüürliche Italienisch tönt s’„n“ im Artikel „un“ wie „m“ vor gewüsse Konsonante, drum chunnt s’manchmal wie „um“ vor — das isch e Lautangleichig, kei separates Wort."
+        },
+        {
+          "word": "Vacilla",
+          "filename": "vacilla",
+          "translations": ["Taumlet", "schwankt"],
+          "definition": "Gegenwärtigi Form vo \"vacillare\" (schwanke oder taumle). Beschribt e Bewegig, wo unsicher isch, wie wenn mer grad umkeie würd.",
+          "info": "\"Vacilla\" isch d’höflich Einzahl- (Si/Er) oder d’Mehrzahlform (Ihr). D’mündlich Form für „du“ isch \"vacilli\"; für „ich“: \"vacillo\"."
+        },
+        {
+          "word": "Impedire",
+          "filename": "impedire",
+          "translations": ["Verhindere", "hindere", "abhalte"],
+          "definition": "Öpper stoppe oder dervo abhalte, öppis z’tue, körperlich oder anders."
+        },
+        {
+          "word": "Sbranare",
+          "filename": "sbranare",
+          "translations": ["Zerrisse", "zerfetzä"],
+          "definition": "Öppis heftig mit Zähni oder Chrälle zerreiße, oft bi Tierangriff uf Fleisch."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Aksione und Bewegig.",
+      "description": "Wichtigi italienisch Verbe und Bewegigs-Ussdruck zum Beschreibe vom Alltags und Gschichteverlauf.",
+      "words": [
+        {
+          "word": "Trovare",
+          "filename": "trovare",
+          "translations": ["Finde"],
+          "definition": "Öppis usfinde, uf em Stoösi cho oder zruggfinde, noh em Sueche oder dur Zufall."
+        },
+        {
+          "word": "Trovato",
+          "filename": "trovato",
+          "translations": ["Gfundä"],
+          "definition": "Vergange Form vo „trovare“ (finde). Öppis, wo scho gfunde worde isch."
+        },
+        {
+          "word": "Tornare",
+          "filename": "tornare",
+          "translations": ["Zruggcho", "heimcho"],
+          "definition": "Allgmeins zrugg in ere gwohnte Platz, zu ere Persoon oder in ere Lage. Bruucht für Alltags zruggkehre. Bispiel: „Tornare a casa“ (heimgo)."
+        },
+        {
+          "word": "Ritornare", 
+          "filename": "ritornare",
+          "translations": ["Widrkcho", "zruggbringe"],
+          "definition": "Zruggkehre noh ere längere Abwese. Bispiel: „Ritornare a casa dalle vacanze“ (vom Urlaub heimcho).",
+          "info": "Ds Verb cha au brucht wärde, um öppis zruggzgebä. Bispiel: „Ritornare un libro alla biblioteca“ (e Buech in d’Bibliothek zruggbringe)."
+        },
+        {
+          "word": "Ritornato",
+          "filename": "ritornato",
+          "translations": ["Zrugg gsii"],
+          "definition": "Vergange Form vo „ritornare“ (zruggcho). Öpper, wo in ere früeneri Lage oder Platz zrugg isch."
+        },
+        {
+          "word": "Restava",
+          "filename": "restava",
+          "translations": ["Gschtande gsii", "gschtande gsi"],
+          "definition": "Vergange laufendi Form vo „restare“ (gschtange). Beschribt e Bleibe in ere Platz oder Lage, wo im Vergange ständig gsii isch, aber emol ufgheert het und grad nüm gsiiit."
+        },
+        {
+          "word": "Gridava",
+          "filename": "gridava",
+          "translations": ["Gschrie", "het gschtosse"],
+          "definition": "Vergange laufendi Form vo „gridare“ (schrie). Beschribt e laut Schrie oder Rüef, wo im Vergange ständig gsii isch, aber emol ufgheert het und grad nüm gsiiit."
+        },
+        {
+          "word": "Mangio",
+          "filename": "mangio",
+          "translations": ["I esse"],
+          "definition": "Aktioni vom Esse durch Kauen und Schlodderä.",
+          "info": "Mangio bedütet „i esse“ dur d’-io Endig. Kei ausdricklichs „io“ (ich) nötig vor em Verb — Italienisch lasst s’Subjekt us, wenn d’Verbform klar zeigt, wer’s macht."
+        },
+        {
+          "word": "Aspettando",
+          "filename": "aspettando",
+          "translations": ["Warre"],
+          "definition": "Laufendi Aktioni vom Bleibe uf em Platz in Erwartig uf öpper oder öppis."
+        },
+        {
+          "word": "Partito",
+          "filename": "partito",
+          "translations": ["Gange", "abgfiere"],
+          "definition": "Vergange Form vo „partire“ (go). Öpper oder öppis, wo us em Ort weg isch."
+        },
+        {
+          "word": "Avvicinatevi dunque!",
+          "filename": "avvicinatevi dunque!",
+          "translations": ["Chömmt näher denn!", "Trättet näher!"],
+          "definition": "\"Avvicinatevi\" (chömmt näher) + „Dunque“ (denn, drum). Dringends Aare, dass e Gruppe näher chunnt.",
+          "info": "\"Avvicinatevi\" isch d’höflich Mehrzahl- (ihr) Befehlsform vo „avvicinarsi“ (näher cho). Einzahl umgangssprachlich (du): „Avvicinati!“."
+        },
+        {
+          "word": "Scappi",
+          "filename": "scappi",
+          "translations": ["Du renntsch weg", "du flöschtsch"],
+          "definition": "Aktioni vom Schnellwegflöchte vor Fang oder Gfahr.",
+          "info": "D’i-Endig zeigt klar, dass’s d’Einzahl umgangssprachlich (du-Form) vo „scappare“ (flöchte, renne) isch. D’höflich Einzahl (Si) würd si: „scappa.“ D’Mehrzahl höflich (Loro): „scappano.“ D’Mehrzahl umgangssprachlich (ihr): „scappate.“."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Vergange laufendi Aksione.",
+      "description": "Verbe, wo Aktione beschriebed, wo im Vergange ständig gsii sind während Alice si Abenteuer.",
+      "words": [
+        {
+          "word": "Diceva",
+          "filename": "diceva",
+          "translations": ["Het gsäit", "het gschtosse"],
+          "definition": "Einzahl höflich (Si) vergangi laufendi Form vo „dire“ (säge/erzähle). Beschribt e Säge oder Erzähle, wo im Vergange ständig gsii isch, aber emol ufgheert het und grad nüm gsiiit."
+        },
+        {
+          "word": "Dicevano",
+          "filename": "dicevano",
+          "translations": ["Hend gsäit", "hend gschtosse"],
+          "definition": "Mehrzahl höflich (si) vergangi laufendi Form vo „dire“ (säge/erzähle). Beschribt e Säge oder Erzähle, wo im Vergange ständig gsii isch, aber emol ufgheert het und grad nüm gsiiit."
+        },
+        {
+          "word": "Piaceva",
+          "filename": "piaceva",
+          "translations": ["Het gfröit", "het ghaffe"],
+          "definition": "Vergange laufendi Form vo „piacere“ (fröie). Beschribt öppis, wo im Vergange ständig oder gewohnheitsmässig ghaffe worde isch, aber emol ufgheert het und grad nüm ghaffe wird.",
+          "info": "Bispiel: „Mi piaceva il gelato“ (I ha ghaffe Eis [aber jetz nüm]). Acht uf d’Wendigsstruktur: „mir het’s gfröit“ statt „i ha’s ghaffe“."
+        },
+        {
+          "word": "Conducessero",
+          "filename": "conducessero",
+          "translations": ["Hend gführt", "hend brucht"],
+          "definition": "\"Condurre\" (führe/bringe) in vergangi hypothetischi Form. Bispiel: „Se i giardinieri conducessero Alice...“ (Wenn d’Gärtner Alice füehred...).",
+          "info": "\"Conducessero\" isch d’höflich Mehrzahl- (si) Form. Einzahl umgangssprachlich (du): „conducessi“. Einzahl höflich (Si): „conducesse“. Mehrzahl umgangssprachlich (ihr): „conducessimo“. Sprecher (ich): „conducessi“."
+        },
+        {
+          "word": "Circondavano",
+          "filename": "circondavano",
+          "translations": ["Hend umgste"],
+          "definition": "Vergange laufendi Form vo „circondare“ (umgä). Beschribt e Umgehig, wo im Vergange ständig gsii isch, aber emol ufgheert het und grad nüm gsiiit. Bispiel: „I fiori circondavano Alice“ (D’Bluemä hend Alice umgste)."
+        },
+        {
+          "word": "Conveniva",
+          "filename": "conveniva",
+          "translations": ["Het gsinn si", "het gpasst"],
+          "definition": "Vergange Form vo „convenire“ (passt si). Beschribt öppis, wo damals als praktisch oder bequem gsäu worde isch, ohni uf jetz z’schließe —’s cha noh passe oder au nüm.",
+          "info": "\"Conveniva\" isch d’Einzahl höflich (Si/si) Form. Einzahl umgangssprachlich (du): „convenivi“. Sprecher (ich): „convenivo“. Mehrzahl umgangssprachlich (ihr): „convenivate“. Mehrzahl höflich (si): „convenivano“."
+        },
+        {
+          "word": "Osservava",
+          "filename": "osservava",
+          "translations": ["Het beobachtä", "het gluegt"],
+          "definition": "Vergange laufendi Form vo „osservare“ (beobachte). Beschribt e ständigi Bsicht oder Untersuechung, wo im Vergange ständig gsii isch, aber emol ufgheert het und grad nüm gsiiit."
+        },
+        {
+          "word": "Faceva",
+          "filename": "faceva",
+          "translations": ["Het gmacht", "het gsii"],
+          "definition": "Vergange laufendi Form vo „fare“ (mache). Beschribt Aktione, wo im Vergange ständig gsii sind, aber emol ufgheert hend und grad nüm gsiiid."
+        },
+        {
+          "word": "Parlando",
+          "filename": "parlando",
+          "translations": ["Sägend", "redend"],
+          "definition": "Verb us „parlare“ (rede). Beschribt e Redä, wo grad jetzt oder zämme mit ere andere Aktioni passiert."
+        },
+        {
+          "word": "Piangendo",
+          "filename": "piangendo",
+          "translations": ["Wöiend", "schluchzend"],
+          "definition": "Verb us „piangere“ (wöi). Beschribt e Wöie, wo grad jetzt oder zämme mit ere andere Aktioni passiert."
+        },
+        {
+          "word": "Aspettò un poco",
+          "filename": "aspettò un poco",
+          "translations": ["Het e chliig gwartet"],
+          "definition": "\"Aspettò\" (er/sie/es het gwartet) | „Un poco“ (e chliig). Beschribt e abgschlosseni churzi Wartegäng, wo emol im Vergange gsii isch.",
+          "info": "Im natürliche Italienisch tönt die Wendig oft wie „aspetto un po’“."
+        },
+        {
+          "word": "Rispondevo",
+          "filename": "rispondevo",
+          "translations": ["Het gschtantwortet", "het gsäit"],
+          "definition": "Vergange laufendi Form vo „rispondere“ (antwortä). Beschribt e Antwort, wo im Vergange ständig gsii isch, aber emol ufgheert het und grad nüm gsiiit. Bispiel: „Rispondevo alle domande“ = „I ha uf d’Frage gschtantwortet“.",
+          "info": "\"Rispondevo\" isch d’Sprecher- (ich) Form. Einzahl umgangssprachlich (du): „rispondevi“. Einzahl höflich (Si): „rispondeva“. Mehrzahl umgangssprachlich (ihr): „rispondevate“. Mehrzahl höflich (si): „rispondevano“."
+        }
+      ]
+    }
+  ]
+}

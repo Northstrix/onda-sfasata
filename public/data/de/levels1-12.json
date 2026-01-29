@@ -1,0 +1,894 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Alltägliche Grundlagen",
+      "description": "Grundlegende Wörter, die im täglichen Italienisch verwendet werden.",
+      "words": [
+        {
+          "word": "Acqua",
+          "filename": "acqua",
+          "translations": ["Wasser"],
+          "definition": "Die klare, farblose Flüssigkeit, die Meere, Seen, Flüsse und Regen bildet und für das Leben unverzichtbar ist."
+        },
+        {
+          "word": "Albero",
+          "filename": "albero",
+          "translations": ["Baum"],
+          "definition": "Eine mehrjährige Pflanze mit einem verlängerten Stamm oder Rumpf, der Äste und Blätter trägt."
+        },
+        {
+          "word": "Casa",
+          "filename": "casa",
+          "translations": ["Haus", "Heim"],
+          "definition": "Ein Gebäude zur menschlichen Bewohnung, insbesondere eines, das von einer Familie oder einer kleinen Gruppe von Personen bewohnt wird."
+        },
+        {
+          "word": "Mano",
+          "filename": "mano",
+          "translations": ["Hand"],
+          "definition": "Der Teil des menschlichen Arms jenseits des Handgelenks, einschließlich Handfläche, Finger und Daumen."
+        },
+        {
+          "word": "Giorno",
+          "filename": "giorno",
+          "translations": ["Tag"],
+          "definition": "Der Zeitraum von vierundzwanzig Stunden oder die Zeit des Lichts zwischen Sonnenaufgang und Sonnenuntergang."
+        },
+        {
+          "word": "Bene",
+          "filename": "bene",
+          "translations": ["Gut", "wohl"],
+          "definition": "Ein Adverb, das einen Zustand des Guten, der Richtigkeit oder Zufriedenheit ausdrückt."
+        },
+        {
+          "word": "Dio",
+          "filename": "Dio",
+          "translations": ["Gott"],
+          "definition": "Das höchste Wesen, Schöpfer und Herrscher des Universums, das in monotheistischen Religionen verehrt wird."
+        },
+        {
+          "word": "Io",
+          "filename": "io",
+          "translations": ["Ich"],
+          "definition": "Das Pronomen, das von einem Sprecher verwendet wird, um auf sich selbst zu verweisen."
+        },
+        {
+          "word": "Lui",
+          "filename": "lui",
+          "translations": ["Er", "ihn"],
+          "definition": "Pronomen, das sich auf eine männliche Person bezieht, die zuvor erwähnt wurde oder leicht identifiziert werden kann."
+        },
+        {
+          "word": "Lei",
+          "filename": "lei",
+          "translations": ["Sie", "ihr"],
+          "definition": "Pronomen, das sich auf eine weibliche Person bezieht, die zuvor erwähnt wurde oder leicht identifiziert werden kann.",
+          "info": "\"Lei\" dient auch als höfliche, formelle Anredeform für Fremde oder respektierte Personen, die sich von dem informellen \"tu\" unterscheidet. Sie kann verwendet werden, um sowohl Männer als auch Frauen anzusprechen."
+        },
+        {
+          "word": "Mio",
+          "filename": "mio",
+          "translations": ["Mein", "meins"],
+          "definition": "Besitzanzeigendes Adjektiv oder Pronomen, das \"zu mir gehörend\" bedeutet."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Zahlen Und Mengen",
+      "description": "Italienische Zahlen und Mengenausdrücke.",
+      "words": [
+        {
+          "word": "Due",
+          "filename": "due",
+          "translations": ["Zwei"],
+          "definition": "Die Kardinalzahl, die die Menge von zwei Einheiten darstellt."
+        },
+        {
+          "word": "Tre",
+          "filename": "tre",
+          "translations": ["Drei"],
+          "definition": "Die Kardinalzahl, die die Menge von drei Einheiten darstellt."
+        },
+        {
+          "word": "Quattro",
+          "filename": "quattro",
+          "translations": ["Vier"],
+          "definition": "Die Kardinalzahl, die die Menge von vier Einheiten darstellt."
+        },
+        {
+          "word": "Cinque",
+          "filename": "cinque",
+          "translations": ["Fünf"],
+          "definition": "Die Kardinalzahl, die die Menge von fünf Einheiten darstellt."
+        },
+        {
+          "word": "Sette",
+          "filename": "sette",
+          "translations": ["Sieben"],
+          "definition": "Die Kardinalzahl, die die Menge von sieben Einheiten darstellt."
+        },
+        {
+          "word": "Dodici mesi",
+          "filename": "dodici mesi",
+          "translations": ["Zwölf Monate"],
+          "definition": "\"Dodici\" (zwölf, die Kardinalzahl 12) | \"Mesi\" (Plural von mese, Monat, jede Unterteilung des Jahres). Der vollständige Ausdruck bezieht sich auf den gesamten Zyklus eines Jahres."
+        },
+        {
+          "word": "Quattordici mesi",
+          "filename": "quattordici mesi",
+          "translations": ["Vierzehn Monate"],
+          "definition": "\"Quattordici\" (vierzehn, Kardinalzahl 14) | \"Mesi\" (Plural von mese, Monat). Der vollständige Ausdruck bezieht sich auf eine Zeitspanne von vierzehn Monaten."
+        },
+        {
+          "word": "Quindici",
+          "filename": "quindici",
+          "translations": ["Fünfzehn"],
+          "definition": "Die Kardinalzahl, die die Menge von fünfzehn Einheiten darstellt."
+        },
+        {
+          "word": "Centoventitré",
+          "filename": "centoventitré",
+          "translations": ["Einhundertdreiundzwanzig"],
+          "definition": "Die Kardinalzahl 123, zusammengesetzt aus \"cento\" (hundert) + \"venti\" (zwanzig) + \"tré\" (drei)."
+        },
+        {
+          "word": "Tanti fiori",
+          "filename": "tanti fiori",
+          "translations": ["Viele Blumen"],
+          "definition": "\"Tanti\" (maskuliner Plural von \"tanto\", was \"viele\" oder \"eine große Menge von\" bedeutet, wenn es zählbare Substantive quantifiziert) | \"Fiori\" (Plural von \"fiore\" (Blume)). Der vollständige Ausdruck bedeutet zahlreiche/viele Blumen."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Menschen Und Familie",
+      "description": "Häufige italienische Begriffe für Menschen und Familienmitglieder.",
+      "words": [
+        {
+          "word": "Bambina",
+          "filename": "bambina",
+          "translations": ["Mädchen", "Kind"],
+          "definition": "Ein weibliches Kind, typischerweise von der Geburt bis zur Jugendzeit.",
+          "info": "Die männliche Form dieses Wortes ist \"bambino\"."
+        },
+        {
+          "word": "Fratello",
+          "filename": "fratello",
+          "translations": ["Bruder"],
+          "definition": "Ein männliches Geschwister, das mindestens ein Elternteil mit einer anderen Person teilt."
+        },
+        {
+          "word": "Nonna materna",
+          "filename": "nonna materna",
+          "translations": ["Großmutter mütterlicherseits"],
+          "definition": "\"Nonna\" (Großmutter, Mutter eines Elternteils) | \"Materna\" (zur Mutter gehörend). Bezieht sich auf die Mutter der Mutter."
+        },
+        {
+          "word": "Figli",
+          "filename": "figli",
+          "translations": ["Kinder", "Söhne"],
+          "definition": "Maskuliner Plural von \"figlio\" (Sohn, Kind). Mehrere männliche Kinder oder eine gemischte Gruppe aus Jungen und Mädchen."
+        },
+        {
+          "word": "Poverino",
+          "filename": "poverino",
+          "translations": ["Armer Kerl", "arme Seele"],
+          "definition": "Verniedlichungsform, die Mitgefühl für jemanden ausdrückt, der unglücklich ist oder leidet.",
+          "info": "Nur weil man das Wort kennt, heißt das nicht, dass man es benutzen sollte."
+        },
+        {
+          "word": "Reali",
+          "filename": "reali",
+          "translations": ["Königliche"],
+          "definition": "Pluralform von \"reale\" (königlich). Personen, die einer königlichen Familie oder Monarchie angehören."
+        },
+        {
+          "word": "Regina",
+          "filename": "regina",
+          "translations": ["Königin"],
+          "definition": "Weibliche souveräne Herrscherin eines unabhängigen Staates oder Ehefrau eines Königs."
+        },
+        {
+          "word": "Ducchessa",
+          "filename": "ducchessa",
+          "translations": ["Herzogin"],
+          "definition": "Adelstitel, den die Ehefrau eines Herzogs oder die weibliche Herrscherin eines Herzogtums trägt."
+        },
+        {
+          "word": "Sorelle",
+          "filename": "sorelle",
+          "translations": ["Schwestern"],
+          "definition": "Weibliche Pluralform von \"sorella\" (Schwester). Weibliche Geschwister, die mindestens ein Elternteil teilen."
+        },
+        {
+          "word": "Cameriera",
+          "filename": "cameriera",
+          "translations": ["Dienstmädchen", "Hausangestellte"],
+          "definition": "Eine weibliche Hausangestellte, die für Reinigung, Kochen und andere häusliche Aufgaben verantwortlich ist, oft im Dienst einer Familie oder eines Adelsgeschlechts."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Zeit Und Tage",
+      "description": "Ausdrücke, die sich auf Zeit und Tage beziehen.",
+      "words": [
+        {
+          "word": "Giorni",
+          "filename": "giorni",
+          "translations": ["Tage"],
+          "definition": "Maskuliner Plural von \"giorno\" (Tag)."
+        },
+        {
+          "word": "Mese",
+          "filename": "mese",
+          "translations": ["Monat"],
+          "definition": "Einer von zwölf Teilen, in die das Jahr unterteilt ist, etwa dreißig Tage lang."
+        },
+        {
+          "word": "Settimana",
+          "filename": "settimana",
+          "translations": ["Woche"],
+          "definition": "Zeitraum von sieben aufeinanderfolgenden Tagen, typischerweise von Sonntag bis Samstag."
+        },
+        {
+          "word": "Ogni giorno",
+          "filename": "ogni giorno",
+          "translations": ["Jeden Tag"],
+          "definition": "\"Ogni\" (jeder, alle) | \"Giorno\" (Tag, Zeitraum von 24 Stunden). Tägliche Wiederholung."
+        },
+        {
+          "word": "Ogni sabato",
+          "filename": "ogni sabato",
+          "translations": ["Jeden Samstag"],
+          "definition": "\"Ogni\" (jeder, alle) | \"Sabato\" (Samstag, Tag vor Sonntag). Wöchentliche Wiederholung an Samstagen."
+        },
+        {
+          "word": "Sabato",
+          "filename": "sabato",
+          "translations": ["Samstag"],
+          "definition": "Siebter Tag der Woche, folgt auf Freitag und geht dem Sonntag voraus."
+        },
+        {
+          "word": "Ogni quindici giorni",
+          "filename": "ogni quindici giorni",
+          "translations": ["Alle fünfzehn Tage"],
+          "definition": "\"Ogni\" (jeder, alle) | \"Quindici\" (fünfzehn) | \"Giorni\" (Tage). Zweiwöchentliche Wiederholung."
+        },
+        {
+          "word": "Momento",
+          "filename": "momento",
+          "translations": ["Moment"],
+          "definition": "Ein unbestimmt kurzer Zeitraum, ein Augenblick."
+        },
+        {
+          "word": "Tempo",
+          "filename": "tempo",
+          "translations": ["Zeit", "Wetter"],
+          "definition": "Der Ablauf der Existenz, kann aber auch atmosphärische Bedingungen bezeichnen."
+        },
+        {
+          "word": "Mattina",
+          "filename": "mattina",
+          "translations": ["Morgen"],
+          "definition": "Der frühe Teil des Tages, von der Morgendämmerung bis zum Mittag."
+        },
+        {
+          "word": "Anno",
+          "filename": "anno",
+          "translations": ["Jahr"],
+          "definition": "Zeitraum von 365 Tagen, Umlauf der Erde um die Sonne."
+        },
+        {
+          "word": "Due anni",
+          "filename": "due anni",
+          "translations": ["Zwei Jahre"],
+          "definition": "\"Due\" (zwei) | \"Anni\" (Plural von \"anno\", Jahr). Zeitraum von zwei vollen Jahren."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Natur Und Elemente",
+      "description": "Wörter, die natürliche Elemente, das Wetter und die Welt beschreiben.",
+      "words": [
+        {
+          "word": "Terra",
+          "filename": "terra",
+          "translations": ["Erde", "Land", "Boden"],
+          "definition": "Der Name des Planeten, auf dem wir leben, kann aber auch trockenes Land oder die obere Bodenschicht bedeuten, in der Pflanzen wachsen."
+        },
+        {
+          "word": "Foresta",
+          "filename": "foresta",
+          "translations": ["Wald"],
+          "definition": "Großes Gebiet, das mit Bäumen und Unterholz bedeckt ist."
+        },
+        {
+          "word": "Fiore",
+          "filename": "fiore",
+          "translations": ["Blume"],
+          "definition": "Fortpflanzungsstruktur einer Pflanze, oft farbenfroh."
+        },
+        {
+          "word": "Foglie",
+          "filename": "foglie",
+          "translations": ["Blätter"],
+          "definition": "Pluralform von \"foglia\" (Blatt). Flache, grüne Pflanzenteile, die Photosynthese betreiben."
+        },
+        {
+          "word": "Ramuscello",
+          "filename": "ramuscello",
+          "translations": ["Zweig", "kleiner Ast"],
+          "definition": "Kleiner, dünner Ast, der von einem größeren Ast ausgeht."
+        },
+        {
+          "word": "Trifoglio",
+          "filename": "trifoglio",
+          "translations": ["Klee"],
+          "definition": "Pflanze mit drei Blättchen.",
+          "info": "Trotz seines Namens kann sie manchmal vier Blättchen haben, was jedoch sehr selten ist."
+        },
+        {
+          "word": "Bosco sacro",
+          "filename": "bosco sacro",
+          "translations": ["Heiliger Hain", "heiliges Gehölz", "heiliger Wald"],
+          "definition": "\"Bosco\" (bewaldetes Gebiet, kleiner Hain) | \"Sacro\" (heilig). Ein geweihter oder mystischer Waldabschnitt."
+        },
+        {
+          "word": "Zolle",
+          "filename": "zolle",
+          "translations": ["Erdklumpen", "Bodenstücke"],
+          "definition": "Pluralform von \"zolla\" (Erdklumpen, Bodenstück). Massen von Erde, die beim Graben entstehen."
+        },
+        {
+          "word": "Luce",
+          "filename": "luce",
+          "translations": ["Licht"],
+          "definition": "Helligkeit, die Sehen ermöglicht."
+        },
+        {
+          "word": "Filo di luce",
+          "filename": "filo di luce",
+          "translations": ["Lichtstrahl", "Strahl aus Licht"],
+          "definition": "Dünner Lichtschein oder Lichtstreifen."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Gefühle Und Emotionen",
+      "description": "Italienische Substantive für Emotionen sowie Adjektive und Adverbien, die persönliche Gefühlszustände beschreiben.",
+      "words": [
+        {
+          "word": "Paura",
+          "filename": "paura",
+          "translations": ["Angst"],
+          "definition": "Eine starke, unangenehme Emotion, ausgelöst durch die Wahrnehmung von Gefahr, Bedrohung oder Schaden – sei er real oder eingebildet."
+        },
+        {
+          "word": "Desiderio",
+          "filename": "desiderio",
+          "translations": ["Wunsch", "Sehnsucht"],
+          "definition": "Starker Wunsch, dass etwas geschieht oder erreicht wird."
+        },
+        {
+          "word": "Mestizia",
+          "filename": "mestizia",
+          "translations": ["Melancholie", "Traurigkeit"],
+          "definition": "Sanfte, zurückhaltende Form der Trauer oder des Kummers."
+        },
+        {
+          "word": "Irritazione",
+          "filename": "irritazione",
+          "translations": ["Reizung", "Verärgerung"],
+          "definition": "Gefühl leichter Wut oder Ungeduld."
+        },
+        {
+          "word": "Curiosità",
+          "filename": "curiosità",
+          "translations": ["Neugier"],
+          "definition": "Starker Wunsch, etwas zu erfahren oder zu lernen."
+        },
+        {
+          "word": "Sorpresa",
+          "filename": "sorpresa",
+          "translations": ["Überraschung"],
+          "definition": "Reaktion auf etwas Unerwartetes."
+        },
+        {
+          "word": "Piacere",
+          "filename": "piacere",
+          "translations": ["Vergnügen", "Freude"],
+          "definition": "Gefühl von Genuss oder Zufriedenheit."
+        },
+        {
+          "word": "Timidamente",
+          "filename": "timidamente",
+          "translations": ["Schüchtern", "zaghaft"],
+          "definition": "Auf eine schüchterne oder zögerliche Art und Weise."
+        },
+        {
+          "word": "Angoscioso",
+          "filename": "angoscioso",
+          "translations": ["Beklemmend", "schmerzlich"],
+          "definition": "Beschreibt etwas, das tiefen emotionalen Schmerz oder Angst verursacht. Beispiel: \"Quell'esperienza è stata molto angosciosa\" (Diese Erfahrung war sehr beklemmend)."
+        },
+        {
+          "word": "Nervosa",
+          "filename": "nervosa",
+          "translations": ["Nervös"],
+          "definition": "Beschreibt eine Frau oder ein feminines Substantiv, das sich ängstlich oder angespannt fühlt.",
+          "info": "Die männliche Form dieses Wortes ist \"nervoso\"."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Haushaltsgegenstände",
+      "description": "Gebräuchliche Dinge, die man in Häusern und im täglichen Leben findet.",
+      "words": [
+        {
+          "word": "Candela",
+          "filename": "candela",
+          "translations": ["Kerze"],
+          "definition": "Wachsstab, der zur Beleuchtung brennt."
+        },
+        {
+          "word": "Libro",
+          "filename": "libro",
+          "translations": ["Buch"],
+          "definition": "Sammlung gedruckter oder beschriebener Seiten."
+        },
+        {
+          "word": "Cassettone",
+          "filename": "cassettone",
+          "translations": ["Kommode"],
+          "definition": "Möbelstück mit mehreren Schubladen."
+        },
+        {
+          "word": "Scrivania",
+          "filename": "scrivania",
+          "translations": ["Schreibtisch"],
+          "definition": "Möbelstück, das zum Schreiben oder Arbeiten verwendet wird."
+        },
+        {
+          "word": "Tavolino da notte",
+          "filename": "tavolino da notte",
+          "translations": ["Nachttisch"],
+          "definition": "Kleiner Tisch, der neben dem Bett steht."
+        },
+        {
+          "word": "Ventaglio",
+          "filename": "ventaglio",
+          "translations": ["Fächer"],
+          "definition": "Tragbares Handgerät, das durch Bewegung Luftzufuhr zur Abkühlung erzeugt."
+        },
+        {
+          "word": "Caminetto",
+          "filename": "caminetto",
+          "translations": ["Kamin"],
+          "definition": "Bauwerk für ein offenes Feuer im Innenraum."
+        },
+        {
+          "word": "Pantofole",
+          "filename": "pantofole",
+          "translations": ["Hausschuhe"],
+          "definition": "Pluralform von \"pantofola\" (Hausschuh). Bequeme Schuhe für den Innenbereich."
+        },
+        {
+          "word": "Specchio",
+          "filename": "specchio",
+          "translations": ["Spiegel"],
+          "definition": "Reflektierende Glasfläche."
+        },
+        {
+          "word": "Boccetta",
+          "filename": "boccetta",
+          "translations": ["Fläschchen", "Viole"],
+          "definition": "Kleiner Glas- oder Kunststoffbehälter für Flüssigkeiten wie Parfüm oder Medizin."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Fragewörter",
+      "description": "Wichtige Wörter, um Fragen zu stellen und Informationen zu suchen.",
+      "words": [
+        {
+          "word": "Che cosa",
+          "filename": "che cosa",
+          "translations": ["Was"],
+          "definition": "\"Che\" (was, welches) | \"Cosa\" (Ding). Frageausdruck, der nach der Identität oder Natur einer Sache fragt."
+        },
+        {
+          "word": "Perché",
+          "filename": "perché",
+          "translations": ["Warum", "weil"],
+          "definition": "Frageadverb, das nach Gründen oder Ursachen fragt; auch Konjunktion mit der Bedeutung \"weil\"."
+        },
+        {
+          "word": "Dunque",
+          "filename": "dunque",
+          "translations": ["Also", "demnach", "folglich"],
+          "definition": "Konjunktion, die verwendet wird, um Schlüsse zu ziehen oder Ergebnisse einzuleiten."
+        },
+        {
+          "word": "Ebbene",
+          "filename": "ebbene",
+          "translations": ["Nun gut", "also dann", "na schön"],
+          "definition": "Interjektion, die zum Weitersprechen oder zur Reaktion im Gespräch auffordert."
+        },
+        {
+          "word": "Almeno",
+          "filename": "almeno",
+          "translations": ["Zumindest", "wenigstens"],
+          "definition": "Adverb, das eine minimale Erwartung oder einen Trost ausdrückt."
+        },
+        {
+          "word": "Purtroppo",
+          "filename": "purtroppo",
+          "translations": ["Leider", "bedauerlicherweise"],
+          "definition": "Adverb, das Bedauern oder Enttäuschung ausdrückt."
+        },
+        {
+          "word": "Tutt'a un tratto",
+          "filename": "tutt’a un tratto",
+          "translations": ["Plötzlich", "auf einmal"],
+          "definition": "\"Tutto\" (alles) | \"A un tratto\" (auf einen Schlag). Adverbiale Redewendung für eine abrupte, unerwartete Veränderung."
+        },
+        {
+          "word": "Per esempio",
+          "filename": "per esempio",
+          "translations": ["Zum Beispiel"],
+          "definition": "\"Per\" (für) | \"Esempio\" (Beispiel). Ausdruck, der zur Einführung einer Veranschaulichung oder eines Beispiels dient."
+        },
+        {
+          "word": "Quale",
+          "filename": "quale",
+          "translations": ["Welcher", "welche", "welches"],
+          "definition": "Singulares Fragepronomen oder Adjektiv, das nach der Auswahl zwischen Möglichkeiten für ein einzelnes Objekt fragt. Beispiel: \"Quale libro preferisci?\" (Welches Buch bevorzugst du?)."
+        },
+        {
+          "word": "Quali",
+          "filename": "quali",
+          "translations": ["Welche"],
+          "definition": "Pluralform des Fragepronomens oder Adjektivs, das nach der Auswahl zwischen mehreren Objekten fragt. Beispiel: \"Quali libri preferisci?\" (Welche Bücher bevorzugst du?)."
+        },
+        {
+          "word": "Come non ritorna più",
+          "filename": "come non ritorna piú",
+          "translations": ["Als würde es nie zurückkehren", "Als käme es nie wieder"],
+          "definition": "\"Come\" (wie, als ob) | \"Non\" (nicht) | \"Ritorna\" (3. Person Singular Präsens von ritornare, er/sie/es kehrt zurück) | \"Più\" (mehr, jemals wieder). Poetischer Ausdruck, der unumkehrbaren Verlust oder die Angst vor einem endgültigen Verschwinden andeutet.",
+          "info": "Im Kontext von Alice im Wunderland (Le Avventure d'Alice nel Paese delle Meraviglie) drückt dieser Satz Alices Sorge aus, nie wieder zu ihrer ursprünglichen Form zurückzukehren, während sie die chaotischen Verwandlungen von Schrumpfen und Wachsen erlebt."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Die Wunderland-Stimmung",
+      "description": "Erweiterte Adjektive und Adverbien, die die angespannte, chaotische Atmosphäre in Alice im Wunderland und darüber hinaus einfangen.",
+      "words": [
+        {
+          "word": "Bianca",
+          "filename": "bianca",
+          "translations": ["Weiß"],
+          "definition": "Italienischer weiblicher Vorname. Die männliche Singularform dieses Wortes ist \"bianco\" (weiß) und bezeichnet eine achromatische Farbe, die der Wahrnehmung maximaler Helligkeit ohne Farbton entspricht, typischerweise erzeugt durch Licht, das fast alle sichtbaren Wellenlängen enthält, reflektiert oder streut.",
+          "info": "Historisch waren die „bianchi“ (Weißen) eine der beiden politischen Fraktionen im späten 13. Jahrhundert in Florenz, die den „neri“ (Schwarzen) gegenüberstanden. Die Spaltung entstand in der Familie Cancellieri aus Pistoia, deren Nachkommen von Bianca Cancellieri durch einen Kinderstreit die Guelfen-Spaltung auslösten."
+        },
+        {
+          "word": "Rose bianche",
+          "filename": "rose bianche",
+          "translations": ["Weiße Rosen"],
+          "definition": "Weibliche Pluralform von \"rosa bianca\" (weiße Rose). Blumen mit weißen Blütenblättern.",
+          "info": "Im Kontext von Alice im Wunderland (Le Avventure d'Alice nel Paese delle Meraviglie) malten die Gärtner diese weißen Rosen rot, um zu vermeiden, von der Königin hingerichtet zu werden."
+        },
+        {
+          "word": "Nero",
+          "filename": "nero",
+          "translations": ["Schwarz"],
+          "definition": "Achromatische Farbe, die der Wahrnehmung maximaler Dunkelheit ohne Farbton entspricht, typischerweise erzeugt durch Licht, das kaum sichtbare Wellenlängen enthält oder absorbiert.",
+          "info": "Weiblich Singular: \"nera\"; männlich Plural: \"neri\"; weiblich Plural: \"nere\"."
+        },
+        {
+          "word": "Gialla",
+          "filename": "gialla",
+          "translations": ["Gelb"],
+          "definition": "Helle Grundfarbe im sichtbaren Spektrum zwischen Grün und Orange, wahrgenommen bei einer dominanten Lichtwellenlänge von etwa 575–585 Nanometern.",
+          "info": "Die männliche Form dieses Wortes ist \"giallo\"."
+        },
+        {
+          "word": "Grande",
+          "filename": "grande",
+          "translations": ["Groß", "gewaltig", "bedeutend"],
+          "definition": "Adjektiv für etwas von beachtlicher Größe oder Wichtigkeit."
+        },
+        {
+          "word": "Lungo",
+          "filename": "lungo",
+          "translations": ["Lang"],
+          "definition": "Adjektiv, das eine ausgedehnte Länge beschreibt."
+        },
+        {
+          "word": "Piccina",
+          "filename": "piccina",
+          "translations": ["Klein", "winzig"],
+          "definition": "Verniedlichende weibliche Form von \"piccolo\" (klein). Bezeichnet etwas sehr Kleines oder Liebenswertes.",
+          "info": "Männlich Singular: \"piccino\"; männlich Plural: \"piccini\"; weiblich Plural: \"piccine\"."
+        },
+        {
+          "word": "Decollato",
+          "filename": "decollato",
+          "translations": ["Enthauptet"],
+          "definition": "Vergangenheitsform von \"decollare\" (enthaupten). Beschreibt eine Person, der der Kopf durch eine Hinrichtung abgeschlagen wurde."
+        },
+        {
+          "word": "Luminosa",
+          "filename": "luminosa",
+          "translations": ["Leuchtend", "hell"],
+          "definition": "Weibliche Form von \"luminoso\"; strahlt Licht aus oder reflektiert es.",
+          "info": "Männlich Singular: \"luminoso\"; männlich Plural: \"luminosi\"; weiblich Plural: \"luminose\"."
+        },
+        {
+          "word": "Tremante",
+          "filename": "tremante",
+          "translations": ["Zitternd", "bebend"],
+          "definition": "Partizipform von \"tremare\" (zittern). Beschreibt etwas oder jemanden, der unwillkürlich zittert, meist vor Angst, Kälte, Aufregung oder Schwäche.",
+          "info": "Im Kontext von Alice im Wunderland (Le Avventure d'Alice nel Paese delle Meraviglie) zittern Figuren vor dem Zorn der Königin."
+        },
+        {
+          "word": "Sibilante",
+          "filename": "sibilante",
+          "translations": ["Zischend", "flüsternd"],
+          "definition": "Partizipform von \"sibilare\" (zischen). Beschreibt ein scharfes, zischendes oder flüsterndes Geräusch. Beispiel: \"Vento sibilante\" (zischender Wind)."
+        },
+        {
+          "word": "Frettolosamente",
+          "filename": "frettolosamente",
+          "translations": ["Eilig", "hastig"],
+          "definition": "Auf eine eilende oder überstürzte Weise. Beispiel: \"Uscì frettolosamente.\" (Er ging eilig hinaus).",
+          "info": "Im Kontext von Alice im Wunderland (Le Avventure d'Alice nel Paese delle Meraviglie) rennt das Weiße Kaninchen hastig an Alice vorbei, als sie sich zum ersten Mal begegnen."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Körperteile Und Größen",
+      "description": "Begriffe für Körperteile und körperliche Bewegungen.",
+      "words": [
+        {
+          "word": "Capo",
+          "filename": "capo",
+          "translations": ["Kopf", "Anführer"],
+          "definition": "Oberster Teil des Körpers oder eine führende Person."
+        },
+        {
+          "word": "Corpo",
+          "filename": "corpo",
+          "translations": ["Körper"],
+          "definition": "Die physische Struktur eines Menschen oder Tieres."
+        },
+        {
+          "word": "Faccia",
+          "filename": "faccia",
+          "translations": ["Gesicht"],
+          "definition": "Vorderseite des Kopfes mit Augen, Nase und Mund."
+        },
+        {
+          "word": "Fronte",
+          "filename": "fronte",
+          "translations": ["Stirn"],
+          "definition": "Teil des Gesichts oberhalb der Augen."
+        },
+        {
+          "word": "Gomito",
+          "filename": "gomito",
+          "translations": ["Ellenbogen"],
+          "definition": "Gelenk zwischen Oberarm und Unterarm."
+        },
+        {
+          "word": "Scoppiettio",
+          "filename": "scoppiettio",
+          "translations": ["Knistern", "Knacken"],
+          "definition": "Reihe kleiner, scharfer Geräusche, ähnlich dem Knistern eines Feuers oder dem Knacken von Gelenken."
+        },
+        {
+          "word": "Un braccio",
+          "filename": "un braccio",
+          "translations": ["Ein Arm"],
+          "definition": "\"Un\" (ein) | \"Braccio\" (Arm). Obergliedmaß von der Schulter bis zur Hand.",
+          "info": "Im gesprochenen Italienisch klingt der 'n'-Laut des Artikels 'un' vor bestimmten Konsonanten oft wie 'm', was Lernende dazu verleiten kann, ein nicht existierendes 'um' zu hören. Dies ist nur eine Folge nasaler Assimilation in der Aussprache, kein eigenes Wort."
+        },
+        {
+          "word": "Vacilla",
+          "filename": "vacilla",
+          "translations": ["Taumelt", "wankt"],
+          "definition": "Präsensform von \"vacillare\" (taumeln, wanken). Beschreibt eine unsichere Bewegung, als würde man gleich fallen.",
+          "info": "\"Vacilla\" ist die formale Singular- (lei/loro) oder informelle Pluralform (voi). Die informelle Singularform (tu) ist \"vacilli\". Die Sprecherform (io) lautet \"vacillo\"."
+        },
+        {
+          "word": "Impedire",
+          "filename": "impedire",
+          "translations": ["Verhindern", "hemmen"],
+          "definition": "Jemanden daran hindern, etwas zu tun, durch physische oder andere Mittel."
+        },
+        {
+          "word": "Sbranare",
+          "filename": "sbranare",
+          "translations": ["Zerreißen", "in Stücke reißen"],
+          "definition": "Etwas gewaltsam mit Zähnen oder Klauen zerreißen, oft bei Tierangriffen auf Fleisch verwendet."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Handlungen Und Bewegungen",
+      "description": "Wichtige italienische Verben und bewegungsbezogene Wendungen, um Alltagsaktivitäten und Ereignisse in Geschichten zu beschreiben.",
+      "words": [
+        {
+          "word": "Trovare",
+          "filename": "trovare",
+          "translations": ["Finden"],
+          "definition": "Etwas entdecken, darauf stoßen oder es nach einer Suche oder zufällig ausfindig machen."
+        },
+        {
+          "word": "Trovato",
+          "filename": "trovato",
+          "translations": ["Gefunden"],
+          "definition": "Vergangenheitsform des Verbs \"trovare\" (finden). Bezeichnet etwas, das entdeckt oder lokalisiert wurde."
+        },
+        {
+          "word": "Tornare",
+          "filename": "tornare",
+          "translations": ["Zurückkehren", "zurückkommen"],
+          "definition": "Allgemeines Zurückkehren an einen vertrauten Ort, zu einer Person oder in einen Zustand und häufig für regelmäßige, alltägliche Rückkehr verwendet, zum Beispiel: \"Tornare a casa\" (nach Hause zurückkehren)."
+        },
+        {
+          "word": "Ritornare", 
+          "filename": "ritornare",
+          "translations": ["Wieder zurückkehren", "noch einmal zurückkommen", "zurückgeben"],
+          "definition": "Zurückkehren nach einer ungewöhnlich langen Abwesenheit, zum Beispiel: \"Ritornare a casa dalle vacanze\" (nach dem Urlaub nach Hause zurückkehren).",
+          "info": "Dieses Verb kann auch die Handlung des Zurückgebens beschreiben, zum Beispiel: \"Ritornare un libro alla biblioteca\" (ein Buch in die Bibliothek zurückbringen)."
+        },
+        {
+          "word": "Ritornato",
+          "filename": "ritornato",
+          "translations": ["Zurückgekehrt"],
+          "definition": "Vergangenheitsform des Verbs \"ritornare\" (wieder zurückkehren). Bezeichnet jemanden, der an einen früheren Ort oder in einen früheren Zustand zurückgekehrt ist."
+        },
+        {
+          "word": "Restava",
+          "filename": "restava",
+          "translations": ["Blieb", "war geblieben"],
+          "definition": "Vergangenheitsform im Verlauf des Verbs \"restare\" (bleiben). Beschreibt ein andauerndes Bleiben an einem Ort oder in einem Zustand in der Vergangenheit, das später endete und jetzt nicht mehr andauert."
+        },
+        {
+          "word": "Gridava",
+          "filename": "gridava",
+          "translations": ["Schrie", "war am Schreien"],
+          "definition": "Vergangenheitsform im Verlauf des Verbs \"gridare\" (schreien). Beschreibt lautes Rufen oder Schreien, das in der Vergangenheit eine Zeit lang andauerte, dann aber aufhörte."
+        },
+        {
+          "word": "Mangio",
+          "filename": "mangio",
+          "translations": ["Ich esse"],
+          "definition": "Tätigkeit, bei der Nahrung durch Kauen und Schlucken aufgenommen wird.",
+          "info": "\"Mangio\" drückt durch die Endung -io bereits \"ich esse\" aus. Ein eigenes \"io\" vor dem Verb ist nicht nötig, weil im Italienischen das Personalpronomen entfällt, wenn die Verbform klar zeigt, wer handelt."
+        },
+        {
+          "word": "Aspettando",
+          "filename": "aspettando",
+          "translations": ["Wartend"],
+          "definition": "Andauernde Handlung des An-einem-Ort-Bleibens in Erwartung einer Person oder einer Sache."
+        },
+        {
+          "word": "Partito",
+          "filename": "partito",
+          "translations": ["Weggegangen", "abgereist"],
+          "definition": "Vergangenheitsform des Verbs \"partire\" (weggehen). Bezeichnet jemanden oder etwas, das den im Verb genannten Ort verlassen hat."
+        },
+        {
+          "word": "Avvicinatevi dunque!",
+          "filename": "avvicinatevi dunque!",
+          "translations": ["Kommt näher also!", "tretet näher also!"],
+          "definition": "\"Avvicinatevi\" (kommt näher) + \"Dunque\" (also, dann). Dringende Aufforderung an eine Gruppe, näher heranzutreten.",
+          "info": "\"Avvicinatevi\" ist die Imperativform für die informelle Pluralform ihr (voi) des Verbs \"avvicinarsi\" (sich nähern). Die informelle Singularform (tu) lautet \"Avvicinati!\""
+        },
+        {
+          "word": "Scappi",
+          "filename": "scappi",
+          "translations": ["Du fliehst", "du entkommst"],
+          "definition": "Handlung des schnellen Fliehens, um einer Festnahme oder Gefahr zu entgehen.",
+          "info": "Die Endung -i kennzeichnet die informelle Singularform du (tu) des Verbs \"scappare\" (fliehen, davonlaufen). Die formelle Singularform (Lei) wäre \"scappa\". Die formelle Pluralform (Loro) wäre \"scappano\". Die informelle Pluralform (voi) lautet \"scappate\"."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Vergangene Laufende Handlungen",
+      "description": "Verben, die Handlungen beschreiben, die während Alices Abenteuern in der Vergangenheit fortlaufend stattfanden.",
+      "words": [
+        {
+          "word": "Diceva",
+          "filename": "diceva",
+          "translations": ["Sagte gerade", "pflegte zu sagen"],
+          "definition": "Singuläre formelle Vergangenheitsform im Verlauf von \"dire\" (sagen/erzählen). Beschreibt ein Sagen oder Erzählen, das in der Vergangenheit über einen Zeitraum hinweg stattfand und später aufhörte."
+        },
+        {
+          "word": "Dicevano",
+          "filename": "dicevano",
+          "translations": ["Sagen gerade", "pflegten zu sagen"],
+          "definition": "Plurale formelle Vergangenheitsform im Verlauf von \"dire\" (sagen/erzählen). Beschreibt wiederholtes oder andauerndes Sagen in der Vergangenheit, das später aufhörte."
+        },
+        {
+          "word": "Piaceva",
+          "filename": "piaceva",
+          "translations": ["Gefiel", "hatte man gern"],
+          "definition": "Vergangenheitsform im Verlauf von \"piacere\" (gefallen). Beschreibt etwas, das in der Vergangenheit regelmäßig oder längere Zeit gefiel, später aber nicht mehr unbedingt gefällt.",
+          "info": "Beispiel: \"Mi piaceva il gelato\" (Ich mochte früher Eis, jetzt aber nicht mehr). Die Struktur entspricht wörtlich \"mir gefiel es\" statt \"ich mochte\"."
+        },
+        {
+          "word": "Conducessero",
+          "filename": "conducessero",
+          "translations": ["Führten", "würden führen"],
+          "definition": "\"Condurre\" (führen/bringen) in einer vergangenen hypothetischen Form. Beispiel: \"Se i giardinieri conducessero Alice...\" (Wenn die Gärtner Alice führen würden...).",
+          "info": "\"Conducessero\" ist die formelle Pluralform (loro). Die informelle Singularform (tu) lautet \"conducessi\". Die formelle Singularform (lei) lautet \"conducesse\". Die informelle Pluralform (voi) lautet \"conducessimo\". Die Sprecherform (io) lautet \"conducessi\"."
+        },
+        {
+          "word": "Circondavano",
+          "filename": "circondavano",
+          "translations": ["Umgaben", "waren am Umgeben"],
+          "definition": "Vergangenheitsform im Verlauf von \"circondare\" (umgeben). Beschreibt ein Umgeben, das in der Vergangenheit eine Zeit lang andauerte und dann endete, zum Beispiel: \"I fiori circondavano Alice\" (Die Blumen umgaben Alice).",
+          "info": "\"Circondavano\" ist die formelle Pluralform (loro). Die informelle Singularform (tu) lautet \"circondavi\". Die formelle Singularform (lei) lautet \"circondava\". Die informelle Pluralform (voi) lautet \"circondavate\". Die Sprecherform (io) lautet \"circondavo\"."
+        },
+        {
+          "word": "Conveniva",
+          "filename": "conveniva",
+          "translations": ["Ergab Sinn", "war passend"],
+          "definition": "Vergangenheitsform von \"convenire\" (angemessen oder vorteilhaft sein). Beschreibt etwas, das man damals als bequem oder sinnvoll empfand, ohne festzulegen, ob das heute noch gilt, zum Beispiel: \"Conveniva aspettare\" (Es ergab Sinn zu warten).",
+          "info": "\"Conveniva\" ist die formelle Singularform (lei/loro). Die informelle Singularform (tu) lautet \"convenivi\". Die Sprecherform (io) lautet \"convenivo\". Die informelle Pluralform (voi) lautet \"convenivate\". Die formelle Pluralform (loro) lautet \"convenivano\"."
+        },
+        {
+          "word": "Osservava",
+          "filename": "osservava",
+          "translations": ["Beobachtete", "war am Beobachten"],
+          "definition": "Vergangenheitsform im Verlauf von \"osservare\" (beobachten). Beschreibt ein fortgesetztes Beobachten oder Betrachten in der Vergangenheit, das später aufhörte."
+        },
+        {
+          "word": "Faceva",
+          "filename": "faceva",
+          "translations": ["Tat", "pflegte zu tun"],
+          "definition": "Vergangenheitsform im Verlauf von \"fare\" (machen/tun). Beschreibt Handlungen, die in der Vergangenheit wiederholt oder über längere Zeit stattfanden und dann endeten."
+        },
+        {
+          "word": "Parlando",
+          "filename": "parlando",
+          "translations": ["Sprechend", "redend"],
+          "definition": "Verbform von \"parlare\" (sprechen). Beschreibt ein Sprechen, das gerade stattfindet oder gleichzeitig mit einer anderen Handlung verläuft."
+        },
+        {
+          "word": "Piangendo",
+          "filename": "piangendo",
+          "translations": ["Weinend", "schluchzend"],
+          "definition": "Verbform von \"piangere\" (weinen). Beschreibt Weinen, das gerade geschieht oder parallel zu einer anderen Handlung abläuft."
+        },
+        {
+          "word": "Aspettò un poco",
+          "filename": "aspettò un poco",
+          "translations": ["Wartete ein wenig"],
+          "definition": "\"Aspettò\" (er/sie/es wartete) | \"Un poco\" (ein wenig). Beschreibt eine einmalige, kurze Wartehandlung, die in der Vergangenheit abgeschlossen wurde.",
+          "info": "In natürlicher italienischer Aussprache klingt dies häufig wie \"aspetto un po'\"."
+        },
+        {
+          "word": "Rispondevo",
+          "filename": "rispondevo",
+          "translations": ["Antwortete gerade", "war am Antworten"],
+          "definition": "Vergangenheitsform im Verlauf von \"rispondere\" (antworten). Beschreibt Antworten, die in der Vergangenheit eine Zeit lang andauerten und dann aufhörten, zum Beispiel: \"Rispondevo alle domande\" (Ich beantwortete gerade die Fragen).",
+          "info": "\"Rispondevo\" ist die Sprecherform (io). Die informelle Singularform (tu) lautet \"rispondevi\". Die formelle Singularform (Lei) lautet \"rispondeva\". Die informelle Pluralform (voi) lautet \"rispondevate\". Die formelle Pluralform (loro) lautet \"rispondevano\"."
+        }
+      ]
+    }
+  ]
+}

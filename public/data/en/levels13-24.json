@@ -1,0 +1,908 @@
+{
+  "levels": [
+    {
+      "id": 13,
+      "title": "Future and Conditionals",
+      "description": "Verbs expressing future actions, hypotheticals, possibilities, and polite wishes.",
+      "words": [
+        {
+          "word": "Credere",
+          "filename": "credere",
+          "translations": ["To believe", "to think"],
+          "definition": "To accept something as true or real without necessarily having concrete or credible evidence for it. Example: \"Credo che tu sia un serpente!\" (I believe you're a serpent!)."
+        },
+        {
+          "word": "Direste",
+          "filename": "direste",
+          "translations": ["You would say"],
+          "definition": "Hypothetical present form of \"dire\" (to say) used when asking what a group of people would say in a hypothetical situation. Example: \"Cosa direste se non funzionasse?\" (What would you say if it wouldn't work?).",
+          "info": "\"Direste\" is the plural informal (voi) form. Singular informal (tu) form is \"diresti\". Plural informal (voi) form is \"direste\". Singular formal (lei) form is \"direbbe\". Plural formal (loro) form is \"direbbero\". Speaker's (io) form is \"direi\"."
+        },
+        {
+          "word": "Vedere",
+          "filename": "vedere",
+          "translations": ["To see"],
+          "definition": "To perceive with the eyes or to understand something mentally. Can also indicate anticipation of future events."
+        },
+        {
+          "word": "Vedo",
+          "filename": "vedo",
+          "translations": ["I see"],
+          "definition": "Present form of \"vedere\" indicating current visual perception or understanding. Example: \"Ti vedo dal balcone\" (I can see you from the balcony)."
+        },
+        {
+          "word": "Vediamo",
+          "filename": "vediamo",
+          "translations": ["Let's see", "we see"],
+          "definition": "Present form of \"vedere\" used as a conversational phrase suggesting to wait and observe an outcome. Example: \"Vediamo cosa succede\" (Let's see what happens).",
+          "info": "\"Vediamo\" is the plural (noi) form. Singular informal (tu) form is \"vedi\". Plural informal (voi) form is \"vedete\". Singular formal (lei) form is \"vede\". Plural formal (loro) form is \"vedono\". Speaker's (io) form is \"vedo\"."
+        },
+        {
+          "word": "Vorrei",
+          "filename": "vorrei",
+          "translations": ["I would like"],
+          "definition": "Present form of \"volere\" (to want) used as a polite way to make a courteous request. Example: \"Vorrei un tè verde, per favore\" (I would like a green tea, please).",
+          "info": "\"Vorrei\" is the speaker's (io) form. Singular informal (tu) form is \"vorresti\". Plural informal (voi) form is \"vorreste\". Singular formal (lei) form is \"vorrebbe\". Plural formal (loro) form is \"vorrebbero\"."
+        },
+        {
+          "word": "Potere",
+          "filename": "potere",
+          "translations": ["To be able to", "can", "may"],
+          "definition": "Expresses physical or mental ability to perform an action, permission to do something, or the possibility that something can occur."
+        },
+        {
+          "word": "Dovere",
+          "filename": "dovere",
+          "translations": ["To have to", "must", "should"],
+          "definition": "Primarily used to express obligation, necessity, or duty to perform an action or behave in a certain way. It may, in some contexts, also serve to convey probability or expectation. Examples: \"Devo restituire il prestito.\" (I have to repay the loan. [obligation]) | \"Devi mettere il cappotto in inverno.\" (You must wear a coat in winter. [necessity]) | \"Dovrebbe piovere nel pomeriggio.\" (It should rain this afternoon. [probability])."
+        },
+        {
+          "word": "Partisse",
+          "filename": "partisse",
+          "translations": ["Were to leave"],
+          "definition": "Hypothetical past form of \"partire\" (to leave/depart). Describes leaving actions that were imagined to have happened in the past but didn't actually happen—neither completed nor ongoing in reality.",
+          "info": "\"Partisse\" is the singular formal (lei) form. Singular informal (tu) form is \"partissi\". Plural informal (voi) form is \"partiste\". Plural formal (loro) form is \"partissero\". Speaker's (io) form is \"partissi\"."
+        },
+        {
+          "word": "Bastare",
+          "filename": "bastare",
+          "translations": ["To be enough", "to suffice"],
+          "definition": "To be sufficient in quantity or quality to meet a need or condition. Example: \"Mi basta una tazza di tè\" (One cup of tea is enough for me)."
+        },
+        {
+          "word": "Scommettere",
+          "filename": "scommettere",
+          "translations": ["To bet"],
+          "definition": "Wager money or something valuable on an uncertain outcome, or confidently assert that something will happen. Example: \"Scommetto cento dollari che questa squadra vince.\" (I bet hundred dollars that this team wins)."
+        },
+        {
+          "word": "Vincere",
+          "filename": "vincere",
+          "translations": ["To win"],
+          "definition": "To achieve victory or success in a competition. Example: \"Vincerò la partita\" (I will win the match)."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Creatures and Characters",
+      "description": "Animals and figures from Alice's fantastical encounters.",
+      "words": [
+        {
+          "word": "Gatto",
+          "filename": "gatto",
+          "translations": ["Cat"],
+          "definition": "Domestic animal known for producing an iconic purring sound.",
+          "info": "The feminine form of that word is \"gatta\""
+        },
+        {
+          "word": "Coniglio bianco",
+          "filename": "coniglio bianco",
+          "translations": ["White Rabbit"],
+          "definition": "\"Coniglio\" (rabbit) | \"Bianco\" (white). The frantic, waistcoat-wearing character who leads Alice down the rabbit hole, constantly muttering about being late."
+        },
+        {
+          "word": "Fante di cuori",
+          "filename": "fante di cuori",
+          "translations": ["Jack of Hearts","Knave of Hearts"],
+          "definition": "\"Fante\" (jack, knave) | \"Di cuori\" (of hearts).",
+          "info": "In the context of Alice in Wonderland (Le Avventure d'Alice nel Paese delle Meraviglie), the Knave of Hearts (Fante di cuori) was accused of stealing the Queen's tarts."
+        },
+        {
+          "word": "Porcellini d'india",
+          "filename": "porcellini d'india",
+          "translations": ["Guinea pigs"],
+          "definition": "\"Porcellini\" (little pigs) | \"D'India\" (of India). Small rodents native to South America, not India; the name derives from a misnomer—the word \"India\" might actually be misused to refer to the Guinea coast of West Africa, possibly because the animals were shipped via Guinea or resembled Indian pigs.",
+          "info": "In the context of Alice in Wonderland (Le Avventure d'Alice nel Paese delle Meraviglie), these animals were spectators during the mockery of a trial where the Knave of Hearts (Fante di Cuori) was accused of stealing the Queen's tarts. Both guinea pigs cheered during the Hatter's testimony and were immediately suppressed: officers put each one headfirst into a large canvas bag, tied it up, and sat on the bags."
+        },
+        {
+          "word": "Dieci soldati",
+          "filename": "dieci soldati",
+          "translations": ["Ten soldiers"],
+          "definition": "\"Dieci\" (ten) | \"Soldati\" (soldiers). Military personnel."
+        },
+        {
+          "word": "Armati di bastoni",
+          "filename": "armati di bastoni",
+          "translations": ["Armed with sticks", "Armed with batons", "Armed with clubs"],
+          "definition": "\"Armati\" (armed) | \"Di bastoni\" (with sticks, with batons, with clubs). Equipped with heavy sticks used as weapons.",
+          "info": "In the context of Alice in Wonderland (Le Avventure d'Alice nel Paese delle Meraviglie) the word \"bastoni\" means the suit of Clubs in Italian playing cards."
+        },
+        {
+          "word": "Tre giardinieri",
+          "filename": "tre giardinieri",
+          "translations": ["Three gardeners"],
+          "definition": "\"Tre\" (three) | \"Giardinieri\" (gardeners). People who tend gardens."
+        },
+        {
+          "word": "Fenicottero",
+          "filename": "fenicottero",
+          "translations": ["Flamingo"],
+          "definition": "Tall wading bird with pink feathers and a curved beak.",
+          "info": "In the context of Alice in Wonderland (Le Avventure d’Alice nel Paese delle Meraviglie), the flamingo (fenicontero) is the bird Alice unsuccessfully tries to use as a living croquet mallet, its twisting, uncooperative neck adding to the absurdity of the Queen’s whimsical game."
+        },
+        {
+          "word": "Cagnolino",
+          "filename": "cagnolino",
+          "translations": ["Puppy"],
+          "definition": "Small dog, endearing term for a playful young pet."
+        },
+        {
+          "word": "Vigliaccone",
+          "filename": "vigliaccone",
+          "translations": ["Coward"],
+          "definition": "Person lacking bravery."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "States and Qualities",
+      "description": "Words expressing conditions, moods, and characteristics.",
+      "words": [
+        {
+          "word": "Altro",
+          "filename": "altro",
+          "translations": ["Other", "another"],
+          "definition": "Refers to something different or additional compared to what was already mentioned. Example: \"Prendo un altro biscotto\" (I'll take another cookie)."
+        },
+        {
+          "word": "Ancora",
+          "filename": "ancora",
+          "translations": ["Still", "yet", "again"],
+          "definition": "Used to express continuation, repetition, or an unfinished action. Examples: \"Sto ancora lavorando.\" (I'm still working. [continuation]) | \"Il taxi non è arrivato ancora.\" (The taxi hasn't arrived yet. [not completed]) | \"Voglio sentire quella canzone ancora!\" (I want to hear that song again! [repetition])."
+        },
+        {
+          "word": "Bellino",
+          "filename": "bellino",
+          "translations": ["Cute", "pretty", "nice"],
+          "definition": "Charming or attractive in an endearing or delicate way. Example: \"Quel gattino è davvero bellino\" (That kitten is really cute)."
+        },
+        {
+          "word": "Curioso",
+          "filename": "curioso",
+          "translations": ["Curious"],
+          "definition": "Eager to know or learn something. Example: \"È un bambino curioso\" (He's a curious child)."
+        },
+        {
+          "word": "Disperata",
+          "filename": "disperata",
+          "translations": ["Desperate"],
+          "definition": "Completely without hope; full of despair. Example: \"Era in una situazione disperata.\" (She was in a desperate situation.)",
+          "info": "The masculine form of that word is \"disperato\""
+        },
+        {
+          "word": "Profumato",
+          "filename": "profumato",
+          "translations": ["Fragrant", "scented"],
+          "definition": "Having a pleasant smell or aroma. Example: \"Un fiore molto profumato\" (A very fragrant flower)."
+        },
+        {
+          "word": "Sospeso",
+          "filename": "sospeso",
+          "translations": ["Suspended", "hanging"],
+          "definition": "Kept in a state of uncertainty or physically hanging. Example: \"Il tempo sembrava sospeso durante il tramonto\" (Time seemed suspended during the sunset)."
+        },
+        {
+          "word": "Cruda",
+          "filename": "cruda",
+          "translations": ["Raw", "cruel"],
+          "definition": "Feminine form of \"crudo\"; Most often means raw, unfinished, or unprocessed, especially when used in relation to food like meat, fish, or vegetables that has not been cooked at all, as in \"carne cruda\" (raw meat). It can also describe something or someone emotionally raw, harsh, or cruel.",
+          "info": "Masculine singular: \"crudo\"; masculine plural: \"crudi\"; feminine plural: \"crude\""
+        },
+        {
+          "word": "Stato",
+          "filename": "stato",
+          "translations": ["State", "condition"],
+          "definition": "A condition, situation, mode of being, or legal/social status. Example: \"È questo lo stato attuale delle cose\" (This is the current state of affairs)."
+        },
+        {
+          "word": "Nuove",
+          "filename": "nuove",
+          "translations": ["New"],
+          "definition": "Feminine plural form of \"nuovo\"; recently made or discovered.",
+          "info": "Masculine singular: \"nuovo\"; feminine singular: \"nuova\"; masculine plural: \"nuovi\""
+        },
+        {
+          "word": "Silenzio",
+          "filename": "silenzio",
+          "translations": ["Silence"],
+          "definition": "Complete absence of sound."
+        },
+        {
+          "word": "Veramente",
+          "filename": "veramente",
+          "translations": ["Truly"],
+          "definition": "In truth; genuinely."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Changes and Conditions",
+      "description": "Words for transformations, states, and resulting situations.",
+      "words": [
+        {
+          "word": "Apice",
+          "filename": "apice",
+          "translations": ["Peak", "apex", "height"],
+          "definition": "The highest point, peak, apex, or tip of something physical or abstract. Used to denote the uppermost point or location without assigning a literal numerical value to it. Examples: \"Il caldo estivo ha raggiunto l'apice a luglio.\" (Summer heat peaked in July. [metaphorical peak]) | \"L'apice della montagna.\" (The peak of the mountain. [physical object peak])."
+        },
+        {
+          "word": "La verità",
+          "filename": "la verità",
+          "translations": ["The truth"],
+          "definition": "Quality or state of being in accordance with fact or reality. It describes statements, beliefs, or propositions that accurately represent how things are, as opposed to falsehoods."
+        },
+        {
+          "word": "Bugia",
+          "filename": "bugia",
+          "translations": ["Lie"],
+          "definition": "A false statement made deliberately to deceive. Example: \"Hai detto una bugia\" (You told a lie)."
+        },
+        {
+          "word": "Caduta",
+          "filename": "caduta",
+          "translations": ["Fall", "drop"],
+          "definition": "The act of falling or a sudden decline from a higher position. Example: \"Una caduta improvvisa\" (A sudden fall)."
+        },
+        {
+          "word": "Cambiato",
+          "filename": "cambiato",
+          "translations": ["Changed", "altered", "transformed"],
+          "definition": "Past completed form of \"cambiare\" (to change). Describes something made different from before. Example: \"Alice era cambiata dopo aver bevuto la pozione\" (Alice had changed after drinking the potion)."
+        },
+        {
+          "word": "Confusione",
+          "filename": "confusione",
+          "translations": ["Confusion", "disorder", "mess"],
+          "definition": "State of mental or physical disorder where things are unclear or mixed up. Example: \"C'era molta confusione nella sala.\" (There was a lot of confusion in the hall.)"
+        },
+        {
+          "word": "Impiccolire",
+          "filename": "impiccolire",
+          "translations": ["To make smaller", "to shrink", "to reduce in size"],
+          "definition": "Describes the act of causing something to become smaller or less significant, either physically or metaphorically. Example: \"La bottiglia misteriosa impiccolì Alice fino a farla passare sotto la porta\" (The mysterious bottle made Alice small enough to pass under the door)."
+        },
+        {
+          "word": "Piccolire",
+          "filename": "piccolire",
+          "translations": ["To become smaller"],
+          "definition": "Describes the process of becoming smaller, whether by magic or transformation. Example: \"Ogni sorso faceva Alice piccolire un po’ di più\" (Each sip made Alice shrink a little more)."
+        },
+        {
+          "word": "Certamente",
+          "filename": "certamente",
+          "translations": ["Certainly", "surely", "definitely"],
+          "definition": "Expresses full confidence or assurance about something being true or sure to happen. Example: \"Certamente verrò alla festa\" (I'll surely come to the party)."
+        },
+        {
+          "word": "Dubbio",
+          "filename": "dubbio",
+          "translations": ["Doubt", "uncertainty"],
+          "definition": "Feeling of being unsure or questioning whether something is true."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Alice's Wonderland Scenes",
+      "description": "Words from Alice's garden, transformations, and surreal encounters.",
+      "words": [
+        {
+          "word": "Giardino",
+          "filename": "giardino",
+          "translations": ["Garden"],
+          "definition": "An enclosed outdoor space filled with plants, flowers, and paths. Example: \"Alice corse nel giardino dove crescevano fiori parlanti.\" (Alice ran into the garden where talking flowers grew.)"
+        },
+        {
+          "word": "Giardinieri",
+          "filename": "giardinieri",
+          "translations": ["Gardeners"],
+          "definition": "People who tend and work in gardens, caring for plants and soil. Example: \"I giardinieri curano le piante ogni mattina\" (The gardeners take care of the plants every morning)."
+        },
+        {
+          "word": "Scala",
+          "filename": "scala",
+          "translations": ["Ladder", "staircase"],
+          "definition": "A structure with steps or rungs used for climbing up or down. Example: \"La scala scendeva senza fine nel buio\" (The staircase went endlessly into the dark)."
+        },
+        {
+          "word": "Finestra",
+          "filename": "finestra",
+          "translations": ["Window"],
+          "definition": "An opening in a wall with glass that lets in light and allows seeing outside. Example: \"Dalla finestra minuscola, Alice vide il giardino magico\" (From the tiny window, Alice saw the magical garden)."
+        },
+        {
+          "word": "Terreno",
+          "filename": "terreno",
+          "translations": ["Ground", "soil", "land"],
+          "definition": "The earth or soil beneath one's feet, or an area of land. Example: \"Il terreno qui è molto fertile\" (The soil here is very fertile)."
+        },
+        {
+          "word": "Tagliate",
+          "filename": "tagliate",
+          "translations": ["Cut", "cut off", "sliced"],
+          "definition": "Past completed form of \"tagliare\" (to cut). Describes something that was severed and the action finished."
+        },
+        {
+          "word": "Siepe",
+          "filename": "siepe",
+          "translations": ["Hedge", "hedgerow"],
+          "definition": "A dense row of bushes forming a boundary or natural wall. Example: \"Una siepe dividia i due giardini\" (A hedge separated the two gardens)."
+        },
+        {
+          "word": "Casettina",
+          "filename": "casettina",
+          "translations": ["Little house", "cottage", "small shed"],
+          "definition": "Diminutive form of \"casa\" (house). A very small house, cottage, or hut. Example: \"La casettina nel giardino aveva finestre a forma di cuore.\" (The little house in the garden had heart-shaped windows.)"
+        },
+        {
+          "word": "Liquore",
+          "filename": "liquore",
+          "translations": ["Liquor", "liquid", "drink"],
+          "definition": "Any drinkable liquid, often strong, sweet, or with special properties. Example: \"Nascondevano il liquore bootleg sotto il pavimento\" (They hid bootleg liquor under the floor)."
+        },
+        {
+          "word": "Pasticcino",
+          "filename": "pasticcino",
+          "translations": ["Little cake", "pastry", "small sweet"],
+          "definition": "Diminutive form of \"pasticcio\" (pastry). A small sweet cake or confection. Example: \"Sul tavolo c'era un pasticcino che diceva 'Mangiami'\". (On the table was a little cake that said 'Eat me')."
+        },
+        {
+          "word": "Paese delle Meraviglie",
+          "filename": "paese delle meraviglie",
+          "translations": ["Wonderland"],
+          "definition": "\"Paese\" (country, land) | \"Delle Meraviglie\" (of wonders)."
+        },
+        {
+          "word": "Meraviglie",
+          "filename": "meraviglie",
+          "translations": ["Wonders"],
+          "definition": "Plural of \"meraviglia\" (wonder). Extraordinary, magical, or astonishing thing."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Shadows of Strife",
+      "description": "Words depicting confrontation, danger, and tragic fates.",
+      "words": [
+        {
+          "word": "Contro",
+          "filename": "contro",
+          "translations": ["Against", "versus", "opposite"],
+          "definition": "Indicates opposition, contrast, or physical proximity against something. Examples: \"Lancaster combatté contro York nelle Guerre delle Due Rose\" (Lancaster fought against York in the Wars of the Roses)."
+        },
+        {
+          "word": "Inferma",
+          "filename": "inferma",
+          "translations": ["Sick", "Ill"],
+          "definition": "Feminine form of \"infermo\" (sick). Refers to someone in a weakened physical condition due to illness, injury, or prolonged suffering.",
+          "info": "Masculine singular: \"infermo\"; masculine plural: \"infermi\"; feminine plural: \"inferme\"."
+        },
+        {
+          "word": "Pericolo",
+          "filename": "pericolo",
+          "translations": ["Danger"],
+          "definition": "Situation or circumstance likely to cause serious harm or damage."
+        },
+        {
+          "word": "Prigione",
+          "filename": "prigione",
+          "translations": ["Prison"],
+          "definition": "Building where people are kept as punishment or while awaiting trial."
+        },
+        {
+          "word": "Prigionieri",
+          "filename": "prigionieri",
+          "translations": ["Prisoners"],
+          "definition": "Plural of \"prigioniero\" (prisoner). People held captive or imprisoned."
+        },
+        {
+          "word": "Crudeltà",
+          "filename": "crudeltà",
+          "translations": ["Cruelty"],
+          "definition": "Deliberate infliction of suffering on others."
+        },
+        {
+          "word": "Difficoltà",
+          "filename": "difficoltà",
+          "translations": ["Difficulty"],
+          "definition": "The quality or state of being hard to do, understand, or overcome."
+        },
+        {
+          "word": "Morto",
+          "filename": "morto",
+          "translations": ["Dead"],
+          "definition": "Refers to a deceased person or to a lifeless state caused by injury, violence, accident, or other fatal circumstances."
+        },
+        {
+          "word": "Disperso",
+          "filename": "disperso",
+          "translations": ["Missing", "Dispersed", "Lost"],
+          "definition": "Describes a person who is missing, scattered, or unaccounted for, often in the context of a disaster, implying serious danger and uncertainty about survival."
+        },
+        {
+          "word": "Danno",
+          "filename": "danno",
+          "translations": ["Damage"],
+          "definition": "Loss or impairment to material, immaterial goods, integrity, or function, often caused externally."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Time Expressions",
+      "description": "Words and phrases indicating timing, frequency, and sequence.",
+      "words": [
+        {
+          "word": "Due volte la settimana",
+          "filename": "due volte la settimana",
+          "translations": ["Twice a week"],
+          "definition": "\"Due\" (two) | \"volte\" (times) | \"la\" (the) | \"settimana\" (week). Indicates an action or event that occurs twice within a single week."
+        },
+        {
+          "word": "Pomeriggio",
+          "filename": "pomeriggio",
+          "translations": ["Afternoon"],
+          "definition": "Time of day from around noon to early evening (approximately 12 PM to 6 PM)"
+        },
+        {
+          "word": "Precedente",
+          "filename": "precedente",
+          "translations": ["Previous", "preceding"],
+          "definition": "Refers to something that comes before another in a sequence, series, time, or order. It emphasizes position or occurrence prior to a reference point. Example: \"Il mese precedente\" (The previous month)."
+        },
+        {
+          "word": "Scorso",
+          "filename": "scorso",
+          "translations": ["Last"],
+          "definition": "Refers to the most recent past time period (e.g., last week, month, year) viewed from the present moment. Commonly pairs with time nouns like anno, mese, settimana. Example: \"L'anno scorso ho viaggiato in Italia\" (Last year I traveled to Italy)."
+        },
+        {
+          "word": "Sera",
+          "filename": "sera",
+          "translations": ["Evening"],
+          "definition": "Time of day from late afternoon to early night, typically after 5-6 PM until around midnight."
+        },
+        {
+          "word": "Tardi",
+          "filename": "tardi",
+          "translations": ["Late"],
+          "definition": "Refers to something happening after the expected or usual time. Can describe both time of day and delay. Example: \"Arrivo tardi stasera\" (I'll arrive late tonight)."
+        },
+        {
+          "word": "Sempre",
+          "filename": "sempre",
+          "translations": ["Always"],
+          "definition": "Something that happens all the time or without exception."
+        },
+        {
+          "word": "Presto",
+          "filename": "presto",
+          "translations": ["Soon", "early", "quickly"],
+          "definition": "Before the expected time or after a short delay"
+        },
+        {
+          "word": "Subito",
+          "filename": "subito",
+          "translations": ["Immediately"],
+          "definition": "Without waiting, right away, or at once."
+        },
+        {
+          "word": "Secondo",
+          "filename": "secondo",
+          "translations": ["Second"],
+          "definition": "Unit of time (1/60th of a minute); also an ordinal number indicating position N2 in sequence."
+        },
+        {
+          "word": "Più",
+          "filename": "più",
+          "translations": ["More"],
+          "definition": "Greater quantity, degree, size, quality, or frequency. Example: \"L'Italia ha più foreste della Svizzera\" (Italy has more forests than Switzerland)."
+        },
+        {
+          "word": "Meno",
+          "filename": "meno",
+          "translations": ["Less"],
+          "definition": "Comparative indicating smaller quantity, degree, or number. Example: \"Fuma meno sigarette ultimamente\" (She smokes fewer cigarettes lately)."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Life Concepts",
+      "description": "Concepts tied to thoughts, emotions, and human communication.",
+      "words": [
+        {
+          "word": "Anima",
+          "filename": "anima",
+          "translations": ["Soul"],
+          "definition": "The spiritual or emotional essence of a person or thing. Example: \"L'anima della città\" (The soul of the city)."
+        },
+        {
+          "word": "Commedia",
+          "filename": "commedia",
+          "translations": ["Comedy"],
+          "definition": "A humorous theatrical work, play, or situation resembling one. Example: \"Questa commedia è esilarante\" (This comedy is hilarious)​."
+        },
+        {
+          "word": "Crede",
+          "filename": "credo",
+          "translations": ["I believe", "I think"],
+          "definition": "Common way to express belief or assumption. Example: \"Credo che tu abbia ragione.\" (I believe you are right.)",
+          "info": "\"Credo\" is the speaker's (io) form of \"credere\" (to believe). Singular informal (tu) form is \"credi\". Singular formal (lei) form is \"crede\". Plural informal (voi) form is \"credete\". Plural formal (loro) form is \"credono\"."
+        },
+        {
+          "word": "Sposa",
+          "filename": "sposa",
+          "translations": ["Bride"],
+          "definition": "Woman about to be married or newly married. Example: \"La sposa indossava un abito bianco\" (The bride wore a white dress).",
+          "info": "The masculine form of that word is \"sposo\" (groom); the plural form is \"sposi\" (newlyweds or the bride and the groom)."
+        },
+        {
+          "word": "Frase",
+          "filename": "frase",
+          "translations": ["Sentence", "phrase"],
+          "definition": "A group of words expressing a complete thought. Example: \"Ogni frase conta\" (Every sentence counts)."
+        },
+        {
+          "word": "Lettera",
+          "filename": "lettera",
+          "translations": ["Letter"],
+          "definition": "A written message sent to someone; also a single character in the alphabet. Example: \"Scrivo una lettera\" (I write a letter)."        },
+        {
+          "word": "Nascosto",
+          "filename": "nascosto",
+          "translations": ["Hidden"],
+          "definition": "Concealed from sight or knowledge; not visible."
+        },
+        {
+          "word": "Peccato",
+          "filename": "peccato",
+          "translations": ["Sin", "pity", "shame"],
+          "definition": "A moral or religious transgression; also an expression of regret or disappointment."
+        },
+        {
+          "word": "Pensiero",
+          "filename": "pensiero",
+          "translations": ["Thought", "idea", "reflection"],
+          "definition": "A product of mental activity that arises in the mind. Often carries emotional weight, representing both rational thinking and heartfelt contemplation."
+        },
+        {
+          "word": "Fiato",
+          "filename": "fiato",
+          "translations": ["Breath"],
+          "definition": "Air inhaled and exhaled in breathing. Example: \"Scommetto che la vista di quel villaggio svizzero ti toglierebbe il fiato\" (I bet the view of that Swiss village would take your breath away)."
+        },
+        {
+          "word": "Certezza",
+          "filename": "certezza",
+          "translations": ["Certainty"],
+          "definition": "A strong sense of confidence or conviction. Example: \"Parlava con grande certezza\" (She spoke with great certainty)."
+        },
+        {
+          "word": "Vita",
+          "filename": "vita",
+          "translations": ["Life"],
+          "definition": "The state of being alive, existence, or one's manner of living. Example: \"La vita è strana\" (Life is weird)."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "House and Surroundings",
+      "description": "Common household and spatial terms.",
+      "words": [
+        {
+          "word": "Comodino",
+          "filename": "comodino",
+          "translations": ["Nightstand", "bedside table"],
+          "definition": "A small table or cabinet placed beside a bed, used for storing or placing small items like a lamp or books."
+        },
+        {
+          "word": "Coperte",
+          "filename": "coperte",
+          "translations": ["Blankets", "covers"],
+          "definition": "Plural of \"coperta\" (blanket). Fabric sheets used to keep warm while sleeping. Example: \"Le coperte erano spesse e calde\" (The blankets were thick and warm)."
+        },
+        {
+          "word": "Letto",
+          "filename": "letto",
+          "translations": ["Bed"],
+          "definition": "Furniture used for sleeping or resting. Example: \"Alice saltò sul letto stanca della lunga giornata\" (Alice jumped onto the bed, tired from the long day)."
+        },
+        {
+          "word": "Fiammiferi",
+          "filename": "fiammiferi",
+          "translations": ["Matches"],
+          "definition": "Plural of \"fiammifero\" (match). Small sticks coated with a substance that ignites when struck against a suitable surface, used to produce a flame."
+        },
+        {
+          "word": "Cantone",
+          "filename": "cantone",
+          "translations": ["Corner", "canton"],
+          "definition": "Can refer to a physical corner or an administrative district, such as a Swiss canton."
+        },
+        {
+          "word": "Quadrante",
+          "filename": "quadrante",
+          "translations": ["Dial", "quadrant", "clock face"],
+          "definition": "The circular face or section used to display measurement or time, such as on a clock."
+        },
+        {
+          "word": "Seggiolone",
+          "filename": "seggiolone",
+          "translations": ["High chair"],
+          "definition": "A tall seat used for feeding young children at a table."
+        },
+        {
+          "word": "Cipolle",
+          "filename": "cipolle",
+          "translations": ["Onions"],
+          "definition": "Plural of \"cipolla\". Edible bulbs with a strong flavor and smell, used in cooking."
+        },
+        {
+          "word": "Terrazzino",
+          "filename": "terrazzino",
+          "translations": ["Small terrace", "little balcony"],
+          "definition": "Diminutive form of \"terrazza\" (terrace). A small outdoor platform connected to a building, often with a view. Example: \"Dal terrazzino si vedeva tutto il giardino\" (From the small terrace one could see the whole garden)."
+        },
+        {
+          "word": "Boccetta panciuta",
+          "filename": "boccetta panciuta",
+          "translations": ["Round little bottle", "bulging vial"],
+          "definition": "A small bottle with a rounded or bulging shape, often used for potions or perfumes. Example: \"Nella boccetta panciuta brillava un liquido misterioso\" (In the round little bottle a mysterious liquid shimmered)."
+        },
+        {
+          "word": "Poltroncina",
+          "filename": "poltroncina",
+          "translations": ["Small armchair", "little chair"],
+          "definition": "Diminutive form of \"poltrona\" (armchair). A small, comfortable seat usually with armrests."
+        },
+        {
+          "word": "Nome",
+          "filename": "nome",
+          "translations": ["Name"],
+          "definition": "A word or phrase by which a person or thing is identified or known."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Voices and Reactions",
+      "description": "Exclamations, interjections, and vocal responses.",
+      "words": [
+        {
+          "word": "Sì",
+          "filename": "sì",
+          "translations": ["Yes"],
+          "definition": "Used to express agreement or affirmation. Example: \"Sì, verrò alla festa.\" (Yes, I will come to the party)."
+        },
+        {
+          "word": "No",
+          "filename": "no",
+          "translations": ["No"],
+          "definition": "Used to express refusal, denial, or disagreement. Example: \"No, non voglio mangiare\" (No, I don’t want to eat)."
+        },
+        {
+          "word": "Ah",
+          "filename": "ah",
+          "translations": ["Ah"],
+          "definition": "Softer exclamation for realization, relief, or mild surprise. Example: \"Ah, ecco la risposta!\" (Ah, here's the answer!)."
+        },
+        {
+          "word": "Oh",
+          "filename": "oh", 
+          "translations": ["Oh"],
+          "definition": "Stronger exclamation for surprise, amazement, attention, or disappointment. Example: \"Oh, guarda!\" (Oh, look!)."
+        },
+        {
+          "word": "Voce",
+          "filename": "voce",
+          "translations": ["Voice"],
+          "definition": "The sound produced by speaking or singing; also a vote or rumor."
+        },
+        {
+          "word": "Voci",
+          "filename": "voci",
+          "translations": ["Voices"],
+          "definition": "Plural of \"voce\" (voice). Refers to multiple distinct human sounds or rumors. Example: \"Le voci riempivano il corridoio\" (The voices filled the hallway)."
+        },
+        {
+          "word": "Voce rabbiosa",
+          "filename": "voce rabbiosa",
+          "translations": ["Angry voice"],
+          "definition": "A tone of speech showing anger, irritation, or frustration. Example: \"Parlò con voce rabbiosa\" (He spoke with an angry voice)."
+        },
+        {
+          "word": "Voce bassa",
+          "filename": "voce bassa",
+          "translations": ["Low voice", "quiet tone"],
+          "definition": "Describes speaking softly or quietly. Example: \"Rispose a voce bassa per non svegliare nessuno\" (She answered in a low voice so as not to wake anyone)."
+        },
+        {
+          "word": "Una voce di fuori",
+          "filename": "una voce di fuori",
+          "translations": ["A voice from outside"],
+          "definition": "Refers to hearing someone speaking from outside or another location. Example: \"Sentì una voce di fuori chiamarla\" (She heard a voice from outside calling her)."
+        },
+        {
+          "word": "Piangete",
+          "filename": "piangete",
+          "translations": ["You cry", "you all are crying"],
+          "definition": "Present form of \"piangere\" (to cry). Used when addressing multiple people who are crying or being told to cry. Example: \"Perché piangete?\" (Why are you crying?).",
+          "info": "\"Piangete\" is the plural informal (voi) form. Singular informal (tu) form is \"piangi\". Singular formal (lei) form is \"piange\". Plural formal (loro) form is \"piangono\". Speaker’s (io) form is \"piango\"."
+        },
+        {
+          "word": "Sentita",
+          "filename": "sentita",
+          "translations": ["Felt", "heard"],
+          "definition": "Past completed form of \"sentire\" (to feel, to hear). Describes something that has been perceived emotionally or audibly and is now finished. Example: \"Una gioia mai sentita prima\" (A joy never felt before)."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Everyday Exchanges",
+      "description": "Common conversational words and phrases used in everyday exchanges to express contrast, agreement, certainty, timing, or emphasis.",
+      "words": [
+        {
+          "word": "Ancora intatta",
+          "filename": "ancora intatta",
+          "translations": ["Still intact"],
+          "definition": "\"Ancora\" (still, yet) | \"Intatta\" (intact, untouched, undamaged). Describes something that remains in undamaged, unaltered condition, often despite circumstances."
+        },
+        {
+          "word": "Anzi",
+          "filename": "anzi",
+          "translations": ["Rather", "on the contrary", "in fact"],
+          "definition": "Used to correct or emphasize a statement, often replacing what was just said with something stronger or opposite. Example: \"Non è semplice, anzi è difficilissimo!\" (It’s not simple — in fact, it’s very difficult!)."
+        },
+        {
+          "word": "Appunto",
+          "filename": "appunto",
+          "translations": ["Exactly", "indeed", "note"],
+          "definition": "Can express agreement or serve as a filler meaning precisely; also refers to a written note. Example: \"Appunto! È quello che dicevo\" (Exactly! That’s what I was saying)."
+        },
+        {
+          "word": "Tuttavia",
+          "filename": "tuttavia",
+          "translations": ["Nevertheless", "nonetheless", "however"],
+          "definition": "Expresses concession or persistence in contrast — something remains true despite opposing conditions. Example: \"Il compito era difficile, tuttavia lo finì\" (The assignment was hard, yet he finished it)."
+        },
+        {
+          "word": "Però",
+          "filename": "però",
+          "translations": ["But", "however", "yet"],
+          "definition": "Used to introduce contrast or an unexpected detail. Example: \"Volevo uscire, però piove\" (I wanted to go out, but it’s raining)."
+        },
+        {
+          "word": "Precisamente",
+          "filename": "precisamente",
+          "translations": ["Precisely", "exactly"],
+          "definition": "Used to confirm exactness or correctness in details or timing. Example: \"Ci incontriamo alle sei, precisamente\" (We’ll meet at six, precisely)."
+        },
+        {
+          "word": "Bentosto",
+          "filename": "bentosto",
+          "translations": ["Quite soon", "before long"],
+          "definition": "An older or literary expression meaning that something will happen in a short time. Example: \"Ci rivedremo bentosto\" (We will see each other soon)."
+        },
+        {
+          "word": "Assenti",
+          "filename": "assenti",
+          "translations": ["Absent", "missing"],
+          "definition": "Plural form of \"assente\" (absent). Describes people not present at an event or location. Example: \"Molti erano assenti alla riunione\" (Many were absent from the meeting)."
+        },
+        {
+          "word": "Piano",
+          "filename": "piano",
+          "translations": ["Softly, floor, plan, piano"],
+          "definition": "A polysemous word whose meaning is determined by the context. It can mean \"softly\" or \"quietly\" in a musical context, \"floor\" or \"plan\" in architectural or general contexts, and is also used as a shortened form of \"pianoforte\", the musical instrument called \"piano\" in English."
+        },
+        {
+          "word": "Pubblico",
+          "filename": "pubblico",
+          "translations": ["Public", "audience", "spectators"],
+          "definition": "Refers either to people in general or to a gathered audience. Example: \"Il pubblico applaudì alla fine dello spettacolo\" (The audience applauded at the end of the show)."
+        },
+        {
+          "word": "Proviamo",
+          "filename": "proviamo",
+          "translations": ["Let’s try", "we try"],
+          "definition": "Present form of \"provare\" (to try). Expresses a suggestion to attempt something together. Example: \"Proviamo di nuovo\" (Let’s try again).",
+          "info": "\"Proviamo\" is the plural (noi) form. Singular informal (tu) form is \"provi\". Singular formal (lei) form is \"prova\". Plural informal (voi) form is \"provate\". Plural formal (loro) form is \"provano\"."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Passage Formations",
+      "description": "Words weaving spans, convergences, and disciplined movements through vast theaters.",
+      "words": [
+        {
+          "word": "Distanza",
+          "filename": "distanza",
+          "translations": ["Distance"],
+          "definition": "The literal or metaphorical space, gap, or separation between places, people, or things. Example: \"La distanza tra Miami e Roma è di oltre cinquemila miglia\" (The distance between Miami and Rome is over five thousand miles)."
+        },
+        {
+          "word": "In quell’istante",
+          "filename": "in quell'istante",
+          "translations": ["At that moment"],
+          "definition": "Refers to a precise moment in the past when something occurred suddenly or decisively. Example: \"In quell'istante, il mercato stava ancora riprendendosi dallo shock\" (At that moment, the market was still recovering from the shock)."
+        },
+        {
+          "word": "Fuori",
+          "filename": "fuori",
+          "translations": ["Outside"],
+          "definition": "Indicates being beyond a particular space or boundary. Example: \"Sta piovendo fuori\" (It’s raining outside)."
+        },
+        {
+          "word": "Insieme",
+          "filename": "insieme",
+          "translations": ["Together"],
+          "definition": "Describes people or things performing or existing jointly. Example: \"Viviamo insieme da anni\" (We’ve lived together for years)."
+        },
+        {
+          "word": "Fanteria",
+          "filename": "fanteria",
+          "translations": ["Infantry"],
+          "definition": "The branch of an army composed of soldiers who fight on foot, forming its core ground forces."
+        },
+        {
+          "word": "Informazioni",
+          "filename": "informazioni",
+          "translations": ["Information"],
+          "definition": "Plural of \"informazione\". Refers to multiple pieces of knowledge, facts, or data used to describe, explain, or understand something."
+        },
+        {
+          "word": "Colonia",
+          "filename": "colonia",
+          "translations": ["Colony", "settlement"],
+          "definition": "A territory or group under external control or influence. Example: \"L’Impero Britannico aveva colonie in ogni continente abitato\" (The British Empire had colonies across every inhabited continent)."
+        },
+        {
+          "word": "Direzioni",
+          "filename": "direzioni",
+          "translations": ["Directions"],
+          "definition": "Plural of \"direzione\" (direction). Refers to paths, orientations, or instructions for reaching a place or achieving a goal. Example: \"Chiese le direzioni per arrivare al museo\" (He asked for directions to the museum)."
+        },
+        {
+          "word": "Servizi",
+          "filename": "servizi",
+          "translations": ["Services"],
+          "definition": "Plural of \"servizio\" (service). refers to helpful functions, amenities, or assistance provided. Example: \"I servizi dell’hotel comprendono la colazione\" (The hotel’s services include breakfast)."
+        },
+        {
+          "word": "Processioni",
+          "filename": "processioni",
+          "translations": ["Processions", "parades", "ceremonial marches"],
+          "definition": "Orderly or ceremonial lines of people moving together for religious or public purposes. Example: \"Le processioni riempivano la città durante la festa\" (The processions filled the town during the festival)."
+        }
+      ]
+    }
+  ]
+}

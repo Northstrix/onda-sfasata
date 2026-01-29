@@ -1,0 +1,907 @@
+{
+  "levels": [
+    {
+      "id": 13,
+      "title": "Zuekunft und Bedingig.",
+      "description": "Verbe, wo Zuekunfts-Aksione, Hypothetischs, Möglichkeit und höflichi Wünsch usdrücke.",
+      "words": [
+        {
+          "word": "Credere",
+          "filename": "credere",
+          "translations": ["Glöube", "meine"],
+          "definition": "Öppis als wahr oder echt akzeptiere ohni nöch zwingendi Beweis. Bispiel: „Credo che tu sia un serpente!“ (I gläubsch, du bisch e Schlang!)."
+        },
+        {
+          "word": "Direste",
+          "filename": "direste",
+          "translations": ["Ihr würdets säge"],
+          "definition": "Hypothetisch Gegenwart vo „dire“ (säge), bruucht, wenn mer frogt, was e Gruppe in ere hypothetische Situation säge würd. Bispiel: „Cosa direste se non funzionasse?“ (Was würdets ihr säge, wenn’s nüt würkt?).",
+          "info": "\"Direste\" isch d’umgangssprachlich Mehrzahl- (ihr) Form. Einzahl umgangssprachlich (du): „diresti“. Mehrzahl umgangssprachlich (ihr): „direste“. Einzahl höflich (Si): „direbbe“. Mehrzahl höflich (si): „direbbero“. Sprecher (ich): „direi“."
+        },
+        {
+          "word": "Vedere",
+          "filename": "vedere",
+          "translations": ["Siä"],
+          "definition": "Mit de Auge wahrnehme oder emintlich verstöi. Cha au Erwartig uf Zuekunftsereignis usdrücke."
+        },
+        {
+          "word": "Vedo",
+          "filename": "vedo",
+          "translations": ["I siä"],
+          "definition": "Gegenwart vo „vedere“, zeigt jetzigi Bsicht oder Verständnis. Bispiel: „Ti vedo dal balcone“ (I siä dich vom Balkon)."
+        },
+        {
+          "word": "Vediamo",
+          "filename": "vediamo",
+          "translations": ["Luege mer", "mir siä"],
+          "definition": "Gegenwart vo „vedere“, als Gsprächswendung, wo zum Warte und Bsichte auffordert. Bispiel: „Vediamo cosa succede“ (Luege mer, was passiert).",
+          "info": "\"Vediamo\" isch d’Mehrzahl- (mir) Form. Einzahl umgangssprachlich (du): „vedi“. Mehrzahl umgangssprachlich (ihr): „vedete“. Einzahl höflich (Si): „vede“. Mehrzahl höflich (si): „vedono“. Sprecher (ich): „vedo“."
+        },
+        {
+          "word": "Vorrei",
+          "filename": "vorrei",
+          "translations": ["I wött"],
+          "definition": "Gegenwart vo „volere“ (wöu), als höflichi Art zum höflich Begehr usdrucke. Bispiel: „Vorrei un tè verde, per favore“ (I wött e grüeni Tee, bitte).",
+          "info": "\"Vorrei\" isch d’Sprecher- (ich) Form. Einzahl umgangssprachlich (du): „vorresti“. Mehrzahl umgangssprachlich (ihr): „vorreste“. Einzahl höflich (Si): „vorrebbe“. Mehrzahl höflich (si): „vorrebbero“."
+        },
+        {
+          "word": "Potere",
+          "filename": "potere",
+          "translations": ["Chöi", "dürfe", "vermöge"],
+          "definition": "Drückt Fähigkait us, Erlaubnis oder Möglichkeit zum Machä vo ere Aktioni."
+        },
+        {
+          "word": "Dovere",
+          "filename": "dovere",
+          "translations": ["Müss", "sött"],
+          "definition": "Drückt vor allem Pflicht, Notwendigkeit oder Schuldigkait us zum Machä oder Verhalte. Cha in emige Kontext au Wahrschynlichkait oder Erwartig usdrücke. Bispil: „Devo restituire il prestito.“ (I müss dr Darlehe zruggzäh.) | „Devi mettere il cappotto in inverno.“ (Du müessch em Winter e Mäntuil aatzöi.) | „Dovrebbe piovere nel pomeriggio.“ (s’sött em Nochem rägne)."
+        },
+        {
+          "word": "Partisse",
+          "filename": "partisse",
+          "translations": ["Würd go"],
+          "definition": "Hypothetisch Vergange vo „partire“ (go/abfihre). Beschribt Abfahrt, wo im Vergange vorstellt worde isch, aber nie gsii isch — weder abgschlosse no laufend."
+        },
+        {
+          "word": "Bastare",
+          "filename": "bastare",
+          "translations": ["Reiche", "genöige"],
+          "definition": "In Menge oder Qualität gnügend si zum Erfüllä vo ere Notdurft. Bispiel: „Mi basta una tazza di tè“ (E Tasse Tee reicht mer)."
+        },
+        {
+          "word": "Scommettere",
+          "filename": "scommettere",
+          "translations": ["Wettdä"],
+          "definition": "Geld oder Wärtvolls uf em unsichere Ausgang setze oder sicher behauptä, dass öppis passiert. Bispiel: „Scommetto cento dollari che questa squadra vince.“ (I wett hundert Dollar, dass die Mannschaft gwinnt)."
+        },
+        {
+          "word": "Vincere",
+          "filename": "vincere",
+          "translations": ["Gwinne"],
+          "definition": "Sieg oder Ärföug i eme Wettkampf erzielä. Bispiel: „Vincerò la partita“ (I gwinne ds Match)."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Chröätli und Figurä.",
+      "description": "Tiere und Gschtalte us Alice si phantastische Begegnige.",
+      "words": [
+        {
+          "word": "Gatto",
+          "filename": "gatto",
+          "translations": ["Chatz"],
+          "definition": "Huuschröätli, bekannt für s’ikonisch Schnurre.",
+          "info": "D’weiblich Form vo dem Wort isch „gatta“."
+        },
+        {
+          "word": "Coniglio bianco",
+          "filename": "coniglio bianco",
+          "translations": ["Wiisser Hass"],
+          "definition": "\"Coniglio\" (Hass) | „Bianco“ (wiiss). D’hektisch Gschtalt mit em Westli, wo Alice in s’Hassloch führt und ständig vu verspätet murmelt."
+        },
+        {
+          "word": "Fante di cuori",
+          "filename": "fante di cuori",
+          "translations": ["Bube vo Härz","Knecht vo Härz"],
+          "definition": "\"Fante\" (Bube, Knecht) | „Di cuori“ (vo Härz).",
+          "info": "Im Kontext vo Alice im Wunderland (Le Avventure d'Alice nel Paese delle Meraviglie) isch dr Fante vo Härz (Fante di cuori) beschüldigt worde, d’Königin si Törteli gstohle z’he."
+        },
+        {
+          "word": "Porcellini d'india",
+          "filename": "porcellini d'india",
+          "translations": ["Meerschweinli"],
+          "definition": "\"Porcellini\" (Chliischweinchli) | „D'India“ (vo Indii). Chliini Nager us Südamerika, nid vo Indii; dr Name chunnt us em Missverständnis — „India“ mecht eigentlich d’Guinea-Küst vo Westafrika meine, velleicht well d’Chröätli über Guinea transportiert worde sind oder indisch Schwiin glichä."
+        },
+        {
+          "word": "Dieci soldati",
+          "filename": "dieci soldati",
+          "translations": ["Zehn Soldate"],
+          "definition": "\"Dieci\" (zäh) | „Soldati“ (Soldate). Militärpersone."
+        },
+        {
+          "word": "Armati di bastoni",
+          "filename": "armati di bastoni",
+          "translations": ["Bewaffnet mit Stock", "bewaffnet mit Stöck", "bewaffnet mit Knüttel"],
+          "definition": "\"Armati\" (bewaffnet) | „Di bastoni“ (mit Stöck). Ausgrüstet mit schwäre Stöck als Waffen.",
+          "info": "Im Kontext vo Alice im Wunderland (Le Avventure d'Alice nel Paese delle Meraviglie) bedütet „bastoni“ d’Farbe Karo i italienisch Kartä."
+        },
+        {
+          "word": "Tre giardinieri",
+          "filename": "tre giardinieri",
+          "translations": ["Drü Gärtner"],
+          "definition": "\"Tre\" (drü) | „Giardinieri“ (Gärtner). Lüt, wo Gärten pfleged."
+        },
+        {
+          "word": "Fenicottero",
+          "filename": "fenicottero",
+          "translations": ["Flamingo"],
+          "definition": "Hoher Watvogel mit rosaröti Fieder und gschwunge Schnabel.",
+          "info": "Im Kontext vo Alice im Wunderland (Le Avventure d’Alice nel Paese delle Meraviglie) isch dr Flamingo (fenicottero) dr Vogel, wo Alice als lebendi Krocketschläger bruuche wott, aber s’zwischterisch Hals macht’s Spiel absurd."
+        },
+        {
+          "word": "Cagnolino",
+          "filename": "cagnolino",
+          "translations": ["Hündli"],
+          "definition": "Chliini Hund, härzligs Wort für e spiligs jungs Lieblingschröätli."
+        },
+        {
+          "word": "Vigliaccone",
+          "filename": "vigliaccone",
+          "translations": ["Angsthase"],
+          "definition": "Persoon ohni Mut."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Zstände und Eigschafte.",
+      "description": "Wörter, wo Zuständ, Stimmige und Eigschaftä usdrücke.",
+      "words": [
+        {
+          "word": "Altro",
+          "filename": "altro",
+          "translations": ["Anderi", "nochi eins"],
+          "definition": "Meint öppis Anders oder Zueschlüsslichs zu dem, wo scho erwähnt isch. Bispiel: „Prendo un altro biscotto“ (I nehm nochi e Chäcke)."
+        },
+        {
+          "word": "Ancora",
+          "filename": "ancora",
+          "translations": ["Noch", "bereits", "widr"],
+          "definition": "Drückt Fortsetzig, Wiederholig oder no öppene Aktioni us. Bispil: „Sto ancora lavorando.“ (I arbeit no. [Fortsetzig]) | „Il taxi non è arrivato ancora.“ (Dr Taxi isch no nid cho. [no nit fertich]) | „Voglio sentire quella canzone ancora!“ (I wöu ds Lied widr höre! [Wiederholig])."
+        },
+        {
+          "word": "Bellino",
+          "filename": "bellino",
+          "translations": ["Niedlich", "süss", "gschön"],
+          "definition": "Beschribt öppis Härz- oder Zierlichs-Angenehms. Bispiel: „Quel gattino è davvero bellino“ (Ds Chatzli isch wirklich niedlich)."
+        },
+        {
+          "word": "Curioso",
+          "filename": "curioso",
+          "translations": ["Neugierig"],
+          "definition": "Durstisch no Wüss oder Wissen. Bispiel: „È un bambino curioso“ (S’isch e neugierig Chind)."
+        },
+        {
+          "word": "Disperata",
+          "filename": "disperata",
+          "translations": ["Verzweiflungsvoll"],
+          "definition": "Vollständig ohni Hoffnig; voller Verzweiflung. Bispiel: „Era in una situazione disperata.“ (Si isch in ere verzweiflungsvolle Lage gsii.)",
+          "info": "D’männlich Form vo dem Wort isch „disperato“."
+        },
+        {
+          "word": "Profumato",
+          "filename": "profumato",
+          "translations": ["Duftend", "parfümirt"],
+          "definition": "Mit em angenehmed Duft oder Geruch. Bispiel: „Un fiore molto profumato“ (E sehr duftend Bluemä)."
+        },
+        {
+          "word": "Sospeso",
+          "filename": "sospeso",
+          "translations": ["Aufgehänge", "in der Luft"],
+          "definition": "In ere unsichere Lage oder physisch aufgehängt. Bispiel: „Il tempo sembrava sospeso durante il tramonto“ (D’Zyt het am Sonnenuntergang aufzheere gschiint z’ha)."
+        },
+        {
+          "word": "Cruda",
+          "filename": "cruda",
+          "translations": ["Rohe", "hart"],
+          "definition": "Weiblich Form vo „crudo“; Meist roh, unbearbeitet oder ungare worde, vor allem bi Fress wie Fleisch, Fisch oder Gmües, wo gar nüt gkocht isch, wie „carne cruda“ (rohs Fleisch). Cha au emptional roh, hart oder grausam bedüte.",
+          "info": "Männlich Einzahl: „crudo“; männlich Mehrzahl: „crudi“; weiblich Mehrzahl: „crude“."
+        },
+        {
+          "word": "Stato",
+          "filename": "stato",
+          "translations": ["Zustand", "Lage"],
+          "definition": "E Zustand, Situation, Siigsart oder rechtlich/soziali Stellung. Bispiel: „È questo lo stato attuale delle cose“ (Das isch dr jetzig Zustand vo de Sach)."
+        },
+        {
+          "word": "Nuove",
+          "filename": "nuove",
+          "translations": ["Neu"],
+          "definition": "Weiblich Mehrzahl vo „nuovo“; vor Kurzem gmacht oder usefunde.",
+          "info": "Männlich Einzahl: „nuovo“; weiblich Einzahl: „nuova“; männlich Mehrzahl: „nuovi“."
+        },
+        {
+          "word": "Silenzio",
+          "filename": "silenzio",
+          "translations": ["Stöi"],
+          "definition": "Vollständig ohni Ton."
+        },
+        {
+          "word": "Veramente",
+          "filename": "veramente",
+          "translations": ["Wahrlich"],
+          "definition": "In Wahrheit; wirklich."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Veränderige und Zuständ.",
+      "description": "Wörter für Verwandlige, Zuständ und resultierendi Situatione.",
+      "words": [
+        {
+          "word": "Apice",
+          "filename": "apice",
+          "translations": ["Höchpunkt", "Spitz", "Gipfel"],
+          "definition": "Dr höchsti Punkt, Gipfel, Spitz oder Ändi vo öppis Physischem oder Abstraktem. Zeigt dr höchsti Ort ohni ziffermässigi Wert. Bispil: „Il caldo estivo ha raggiunto l'apice a luglio.“ (D’Summerhitze het im Juli iren Höhepunkt gha.) | „L'apice della montagna.“ (Dr Gipfel vo de Barg.)"
+        },
+        {
+          "word": "La verità",
+          "filename": "la verità",
+          "translations": ["D’Wahrheit"],
+          "definition": "Eigschaft oder Zustand, wo mit Fakt oder Realität übereinstimmt. Beschribt Aussäge, Glaubä oder Behauptige, wo genau zeige, wie’s Sache stehd, im Gegensatz zu Lügen."
+        },
+        {
+          "word": "Bugia",
+          "filename": "bugia",
+          "translations": ["Lüg"],
+          "definition": "E falschi Aussägi, wo absichtli usgfiert wird zum Täusche. Bispiel: „Hai detto una bugia“ (Du hesch e Lüg gsäit)."
+        },
+        {
+          "word": "Caduta",
+          "filename": "caduta",
+          "translations": ["Fall", "Sturz"],
+          "definition": "Dr Akt vom Fallen oder eme plötzliche Abstieg us ere höchi Stellung. Bispiel: „Una caduta improvvisa“ (E plötzliche Sturz)."
+        },
+        {
+          "word": "Cambiato",
+          "filename": "cambiato",
+          "translations": ["Verändert", "umgewandelt"],
+          "definition": "Vergange abgschlosseni Form vo „cambiare“ (verändere). Beschribt öppis, wo anders worde isch als vorher. Bispiel: „Alice era cambiata dopo aver bevuto la pozione“ (Alice isch verändert gsii no em Trinke vo de Zauberfläsch.)"
+        },
+        {
+          "word": "Confusione",
+          "filename": "confusione",
+          "translations": ["Verwirrig", "Durcheinander", "Chaos"],
+          "definition": "Zustand vo geistigem oder physischem Durcheinander, wo’s unklar oder vermischt isch. Bispiel: „C'era molta confusione nella sala.“ (S’het in em Saal viel Verwirrig gsii.)"
+        },
+        {
+          "word": "Impiccolire",
+          "filename": "impiccolire",
+          "translations": ["Chliiner mache", "verchliinere", "verminiere"],
+          "definition": "Beschreibt dr Akt, öppis chliiner oder weniger wichtig z’mache, körperlich oder bildlich. Bispiel: „La bottiglia misteriosa impiccolì Alice fino a farla passare sotto la porta“ (D’mysteriösi Fläschli het Alice so chliin gmacht, dass si unter d’Tür dur chöi.)"
+        },
+        {
+          "word": "Piccolire",
+          "filename": "piccolire",
+          "translations": ["Chliiner werdä"],
+          "definition": "Beschreibt dr Prozess vom Chliinerwärde, egal ob dur Magii oder Verwandlung. Bispiel: „Ogni sorso faceva Alice piccolire un po’ di più“ (Jede Schluck het Alice no chliiner gmacht.)"
+        },
+        {
+          "word": "Certamente",
+          "filename": "certamente",
+          "translations": ["Gsiicher", "bestimmt"],
+          "definition": "Drückt voll Stimmig oder Sichrheit us, dass öppis wahr oder sicher passiert. Bispiel: „Certamente verrò alla festa“ (I chum bestäut zur Fäscht.)"
+        },
+        {
+          "word": "Dubbio",
+          "filename": "dubbio",
+          "translations": ["Zweifel", "Unsicherheit"],
+          "definition": "Gfühl vo Unsicherheit oder Fragä, ob öppis wahr isch."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Alice si Wunderland-Szenen.",
+      "description": "Wörter us Alice si Gärten, Verwandlige und surreal Begegnige.",
+      "words": [
+        {
+          "word": "Giardino",
+          "filename": "giardino",
+          "translations": ["Gärten"],
+          "definition": "E umschlosse, offene Fläch mit Pflanze, Blueme und Wägli. Bispiel: „Alice corse nel giardino dove crescevano fiori parlanti.“ (Alice isch i de Gärten gloffe, wo redendi Blueme wachsend sind.)"
+        },
+        {
+          "word": "Giardinieri",
+          "filename": "giardinieri",
+          "translations": ["Gärtner"],
+          "definition": "Lüt, wo Gärten pfleged und bearbeitet, sich um Pflanze und Bodä kümmered. Bispiel: „I giardinieri curano le piante ogni mattina“ (D’Gärtner pfleged d’Pflanze jede Morge)."
+        },
+        {
+          "word": "Scala",
+          "filename": "scala",
+          "translations": ["Leiter", "Trepp"],
+          "definition": "E Konstruktion mit Stufen oder Sprossä zum Uf- oder Absteige. Bispiel: „La scala scendeva senza fine nel buio“ (D’Treppe isch ohni End i d’Dunkelheit abgstiege)."
+        },
+        {
+          "word": "Finestra",
+          "filename": "finestra",
+          "translations": ["Fänschter"],
+          "definition": "E Offnig i de Muur mit Glas, wo Liecht iilässt und ussbllicke ermöglicht. Bispiel: „Dalla finestra minuscola, Alice vide il giardino magico“ (Us em chliine Fänschter het Alice de magisch Gärten gsäh.)"
+        },
+        {
+          "word": "Terreno",
+          "filename": "terreno",
+          "translations": ["Bodä", "Ärd", "Land"],
+          "definition": "Dr Bodä oder Ärd unter de Füess oder e Fläch Land. Bispiel: „Il terreno qui è molto fertile“ (Dr Bodä do isch sehr fruchtbar)."
+        },
+        {
+          "word": "Tagliate",
+          "filename": "tagliate",
+          "translations": ["Abgschnitte", "abgchlope", "gschnitte"],
+          "definition": "Vergange abgschlosseni Form vo „tagliare“ (schneide). Beschribt öppis, wo durchtrennt worde isch und fertig isch."
+        },
+        {
+          "word": "Siepe",
+          "filename": "siepe",
+          "translations": ["Heck", "Heckerei"],
+          "definition": "E dicht Wägli us Busch, wo e Grenz oder natürli Muur bildet. Bispiel: „Una siepe dividia i due giardini“ (E Heck het d’zwei Gärten gskeidert.)"
+        },
+        {
+          "word": "Casettina",
+          "filename": "casettina",
+          "translations": ["Chliinis Huusli", "Hüttli", "Schuppenli"],
+          "definition": "Verchlinerigsform vo „casa“ (Huus). E sehr chliinis Huus, Hüttli oder Schuppen. Bispiel: „La casettina nel giardino aveva finestre a forma di cuore.“ (Ds chliini Huusli im Gärten het Härzgschbäudi Fänschter gha.)"
+        },
+        {
+          "word": "Liquore",
+          "filename": "liquore",
+          "translations": ["Liquor", "Flüssig", "Getränk"],
+          "definition": "Jedi trinkbari Flüssig, oft stark, süess oder mit besönderi Eigschaftä. Bispiel: „Nascondevano il liquore bootleg sotto il pavimento“ (Si händ Schmuggliliquor unter em Fussbodä versteckt.)"
+        },
+        {
+          "word": "Pasticcino",
+          "filename": "pasticcino",
+          "translations": ["Chliini Kuchen", "Backwaren", "Süssigkeitli"],
+          "definition": "Verchlinerigsform vo „pasticcio“ (Backwaren). E chliini süessi Kuchen oder Süssigkeit. Bispiel: „Sul tavolo c'era un pasticcino che diceva 'Mangiami'“. (Uf em Tisch het e chliini Kuchen gschtande, wo „Iss mi“ gsäit het.)"
+        },
+        {
+          "word": "Paese delle Meraviglie",
+          "filename": "paese delle meraviglie",
+          "translations": ["Wunderland"],
+          "definition": "\"Paese\" (Land) | „Delle Meraviglie“ (vo Wundern)."
+        },
+        {
+          "word": "Meraviglie",
+          "filename": "meraviglie",
+          "translations": ["Wunder"],
+          "definition": "Mehrzahl vo „meraviglia“ (Wunder). Aussergwohnlich, magisch oder erstaunlich Dinge."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Schatten vo Streit.",
+      "description": "Wörter, wo Konfrontation, Gfahr und tragisch Schicksäl zeichne.",
+      "words": [
+        {
+          "word": "Contro",
+          "filename": "contro",
+          "translations": ["Gäge", "gegenüber", "konte"],
+          "definition": "Zeigt Gegnerschaft, Gegensatz oder physischi Nähe gäge öppis. Bispil: „Lancaster combatté contro York nelle Guerre delle Due Rose“ (Lancaster het gäge York i de Rosenkriege gkämpft.)"
+        },
+        {
+          "word": "Inferma",
+          "filename": "inferma",
+          "translations": ["Krank", "siäch"],
+          "definition": "Weiblich Form vo „infermo“ (krank). Meint öpper i ere geschwächti körperlich Zustand dur Krankheit, Verletztig oder langwierigs Leide.",
+          "info": "Männlich Einzahl: „infermo“; männlich Mehrzahl: „infermi“; weiblich Mehrzahl: „inferme“."
+        },
+        {
+          "word": "Pericolo",
+          "filename": "pericolo",
+          "translations": ["Gfahr"],
+          "definition": "Situation oder Umständ, wo schwär Schad oder Verlust bröit."
+        },
+        {
+          "word": "Prigione",
+          "filename": "prigione",
+          "translations": ["Chärchi"],
+          "definition": "Gebäud, wo Lüt als Straaf oder vor em Prozess ufghalte werded."
+        },
+        {
+          "word": "Prigionieri",
+          "filename": "prigionieri",
+          "translations": ["Gfangeni"],
+          "definition": "Mehrzahl vo „prigioniero“ (Gfangener). Lüt, wo ufghalte oder eingesperrt sind."
+        },
+        {
+          "word": "Crudeltà",
+          "filename": "crudeltà",
+          "translations": ["Grausamkeit"],
+          "definition": "Absichtlichs Zufüged vo Leid an andere."
+        },
+        {
+          "word": "Difficoltà",
+          "filename": "difficoltà",
+          "translations": ["Schwierigkeit"],
+          "definition": "Eigschaft oder Zustand, schwer z’tue, z’verstei oder z’bezwinge."
+        },
+        {
+          "word": "Morto",
+          "filename": "morto",
+          "translations": ["Tote"],
+          "definition": "Meint e verstorbene Persoon oder e leblosi Zustand dur Verletztig, Ggäwalt, Unfall oder andere tödlich Umständ."
+        },
+        {
+          "word": "Disperso",
+          "filename": "disperso",
+          "translations": ["Vermisst", "zerstreut", "verloore"],
+          "definition": "Beschreibt öpper, wo verschütt gsii, zerstreut oder onbekannt isch, oft i Kataschtrophäkontext mit Gfahr und Unsicherheit über s’Überleben."
+        },
+        {
+          "word": "Danno",
+          "filename": "danno",
+          "translations": ["Schad"],
+          "definition": "Verlust oder Beeinträchtigung vo materiell, immateriell Güeter, Unversehrtheit oder Funktion, oft usserlich usglöst."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Zytussdruck.",
+      "description": "Wörter und Wendige, wo Zytpunkte, Häufigkait und Reihfolge zeige.",
+      "words": [
+        {
+          "word": "Due volte la settimana",
+          "filename": "due volte la settimana",
+          "translations": ["Zwoo mol d’Wuche"],
+          "definition": "\"Due\" (zwoo) | \"volte\" (mol) | \"la\" (d’) | \"settimana\" (Wuche). Zeigt e Aktioni oder Ereignis, wo zwoo mol in ere Wuche passiert."
+        },
+        {
+          "word": "Pomeriggio",
+          "filename": "pomeriggio",
+          "translations": ["Nochem"],
+          "definition": "Zyt vom Mittag bis früe Äbend (ungefär 12 bis 18 Uhr)."
+        },
+        {
+          "word": "Precedente",
+          "filename": "precedente",
+          "translations": ["Voreri", "vorgehend"],
+          "definition": "Meint öppis, wo vor em Andere in Reih, Serie, Zyt oder Ordnung chunnt. Legt druck uf d’Lage vor em Bezugspunkt. Bispiel: „Il mese precedente“ (Dr vorherige Monet)."
+        },
+        {
+          "word": "Scorso",
+          "filename": "scorso",
+          "translations": ["Vorige"],
+          "definition": "Meint d’letschte vergangeti Zytperiode (vorige Wuche, Monet, Jahr) us em gegenwärtige Moment gseh. Häufig mit Zytwörter wie Jahr, Monet, Wuche. Bispiel: „L'anno scorso ho viaggiato in Italia“ (Vorigs Jahr ha i in Italien gereist)."
+        },
+        {
+          "word": "Sera",
+          "filename": "sera",
+          "translations": ["Äbend"],
+          "definition": "Zyt vom späte Nochem bis früe Nacht, normal no 17-18 Uhr bis Mitternacht."
+        },
+        {
+          "word": "Tardi",
+          "filename": "tardi",
+          "translations": ["Spät"],
+          "definition": "Meint öppis, wo no dr erwartete oder üblichi Zyt passiert. Beschribt Zytpunkt oder Verspätig. Bispiel: „Arrivo tardi stasera“ (I chum heut Äbend spät)."
+        },
+        {
+          "word": "Sempre",
+          "filename": "sempre",
+          "translations": ["Immer"],
+          "definition": "Öppis, wo alli Zyt oder ohni Ausnahm passiert."
+        },
+        {
+          "word": "Presto",
+          "filename": "presto",
+          "translations": ["Bald", "früh", "schnell"],
+          "definition": "Vor dr erwartete Zyt oder no churzi Wartegäng."
+        },
+        {
+          "word": "Subito",
+          "filename": "subito",
+          "translations": ["Sofort"],
+          "definition": "Ohni Warte, sofort oder uf emol."
+        },
+        {
+          "word": "Secondo",
+          "filename": "secondo",
+          "translations": ["Sekunde"],
+          "definition": "Zytäinscht (1/60 Minut); au e Ordnungszahl für d’zweiti Stellung."
+        },
+        {
+          "word": "Più",
+          "filename": "più",
+          "translations": ["Mä"],
+          "definition": "Grösseri Menge, Grad, Grössi, Qualität oder Häufigkait. Bispiel: „L'Italia ha più foreste della Svizzera“ (Italien het mä Wält wia d’Schwiiz)."
+        },
+        {
+          "word": "Meno",
+          "filename": "meno",
+          "translations": ["Weniger"],
+          "definition": "Vergleichig, wo chliinere Menge, Grad oder Zuel zeigt. Bispiel: „Fuma meno sigarette ultimamente“ (Si raucht weniger Zigarett letzti Zyt.)."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Lebensbegriff.",
+      "description": "Begriff, wo mit Gedanke, Emotione und menschlich Kommunikation zämmehange.",
+      "words": [
+        {
+          "word": "Anima",
+          "filename": "anima",
+          "translations": ["Siel"],
+          "definition": "Dr geistig oder emotional Wese vo ere Persoon oder Sache. Bispiel: „L'anima della città“ (D’Siel vo de Stadt)."
+        },
+        {
+          "word": "Commedia",
+          "filename": "commedia",
+          "translations": ["Komödii"],
+          "definition": "E humorvolli Theaterstück oder Situation, wo dran erinnert. Bispiel: „Questa commedia è esilarante“ (Die Komödii isch zum Brüüle)."
+        },
+        {
+          "word": "Crede",
+          "filename": "credo",
+          "translations": ["I gläub", "i mein"],
+          "definition": "Häufigi Art zum Gloubä oder Vermutung usdrucke. Bispiel: „Credo che tu abbia ragione.“ (I gläub, du hesch recht.)",
+          "info": "\"Credo\" isch d’Sprecher- (ich) Form vo „credere“ (glöube). Einzahl umgangssprachlich (du): „credi“. Einzahl höflich (Si): „crede“. Mehrzahl umgangssprachlich (ihr): „credete“. Mehrzahl höflich (si): „credono“."
+        },
+        {
+          "word": "Sposa",
+          "filename": "sposa",
+          "translations": ["Bruut"],
+          "definition": "Frau, wo grad heiratet oder grad gheirat het. Bispiel: „La sposa indossava un abito bianco“ (D’Bruut het e wiiss Kleid gtrage).",
+          "info": "D’männlich Form vo dem Wort isch „sposo“ (Bräutigam); d’Mehrzahl isch „sposi“ (Neuvermäulti oder Bruut und Bräutigam)."
+        },
+        {
+          "word": "Frase",
+          "filename": "frase",
+          "translations": ["Satz", "Wendung"],
+          "definition": "E Gruppe Wörter, wo e vollstädig Gedanke usdrückt. Bispiel: „Ogni frase conta“ (Jeder Satz zählt)."
+        },
+        {
+          "word": "Lettera",
+          "filename": "lettera",
+          "translations": ["Brief"],
+          "definition": "E gschribeni Nochricht an öpper; au e einzelni Buchstabe. Bispiel: „Scrivo una lettera“ (I schriib e Brief)."
+        },
+        {
+          "word": "Nascosto",
+          "filename": "nascosto",
+          "translations": ["Vergsteckt"],
+          "definition": "Vorm Bueg oder Wüss verborge; nit siichtbar."
+        },
+        {
+          "word": "Peccato",
+          "filename": "peccato",
+          "translations": ["Sünd", "Schad", "Ääd"],
+          "definition": "E moralisch oder religiös Vergehen; au e Uusdruck vo Bedauerig."
+        },
+        {
+          "word": "Pensiero",
+          "filename": "pensiero",
+          "translations": ["Gedanke", "Idee", "Überlegig"],
+          "definition": "Produkt vo geistiger Aktivität im Chopf. Het oft emotional Gewicht, zeigt rational Denke und herzlich Nachsinn."
+        },
+        {
+          "word": "Fiato",
+          "filename": "fiato",
+          "translations": ["Äätem"],
+          "definition": "Luft, wo beim Äätem iige- und usgäät. Bispiel: „Scommetto che la vista di quel villaggio svizzero ti toglierebbe il fiato“ (I wett, dr Äätem vo dem Schwiizer Dörfli nüt vo dir nüm)."
+        },
+        {
+          "word": "Certezza",
+          "filename": "certezza",
+          "translations": ["Gsicherheit"],
+          "definition": "Starche Stimmig oder Überzeugig. Bispiel: „Parlava con grande certezza“ (Si het mit grosser Gsicherheit gsproche)."
+        },
+        {
+          "word": "Vita",
+          "filename": "vita",
+          "translations": ["Läbew"],
+          "definition": "Dr Zustand vom Läbewäsi, Dasei oder Läbensart. Bispiel: „La vita è strana“ (S’Läbew isch gsait)."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Huus und Umgebung.",
+      "description": "Häufigi Wörter für Huusgschtand und Raumbegriff.",
+      "words": [
+        {
+          "word": "Comodino",
+          "filename": "comodino",
+          "translations": ["Nachttischli", "Bettä Tischli"],
+          "definition": "E chliiner Tisch oder Schrank näbe em Bett zum Lagere vo chline Sache wie Lampe oder Buecher."
+        },
+        {
+          "word": "Coperte",
+          "filename": "coperte",
+          "translations": ["Decke", "Überzüg"],
+          "definition": "Mehrzahl vo \"coperta\" (Decke). Stoffä, wo zum Wär mehren diene. Bispiel: \"Le coperte erano spesse e calde\" (D'Decke wärend dick und warm)."
+        },
+        {
+          "word": "Letto",
+          "filename": "letto",
+          "translations": ["Bett"],
+          "definition": "Möbel zum Schlofe oder Ruue. Bispiel: \"Alice saltò sul letto stanca della lunga giornata\" (Alice isch uf s'Bett gsprooge, müed us em langä Tag)."
+        },
+        {
+          "word": "Fiammiferi",
+          "filename": "fiammiferi",
+          "translations": ["Strichhölzer"],
+          "definition": "Mehrzahl vo \"fiammifero\" (Strichhölzli). Chliini Stöckli mit e Material, wo beim Reibe brennt."
+        },
+        {
+          "word": "Cantone",
+          "filename": "cantone",
+          "translations": ["Eck", "Kanton"],
+          "definition": "Cha e physisch Eck oder e Verwaltigsbezirk bedüte, wie e Schwiizer Kanton."
+        },
+        {
+          "word": "Quadrante",
+          "filename": "quadrante",
+          "translations": ["Zifferblatt", "Sektor", "Äänzblatt"],
+          "definition": "Dr runde Teil oder Fläch zum Zeige vo Messwärt oder Zyt, wie bi ere Uhr."
+        },
+        {
+          "word": "Seggiolone",
+          "filename": "seggiolone",
+          "translations": ["Hohes Stöckli"],
+          "definition": "E hohes Sitz zum Füttere vo chline Chind am Tisch."
+        },
+        {
+          "word": "Cipolle",
+          "filename": "cipolle",
+          "translations": ["Zwiebel"],
+          "definition": "Mehrzahl vo \"cipolla\". Essbari Knöll mit starchem Gschmäck und Geruch zum Choche."
+        },
+        {
+          "word": "Terrazzino",
+          "filename": "terrazzino",
+          "translations": ["Chliini Terrasse", "Balkönli"],
+          "definition": "Verchlinerigsform vo \"terrazza\" (Terrasse). E chliini Aussichtsplattform am Gebäud. Bispiel: \"Dal terrazzino si vedeva tutto il giardino\" (Vom chliine Balkönli het ma de ganze Gärten gsäh.)"
+        },
+        {
+          "word": "Boccetta panciuta",
+          "filename": "boccetta panciuta",
+          "translations": ["Rundi Fläschli", "bauchigs Gläsli"],
+          "definition": "E chliinis Fläschli mit runder oder bauchiger Form, oft für Zaubertrank oder Parfüm. Bispiel: \"Nella boccetta panciuta brillava un liquido misterioso\" (In em bauchigs Fläschli het e mysteriösi Flüssig gleischt.)"
+        },
+        {
+          "word": "Poltroncina",
+          "filename": "poltroncina",
+          "translations": ["Chliiner Sessel", "Armstüelchen"],
+          "definition": "Verchlinerigsform vo \"poltrona\" (Sessel). E chliins, bequems Sitz mit Armlehnen."
+        },
+        {
+          "word": "Nome",
+          "filename": "nome",
+          "translations": ["Name"],
+          "definition": "Wort oder Wendig, wo ere Persoon oder Sache identifiziert."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Stimmä und Reaktione.",
+      "description": "Ausruf, Zwischenrufe und Stimmreaktione.",
+      "words": [
+        {
+          "word": "Sì",
+          "filename": "sì",
+          "translations": ["Jo"],
+          "definition": "Zum Zustimmig oder Bestätige. Bispiel: \"Sì, verrò alla festa.\" (Jo, i chum zur Fäscht.)"
+        },
+        {
+          "word": "No",
+          "filename": "no",
+          "translations": ["Nei"],
+          "definition": "Zum Absäge, Verwegerig oder Widersproch. Bispiel: \"No, non voglio mangiare\" (Nei, i wöu nüt ässe.)"
+        },
+        {
+          "word": "Ah",
+          "filename": "ah",
+          "translations": ["Ah"],
+          "definition": "Weichri Ausruf für Erkännü, Erleichterig oder chliini Überraschig. Bispiel: \"Ah, ecco la risposta!\" (Ah, do isch d’Antwort!)"
+        },
+        {
+          "word": "Oh",
+          "filename": "oh", 
+          "translations": ["Oh"],
+          "definition": "Starche Ausruf für Überraschig, Verwunderig, Acht oder Enttäuschig. Bispiel: \"Oh, guarda!\" (Oh, gugg!)"
+        },
+        {
+          "word": "Voce",
+          "filename": "voce",
+          "translations": ["Stimmä"],
+          "definition": "Dr Ton vom Spreche oder Singe; au e Stimmä oder Gschpräch."
+        },
+        {
+          "word": "Voci",
+          "filename": "voci",
+          "translations": ["Stimmä"],
+          "definition": "Mehrzahl vo \"voce\" (Stimmä). Meint mehri unterschiedlich menschlich Tön oder Gschpräch. Bispiel: \"Le voci riempivano il corridoio\" (D’Stimmä händ dr Gang ufgsfüllt.)"
+        },
+        {
+          "word": "Voce rabbiosa",
+          "filename": "voce rabbiosa",
+          "translations": ["Wütendi Stimmä"],
+          "definition": "E Ton, wo Zämme, Ärger oder Frust zeigt. Bispiel: \"Parlò con voce rabbiosa\" (Er het mit wütendi Stimmä gsproche.)"
+        },
+        {
+          "word": "Voce bassa",
+          "filename": "voce bassa",
+          "translations": ["Leisi Stimmä", "fluisternd"],
+          "definition": "Beschreibt leise oder gedämpft Spreche. Bispiel: \"Rispose a voce bassa per non svegliare nessuno\" (Si het leise gschtantwortet, well si niemad ufwiisch wöu.)"
+        },
+        {
+          "word": "Una voce di fuori",
+          "filename": "una voce di fuori",
+          "translations": ["E Stimmä usse"],
+          "definition": "Meint e Stimmä, wo ussem Huus oder ere andere Ort chunnt. Bispiel: \"Sentì una voce di fuori chiamarla\" (Si het e Stimmä usse si rüefe höre.)"
+        },
+        {
+          "word": "Piangete",
+          "filename": "piangete",
+          "translations": ["Ihr wöit", "ihr wöit alli"],
+          "definition": "Gegenwart vo \"piangere\" (wöi). Bruucht, wenn mer mehri Lüt aarede, wo wöied oder bruucht wird z'wöie. Bispiel: \"Perché piangete?\" (Wieso wöit ihr?).",
+          "info": "\"Piangete\" isch d’umgangssprachlich Mehrzahl- (ihr) Form. Einzahl umgangssprachlich (du): \"piangi\". Einzahl höflich (Si): \"piange\". Mehrzahl höflich (si): \"piangono\". Sprecher (ich): \"piango\"."
+        },
+        {
+          "word": "Sentita",
+          "filename": "sentita",
+          "translations": ["Gfühlt", "ghört"],
+          "definition": "Vergange abgschlosseni Form vo \"sentire\" (fühle/höri). Beschribt öppis, wo emptional oder akustisch wahrgenuu worde isch und fertig isch. Bispiel: \"Una gioia mai sentita prima\" (E Freud, wo nie vore gfühlt worde isch.)"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Alltagsgspräch.",
+      "description": "Häufigi Gsprächswörter und Wendige für Kontrast, Zustimmig, Gsicherheit, Zyt oder Betonig.",
+      "words": [
+        {
+          "word": "Ancora intatta",
+          "filename": "ancora intatta",
+          "translations": ["Noch unbeschädigt"],
+          "definition": "\"Ancora\" (noch, bereis) | \"Intatta\" (unbeschädigt, unberührt). Beschribt öppis, wo trotz Umständ no unbeschädigt oder unverändert isch."
+        },
+        {
+          "word": "Anzi",
+          "filename": "anzi",
+          "translations": ["Im Gegenteil", "sogar", "eher"],
+          "definition": "Zum Korrigiere oder Verstärkä vo em Satz, oft ersetzt’s was gsäit isch mit em Stärkerä oder Gegenteiligä. Bispiel: \"Non è semplice, anzi è difficilissimo!\" (S’isch nit einfach — im Gegenteil, s’isch super schwiir!)"
+        },
+        {
+          "word": "Appunto",
+          "filename": "appunto",
+          "translations": ["Genau", "ebends", "Notiz"],
+          "definition": "Cha Zustimmig usdrücke oder als Füllwort bedüte „genau“; au e gschribeni Notiz. Bispiel: \"Appunto! È quello che dicevo\" (Genau! Das ha i gsäit.)"
+        },
+        {
+          "word": "Tuttavia",
+          "filename": "tuttavia",
+          "translations": ["Doch", "trotzdem", "aber"],
+          "definition": "Zeigt Nachgiebigkeit oder Behärrik trotz Gegensatz — öppis bleibt wahr trotz widriger Umständ. Bispiel: \"Il compito era difficile, tuttavia lo finì\" (D’Aufgab isch schwiir gsii, doch er het’s färtig gmacht.)"
+        },
+        {
+          "word": "Però",
+          "filename": "però",
+          "translations": ["Aber", "doch", "allerdings"],
+          "definition": "Führt Kontrast oder Überraschig ei. Bispiel: \"Volevo uscire, però piove\" (I ha ussgah wöu, aber s’regnet.)"
+        },
+        {
+          "word": "Precisamente",
+          "filename": "precisamente",
+          "translations": ["Genau", "präzis"],
+          "definition": "Bestätigt genauigkeit i Detail oder Zyt. Bispiel: \"Ci incontriamo alle sei, precisamente\" (Mir tröfend uns um sechse genau.)"
+        },
+        {
+          "word": "Bentosto",
+          "filename": "bentosto",
+          "translations": ["Baldi", "in Kürze"],
+          "definition": "Älteri oder literarischi Uusdruck für „bald“ oder „in no Zyt“. Bispiel: \"Ci rivedremo bentosto\" (Mir siänd uns bald widr.)"
+        },
+        {
+          "word": "Assenti",
+          "filename": "assenti",
+          "translations": ["Abwesend", "fehlend"],
+          "definition": "Mehrzahl vo \"assente\" (abwesend). Beschribt Lüt, wo bi ere Veranstaltig oder uf em Ort nid da sind. Bispiel: \"Molti erano assenti alla riunione\" (Vieli wärend bi dr Versammlig abwesend gsii.)"
+        },
+        {
+          "word": "Piano",
+          "filename": "piano",
+          "translations": ["Leis, Stock, Plan, Klavier"],
+          "definition": "Mehrdeutigs Wort, wo vom Kontext abhängig isch. Cha „leis“ oder „still“ bi Musik bedüte, „Stock“ oder „Plan“ bi Architektur, und isch au verkürzt für „pianoforte“ (Klavier)."
+        },
+        {
+          "word": "Pubblico",
+          "filename": "pubblico",
+          "translations": ["Publikum", "Zuschauer"],
+          "definition": "Meint alli Lüt allgemein oder e versammlet Publikum. Bispiel: \"Il pubblico applaudì alla fine dello spettacolo\" (S’Publikum het am Änd vo de Vorstellung gläppt.)"
+        },
+        {
+          "word": "Proviamo",
+          "filename": "proviamo",
+          "translations": ["Versueched mer", "mir probiere"],
+          "definition": "Gegenwart vo \"provare\" (probierä). Schlägt vor, öppis zämme z’versueche. Bispiel: \"Proviamo di nuovo\" (Versueched mer’s no emol).",
+          "info": "\"Proviamo\" isch d’Mehrzahl- (mir) Form. Einzahl umgangssprachlich (du): \"provi\". Einzahl höflich (Si): \"prova\". Mehrzahl umgangssprachlich (ihr): \"provate\". Mehrzahl höflich (si): \"provano\"."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Wäg- und Bewegigsform.",
+      "description": "Wörter für Strecke, Zusammekumme und ordentlich Bewegig dur grosse Bühne.",
+      "words": [
+        {
+          "word": "Distanza",
+          "filename": "distanza",
+          "translations": ["Distanz"],
+          "definition": "Wörtlich oder bildlich Raum, Lück oder Trennig zwüsche Ort, Lüt oder Sache. Bispiel: \"La distanza tra Miami e Roma è di oltre cinquemila miglia\" (D’Distanz zwüsche Miami und Rom isch über fünftausend Meile.)"
+        },
+        {
+          "word": "In quell’istante",
+          "filename": "in quell'istante",
+          "translations": ["In dem Moment"],
+          "definition": "Meint e genau Moment i Vergange, wo öppis plötzli oder entscheidend gschiht isch. Bispiel: \"In quell'istante, il mercato stava ancora riprendendosi dallo shock\" (In dem Moment het dr Markt no vom Schock gsiegert.)"
+        },
+        {
+          "word": "Fuori",
+          "filename": "fuori",
+          "translations": ["Ussä"],
+          "definition": "Zeigt, dass öppis usserhalb vo ere bestimmtä Raum oder Grenz isch. Bispiel: \"Sta piovendo fuori\" (S’regnet usserhalb.)"
+        },
+        {
+          "word": "Insieme",
+          "filename": "insieme",
+          "translations": ["Zäme"],
+          "definition": "Beschreibt Lüt oder Sache, wo zäme mache oder existiere. Bispiel: \"Viviamo insieme da anni\" (Mir lebe zäme seid Jahr.)"
+        },
+        {
+          "word": "Fanteria",
+          "filename": "fanteria",
+          "translations": ["Infanterii"],
+          "definition": "Dr Teil vo ere Armee us Fussoldate, wo d’Kerntrupp bilde."
+        },
+        {
+          "word": "Informazioni",
+          "filename": "informazioni",
+          "translations": ["Informatione"],
+          "definition": "Mehrzahl vo \"informazione\". Meint mehri Wissen, Fakt oder Date zum Beschreibe, Erkläre oder Verstei."
+        },
+        {
+          "word": "Colonia",
+          "filename": "colonia",
+          "translations": ["Kolonie", "Siedlung"],
+          "definition": "E Gebiet oder Gruppe unter usserer Kontroll oder Äinufluss. Bispiel: \"L’Impero Britannico aveva colonie in ogni continente abitato\" (S’Britischi Imperium het Kolonie uf allne bewohnte Kontinent gha.)"
+        },
+        {
+          "word": "Direzioni",
+          "filename": "direzioni",
+          "translations": ["Richtige"],
+          "definition": "Mehrzahl vo \"direzione\" (Richtung). Meint Wägi, Orientierig oder Aweisige zum Erreiche vo ere Ort oder Zil. Bispiel: \"Chiese le direzioni per arrivare al museo\" (Er het no dr Richtige zum Museum gfragt.)"
+        },
+        {
+          "word": "Servizi",
+          "filename": "servizi",
+          "translations": ["Dienscht"],
+          "definition": "Mehrzahl vo \"servizio\" (Dienscht). Meint hilfswilli Funktion, Annehmlichkeit oder Hilf. Bispiel: \"I servizi dell’hotel comprendono la colazione\" (D’Hotel-Dienscht schliesse Früschscht ei.)"
+        },
+        {
+          "word": "Processioni",
+          "filename": "processioni",
+          "translations": ["Prozessione", "Umzüege", "Aufzüege"],
+          "definition": "Ordentlich oder feierlich Reih vo Lüt, wo zäme für religiös oder öffentlich Zweck beweged. Bispiel: \"Le processioni riempivano la città durante la festa\" (D’Prozessione händ d’Stadt während dr Fäscht ufgsfüllt.)"
+        }
+      ]
+    }
+  ]
+}

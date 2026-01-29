@@ -1,0 +1,581 @@
+{
+  "levels": [
+    {
+      "id": 25,
+      "title": "Ausdrücke und Gefühle",
+      "description": "Sätze, die Emotionen, Gewissheit und Ausrufe ausdrücken.",
+      "words": [
+        {
+          "word": "Certa",
+          "filename": "certa",
+          "translations": ["Sicher", "Gewiss"],
+          "definition": "Weibliche Form von \"certo\" (sicher). Beschreibt volles Vertrauen oder Überzeugung bezüglich einer Sache. Beispiel: \"Sono certa che arriverà\" (Ich bin sicher, dass er kommen wird)."
+        },
+        {
+          "word": "Sicuro",
+          "filename": "sicuro",
+          "translations": ["Sicher", "Geschützt", "Gewiss"],
+          "definition": "Beschreibt etwas Sicheres oder Zuverlässiges oder ein Gefühl vollständigen Vertrauens. Beispiel: \"Sono sicuro di vincere\" (Ich bin sicher, dass ich gewinnen werde)."
+        },
+        {
+          "word": "Fermezza",
+          "filename": "fermezza",
+          "translations": ["Entschlossenheit", "Standhaftigkeit"],
+          "definition": "Eigenschaft des Entschiedenseins, der Festigkeit und Unerschütterlichkeit im Handeln oder Entscheiden. Beispiel: \"Parlava con grande fermezza\" (Er sprach mit großer Entschlossenheit)."
+        },
+        {
+          "word": "Puntualità",
+          "filename": "puntualità",
+          "translations": ["Pünktlichkeit"],
+          "definition": "Gewohnheit, pünktlich zu sein oder Aufgaben rechtzeitig zu erledigen. Beispiel: \"La sua puntualità è ammirevole\" (Seine Pünktlichkeit ist bewundernswert)."
+        },
+        {
+          "word": "Lo vedo",
+          "filename": "lo vedo",
+          "translations": ["Ich sehe es", "Ich verstehe es"],
+          "definition": "Gegenwartsform von \"vedere\" (sehen), die aktuelle Wahrnehmung oder plötzliche Erkenntnis ausdrückt. Beispiel: \"Lo vedo ora!\" (Jetzt sehe ich es!)."
+        },
+        {
+          "word": "Stupiti",
+          "filename": "stupiti",
+          "translations": ["Erstaunt", "Verwundert"],
+          "definition": "Vergangene männlich Pluralform von \"stupire\" (erstaunen). Beschreibt Personen, die durch etwas Unerwartetes überrascht oder beeindruckt sind."
+        },
+        {
+          "word": "Tacque",
+          "filename": "tacque",
+          "translations": ["Schwieg", "Verstummte"],
+          "definition": "Vergangene, abgeschlossene Form von \"tacere\" (schweigen). Beschreibt, wie jemand plötzlich aufhört zu sprechen und vollständig still wird."
+        },
+        {
+          "word": "Vero",
+          "filename": "vero",
+          "translations": ["Wahr", "Echt"],
+          "definition": "Beschreibt etwas, das den Tatsachen entspricht oder real ist. Beispiel: \"È vero quello che dici\" (Es ist wahr, was du sagst)."
+        },
+        {
+          "word": "Che sarà di me",
+          "filename": "che sarà di me",
+          "translations": ["Was wird aus mir"],
+          "definition": "\"Che\" (was) | \"sarà\" (wird sein) | \"di\" (von) | \"me\" (mir). Ausdruck der Sorge um die eigene ungewisse Zukunft oder das Schicksal. Beispiel: \"Che sarà di me in questo posto caotico?\" (Was wird aus mir an diesem chaotischen Ort?)."
+        },
+        {
+          "word": "Non diventare mai vecchia",
+          "filename": "non diventare mai vecchia",
+          "translations": ["Niemals alt werden"],
+          "definition": "\"Non\" (nicht) | \"diventare\" (werden) | \"mai\" (nie) | \"vecchia\" (alt). Ausdruck des Wunsches, ewig jung und unverändert zu bleiben."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Fürsorge, Gedanke und Handlung",
+      "description": "Wörter für sanfte Fürsorge, überlegte Handlungen und Absichten.",
+      "words": [
+        {
+          "word": "Cautamente",
+          "filename": "cautamente",
+          "translations": ["Vorsichtig", "Behutsam"],
+          "definition": "Beschreibt vorsichtiges, umsichtiges Handeln, um Gefahr zu vermeiden. Beispiel: \"Camminava cautamente\" (Er ging vorsichtig)."
+        },
+        {
+          "word": "Carezzevole",
+          "filename": "carezzevole",
+          "translations": ["Zärtlich", "Liebkosend"],
+          "definition": "Beschreibt eine sanfte, liebevolle Berührung oder Art. Beispiel: \"Voce carezzevole\" (Zärtliche Stimme)."
+        },
+        {
+          "word": "Ricerca",
+          "filename": "ricerca",
+          "translations": ["Suche", "Forschung"],
+          "definition": "Handlung des sorgfältigen Suchens oder systematischen Untersuchens. Beispiel: \"Faceva ricerche storiche\" (Er betrieb historische Forschung)."
+        },
+        {
+          "word": "Ricamare",
+          "filename": "ricamare",
+          "translations": ["Sticken"],
+          "definition": "Ein Gewebe mit Nadel und Faden verzieren. Beispiel: \"Ricamava fiori sul vestito\" (Sie stickte Blumen auf das Kleid)."
+        },
+        {
+          "word": "Pentirsi",
+          "filename": "pentirsi",
+          "translations": ["Bereuen", "Buße tun"],
+          "definition": "Gefühl des Bedauerns oder der Reue über vergangene Handlungen. Beispiel: \"Si pentì di averlo fatto\" (Er bereute, es getan zu haben)."
+        },
+        {
+          "word": "Toccarla",
+          "filename": "toccarla",
+          "translations": ["Sie berühren", "Es berühren"],
+          "definition": "Gegenwartsform von \"toccare\" (berühren) mit direktem Objektpronomen 'la', das sich auf eine Frau oder ein weibliches Substantiv bezieht. Beispiel: \"Non toccarla!\" (Berühre sie/ es nicht!)."
+        },
+        {
+          "word": "Di",
+          "filename": "di",
+          "translations": ["Von", "Aus", "Über"],
+          "definition": "Präposition, die Besitz, Ursprung, Material oder Thema angibt. Beispiele: \"Libro di Maria\" (Marias Buch) | \"Vengo di Roma\" (Ich komme aus Rom)."
+        },
+        {
+          "word": "Raccontarvelo",
+          "filename": "raccontarvelo",
+          "translations": ["Es euch erzählen"],
+          "definition": "Gegenwartsform von \"raccontare\" (erzählen). Beschreibt das Erzählen einer Geschichte oder Information an eine Gruppe über etwas Konkretes (lo). Beispiel: \"Voglio raccontarvelo\" (Ich will es euch erzählen).",
+          "info": "\"Raccontarvelo\" ist die informelle Pluralform (voi). Singular informell (tu) ist \"raccontartelo\". Singular formell (lei) ist \"raccontarglielo\". Plural formell (loro) ist \"raccontarglielo\". Sprecherform (io) ist \"raccontarlo\"."
+        },
+        {
+          "word": "Consumarla",
+          "filename": "consumarla",
+          "translations": ["Sie verbrauchen", "Sie verzehren"],
+          "definition": "Gegenwartsform von \"consumare\" (verbrauchen, aufbrauchen) mit direktem Objektpronomen 'la', das sich auf etwas Weibliches bezieht. Beispiel: \"Alice temeva che la follia la consumasse.\" (Alice fürchtete, der Wahnsinn würde sie verzehren)."
+        },
+        {
+          "word": "Volontari",
+          "filename": "volontari",
+          "translations": ["Freiwillige"],
+          "definition": "Plural maskuline Form von \"volontario\"; Personen, die freiwillig und ohne Bezahlung helfen.",
+          "info": "Maskulin Singular: \"volontario\"; Feminin Singular: \"volontaria\"; Maskulin Plural: \"volontari\"; Feminin Plural: \"volontarie\"."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Dinge und Eigenschaften",
+      "description": "Gegenstände, Maße und beschreibende Merkmale.",
+      "words": [
+        {
+          "word": "Fogliolino",
+          "filename": "fogliolino",
+          "translations": ["Kleines Blatt", "Blättchen"],
+          "definition": "Verkleinerungsform von \"foglio\" (Blatt/Bogen). Kleines Blatt oder dünnes Papierblatt. Beispiel: \"Un fogliolino verde\" (Ein kleines grünes Blatt)."
+        },
+        {
+          "word": "Grossezza",
+          "filename": "grossezza",
+          "translations": ["Dicke", "Volumen"],
+          "definition": "Eigenschaft, dick, massig oder von beträchtlicher Größe oder Masse zu sein. Beispiel: \"Misurò la grossezza del tronco\" (Er maß die Dicke des Stammes)."
+        },
+        {
+          "word": "Manichetto",
+          "filename": "manichetto",
+          "translations": ["Ärmelchen", "Manschette"],
+          "definition": "Verkleinerungsform von \"manica\" (Ärmel); kleiner Ärmel oder schützende Manschette."
+        },
+        {
+          "word": "Quella candela",
+          "filename": "quella candela",
+          "translations": ["Diese Kerze"],
+          "definition": "\"Quella\" (jene, weiblich) | \"Candela\" (Kerze). Bestimmte Kerze, die bereits erwähnt wurde oder sichtbar ist."
+        },
+        {
+          "word": "Questa commedia",
+          "filename": "questa commedia",
+          "translations": ["Diese Komödie"],
+          "definition": "\"Questa\" (diese, weiblich) | \"Commedia\" (Komödie). Bestimmtes komödiantisches Stück, eine Situation oder Aufführung."
+        },
+        {
+          "word": "Questa fune",
+          "filename": "questa fune",
+          "translations": ["Dieses Seil"],
+          "definition": "\"Questa\" (diese, weiblich) | \"Fune\" (Seil). Spezifisches Seil, das gezeigt oder erwähnt wird."
+        },
+        {
+          "word": "Questa pena",
+          "filename": "questa pena",
+          "translations": ["Dieser Schmerz", "Diese Strafe"],
+          "definition": "\"Questa\" (diese, weiblich) | \"Pena\" (Leid/Strafe). Bestimmtes Leiden oder eine genannte Bestrafung."
+        },
+        {
+          "word": "La camicia da notte",
+          "filename": "la camicia da notte",
+          "translations": ["Das Nachthemd"],
+          "definition": "\"La camicia\" (das Hemd) | \"Da notte\" (für die Nacht). Lockeres Kleidungsstück zum Schlafen."
+        },
+        {
+          "word": "Paperone",
+          "filename": "paperone",
+          "translations": ["Reicher Mann", "Tycoon"],
+          "definition": "Umgangssprachlicher Ausdruck für eine äußerst wohlhabende Person, oft mit leicht abwertender Bedeutung."
+        },
+        {
+          "word": "Nulla",
+          "filename": "nulla",
+          "translations": ["Nichts"],
+          "definition": "Völlige Abwesenheit von etwas; null Menge. Beispiel: \"Non ho nulla\" (Ich habe nichts)."
+        },
+        {
+          "word": "Vestita di nero",
+          "filename": "vestita di nero",
+          "translations": ["In Schwarz gekleidet"],
+          "definition": "Vergangene weibliche Form von \"vestire\" (sich kleiden) mit \"di nero\" (in Schwarz). Beschreibt eine Frau, die schwarze Kleidung trägt.",
+          "info": "Um einen Mann zu beschreiben, der schwarz gekleidet ist, verwendet man \"Vestito di nero\"."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Erinnerungen und Reflexion",
+      "description": "Wörter für Erinnerungen, Geschichten und vergangene Erfahrungen.",
+      "words": [
+        {
+          "word": "Ricordare",
+          "filename": "ricordare",
+          "translations": ["Sich erinnern", "Erinnern"],
+          "definition": "Etwas wieder ins Gedächtnis rufen oder Wissen aus der Vergangenheit abrufen. Beispiel: \"Ricordo bene quella giornata\" (Ich erinnere mich gut an jenen Tag)."
+        },
+        {
+          "word": "Ricordo",
+          "filename": "ricordo",
+          "translations": ["Erinnerung", "Andenken"],
+          "definition": "Eine Rückbesinnung auf vergangene Ereignisse; auch ein Gegenstand, der als Andenken aufbewahrt wird. Beispiele: \"Quel profumo mi riporta ai ricordi d'infanzia\" (Dieser Duft bringt mich zurück zu Kindheitserinnerungen [Erinnerung]) | \"Ho portato questo ricordo da Israele\" (Ich habe dieses Andenken aus Israel mitgebracht [Andenken])."
+        },
+        {
+          "word": "Voglio ricordare",
+          "filename": "voglio ricordare",
+          "translations": ["Ich will mich erinnern"],
+          "definition": "\"Voglio\" (ich will) | \"ricordare\" (sich erinnern). Gegenwartsform, die den Wunsch ausdrückt, eine Erinnerung zu bewahren. Beispiel: \"Voglio ricordare questo momento\" (Ich will mich an diesen Moment erinnern)."
+        },
+        {
+          "word": "Ritorno",
+          "filename": "ritorno",
+          "translations": ["Rückkehr"],
+          "definition": "Der Akt des Zurückkehrens an einen vorherigen Ort, Zustand oder eine Situation. Beispiel: \"Aspetto il tuo ritorno\" (Ich warte auf deine Rückkehr)."
+        },
+        {
+          "word": "Parole come queste",
+          "filename": "parole come queste",
+          "translations": ["Worte wie diese"],
+          "definition": "\"Parole\" (Worte) | \"come queste\" (wie diese). Bezieht sich auf Begriffe einer bestimmten Art oder Qualität."
+        },
+        {
+          "word": "Veduta",
+          "filename": "veduta",
+          "translations": ["Aussicht", "Blick"],
+          "definition": "Was von einem bestimmten Punkt aus gesehen werden kann; Landschaft oder Panorama. Beispiel: \"Bellissima veduta del mare\" (Wunderschöner Blick auf das Meer)."
+        },
+        {
+          "word": "Stesso",
+          "filename": "stesso",
+          "translations": ["Gleich", "Selbst"],
+          "definition": "Identisch oder die betreffende Person/Sache selbst. Beispiel: \"Lo stesso errore\" (Der gleiche Fehler) | \"Se stesso\" (Sich selbst)."
+        },
+        {
+          "word": "Stessa",
+          "filename": "stessa",
+          "translations": ["Gleich", "Selbst"],
+          "definition": "Weiblich Singularform von \"stesso\"; bezeichnet Gleichheit oder dieselbe Person/Sache. Beispiel: \"La stessa storia\" (Die gleiche Geschichte) | \"Se stessa\" (Sich selbst).",
+          "info": "Maskulin Singular: \"stesso\"; Maskulin Plural: \"stessi\"; Feminin Plural: \"stesse\"."
+        },
+        {
+          "word": "Volta",
+          "filename": "volta",
+          "translations": ["Mal", "Bogen"],
+          "definition": "Bezeichnet meist \"Mal\" oder \"Gelegenheit\" im Sinn eines Ereignisses oder Moments. Kann auch eine gewölbte architektonische Struktur wie ein Gewölbe oder einen Bogen meinen. Beispiel: \"Ogni volta che guardo quel dipinto, inizio a sognare a occhi aperti Firenze\" (Jedes Mal, wenn ich dieses Gemälde betrachte, beginne ich, von Florenz zu träumen)."
+        },
+        {
+          "word": "Così ingiallita",
+          "filename": "cosí ingiallita",
+          "translations": ["So vergilbt"],
+          "definition": "\"Così\" (so) | \"Ingiallita\" (vergilbt). Beschreibt etwas, das im Laufe der Zeit vergilbt oder durch Alter und Gebrauch verfärbt ist."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Veränderung und Verlust",
+      "description": "Wörter, die Wandlung, Verschwinden und Schwierigkeit beschreiben.",
+      "words": [
+        {
+          "word": "Ricrescere",
+          "filename": "ricrescere",
+          "translations": ["Nachwachsen", "Wieder wachsen"],
+          "definition": "Erneut wachsen, nachdem etwas geschnitten, verloren oder beschädigt wurde. Beispiel: \"L'erba comincia a ricrescere dopo la pioggia\" (Das Gras beginnt nach dem Regen nachzuwachsen)."
+        },
+        {
+          "word": "Scomparso",
+          "filename": "scomparso",
+          "translations": ["Verschwunden", "Vermisst"],
+          "definition": "Vergangene männliche Form von \"scomparire\" (verschwinden). Beschreibt jemanden oder etwas, das vollständig verschwunden ist.",
+          "info": "Die weibliche Form ist \"scomparsa\"."
+        },
+        {
+          "word": "Tanto cambiato",
+          "filename": "tanto cambiato",
+          "translations": ["Sehr verändert"],
+          "definition": "\"Tanto\" (so sehr) | \"Cambiato\" (verändert). Beschreibt eine deutliche Veränderung gegenüber dem vorherigen Zustand."
+        },
+        {
+          "word": "Tanto difficile",
+          "filename": "tanto difficile",
+          "translations": ["Sehr schwierig"],
+          "definition": "\"Tanto\" (so sehr) | \"Difficile\" (schwierig). Beschreibt etwas, das äußerst schwer zu tun oder zu verstehen ist."
+        },
+        {
+          "word": "Lontana",
+          "filename": "lontana",
+          "translations": ["Weit entfernt", "Fern"],
+          "definition": "Weiblich Singular von \"lontano\"; physisch oder emotional entfernt. Beispiel: \"La meta è lontana\" (Das Ziel ist weit entfernt).",
+          "info": "Männlich Singular: \"lontano\"; Männlich Plural: \"lontani\"; Weiblich Plural: \"lontane\"."
+        },
+        {
+          "word": "Poi",
+          "filename": "poi",
+          "translations": ["Dann", "Später", "Danach"],
+          "definition": "Danach oder folgend in zeitlicher Reihenfolge. Beispiel: \"Prima mangio, poi studio\" (Zuerst esse ich, dann lerne ich)."
+        },
+        {
+          "word": "Tanto",
+          "filename": "tanto",
+          "translations": ["So viel", "Sehr"],
+          "definition": "Betont eine große Menge oder einen hohen Grad. Beispiel: \"Ho tanto lavoro\" (Ich habe so viel Arbeit)."
+        },
+        {
+          "word": "Cosa simile",
+          "filename": "cosa simile",
+          "translations": ["Ähnliche Sache"],
+          "definition": "\"Cosa\" (Sache) | \"Simile\" (ähnlich). Bezieht sich auf einen Gegenstand oder eine Situation, die einer anderen gleicht."
+        },
+        {
+          "word": "Ella",
+          "filename": "ella",
+          "translations": ["Sie"],
+          "definition": "Formeller oder literarischer weiblicher Singular des Pronomens der dritten Person. Beispiel: \"Ella arrivò tardi\" (Sie kam spät)."
+        },
+        {
+          "word": "Loro",
+          "filename": "loro",
+          "translations": ["Sie"],
+          "definition": "Drittes Personalpronomen im Plural für Personen; auch formelle Pluralform von \"ihr\". Beispiel: \"Loro arrivano\" (Sie kommen)."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Geschichten und Situationen",
+      "description": "Sätze für Spiele, Bekanntmachungen und dramatische Szenen.",
+      "words": [
+        {
+          "word": "Partita",
+          "filename": "partita",
+          "translations": ["Spiel", "Match"],
+          "definition": "Wettkampf oder Sportspiel; auch Vereinbarung oder Anteil. Beispiel: \"Vince la partita\" (Er gewinnt das Spiel)."
+        },
+        {
+          "word": "Annunzio",
+          "filename": "annunzio",
+          "translations": ["Ankündigung", "Bekanntmachung"],
+          "definition": "Öffentliche Erklärung oder Anzeige. Beispiel: \"L'annunzio sul giornale\" (Die Anzeige in der Zeitung)."
+        },
+        {
+          "word": "Complemento",
+          "filename": "complemento",
+          "translations": ["Ergänzung"],
+          "definition": "Etwas, das vervollständigt oder verbessert. Beispiel: \"Il complemento perfetto\" (Die perfekte Ergänzung)."
+        },
+        {
+          "word": "Smorfiose",
+          "filename": "smorfiose",
+          "translations": ["Grimassierende", "Gesicht verziehende"],
+          "definition": "Weiblich Plural von \"smorfioso\"; beschreibt Personen, die hässliche oder anmaßende Gesichter schneiden.",
+          "info": "Männlich Plural lautet ebenfalls \"smorfiosi\"."
+        },
+        {
+          "word": "Vivente",
+          "filename": "vivente",
+          "translations": ["Lebend", "Lebendig"],
+          "definition": "Derzeit am Leben und beseelt. Beispiel: \"Esseri viventi\" (Lebende Wesen)."
+        },
+        {
+          "word": "Bestia",
+          "filename": "bestia",
+          "translations": ["Tier", "Bestie"],
+          "definition": "Großes wildes Tier, oft von wilder oder brutaler Art."
+        },
+        {
+          "word": "Esclamate",
+          "filename": "esclamate",
+          "translations": ["Ausgerufen"],
+          "definition": "Vergangene weibliche Pluralform von \"esclamare\" (ausrufen). Beschreibt Frauen, die plötzlich etwas laut sagen.",
+          "info": "Die männlich Singularform ist \"esclamato\"; weiblich Singular: \"esclamata\"; männlich Plural: \"esclamati\"."
+        },
+        {
+          "word": "Furiosa",
+          "filename": "furiosa",
+          "translations": ["Wütend"],
+          "definition": "Beschreibt eine Frau oder ein weibliches Substantiv in einem Zustand großer Wut.",
+          "info": "Die männliche Singularform ist \"furioso\"; männlich Plural: \"furiosi\"; weiblich Plural: \"furiose\"."
+        },
+        {
+          "word": "Scavando patate",
+          "filename": "scavando patate",
+          "translations": ["Kartoffeln grabend"],
+          "definition": "Laufende Form von \"scavare\" (graben) mit Objekt; beschreibt die kontinuierliche Handlung des Ausgrabens von Kartoffeln."
+        },
+        {
+          "word": "In qualcuno",
+          "filename": "in qualcuno",
+          "translations": ["In jemandem"],
+          "definition": "\"In\" (in) | \"Qualcuno\" (jemand). Idiomatischer italienischer Ausdruck, um eine wahrgenommene innere Eigenschaft einer Person zu beschreiben. Beispiel: \"Sento coraggio in qualcuno che lotta per ciò in cui crede!\" (Ich spüre Mut in jemandem, der für das kämpft, woran er glaubt!)."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Erweiterter Wortschatz I",
+      "description": "Erweiterter italienischer Wortschatz mit seltenen, nuancierten und literarischen Ausdrücken.",
+      "words": [
+        {
+          "word": "Istanze",
+          "filename": "istanze",
+          "translations": ["Fälle", "Anträge", "Instanz"],
+          "definition": "Plural von \"istanza\" (Fall, Antrag, Bitte). Kann spezifische Beispiele oder Vorkommen von etwas bezeichnen oder formelle schriftliche Anträge an Behörden."
+        },
+        {
+          "word": "Silenzio della casa",
+          "filename": "silenzio della casa",
+          "translations": ["Stille des Hauses"],
+          "definition": "\"Silenzio\" (Stille) | \"della\" (des) | \"casa\" (Hauses). Vollständige Abwesenheit von Geräuschen innerhalb eines Hauses, oft unheimlich oder bedrückend."
+        },
+        {
+          "word": "Violenza crudele",
+          "filename": "violenza crudele",
+          "translations": ["Grausame Gewalt"],
+          "definition": "\"Violenza\" (Gewalt, Kraft) | \"crudele\" (grausam, erbarmungslos). Betont nicht nur physische Aggression, sondern die bewusste und gnadenlose Art des zugefügten Schadens, oft mit moralischer oder emotionaler Konnotation."
+        },
+        {
+          "word": "Sentenza di morte",
+          "filename": "sentenza di morte",
+          "translations": ["Todesurteil"],
+          "definition": "\"Sentenza\" (Urteil) | \"di morte\" (des Todes). Formelle gerichtliche Entscheidung, die jemanden zum Tode verurteilt, oder bildlich ein endgültiges, unvermeidliches Urteil, das Aussichten oder Zukunft zerstört."
+        },
+        {
+          "word": "Origliando",
+          "filename": "origliando",
+          "translations": ["Belauernd", "Eindringlich lauschend"],
+          "definition": "Laufende Form von \"origliare\" (lauschen). Heimlich Gespräche anderer abhören, oft indem man das Ohr an Tür, Wand oder ähnliche Barriere legt, ohne bemerkt zu werden. Trägt eine Konnotation von heimlichem oder aufdringlichem Spionieren.",
+          "info": "\"Origliando\" ändert sich nicht nach Person, Zahl oder Höflichkeitsform. Alle Formen (Singular informell (tu), Plural informell (voi), Singular formell (lei), Plural formell (loro), Sprecher (io)) sind einfach \"origliando\"."
+        },
+        {
+          "word": "Sussulto",
+          "filename": "sussulto",
+          "translations": ["Zucken", "Ruck"],
+          "definition": "Abgeleitet von \"sussultare\" (zucken, plötzlich springen). Plötzlicher physischer oder emotionaler kurzer Sprung, ausgelöst durch Angst, Schock, Überraschung oder starke Emotion. Wird häufig für unwillkürliche Reaktionen verwendet. Beispiel: \"Sussultò il gatto non appena vide il suo riflesso nello specchio\" (Die Katze zuckte zusammen, sobald sie ihr Spiegelbild sah)."
+        },
+        {
+          "word": "Scalpiccio",
+          "filename": "scalpiccio",
+          "translations": ["Trappeln", "Tapsen"],
+          "definition": "Leises, kontinuierliches Geräusch vieler Schritte oder leichtes Tapsen, wie Menschen in einem anderen Raum oder eine Menge gemeinsam durch einen Korridor."
+        },
+        {
+          "word": "Sommesso",
+          "filename": "sommesso",
+          "translations": ["Gedämpft", "Leise", "Zurückhaltend"],
+          "definition": "Beschreibt eine Stimme, ein Gebet oder eine Klage, die in sehr leisen Tönen, fast flüsternd, geäußert wird, oft um diskret, respektvoll oder emotional beherrscht zu bleiben."
+        },
+        {
+          "word": "Garbatézza",
+          "filename": "garbatezza",
+          "translations": ["Höflichkeit", "Anständigkeit"],
+          "definition": "\"Garbatézza\" (Höflichkeit, feine Umgangsform). Beschreibt elegante, rücksichtsvolle Verhaltens- und Sprechweise, geprägt von Takt, Freundlichkeit und guten Manieren, mehr als nur grundlegende Höflichkeit."
+        },
+        {
+          "word": "Rigidità",
+          "filename": "rigidità",
+          "translations": ["Steifheit", "Strenge", "Unnachgiebigkeit"],
+          "definition": "Die Eigenschaft oder der Zustand, steif, fest oder unfähig zu biegen oder sich anzupassen zu sein. Kann physische Eigenschaften (wie ein steifer Gegenstand oder Muskel) oder bildliche Züge (wie Unnachgiebigkeit im Verhalten oder bei Regeln) bezeichnen. Beispiel: \"La rigidità del materiale rende difficile la lavorazione.\" (Die Steifheit des Materials erschwert die Bearbeitung.)"
+        },
+        {
+          "word": "Discorrere",
+          "filename": "discorrere",
+          "translations": ["Sich unterhalten", "Diskutieren"],
+          "definition": "Ein Gespräch oder eine Diskussion über ein Thema führen, oft auf anhaltende oder begründete Weise."
+        },
+        {
+          "word": "Ritegno",
+          "filename": "ritegno",
+          "translations": ["Zurückhaltung", "Reserviertheit"],
+          "definition": "Eigenschaft, sich emotional oder im Verhalten zurückzuhalten – Reserviertheit, Bescheidenheit oder Vorsicht im Sprechen oder Handeln zeigen, um Übertreibung oder Unangemessenheit zu vermeiden."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Erweiterter Wortschatz II",
+      "description": "Erweiterter italienischer Wortschatz für nuanciertes Verständnis.",
+      "words": [
+        {
+          "word": "La grande città lontana",
+          "filename": "la grande città lontana",
+          "translations": ["Die große ferne Stadt"],
+          "definition": "\"La\" (die) | \"grande\" (groß, erhaben) | \"città\" (Stadt) | \"lontana\" (fern, entfernt). Eine majestätische Metropole weit entfernt, oft idealisiert oder romantisiert."
+        },
+        {
+          "word": "Cipiglio severo",
+          "filename": "cipiglio severo",
+          "translations": ["Strenge Miene"],
+          "definition": "\"Cipiglio\" (strenger Blick, autoritäre Haltung) | \"severo\" (streng, hart). Beschreibt einen einschüchternden Gesichtsausdruck oder eine Haltung, die Autorität zeigt. Beispiel: \"Guardava tutti con cipiglio severo\" (Er blickte alle mit strenger Miene an)."
+        },
+        {
+          "word": "Con inesorabile puntualità",
+          "filename": "con inesorabile puntualità",
+          "translations": ["Mit unerbittlicher Pünktlichkeit"],
+          "definition": "\"Con\" (mit) | \"inesorabile\" (unerbittlich, gnadenlos) | \"puntualità\" (Pünktlichkeit). Beschreibt mechanisch präzise Zeitgenauigkeit, die niemals variiert oder ausbleibt. Beispiel: \"Arrivava con inesorabile puntualità ogni mattina alle sette\" (Er kam jeden Morgen mit unerbittlicher Pünktlichkeit um sieben Uhr.)"
+        },
+        {
+          "word": "Sottotenente di complemento nel venticinquesimo fanteria",
+          "filename": "sottotenente di complemento nel venticinquesimo fanteria",
+          "translations": ["Reservist-Leutnant der 25. Infanterie"],
+          "definition": "\"Sottotenente\" (Leutnant) | \"di\" (von) | \"complemento\" (Reservist/Ergänzungstruppe) | \"nel\" (in der) | \"venticinquesimo\" (fünfundzwanzigsten) | \"fanteria\" (Infanterie).",
+          "info": "Historischer italienischer Militärrang für Zivilreservisten, die im Krieg mobilisiert wurden, um Einheiten zu vervollständigen oder Verluste zu ersetzen. \"Di complemento\" bedeutet speziell Offiziere aus dem Zivilleben, keine Karriereakademie-Absolventen."
+        },
+        {
+          "word": "Fracasso di vetri rotti",
+          "filename": "fracasso di vetri rotti",
+          "translations": ["Klirren zerbrechenden Glases"],
+          "definition": "\"Fracasso\" (ohrenbetäubendes Getöse) | \"di vetri rotti\" (von zerbrochenem Glas). Das extrem laute, chaotische Geräusch von heftig zerberstendem Glas. Beispiel: \"Il fracasso di vetri rotti svegliò tutto il vicinato\" (Das Klirren zerbrechenden Glases weckte die ganze Nachbarschaft.)"
+        },
+        {
+          "word": "Quattro ceri funebri",
+          "filename": "quattro ceri funebri",
+          "translations": ["Vier Trauerkerzen"],
+          "definition": "\"Quattro\" (vier) | \"ceri\" (große Wachskerzen für katholische Begräbnisse, Prozessionen, Heiligenfeste als Symbol für ewiges Licht) | \"funebri\" (Trauer-). Große rituelle Wachskerzen, speziell bei katholischen Todeszeremonien verwendet, um den Raum des Verstorbenen zu erleuchten und ewiges Licht zu symbolisieren."
+        },
+        {
+          "word": "Quasi impedire",
+          "filename": "quasi impedire",
+          "translations": ["Beinahe verhindern"],
+          "definition": "\"Quasi\" (beinahe, fast) | \"impedire\" (verhindern, behindern). Beschreibt eine Handlung, die etwas sehr knapp daran verhinderte, zu geschehen. Beispiel: \"Quasi impedire il disastro all'ultimo secondo\" (Beinahe das Desaster in letzter Sekunde verhindert.)"
+        },
+        {
+          "word": "Sorelle stagionate",
+          "filename": "sorelle stagionate",
+          "translations": ["Reife Schwestern", "Erfahrene Nonnen"],
+          "definition": "\"Sorelle\" (Schwestern, Nonnen) | \"stagionate\" (weiblich Plural von \"stagionato\", bedeutet gereift, altert, gewürzt wie Käse). Bezieht sich wörtlich auf ältere/reife Schwestern; bildlich auf erfahrene oder weise Frauen (einschließlich Nonnen). Nicht abwertend – meist liebevoll oder humorvoll im informellen Italienisch."
+        },
+        {
+          "word": "Lunghissima attesa",
+          "filename": "lunghissima attesa",
+          "translations": ["Äußerst langes Warten"],
+          "definition": "\"Lunghissima\" (äußerst lang) | \"attesa\" (Warten, Erwartung). Beschreibt eine extrem verlängerte Periode ängstlichen Wartens. Beispiel: \"Sopportò la lunghissima attesa con pazienza\" (Sie ertrug das äußerst lange Warten mit Geduld.)"
+        },
+        {
+          "word": "Silenzio di quell’attesa",
+          "filename": "silenzio di quell’attesa",
+          "translations": ["Stille dieses Wartens"],
+          "definition": "\"Silenzio\" (Stille) | \"di\" (des) | \"quell'\" (dieses) | \"attesa\" (Wartens, Erwartung). Poetischer Ausdruck für die schwere, fast greifbare Stille, die einen spezifischen Moment angespannten Wartens umgibt, oft emotional aufgeladen."
+        },
+        {
+          "word": "Che cosa mai son'io addiventata",
+          "filename": "che cosa mai son'io addiventata",
+          "translations": ["Was bin ich nur geworden"],
+          "definition": "\"Che\" (was) | \"cosa\" (Sache) | \"mai\" (nur) | \"son'io\" (bin ich / wurde ich) | \"addiventata\" (geworden, verwandelt). Dramatischer Ausdruck der Selbstbefragung über die eigene Verwandlung oder veränderten Zustand."
+        },
+        {
+          "word": "Riso di luce",
+          "filename": "riso di luce",
+          "translations": ["Lachen des Lichts"],
+          "definition": "\"Riso\" (Lachen) | \"di\" (des) | \"luce\" (Licht). Poetischer Ausdruck für schimmernde, tanzende Lichteffekte wie Sonnenstrahlen, die durch Blätter spielen."
+        }
+      ]
+    }
+  ]
+}

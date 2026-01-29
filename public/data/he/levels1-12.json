@@ -1,0 +1,894 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "יסודות יומיומיים",
+      "description": "מילים יסודיות המשמשות באיטלקית יומיומית.",
+      "words": [
+        {
+          "word": "Acqua",
+          "filename": "acqua",
+          "translations": ["מים"],
+          "definition": "הנוזל השקוף וחסר הצבע היוצר את הימים, האגמים, הנהרות והגשם, והוא חיוני לקיום חיים."
+        },
+        {
+          "word": "Albero",
+          "filename": "albero",
+          "translations": ["עץ"],
+          "definition": "צמח רב-שנתי בעל גזע מוארך או גזע תומך בענפים ועלים."
+        },
+        {
+          "word": "Casa",
+          "filename": "casa",
+          "translations": ["בית", "בית מגורים"],
+          "definition": "מבנה המיועד למגורי אדם, במיוחד כזה שבו מתגוררת משפחה או קבוצה קטנה של אנשים."
+        },
+        {
+          "word": "Mano",
+          "filename": "mano",
+          "translations": ["יד"],
+          "definition": "החלק הסופי של זרוע האדם שמעבר לפרק כף היד, כולל את כף היד, האצבעות והאגודל."
+        },
+        {
+          "word": "Giorno",
+          "filename": "giorno",
+          "translations": ["יום"],
+          "definition": "משך של עשרים וארבע שעות או זמן האור בין הזריחה לשקיעה."
+        },
+        {
+          "word": "Bene",
+          "filename": "bene",
+          "translations": ["טוב", "בסדר"],
+          "definition": "תואר הפועל המתאר מצב של טוּב, נכונות או שביעות רצון."
+        },
+        {
+          "word": "Dio",
+          "filename": "Dio",
+          "translations": ["אלוהים"],
+          "definition": "הישות העליונה, הבורא ומושל היקום, הנעבדת בדתות מונותאיסטיות."
+        },
+        {
+          "word": "Io",
+          "filename": "io",
+          "translations": ["אני"],
+          "definition": "כינוי גוף המשמש את הדובר כדי להתייחס אל עצמו."
+        },
+        {
+          "word": "Lui",
+          "filename": "lui",
+          "translations": ["הוא", "אותו"],
+          "definition": "כינוי גוף המתייחס לגבר שהוזכר קודם לכן או שניתן לזהותו בקלות."
+        },
+        {
+          "word": "Lei",
+          "filename": "lei",
+          "translations": ["היא", "אותה"],
+          "definition": "כינוי גוף המתייחס לאישה שהוזכרה קודם לכן או שניתן לזהותה בקלות.",
+          "info": "\"Lei\" משמש גם ככינוי הנימוסי והמכובד ל\"אתה\" או \"את\" לזרים או לאנשים שיש לכבד, והוא מובחן מהצורה הבלתי-רשמִית \"tu\". ניתן להשתמש בו הן כלפי גברים והן כלפי נשים."
+        },
+        {
+          "word": "Mio",
+          "filename": "mio",
+          "translations": ["שלי"],
+          "definition": "שם תואר קניין או כינוי גוף שמשמעותו 'שייך לי'."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "מספרים וכמויות",
+      "description": "מספרים וביטויי כמות באיטלקית.",
+      "words": [
+        {
+          "word": "Due",
+          "filename": "due",
+          "translations": ["שניים"],
+          "definition": "המספר הקרדינלי המייצג את הכמות של שתי יחידות."
+        },
+        {
+          "word": "Tre",
+          "filename": "tre",
+          "translations": ["שלושה"],
+          "definition": "המספר הקרדינלי המייצג את הכמות של שלוש יחידות."
+        },
+        {
+          "word": "Quattro",
+          "filename": "quattro",
+          "translations": ["ארבעה"],
+          "definition": "המספר הקרדינלי המייצג את הכמות של ארבע יחידות."
+        },
+        {
+          "word": "Cinque",
+          "filename": "cinque",
+          "translations": ["חמישה"],
+          "definition": "המספר הקרדינלי המייצג את הכמות של חמש יחידות."
+        },
+        {
+          "word": "Sette",
+          "filename": "sette",
+          "translations": ["שבעה"],
+          "definition": "המספר הקרדינלי המייצג את הכמות של שבע יחידות."
+        },
+        {
+          "word": "Dodici mesi",
+          "filename": "dodici mesi",
+          "translations": ["שנים-עשר חודשים"],
+          "definition": "\"Dodici\" (שניים-עשר, המספר הקרדינלי 12) | \"Mesi\" (רבים של mese, חודש, כל אחד מחלוקות השנה). הביטוי המלא מתייחס למחזור של שנה אחת שלמה."
+        },
+        {
+          "word": "Quattordici mesi",
+          "filename": "quattordici mesi",
+          "translations": ["ארבעה-עשר חודשים"],
+          "definition": "\"Quattordici\" (ארבעה-עשר, מספר קרדינלי 14) | \"Mesi\" (רבים של mese, חודש). הביטוי המלא מתייחס למשך זמן של ארבעה-עשר חודשים."
+        },
+        {
+          "word": "Quindici",
+          "filename": "quindici",
+          "translations": ["חמישה-עשר"],
+          "definition": "המספר הקרדינלי המייצג את הכמות של חמש-עשרה יחידות."
+        },
+        {
+          "word": "Centoventitré",
+          "filename": "centoventitré",
+          "translations": ["מאה עשרים ושלושה"],
+          "definition": "המספר הקרדינלי 123, מורכב מ-\"cento\" (מאה) + \"venti\" (עשרים) + \"tré\" (שלושה)."
+        },
+        {
+          "word": "Tanti fiori",
+          "filename": "tanti fiori",
+          "translations": ["הרבה פרחים"],
+          "definition": "\"Tanti\" (רבים, זכר של \"tanto\" שפירושו \"הרבה\" או \"רבים\" כאשר מונים שמות עצם ספירים) | \"Fiori\" (רבים של \"fiore\" (פרח)). הביטוי המלא פירושו פרחים רבים או רבים במספרם."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "אנשים ומשפחה",
+      "description": "מונחים נפוצים באיטלקית לאנשים ולבני משפחה.",
+      "words": [
+        {
+          "word": "Bambina",
+          "filename": "bambina",
+          "translations": ["ילדה", "ילד"],
+          "definition": "ילדה, בדרך כלל מגיל לידה ועד גיל ההתבגרות.",
+          "info": "הצורה הזכרית של מילה זו היא \"bambino\"."
+        },
+        {
+          "word": "Fratello",
+          "filename": "fratello",
+          "translations": ["אח"],
+          "definition": "אח זכר החולק לפחות הורה אחד עם אדם אחר."
+        },
+        {
+          "word": "Nonna materna",
+          "filename": "nonna materna",
+          "translations": ["סבתא מצד האם"],
+          "definition": "\"Nonna\" (סבתא, אם של אחד מההורים) | \"Materna\" (שקשורה לאם). מתייחסת לאמו של האם."
+        },
+        {
+          "word": "Figli",
+          "filename": "figli",
+          "translations": ["ילדים", "בנים"],
+          "definition": "צורת הרבים הזכרית של \"figlio\" (בן, ילד). מספר בנים או קבוצה מעורבת של בנים ובנות."
+        },
+        {
+          "word": "Poverino",
+          "filename": "poverino",
+          "translations": ["מסכן", "עני רוח"],
+          "definition": "צורת הקטנה המביעה חמלה כלפי מישהו שסובל או חסר מזל.",
+          "info": "רק מפני שאתה מכיר את המילה, זה לא אומר שעליך להשתמש בה."
+        },
+        {
+          "word": "Reali",
+          "filename": "reali",
+          "translations": ["מלכים", "בני מלוכה"],
+          "definition": "צורת הרבים של \"reale\" (מלכותי). אנשים המשתייכים למשפחת מלוכה או לשושלת מלכותית."
+        },
+        {
+          "word": "Regina",
+          "filename": "regina",
+          "translations": ["מלכה"],
+          "definition": "שליטה נשית עצמאית של מדינה ריבונית, או אשתו של מלך."
+        },
+        {
+          "word": "Ducchessa",
+          "filename": "ducchessa",
+          "translations": ["דוכסית"],
+          "definition": "תואר אצולה שניתן לאשת דוכס או לשליטה נשית של דוכסות."
+        },
+        {
+          "word": "Sorelle",
+          "filename": "sorelle",
+          "translations": ["אחיות"],
+          "definition": "צורת הרבים הנקבית של \"sorella\" (אחות). אחיות החולקות לפחות הורה אחד."
+        },
+        {
+          "word": "Cameriera",
+          "filename": "cameriera",
+          "translations": ["משרתת", "עוזרת בית", "עובדת משק בית"],
+          "definition": "עובדת בית האחראית על ניקיון, בישול ומטלות בית נוספות, לעיתים קרובות בשירות משפחה או בית אצולה."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "זמן וימים",
+      "description": "ביטויים הקשורים לזמן ולימים.",
+      "words": [
+        {
+          "word": "Giorni",
+          "filename": "giorni",
+          "translations": ["ימים"],
+          "definition": "צורת הרבים הזכרית של \"giorno\" (יום)."
+        },
+        {
+          "word": "Mese",
+          "filename": "mese",
+          "translations": ["חודש"],
+          "definition": "אחת משתים-עשרה החלוקות של השנה, שאורכה כשלושים ימים."
+        },
+        {
+          "word": "Settimana",
+          "filename": "settimana",
+          "translations": ["שבוע"],
+          "definition": "משך זמן של שבעה ימים רצופים, בדרך כלל מיום ראשון ועד שבת."
+        },
+        {
+          "word": "Ogni giorno",
+          "filename": "ogni giorno",
+          "translations": ["כל יום"],
+          "definition": "\"Ogni\" (כל, כל אחד) | \"Giorno\" (יום, תקופה של 24 שעות). חזרה יומית."
+        },
+        {
+          "word": "Ogni sabato",
+          "filename": "ogni sabato",
+          "translations": ["כל שבת"],
+          "definition": "\"Ogni\" (כל, כל אחד) | \"Sabato\" (שבת, היום שלפני יום ראשון). חזרה שבועית בימי שבת."
+        },
+        {
+          "word": "Sabato",
+          "filename": "sabato",
+          "translations": ["שבת"],
+          "definition": "היום השביעי בשבוע, הבא לאחר יום שישי ולפני יום ראשון."
+        },
+        {
+          "word": "Ogni quindici giorni",
+          "filename": "ogni quindici giorni",
+          "translations": ["כל חמישה-עשר יום"],
+          "definition": "\"Ogni\" (כל, כל אחד) | \"Quindici\" (חמישה-עשר) | \"Giorni\" (ימים). חזרה דו-שבועית."
+        },
+        {
+          "word": "Momento",
+          "filename": "momento",
+          "translations": ["רגע"],
+          "definition": "פרק זמן קצר מאוד, רגע חולף."
+        },
+        {
+          "word": "Tempo",
+          "filename": "tempo",
+          "translations": ["זמן", "מזג אוויר"],
+          "definition": "מעבר הזמן או הזרימה של קיום, אך יכול להתייחס גם לתנאי מזג האוויר."
+        },
+        {
+          "word": "Mattina",
+          "filename": "mattina",
+          "translations": ["בוקר"],
+          "definition": "החלק הראשון של היום, מהשחר ועד הצהריים."
+        },
+        {
+          "word": "Anno",
+          "filename": "anno",
+          "translations": ["שנה"],
+          "definition": "תקופה של 365 ימים, מחזור סביב השמש."
+        },
+        {
+          "word": "Due anni",
+          "filename": "due anni",
+          "translations": ["שנתיים"],
+          "definition": "\"Due\" (שניים) | \"Anni\" (רבים של \"anno\", שנה). תקופה של שנתיים מלאות."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "טבע ואלמנטים",
+      "description": "מילים המתארות יסודות טבע, מזג אוויר והעולם.",
+      "words": [
+        {
+          "word": "Terra",
+          "filename": "terra",
+          "translations": ["אדמה", "קרקע", "כדור הארץ"],
+          "definition": "שם כוכב הלכת שעליו אנו חיים, אך יכולה גם לציין אדמה יבשה או את השכבה העליונה של פני האדמה שבה צומחים צמחים."
+        },
+        {
+          "word": "Foresta",
+          "filename": "foresta",
+          "translations": ["יער"],
+          "definition": "שטח רחב המכוסה עצים וצמחייה נמוכה."
+        },
+        {
+          "word": "Fiore",
+          "filename": "fiore",
+          "translations": ["פרח"],
+          "definition": "איבר הרבייה של הצמח, לעיתים קרובות צבעוני."
+        },
+        {
+          "word": "Foglie",
+          "filename": "foglie",
+          "translations": ["עלים"],
+          "definition": "צורת הרבים של \"foglia\" (עלה). חלקים שטוחים וירוקים בצמחים המבצעים פוטוסינתזה."
+        },
+        {
+          "word": "Ramuscello",
+          "filename": "ramuscello",
+          "translations": ["ענף דק", "ענף קטן"],
+          "definition": "ענף קטן ודק היוצא מענף גדול יותר."
+        },
+        {
+          "word": "Trifoglio",
+          "filename": "trifoglio",
+          "translations": ["תלתן"],
+          "definition": "צמח בעל שלושה עלעלים.",
+          "info": "למרות שמו, לפעמים יש לו ארבעה עלעלים, אך זה נדיר מאוד."
+        },
+        {
+          "word": "Bosco sacro",
+          "filename": "bosco sacro",
+          "translations": ["חורש קדוש", "יער קדוש", "חלקת יער מקודשת"],
+          "definition": "\"Bosco\" (אזור מיוער, חורשה קטנה יותר) | \"Sacro\" (קדוש, מקודש). אזור מיוער מקודש או מיסטי."
+        },
+        {
+          "word": "Zolle",
+          "filename": "zolle",
+          "translations": ["רגבים", "גושי אדמה"],
+          "definition": "צורת הרבים של \"zolla\" (רגב, גוש אדמה). גושי אדמה הנוצרים בעת חפירה."
+        },
+        {
+          "word": "Luce",
+          "filename": "luce",
+          "translations": ["אור"],
+          "definition": "תאורה המאפשרת ראייה."
+        },
+        {
+          "word": "Filo di luce",
+          "filename": "filo di luce",
+          "translations": ["קרן אור", "פס אור"],
+          "definition": "זרם אור דקיק."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "רגשות ותחושות",
+      "description": "שמות עצם באיטלקית המתארים רגשות, ותארים או תוארי פועל המתארים מצבים רגשיים אישיים.",
+      "words": [
+        {
+          "word": "Paura",
+          "filename": "paura",
+          "translations": ["פחד"],
+          "definition": "רגש חזק ולא נעים הנגרם מתפיסת סכנה, איום או פגיעה — אמיתיים או מדומים."
+        },
+        {
+          "word": "Desiderio",
+          "filename": "desiderio",
+          "translations": ["רצון", "כמיהה"],
+          "definition": "משאלה עזה שדבר מה יתרחש."
+        },
+        {
+          "word": "Mestizia",
+          "filename": "mestizia",
+          "translations": ["עצב", "מלנכוליה"],
+          "definition": "צורה עדינה של צער."
+        },
+        {
+          "word": "Irritazione",
+          "filename": "irritazione",
+          "translations": ["גירוי", "עצבים"],
+          "definition": "תחושת כעס קל."
+        },
+        {
+          "word": "Curiosità",
+          "filename": "curiosità",
+          "translations": ["סקרנות"],
+          "definition": "רצון עז ללמוד או להבין דבר מה."
+        },
+        {
+          "word": "Sorpresa",
+          "filename": "sorpresa",
+          "translations": ["הפתעה"],
+          "definition": "תגובה למשהו בלתי צפוי."
+        },
+        {
+          "word": "Piacere",
+          "filename": "piacere",
+          "translations": ["עונג", "הנאה"],
+          "definition": "תחושה של הנאה או סיפוק."
+        },
+        {
+          "word": "Timidamente",
+          "filename": "timidamente",
+          "translations": ["בביישנות", "בהיסוס"],
+          "definition": "באופן ביישני או מהסס."
+        },
+        {
+          "word": "Angoscioso",
+          "filename": "angoscioso",
+          "translations": ["מייסר", "מכאיב רגשית"],
+          "definition": "מתאר דבר מה הגורם לכאב רגשי עמוק או פחד. דוגמה: \"Quell'esperienza è stata molto angosciosa\" (החוויה ההיא הייתה מייסרת מאוד)."
+        },
+        {
+          "word": "Nervosa",
+          "filename": "nervosa",
+          "translations": ["עצבנית"],
+          "definition": "מתארת אישה או שם עצם נקבי המרגיש חרדה או מתח.",
+          "info": "הצורה הזכרית של מילה זו היא \"nervoso\"."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "חפצי בית",
+      "description": "חפצים נפוצים הנמצאים בבתים ובחיי היומיום.",
+      "words": [
+        {
+          "word": "Candela",
+          "filename": "candela",
+          "translations": ["נר"],
+          "definition": "מוט שעווה שנשרף כדי לספק אור."
+        },
+        {
+          "word": "Libro",
+          "filename": "libro",
+          "translations": ["ספר"],
+          "definition": "אוסף של עמודים מודפסים."
+        },
+        {
+          "word": "Cassettone",
+          "filename": "cassettone",
+          "translations": ["שידה"],
+          "definition": "רהיט בעל מספר מגירות."
+        },
+        {
+          "word": "Scrivania",
+          "filename": "scrivania",
+          "translations": ["שולחן כתיבה"],
+          "definition": "רהיט המשמש לעבודה או לכתיבה."
+        },
+        {
+          "word": "Tavolino da notte",
+          "filename": "tavolino da notte",
+          "translations": ["שולחן לילה"],
+          "definition": "שולחן קטן שלצד המיטה."
+        },
+        {
+          "word": "Ventaglio",
+          "filename": "ventaglio",
+          "translations": ["מניפה"],
+          "definition": "מכשיר נייד ביד המשמש ליצירת זרימת אוויר לקירור."
+        },
+        {
+          "word": "Caminetto",
+          "filename": "caminetto",
+          "translations": ["אח"],
+          "definition": "מבנה להבערת אש בתוך הבית."
+        },
+        {
+          "word": "Pantofole",
+          "filename": "pantofole",
+          "translations": ["נעלי בית"],
+          "definition": "צורת הרבים של \"pantofola\" (נעל בית). נעליים נוחות לשימוש בתוך הבית."
+        },
+        {
+          "word": "Specchio",
+          "filename": "specchio",
+          "translations": ["מראה"],
+          "definition": "משטח זכוכית מחזיר אור."
+        },
+        {
+          "word": "Boccetta",
+          "filename": "boccetta",
+          "translations": ["בקבוקון", "בקבוק קטן"],
+          "definition": "מכל זכוכית או פלסטיק קטן לנוזלים כמו בושם או תרופה."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "מילות שאלה",
+      "description": "מילים חיוניות לשאילת שאלות ולחיפוש מידע.",
+      "words": [
+        {
+          "word": "Che cosa",
+          "filename": "che cosa",
+          "translations": ["מה"],
+          "definition": "\"Che\" (מה, איזה) | \"Cosa\" (דבר). ביטוי שאלה המתייחס לזהות או למהות של דבר מה."
+        },
+        {
+          "word": "Perché",
+          "filename": "perché",
+          "translations": ["למה", "מכיוון ש"],
+          "definition": "תואר הפועל השואל לסיבות או גורמים; יכול לשמש גם כצירוף חיבור שמשמעותו 'מכיוון ש'."
+        },
+        {
+          "word": "Dunque",
+          "filename": "dunque",
+          "translations": ["אם כן", "אז", "לכן"],
+          "definition": "מילת קישור המשמשת להסיק מסקנה או להציג תוצאה."
+        },
+        {
+          "word": "Ebbene",
+          "filename": "ebbene",
+          "translations": ["ובכן", "אז מה", "טוב אז"],
+          "definition": "מילת קריאה המשמשת כדי לעודד המשך שיחה או תגובה."
+        },
+        {
+          "word": "Almeno",
+          "filename": "almeno",
+          "translations": ["לפחות", "על כל פנים"],
+          "definition": "תואר הפועל המציין ציפייה מינימלית או נחמה."
+        },
+        {
+          "word": "Purtroppo",
+          "filename": "purtroppo",
+          "translations": ["למרבה הצער", "אבוי"],
+          "definition": "תואר הפועל המביע חרטה או אכזבה."
+        },
+        {
+          "word": "Tutt'a un tratto",
+          "filename": "tutt’a un tratto",
+          "translations": ["פתאום", "בבת אחת"],
+          "definition": "\"Tutto\" (הכול) | \"A un tratto\" (במכה אחת). ביטוי תואר פועל המציין שינוי פתאומי ובלתי צפוי."
+        },
+        {
+          "word": "Per esempio",
+          "filename": "per esempio",
+          "translations": ["לדוגמה"],
+          "definition": "\"Per\" (עבור) | \"Esempio\" (דוגמה). ביטוי המשמש להצגת המחשה או מקרה לדוגמה."
+        },
+        {
+          "word": "Quale",
+          "filename": "quale",
+          "translations": ["איזה", "מה"],
+          "definition": "כינוי שאלה או תואר שאלה ביחיד המשמש לשאול על בחירה בין אפשרויות לפריט אחד. לדוגמה: \"Quale libro preferisci?\" (איזה ספר אתה מעדיף)."
+        },
+        {
+          "word": "Quali",
+          "filename": "quali",
+          "translations": ["אילו", "מה"],
+          "definition": "כינוי שאלה או תואר שאלה ברבים המשמש לשאול על בחירה בין כמה פריטים. לדוגמה: \"Quali libri preferisci?\" (אילו ספרים אתה מעדיף)."
+        },
+        {
+          "word": "Come non ritorna più",
+          "filename": "come non ritorna piú",
+          "translations": ["כאילו לעולם לא ישוב", "כאילו לא יחזור עוד"],
+          "definition": "\"Come\" (כאילו, כמו) | \"Non\" (לא) | \"Ritorna\" (זמן הווה, הגוף השלישי של הפועל 'לחזור') | \"Più\" (עוד, שוב). ביטוי פיוטי המרמז על אובדן בלתי הפיך או פחד אישי מאי־שיבה.",
+          "info": "בהקשר של 'אליס בארץ הפלאות' (Le Avventure d'Alice nel Paese delle Meraviglie) הביטוי מתאר את יגונה של אליס על השינויים הבלתי הפיכים בגודלה, ופחדה שלא תחזור עוד לצורתה המקורית במהלך ההתכווצויות וההתרחבויות הכאוטיות."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "אווירת ארץ הפלאות",
+      "description": "תארים ותוארי פועל מתקדמים הלוכדים את האווירה המתוחה והכאוטית המאפיינת את 'אליס בארץ הפלאות' ומעבר לכך.",
+      "words": [
+        {
+          "word": "Bianca",
+          "filename": "bianca",
+          "translations": ["לבנה"],
+          "definition": "שם פרטי נשי באיטלקית. הצורה הזכרית ביחיד של מילה זו היא \"bianco\" (לבן), המתייחסת לצבע חסר גוון המבטא את תפיסת הבהירות המרבית ללא גוון, הנוצר בדרך כלל מאור המכיל, מחזיר או מפזר כמעט את כל אורכי הגל הנראים.",
+          "info": "היסטורית, ה-'bianchi' (הלבנים) היו אחת משתי סיעות פוליטיות בפירנצה של סוף המאה ה-13, שהתנגדו ל-'neri' (השחורים). הפילוג נבע ממשפחת Cancellieri מפיסטויה, שם צאצאי ביאנקה קנצ'ליירי הציתו את הקרע הגואלפי דרך ריב ילדים."
+        },
+        {
+          "word": "Rose bianche",
+          "filename": "rose bianche",
+          "translations": ["ורדים לבנים"],
+          "definition": "צורת הרבים הנקבית של \"rosa bianca\" (ורד לבן). פרחים בעלי עלי כותרת לבנים.",
+          "info": "בהקשר של 'אליס בארץ הפלאות' (Le Avventure d'Alice nel Paese delle Meraviglie), הגננים צבעו ורדים לבנים אדומים כדי להימנע מהוצאה להורג על ידי המלכה."
+        },
+        {
+          "word": "Nero",
+          "filename": "nero",
+          "translations": ["שחור"],
+          "definition": "צבע חסר גוון המבטא את תפיסת החושך המרבית ללא גוון, הנוצר בדרך כלל מאור המכיל, סופג או מפזר כמעט אפס אורכי גל נראים.",
+          "info": "יחיד נקבה: \"nera\"; רבים זכר: \"neri\"; רבות נקבה: \"nere\"."
+        },
+        {
+          "word": "Gialla",
+          "filename": "gialla",
+          "translations": ["צהובה"],
+          "definition": "צבע יסוד בוהק בספקטרום הנראה, הממוקם בין ירוק לכתום, הנצפה בדרך כלל כאשר לאור יש אורך גל דומיננטי של כ-575–585 ננומטר.",
+          "info": "הצורה הזכרית של מילה זו היא \"giallo\"."
+        },
+        {
+          "word": "Grande",
+          "filename": "grande",
+          "translations": ["גדול", "גדולה", "גדולה"],
+          "definition": "תואר המתאר משהו בעל גודל או חשיבות ניכרים."
+        },
+        {
+          "word": "Lungo",
+          "filename": "lungo",
+          "translations": ["ארוך"],
+          "definition": "תואר המתאר אורך ממושך."
+        },
+        {
+          "word": "Piccina",
+          "filename": "piccina",
+          "translations": ["קטנטונת", "זעירה"],
+          "definition": "צורת הקטנה הנקבית של \"piccolo\" (קטן). מציינת משהו קטן מאוד, זעיר או חביב.",
+          "info": "יחיד זכר: \"piccino\"; רבים זכר: \"piccini\"; רבות נקבה: \"piccine\"."
+        },
+        {
+          "word": "Decollato",
+          "filename": "decollato",
+          "translations": ["ערוף ראש", "נערף ראש"],
+          "definition": "צורת עבר מושלמת של \"decollare\" (לערוף ראש). מתאר מצב שבו הראש נקטע בהוצאה להורג."
+        },
+        {
+          "word": "Luminosa",
+          "filename": "luminosa",
+          "translations": ["זוהרת", "בהירה"],
+          "definition": "הצורה הנקבית של \"luminoso\"; פולטת או מחזירה אור.",
+          "info": "יחיד זכר: \"luminoso\"; רבים זכר: \"luminosi\"; רבות נקבה: \"luminose\"."
+        },
+        {
+          "word": "Tremante",
+          "filename": "tremante",
+          "translations": ["רועד", "מתנשק", "רוטט"],
+          "definition": "צורת הווה של \"tremare\" (לרעוד). מתאר מישהו או משהו הרועד ללא שליטה, בדרך כלל מפחד, מקור, התרגשות או חולשה.",
+          "info": "בהקשר של 'אליס בארץ הפלאות' (Le Avventure d'Alice nel Paese delle Meraviglie), הדמויות רועדות מפני זעם המלכה."
+        },
+        {
+          "word": "Sibilante",
+          "filename": "sibilante",
+          "translations": ["שורק", "לוחש"],
+          "definition": "צורת הווה של \"sibilare\" (לשרוק). מתאר צליל חד שורק או לוחש. דוגמה: \"Vento sibilante\" (רוח שורקת)."
+        },
+        {
+          "word": "Frettolosamente",
+          "filename": "frettolosamente",
+          "translations": ["בחיפזון"],
+          "definition": "באופן ממהר או מונע. דוגמה: \"Uscì frettolosamente.\" (הוא יצא בחיפזון).",
+          "info": "בהקשר של 'אליס בארץ הפלאות' (Le Avventure d'Alice nel Paese delle Meraviglie), הארנב הלבן רץ בחיפזון ליד אליס בפגישתם הראשונה."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "איברי גוף וגדלים",
+      "description": "מונחים לאיברי גוף ולתנועה פיזית.",
+      "words": [
+        {
+          "word": "Capo",
+          "filename": "capo",
+          "translations": ["ראש", "ראש", "מנהיג"],
+          "definition": "החלק העליון של הגוף או מנהיג."
+        },
+        {
+          "word": "Corpo",
+          "filename": "corpo",
+          "translations": ["גוף"],
+          "definition": "המבנה הפיזי של אדם או בעל חיים."
+        },
+        {
+          "word": "Faccia",
+          "filename": "faccia",
+          "translations": ["פנים"],
+          "definition": "חזית הראש עם עיניים, אף ופה."
+        },
+        {
+          "word": "Fronte",
+          "filename": "fronte",
+          "translations": ["מצח"],
+          "definition": "החלק של הפנים מעל העיניים."
+        },
+        {
+          "word": "Gomito",
+          "filename": "gomito",
+          "translations": ["מרפק"],
+          "definition": "המפרק בין הזרוע העליונה לתחתונה."
+        },
+        {
+          "word": "Scoppiettio",
+          "filename": "scoppiettio",
+          "translations": ["פצפוץ", "קולות פקיעה"],
+          "definition": "סדרה של קולות קטנים חדים של פיצוח או פקיעה, כמו פצפוץ אש או פקיעת אצבעות."
+        },
+        {
+          "word": "Un braccio",
+          "filename": "un braccio",
+          "translations": ["זרוע"],
+          "definition": "\"Un\" (א/אחת) | \"Braccio\" (זרוע). הגף העליון מכתף ליד.",
+          "info": "בדיבור איטלקי טבעי, צליל ה-'n' במאמר 'un' נשמע לעיתים כמו 'm' לפני עיצורים מסוימים, מה שעלול לבלבל לומדים לחשוב ששמעו מאמר לא קיים 'um'. זו פשוט תוצאה של הטמעה אפיתית בהגייה, לא מילה נפרדת."
+        },
+        {
+          "word": "Vacilla",
+          "filename": "vacilla",
+          "translations": ["מתנדנד", "מועד"],
+          "definition": "צורת הווה של \"vacillare\" (להתנדנד או למַעַד). מתאר תנועה לא יציבה כאילו עומד ליפול.",
+          "info": "\"Vacilla\" היא הצורה ביחיד רשמית (lei/loro) או ברבים בלתי רשמיים (voi). צורת יחיד בלתי רשמית (tu) היא \"vacilli\". צורת הדובר (io) היא \"vacillo\"."
+        },
+        {
+          "word": "Impedire",
+          "filename": "impedire",
+          "translations": ["למנוע", "לעכב", "להפריע"],
+          "definition": "לעצור או לחסום מישהו מלעשות משהו באמצעות אמצעים פיזיים או אחרים."
+        },
+        {
+          "word": "Sbranare",
+          "filename": "sbranare",
+          "translations": ["לקרוע לגזרים", "לטרוף"],
+          "definition": "לקרוע משהו באלימות באמצעות שיניים או טפרים, בדרך כלל מתאר התקפות בעלי חיים על בשר."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "פעולות ותנועה",
+      "description": "פעלים וביטויי תנועה חיוניים באיטלקית לתיאור פעילויות יומיומיות ואירועי סיפור.",
+      "words": [
+        {
+          "word": "Trovare",
+          "filename": "trovare",
+          "translations": ["למצוא"],
+          "definition": "לגלות, להיתקל או לאתר משהו לאחר חיפוש או במקרה."
+        },
+        {
+          "word": "Trovato",
+          "filename": "trovato",
+          "translations": ["נמצא"],
+          "definition": "צורת עבר של הפועל \"trovare\" (למצוא). משהו שנמצא או נתגלה."
+        },
+        {
+          "word": "Tornare",
+          "filename": "tornare",
+          "translations": ["לחזור", "להגיע בחזרה"],
+          "definition": "חזרה כללית למקום, אדם או מצב מוכר. משמש לחזרות שגרתיות יומיומיות. דוגמה: \"Tornare a casa\" (חזרה הביתה)."
+        },
+        {
+          "word": "Ritornare", 
+          "filename": "ritornare",
+          "translations": ["לחזור שוב", "להחזיר"],
+          "definition": "חזרה לאחר תקופת היעדרות בלתי שגרתית. דוגמה: \"Ritornare a casa dalle vacanze\" (חזרה הביתה מחופשה).",
+          "info": "פועל זה יכול לשמש גם לתיאור פעולת החזרת משהו. דוגמה: \"Ritornare un libro alla biblioteca\" (להחזיר ספר לספרייה)."
+        },
+        {
+          "word": "Ritornato",
+          "filename": "ritornato",
+          "translations": ["חזר"],
+          "definition": "צורת עבר של הפועל \"ritornare\" (לחזור). מישהו שחזר למצב או מקום קודמים."
+        },
+        {
+          "word": "Restava",
+          "filename": "restava",
+          "translations": ["הישאר", "שהה"],
+          "definition": "צורת עבר מתמשכת של הפועל \"restare\" (להישאר). מתאר שהייה במקום או מצב שהתרחשה באופן רציף בעבר, אך נפסקה בשלב מסוים ואינה מתרחשת כעת."
+        },
+        {
+          "word": "Gridava",
+          "filename": "gridava",
+          "translations": ["צעק", "צעק בקול"],
+          "definition": "צורת עבר מתמשכת של הפועל \"gridare\" (לצעוק). מתאר צעקות או קריאות רמות שהתרחשו באופן רציף בעבר, אך נפסקו בשלב מסוים ואינן מתרחשות כעת."
+        },
+        {
+          "word": "Mangio",
+          "filename": "mangio",
+          "translations": ["אני אוכל"],
+          "definition": "פעולת לעיסה ובליעת מזון.",
+          "info": "Mangio מרמז על 'אני אוכל' מסיומת ה-io שלו. אין צורך במילת כינוי מפורשת 'io' (אני) לפני הפועל — באיטלקית מורידים את כינוי הנושא כאשר הסיומת מראה בבירור מי פועל."
+        },
+        {
+          "word": "Aspettando",
+          "filename": "aspettando",
+          "translations": ["מחכה"],
+          "definition": "פעולת שהייה במקום בציפייה למישהו או משהו."
+        },
+        {
+          "word": "Partito",
+          "filename": "partito",
+          "translations": ["עזב", "יצא"],
+          "definition": "צורת עבר של הפועל \"partire\" (לצאת). מישהו או משהו שעזב את המקום שהפועל מתייחס אליו."
+        },
+        {
+          "word": "Avvicinatevi dunque!",
+          "filename": "avvicinatevi dunque!",
+          "translations": ["התקרבו אם כן!", "גשו קרוב יותר!"],
+          "definition": "\"Avvicinatevi\" (התקרבו) + \"Dunque\" (אם כן, לכן). הזמנה דחופה לקבוצה להתקרב.",
+          "info": "\"Avvicinatevi\" היא צורת ציווי רבים רשמית (voi) של הפועל \"avvicinarsi\" (להתקרב). צורת יחיד בלתי רשמית (tu) היא \"Avvicinati!\""
+        },
+        {
+          "word": "Scappi",
+          "filename": "scappi",
+          "translations": ["אתה בורח", "אתה נמלט"],
+          "definition": "פעולת בריחה מהירה כדי להימנע ממעצר או סכנה.",
+          "info": "הסיומת -i מסמנת בבירור שזו צורת יחיד בלתי רשמית (tu) של הפועל \"scappare\" (לברוח). צורת יחיד רשמית (lei) של הפועל הזו היא: \"scappa.\" צורת רבים רשמית (Loro) היא: \"scappano.\" צורת רבים בלתי רשמית (voi) היא: \"scappate.\""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "פעולות עבר מתמשכות",
+      "description": "פעלים המתארים פעולות שהתרחשו באופן רציף בעבר במהלך הרפתקאותיה של אליס.",
+      "words": [
+        {
+          "word": "Diceva",
+          "filename": "diceva",
+          "translations": ["אמר", "היה אומר"],
+          "definition": "צורת עבר מתמשכת יחיד רשמית (lei) של \"dire\" (לומר). מתאר אמירה או סיפור שהתרחשו באופן רציף בעבר, אך נפסקו בשלב מסוים ואינן מתרחשות כעת."
+        },
+        {
+          "word": "Dicevano",
+          "filename": "dicevano",
+          "translations": ["אמרו", "היו אומרים"],
+          "definition": "צורת עבר מתמשכת רבים רשמית (loro) של \"dire\" (לומר). מתאר אמירה או סיפור שהתרחשו באופן רציף בעבר, אך נפסקו בשלב מסוים ואינן מתרחשות כעת."
+        },
+        {
+          "word": "Piaceva",
+          "filename": "piaceva",
+          "translations": ["נראה טוב", "נהג לאהוב"],
+          "definition": "צורת עבר מתמשכת של \"piacere\" (להיות נעים). מתאר משהו שאהבו באופן רציף או קבוע בעבר, אך נפסק בשלב מסוים ואינו מתרחש כעת.",
+          "info": "דוגמה: \"Mi piaceva il gelato\" (נהגתי לאהוב גלידה [אבל עכשיו לא]). שימו לב למבנה הביטוי: זה 'לי זה נראה נעים' במקום 'אני אוהב'."
+        },
+        {
+          "word": "Conducessero",
+          "filename": "conducessero",
+          "translations": ["הובילו", "לקחו"],
+          "definition": "\"Condurre\" (להוביל/לקחת) בצורת עבר היפותטית. דוגמה: \"Se i giardinieri conducessero Alice...\" (אם הגננים היו מובילים את אליס...).",
+          "info": "\"Conducessero\" היא צורת רבים רשמית (loro). צורת יחיד בלתי רשמית (tu) היא \"conducessi\". צורת יחיד רשמית (lei) היא \"conducesse\". צורת רבים בלתי רשמית (voi) היא \"conducessimo\". צורת הדובר (io) היא \"conducessi\"."
+        },
+        {
+          "word": "Circondavano",
+          "filename": "circondavano",
+          "translations": ["הקיפו"],
+          "definition": "צורת עבר מתמשכת של \"circondare\" (להקיף). מתאר הקפה שהתרחשה באופן רציף בעבר, אך נפסקה בשלב מסוים ואינה מתרחשת כעת. דוגמה: \"I fiori circondavano Alice\" (הפרחים הקיפו את אליס).",
+          "info": "\"Circondavano\" היא צורת רבים רשמית (loro). צורת יחיד בלתי רשמית (tu) היא \"circondavi\". צורת יחיד רשמית (lei) היא \"circondava\". צורת רבים בלתי רשמית (voi) היא \"circondavate\". צורת הדובר (io) היא \"circondavo\"."
+        },
+        {
+          "word": "Conveniva",
+          "filename": "conveniva",
+          "translations": ["היה הגיוני", "היה מתאים"],
+          "definition": "צורת עבר של \"convenire\" (להיות נוח). מתאר משהו שנחשב נוח או מעשי באותו זמן בעבר, ללא רמיזה למצבו הנוכחי, משאיר את ההווה פתוח — ייתכן וזה עדיין תקף או לא. דוגמה: \"Conveniva aspettare\" (היה הגיוני לחכות).",
+          "info": "\"Conveniva\" היא צורת יחיד רשמית (lei/loro). צורת יחיד בלתי רשמית (tu) היא \"convenivi\". צורת הדובר (io) היא \"convenivo\". צורת רבים בלתי רשמית (voi) היא \"convenivate\". צורת רבים רשמית (loro) היא \"convenivano\"."
+        },
+        {
+          "word": "Osservava",
+          "filename": "osservava",
+          "translations": ["צפה", "התבונן"],
+          "definition": "צורת עבר מתמשכת של \"osservare\" (להתבונן). מתאר התבוננות או בחינה רציפה שהתרחשה באופן רציף בעבר, אך נפסקה בשלב מסוים ואינה מתרחשת כעת."
+        },
+        {
+          "word": "Faceva",
+          "filename": "faceva",
+          "translations": ["עשה", "נהג לעשות"],
+          "definition": "צורת עבר מתמשכת של \"fare\" (לעשות). מתאר פעולות שהתרחשו באופן רציף בעבר, אך נפסקו בשלב מסוים ואינן מתרחשות כעת."
+        },
+        {
+          "word": "Parlando",
+          "filename": "parlando",
+          "translations": ["מדבר", "משוחח"],
+          "definition": "פועל שמגיע מ-\"parlare\" (לדבר). מתאר דיבור שמתרחש כעת או בו זמנית לפעולה אחרת."
+        },
+        {
+          "word": "Piangendo",
+          "filename": "piangendo",
+          "translations": ["בוכה", "מייבב"],
+          "definition": "פועל שמגיע מ-\"piangere\" (לבכות). מתאר בכי שמתרחש כעת או בו זמנית לפעולה אחרת."
+        },
+        {
+          "word": "Aspettò un poco",
+          "filename": "aspettò un poco",
+          "translations": ["חיכה מעט"],
+          "definition": "\"Aspettò\" (הוא/היא/זה חיכה) | \"Un poco\" (מעט). מתאר פעולת המתנה קצרה שהושלמה פעם אחת בעבר.",
+          "info": "בדיבור איטלקי טבעי, ביטוי זה נשמע לעיתים קרובות כמו \"aspetto un po'\""
+        },
+        {
+          "word": "Rispondevo",
+          "filename": "rispondevo",
+          "translations": ["עניתי", "השיב"],
+          "definition": "צורת עבר מתמשכת של \"rispondere\" (להשיב). מתאר תגובה שהתרחשה באופן רציף בעבר, אך נפסקה בשלב מסוים ואינה מתרחשת כעת. דוגמה: \"Rispondevo alle domande\" = \"עניתי על השאלות\".",
+          "info": "\"Rispondevo\" היא צורת הדובר (io). צורת יחיד בלתי רשמית (tu) היא \"rispondevi\". צורת יחיד רשמית (Lei) היא \"rispondeva\". צורת רבים בלתי רשמית (voi) היא \"rispondevate\". צורת רבים רשמית (loro) היא \"rispondevano\"."
+        }
+      ]
+    }
+  ]
+}

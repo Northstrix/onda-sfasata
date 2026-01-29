@@ -1,0 +1,581 @@
+{
+  "levels": [
+    {
+      "id": 25,
+      "title": "Uusdruck und Gfühl.",
+      "description": "Wendige, wo Emotione, Gsicherheit und Ausruf usdrücke.",
+      "words": [
+        {
+          "word": "Certa",
+          "filename": "certa",
+          "translations": ["Gsiicher", "fest"],
+          "definition": "Weiblich Form vo \"certo\" (gsiicher). Beschribt voll Stimmig oder Überzeugig über öppis. Bispiel: \"Sono certa che arriverà\" (I bi gsiicher, dass er chunnt)."
+        },
+        {
+          "word": "Sicuro",
+          "filename": "sicuro",
+          "translations": ["Siicher", "gsiicher", "fest"],
+          "definition": "Beschribt öppis siichers, zueverlässigs oder e Gfühl vo voll Stimmig. Bispiel: \"Sono sicuro di vincere\" (I bi gsiicher, dass i gwinne.)"
+        },
+        {
+          "word": "Fermezza",
+          "filename": "fermezza",
+          "translations": ["Festigkeit", "Beständigkeit"],
+          "definition": "Eigschaft vo entschlossene, standhaft und unerschütterlich Entscheidig oder Aktioni. Bispiel: \"Parlava con grande fermezza\" (Er het mit grosser Festigkeit gsproche.)"
+        },
+        {
+          "word": "Puntualità",
+          "filename": "puntualità",
+          "translations": ["Pünktlichkeit"],
+          "definition": "Gewohnheit, z’Zyt si oder Aufgab prompt z’fäudscht. Bispiel: \"La sua puntualità è ammirevole\" (Si Pünktlichkeit isch bewundernswürd)."
+        },
+        {
+          "word": "Lo vedo",
+          "filename": "lo vedo",
+          "translations": ["I siä’s", "i verstah’s"],
+          "definition": "Gegenwart vo \"vedere\" (siä), zeigt jetzigi Bsicht oder plötzligs Verständnis. Bispiel: \"Lo vedo ora!\" (I siä’s jetz!)"
+        },
+        {
+          "word": "Stupiti",
+          "filename": "stupiti",
+          "translations": ["Verwundärt", "baff"],
+          "definition": "Vergange abgschlosseni Mehrzahl männlich Form vo \"stupire\" (verwundere). Beschribt Lüt, wo durch Überraschigs und Verwunderig baff gsii sind."
+        },
+        {
+          "word": "Tacque",
+          "filename": "tacque",
+          "translations": ["Isch still gsii", "het gschtillt"],
+          "definition": "Vergange abgschlosseni Form vo \"tacere\" (still si). Beschribt öpper, wo plötzli ufghört het z'spreche und ganz still worde isch."
+        },
+        {
+          "word": "Vero",
+          "filename": "vero",
+          "translations": ["Wahr", "echt"],
+          "definition": "Beschribt öppis Faktisches, Echtes oder Realitätsgschlechtes. Bispiel: \"È vero quello che dici\" (Was du säisch isch wahr.)"
+        },
+        {
+          "word": "Che sarà di me",
+          "filename": "che sarà di me",
+          "translations": ["Was wird us mir?"],
+          "definition": "\"Che\" (was) | \"sarà\" (wird si) | \"di\" (vo) | \"me\" (mir). Wendig, wo Sorg uf em unsichere Zuekunfts oder Schicksal usdrückt. Bispiel: \"Che sarà di me in questo posto caotico?\" (Was wird us mir in dem chaotische Ort?)"
+        },
+        {
+          "word": "Non diventare mai vecchia",
+          "filename": "non diventare mai vecchia",
+          "translations": ["Nie alt werdä"],
+          "definition": "\"Non\" (nöd) | \"diventare\" (werdä) | \"mai\" (nie) | \"vecchia\" (alt). Wendig, wo dr Wunsch usdrückt, ewig jung z'bläibe."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Pfleg, Gedanke und Aktioni.",
+      "description": "Wörter für sanft Pfleg, bewusst Aktione und Vorsätze.",
+      "words": [
+        {
+          "word": "Cautamente",
+          "filename": "cautamente",
+          "translations": ["Vorsichtig", "bedächtlich"],
+          "definition": "Beschribt vorsichtigs, umsichtigs Handlä uf Gfahr z’vermeide. Bispiel: \"Camminava cautamente\" (Er isch vorsichtig gloffe.)"
+        },
+        {
+          "word": "Carezzevole",
+          "filename": "carezzevole",
+          "translations": ["Zärtlich", "streicheld"],
+          "definition": "Beschribt sanfts, liebevolls Bsiche oder zärtlich Art. Bispiel: \"Voce carezzevole\" (Zärtlich Stimmä.)"
+        },
+        {
+          "word": "Ricerca",
+          "filename": "ricerca",
+          "translations": ["Suechi", "Forschig"],
+          "definition": "Akt vom sorgfältigs Sueche oder systematisch Untersuechung. Bispiel: \"Faceva ricerche storiche\" (Er het historisch Forschig gmacht.)"
+        },
+        {
+          "word": "Ricamare",
+          "filename": "ricamare",
+          "translations": ["Stickä"],
+          "definition": "Stoff mit Nadelstickerei verzierä. Bispiel: \"Ricamava fiori sul vestito\" (Si het Blueme uf’s Kleid gstickt.)"
+        },
+        {
+          "word": "Pentirsi",
+          "filename": "pentirsi",
+          "translations": ["Bereue", "reue"],
+          "definition": "Reue oder Bedauerig über vergangeni Aktione fühle. Bispiel: \"Si pentì di averlo fatto\" (Er het’s bereut, dass er’s gmacht het.)"
+        },
+        {
+          "word": "Toccarla",
+          "filename": "toccarla",
+          "translations": ["Si/s’bsittä"],
+          "definition": "Gegenwart vo \"toccare\" (bsittä) mit Direktobjekt „la“, meint Bsiche vo ere Frau oder weiblich Sache. Bispiel: \"Non toccarla!\" (Bsitt si/s’ nid!)"
+        },
+        {
+          "word": "Di",
+          "filename": "di",
+          "translations": ["Vo", "us", "über"],
+          "definition": "Präposition für Besitz, Ursprungs, Material oder Thema. Bispil: \"Libro di Maria\" (Maria si Buech) | \"Vengo di Roma\" (I chum us Rom.)"
+        },
+        {
+          "word": "Raccontarvelo",
+          "filename": "raccontarvelo",
+          "translations": ["Erdäxle’s euch"],
+          "definition": "Gegenwart vo \"raccontare\" (erzähle). Beschribt e Gschicht oder Info an e Gruppe über e bestimmt Sache (lo). Bispiel: \"Voglio raccontarvelo\" (I wöu’s euch erzählä).",
+          "info": "\"Raccontarvelo\" isch d’umgangssprachlich Mehrzahl- (ihr) Form. Einzahl umgangssprachlich (du): \"raccontartelo\". Einzahl höflich (Si): \"raccontarglielo\". Mehrzahl höflich (si): \"raccontarglielo\". Sprecher (ich): \"raccontarlo\"."
+        },
+        {
+          "word": "Consumarla",
+          "filename": "consumarla",
+          "translations": ["Verbrauche si/s’"],
+          "definition": "Gegenwart vo \"consumare\" (verbrauche, usnütze) mit Direktobjekt „la\", meint voll Verbrauch oder Zerstörig vo ere weiblich Sache. Bispiel: \"Alice temeva che la follia la consumasse.\" (Alice het Angscht gha, dass dr Wahnsinn si verzehrä würd.)"
+        },
+        {
+          "word": "Volontari",
+          "filename": "volontari",
+          "translations": ["Freiwillig"],
+          "definition": "Mehrzahl männlich vo \"volontario\"; Lüt, wo freiwillig ohni Bezöug hilfed.",
+          "info": "Einzahl männlich: \"volontario\"; weiblich Einzahl: \"volontaria\"; männlich Mehrzahl: \"volontari\"; weiblich Mehrzahl: \"volontarie\"."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Sache und Eigschaftä.",
+      "description": "Gegeständ, Messige und beschreibendi Eigschaftä.",
+      "words": [
+        {
+          "word": "Fogliolino",
+          "filename": "fogliolino",
+          "translations": ["Blättli", "Foliäli"],
+          "definition": "Verchlinerigsform vo \"foglio\" (Blatt). Chliins Blatt oder dünni Papierschicht. Bispiel: \"Un fogliolino verde\" (E chliins grüens Blättli)."
+        },
+        {
+          "word": "Grossezza",
+          "filename": "grossezza",
+          "translations": ["Dicki", "Masse"],
+          "definition": "Eigschaft vo dick, massig oder beträchtlich gross/gruum. Bispiel: \"Misurò la grossezza del tronco\" (Er het d’Dicki vom Stamm gmässet.)"
+        },
+        {
+          "word": "Manichetto",
+          "filename": "manichetto",
+          "translations": ["Ärmli", "Manschättli"],
+          "definition": "Verchlinerigsform vo \"manica\" (Ärmi); chliins Ärmli oder Schutz-Manschätt."
+        },
+        {
+          "word": "Quella candela",
+          "filename": "quella candela",
+          "translations": ["Die Kärzli"],
+          "definition": "\"Quella\" (die, weiblich) | \"Candela\" (Kärzli). Bestimmti Kärzli, wo scho erwähnt oder siichtbar isch."
+        },
+        {
+          "word": "Questa commedia",
+          "filename": "questa commedia",
+          "translations": ["Die Komödii"],
+          "definition": "\"Questa\" (die, weiblich) | \"Commedia\" (Komödii). Bestimmti komisch Stück, Situation oder Vorführig."
+        },
+        {
+          "word": "Questa fune",
+          "filename": "questa fune",
+          "translations": ["Ds Seil"],
+          "definition": "\"Questa\" (die, weiblich) | \"Fune\" (Seil). Bestimmts Seil, wo gweist oder brucht wird."
+        },
+        {
+          "word": "Questa pena",
+          "filename": "questa pena",
+          "translations": ["Ds Leid", "d’Strafi"],
+          "definition": "\"Questa\" (die, weiblich) | \"Pena\" (Leid/Strafi). Bestimmts Leid oder Straaf."
+        },
+        {
+          "word": "La camicia da notte",
+          "filename": "la camicia da notte",
+          "translations": ["S’Nächtschätzli", "Nächtschiis"],
+          "definition": "\"La camicia\" (s’Chiis) | \"Da notte\" (für d’Nacht). Lockris Kleidungsstück zum Schlofe."
+        },
+        {
+          "word": "Paperone",
+          "filename": "paperone",
+          "translations": ["Milliardär", "Grosch"],
+          "definition": "Umgangssprachlich für superrei chi Persoon, oft mit negativer Beurteilung."
+        },
+        {
+          "word": "Nulla",
+          "filename": "nulla",
+          "translations": ["Nüt"],
+          "definition": "Vollständig ohni öppis; null Menge. Bispiel: \"Non ho nulla\" (I ha nüt.)"
+        },
+        {
+          "word": "Vestita di nero",
+          "filename": "vestita di nero",
+          "translations": ["I Schwarze gklaidet"],
+          "definition": "Vergange abgschlosseni weiblich Form vo \"vestire\" (anklaide) mit \"di nero\" (i Schwarze). Beschribt e Frau i schwarze Kleidig.",
+          "info": "Für e Maa i schwarze Kleidig: \"Vestito di nero\"."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Erinnerig und Gedächtnis.",
+      "description": "Wörter für Erinnerig, Gschichte und vergangeni Erlebnis.",
+      "words": [
+        {
+          "word": "Ricordare",
+          "filename": "ricordare",
+          "translations": ["Erinnere", "zurückruefe"],
+          "definition": "Erinnerige oder Info us dr Vergange ins Gedächtnis zruggbringe. Bispiel: \"Ricordo bene quella giornata\" (I erinner mich guet an dem Tag.)"
+        },
+        {
+          "word": "Ricordo",
+          "filename": "ricordo",
+          "translations": ["Erinnerig", "Andächtnis", "Andenken"],
+          "definition": "Erinnerig an vergangeni Ereignis; au e Gschänk zum Erinnere. Bispil: \"Quel profumo mi riporta ai ricordi d'infanzia\" (Ds Parfüm bringt Chindheits-Erinnerige zrugg [Erinnerig]) | \"Ho portato questo ricordo da Israele\" (I ha ds Andenken us Israel brucht [Andenken])."
+        },
+        {
+          "word": "Voglio ricordare",
+          "filename": "voglio ricordare",
+          "translations": ["I wöu erinnere"],
+          "definition": "\"Voglio\" (i wöu) | \"ricordare\" (erinnere). Gegenwart, wo dr Wunsch usdrückt, e Erinnerig z’halte. Bispiel: \"Voglio ricordare questo momento\" (I wöu ds Moment erin nere.)"
+        },
+        {
+          "word": "Ritorno",
+          "filename": "ritorno",
+          "translations": ["Rückkehr", "Widrkum"],
+          "definition": "Akt vom Zruggcho in ere früeneri Platz, Lage oder Zustand. Bispiel: \"Aspetto il tuo ritorno\" (I wart uf din Rückkehr.)"
+        },
+        {
+          "word": "Parole come queste",
+          "filename": "parole come queste",
+          "translations": ["Wort wia die"],
+          "definition": "\"Parole\" (Wort) | \"come queste\" (wia die). Meint Wort vo dem bestimmte Typ oder Art."
+        },
+        {
+          "word": "Veduta",
+          "filename": "veduta",
+          "translations": ["Aussicht", "Ansicht"],
+          "definition": "Was us ere bestimmtä Stell gsäh wärd; Landschaft oder Panorama. Bispiel: \"Bellissima veduta del mare\" (Wunderschöni Meer-Aussicht.)"
+        },
+        {
+          "word": "Stesso",
+          "filename": "stesso",
+          "translations": ["Selbig", "selber"],
+          "definition": "Identisch oder selber Persoon/Sach. Bispiel: \"Lo stesso errore\" (Säm Ärä) | \"Se stesso\" (Selber)."
+        },
+        {
+          "word": "Stessa",
+          "filename": "stessa",
+          "translations": ["Selbig", "si selber"],
+          "definition": "Weiblich Einzahl vo \"stesso\"; identisch oder selber Persoon/Sach. Bispiel: \"La stessa storia\" (Säm Gschicht) | \"Se stessa\" (Si selber).",
+          "info": "Männlich Einzahl: \"stesso\"; männlich Mehrzahl: \"stessi\"; weiblich Mehrzahl: \"stesse\"."
+        },
+        {
+          "word": "Volta",
+          "filename": "volta",
+          "translations": ["Mol", "Wend", "Gewölb"],
+          "definition": "Meist „mol“ oder „Wend“ i Italienisch, meint e einzelni Fall, Anlass oder Moment. Cha au e gschwungi Architektur wie Gewölb bedüte. Bispiel: \"Ogni volta che guardo quel dipinto, inizio a sognare a occhi aperti Firenze\" (Jede mol wenn i ds Bild aachaug, fange i an, wach zetröumä vo Florenz.)"
+        },
+        {
+          "word": "Così ingiallita",
+          "filename": "cosí ingiallita",
+          "translations": ["So vergilbt"],
+          "definition": "\"Così\" (so) | \"Ingiallita\" (vergilbt). Beschribt öppis, wo durch Alter oder Abnutzig vergilbt isch."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Veränderig und Verlust.",
+      "description": "Wörter für Verwandlung, Verschwindig und Schwierigkeit.",
+      "words": [
+        {
+          "word": "Ricrescere",
+          "filename": "ricrescere",
+          "translations": ["Widrwachse", "neu wachse"],
+          "definition": "No emol Abgschnitte, verloore oder beschädigt widr wachse. Bispiel: \"L'erba comincia a ricrescere dopo la pioggia\" (S'Gräs fange no em Räge widr z'wachse a.)"
+        },
+        {
+          "word": "Scomparso",
+          "filename": "scomparso",
+          "translations": ["Verschwunde", "vermisset"],
+          "definition": "Vergange abgschlosseni männlich Form vo \"scomparire\" (verschwinde). Beschribt öpper oder öppis, wo ganz usgsoh isch.",
+          "info": "Weiblich Form isch \"scomparsa\""
+        },
+        {
+          "word": "Tanto cambiato",
+          "filename": "tanto cambiato",
+          "translations": ["So verändert"],
+          "definition": "\"Tanto\" (so viel) | \"Cambiato\" (verändert). Beschribt e bedeutend Verwandlung us em früeneri Zustand."
+        },
+        {
+          "word": "Tanto difficile",
+          "filename": "tanto difficile",
+          "translations": ["So schwiir"],
+          "definition": "\"Tanto\" (so viel) | \"Difficile\" (schwiir). Beschribt öppis extrem schwer z’tue oder z’verstei."
+        },
+        {
+          "word": "Lontana",
+          "filename": "lontana",
+          "translations": ["Fet weg", "entfernt"],
+          "definition": "Weiblich Einzahl vo \"lontano\"; körperlich oder emptional entfern. Bispiel: \"La meta è lontana\" (S'Zil isch fet weg).",
+          "info": "Männlich Einzahl: \"lontano\"; männlich Mehrzahl: \"lontani\"; weiblich Mehrzahl: \"lontane\""
+        },
+        {
+          "word": "Poi",
+          "filename": "poi",
+          "translations": ["Denn", "später", "danach"],
+          "definition": "Danach, nachemols i Zyt oder Reihfolge. Bispiel: \"Prima mangio, poi studio\" (Zersch esse, denn lerne.)"
+        },
+        {
+          "word": "Tanto",
+          "filename": "tanto",
+          "translations": ["So viel", "vil"],
+          "definition": "Betont grossi Menge oder hoche Grad. Bispiel: \"Ho tanto lavoro\" (I ha so vil Arbet.)"
+        },
+        {
+          "word": "Cosa simile",
+          "filename": "cosa simile",
+          "translations": ["Etwas Ähnlichs"],
+          "definition": "\"Cosa\" (Sache) | \"Simile\" (ähnlich). Meint e Sache oder Situation wia e andere."
+        },
+        {
+          "word": "Ella",
+          "filename": "ella",
+          "translations": ["Si"],
+          "definition": "Formell oder literarisch 3. Persoon weiblich Einzahl Fürwort. Bispiel: \"Ella arrivò tardi\" (Si isch spät cho.)"
+        },
+        {
+          "word": "Loro",
+          "filename": "loro",
+          "translations": ["Si", "sie"],
+          "definition": "3. Persoon Mehrzahl Fürwort für Lüt; au formell Mehrzahl \"Si\". Bispiel: \"Loro arrivano\" (Si chömed.)"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Gschichte und Situatione.",
+      "description": "Wendige für Spil, Aarufe und dramatisch Szenen.",
+      "words": [
+        {
+          "word": "Partita",
+          "filename": "partita",
+          "translations": ["Spiel", "Match"],
+          "definition": "Wettkampfspil oder Sportmatch; au Vereinbarig oder Portion. Bispiel: \"Vince la partita\" (Gwinnt ds Spiel.)"
+        },
+        {
+          "word": "Annunzio",
+          "filename": "annunzio",
+          "translations": ["Aarufe"],
+          "definition": "Öffentlich Erklärig oder Aawersch. Bispiel: \"L'annunzio sul giornale\" (S'Aarufe i der Zytig.)"
+        },
+        {
+          "word": "Complemento",
+          "filename": "complemento",
+          "translations": ["Ergänzig", "Zusetzig"],
+          "definition": "Öppis, wo vollends oder verbessert. Bispiel: \"Il complemento perfetto\" (D'perfekt Ergänzig.)"
+        },
+        {
+          "word": "Smorfiose",
+          "filename": "smorfiose",
+          "translations": ["Grimassierend", "Gsichtlerä"],
+          "definition": "Weiblich Mehrzahl vo \"smorfiose\"; beschreibt Lüt mit hässlich Gsichtusdruck.",
+          "info": "Männlich Mehrzahl Form isch \"smorfiose\""
+        },
+        {
+          "word": "Vivente",
+          "filename": "vivente",
+          "translations": ["Lebend", "lebendig"],
+          "definition": "Grad am Läbewäsi und mit Läbewäsi. Bispiel: \"Esseri viventi\" (Lebendi Wisi.)"
+        },
+        {
+          "word": "Bestia",
+          "filename": "bestia",
+          "translations": ["Viecht"],
+          "definition": "Gross wilds Tier, oft grimmig."
+        },
+        {
+          "word": "Esclamate",
+          "filename": "esclamate",
+          "translations": ["Ufschrie"],
+          "definition": "Vergange abgschlosseni weiblich Mehrzahl Form vo \"esclamare\" (ufschrie). Beschribt Frauä, wo plötzli ufgschrie hend.",
+          "info": "D'männlich Einzahl Form vo dem Wort isch \"esclamato\"; Weiblich Einzahl: \"esclamata\"; Männlich Mehrzahl: \"esclamati\"."
+        },
+        {
+          "word": "Furiosa",
+          "filename": "furiosa",
+          "translations": ["Wütend"],
+          "definition": "Beschreibt e Frau oder weiblich Wort i em Zustand vo extreme Wut.",
+          "info": "D'männlich Einzahl Form vo dem Wort isch \"furioso\"; männlich Mehrzahl: \"furiosi\"; weiblich Mehrzahl: \"furiose\""
+        },
+        {
+          "word": "Scavando patate",
+          "filename": "scavando patate",
+          "translations": ["Erdtäpfel usgrabe"],
+          "definition": "Gegenwärtig laufendi Form vo \"scavare\" (grabe) mit Objekt; beschreibt ständigs Grabe vo Erdtäpfel us dr Ärd."
+        },
+        {
+          "word": "In qualcuno",
+          "filename": "in qualcuno",
+          "translations": ["In öpperem"],
+          "definition": "\"In\" (in) | \"Qualcuno\" (öperem). Idiomatisch Italienisch zum Usdruck vo Wahrnehmig vo inneri Eigschaft i ere Persoon. Bispiel: \"Sento coraggio in qualcuno che lotta per ciò in cui crede!\" (I spür Müet in öperem, wo für’s kämpft, was er gläubt!)"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Fortgschrittni Vokabel I.",
+      "description": "Fortgschrittni italienisch Vokabel mit sällte, nuanciert und literarisch Uusdruck.",
+      "words": [
+        {
+          "word": "Istanze",
+          "filename": "istanze",
+          "translations": ["Fäll", "Gfäll", "Gsuech"],
+          "definition": "Mehrzahl vo \"istanza\" (Fall, Gsuech). Cha bestimmet Bispil oder Vorkommnis bedüte oder formelli gschribeni Gsuech an Behörde."
+        },
+        {
+          "word": "Silenzio della casa",
+          "filename": "silenzio della casa",
+          "translations": ["Stöi vom Huus"],
+          "definition": "\"Silenzio\" (Stöi) | \"della\" (vom) | \"casa\" (Huus). Vollständig ohni Ton im Huus, oft unheimlich oder drückend."
+        },
+        {
+          "word": "Violenza crudele",
+          "filename": "violenza crudele",
+          "translations": ["Grausam Ggäwalt", "brutal Ggäwalt"],
+          "definition": "\"Violenza\" (Ggäwalt) | \"crudele\" (grausam). Betont nit nume physisch Aggression, sondern bewusst und gnadenlosi Schad, oft mit moralisch Emotione."
+        },
+        {
+          "word": "Sentenza di morte",
+          "filename": "sentenza di morte",
+          "translations": ["Todesurteil"],
+          "definition": "\"Sentenza\" (Urteil) | \"di morte\" (vom Tode). Formelli gerichtlich Entscheid zum Tode verurteile oder bildlich e unvermeidbar Urteil, wo Zukunft zerstört."
+        },
+        {
+          "word": "Origliando",
+          "filename": "origliando",
+          "translations": ["Mitlausche", "heimlich z’höre"],
+          "definition": "Gegenwärtig laufendi Form vo \"origliare\" (mitlausche). Heimlich Gspräch von andere abhöre, oft am Tür oder Muur, ohni gsäh z'wärde. Het e heimlichs Spionierä-Gfühl.",
+          "info": "\"Origliando\" ändert si nid noh Persoon, Zuel oder Form. All Formä (Einzahl umgangssprachlich (du), Mehrzahl umgangssprachlich (ihr), Einzahl höflich (Si), Mehrzahl höflich (si), Sprecher (ich)) sind nume \"origliando\"."
+        },
+        {
+          "word": "Sussulto",
+          "filename": "sussulto",
+          "translations": ["Zuckä", "plötzliich Sprung"],
+          "definition": "Us em Verb \"sussultare\" (zucke). Plötzliich körperlich oder emptionale Zuckä dur Angscht, Schock oder starche Emotioni. Bispiel: \"Sussultò il gatto non appena vide il suo riflesso nello specchio\" (D’Chatz isch zuckt, sobald er si Spiegelbild gsäh het.)"
+        },
+        {
+          "word": "Scalpiccio",
+          "filename": "scalpiccio",
+          "translations": ["Trappel", "Schrittgelaude"],
+          "definition": "Leisi, ständigi Ton vo mehri Schritt oder liicht Trappeln, wie Lüt i ere ander Zimmer oder e Masse im Gang."
+        },
+        {
+          "word": "Sommesso",
+          "filename": "sommesso",
+          "translations": ["Gedämpft", "leis", "fluisternd"],
+          "definition": "Beschreibt e Stimmä, Gebet oder Beschwerig i sehr leiser Ton, fast flüsternd, oft zum diskret, respektvoll oder emptional zrugghe haltä."
+        },
+        {
+          "word": "Garbatézza",
+          "filename": "garbatezza",
+          "translations": ["Höflichkeit", "Takt", "Anständigkeit"],
+          "definition": "\"Garbatézza\" (Höflichkeit, feinsinnige Höflichkeit). Beschribt elegant, rücksichtsfro Verhalte und Sproch mit Takt, Gütigkeit und guete Manierä."
+        },
+        {
+          "word": "Rigidità",
+          "filename": "rigidità",
+          "translations": ["Steifheit", "Unbiegsamkeit"],
+          "definition": "Eigschaft oder Zustand vo steif, fest oder unbiegsam. Cha physisch (wie steif Objekt oder Muskel) oder bildlich (Unbiegsamkait i Verhalte oder Regle) bedüte. Bispiel: \"La rigidità del materiale rende difficile la lavorazione.\" (D’Steifheit vom Material macht’s schwiir z’arbeite.)"
+        },
+        {
+          "word": "Discorrere",
+          "filename": "discorrere",
+          "translations": ["Gspräch führe", "diskutiere", "plaudere"],
+          "definition": "Gspräch oder Diskussion über e Thema führe, oft anhaltend oder begründet."
+        },
+        {
+          "word": "Ritegno",
+          "filename": "ritegno",
+          "translations": ["Zurückhaltig", "Reserviertheit", "Selbstbeherrschig"],
+          "definition": "Eigschaft vo emptionale oder verhaltensmässig Zurückhaltig — Reserviert, bescheiden oder vorsichtig i Sproch/Aktione, um Übertreibung oder Unanständigkeit z’vermeide."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Fortgschrittni Vokabel II.",
+      "description": "Fortgschrittni italienisch Vokabel für nuancierts Verstei.",
+      "words": [
+        {
+          "word": "La grande città lontana",
+          "filename": "la grande città lontana",
+          "translations": ["D’gross fet Stadt"],
+          "definition": "\"La\" (d’) | \"grande\" (gross) | \"città\" (Stadt) | \"lontana\" (fet). E majestätisch Metropol fet weg, oft idealisiert oder romantisiert."
+        },
+        {
+          "word": "Cipiglio severo",
+          "filename": "cipiglio severo",
+          "translations": ["Streng Gsicht"],
+          "definition": "\"Cipiglio\" (streng Blick, autoritär Haltung) | \"severo\" (streng). Beschribt e einschüchternd Gsichtusdruck oder Haltung mit Autorität. Bispiel: \"Guardava tutti con cipiglio severo\" (Er het alli mit strengem Gsicht anguckt.)"
+        },
+        {
+          "word": "Con inesorabile puntualità",
+          "filename": "con inesorabile puntualità",
+          "translations": ["Mit unbarmherzig Pünktlichkeit"],
+          "definition": "\"Con\" (mit) | \"inesorabile\" (unbarmherzig) | \"puntualità\" (Pünktlichkeit). Beschribt mechanisch genau Zytmaass, wo nie abweicht. Bispiel: \"Arrivava con inesorabile puntualità ogni mattina alle sette\" (Er isch jede Morge um siibi mit unbarmherzig Pünktlichkeit cho.)"
+        },
+        {
+          "word": "Sottotenente di complemento nel venticinquesimo fanteria",
+          "filename": "sottotenente di complemento nel venticinquesimo fanteria",
+          "translations": ["Reservist Leutnant beim 25. Infanterie"],
+          "definition": "\"Sottotenente\" (Leutnant) | \"di\" (vo) | \"complemento\" (Reservist) | \"nel\" (bi em) | \"venticinquesimo\" (25.) | \"fanteria\" (Infanterie).",
+          "info": "Historisch italienisch Militärrang für Zivilreserviste, wo im Krieg mobilisiert worde sind zum Auffille vo Einheit oder Ersatz. \"Di complemento\" meint Offiziier us Zivil, nid Karrieremilitär."
+        },
+        {
+          "word": "Fracasso di vetri rotti",
+          "filename": "fracasso di vetri rotti",
+          "translations": ["Laut vo gschtarzä Gläser"],
+          "definition": "\"Fracasso\" (Laut, ohrenbetäubend Getöös) | \"di vetri rotti\" (vo gschtarzä Gläser). Extrem lauts, chaotisch Gelaud vo zerberstend Glas. Bispiel: \"Il fracasso di vetri rotti svegliò tutto il vicinato\" (S’Laut vo gschtarzä Gläser het de ganze Nachbarschaft ufwiischt.)"
+        },
+        {
+          "word": "Quattro ceri funebri",
+          "filename": "quattro ceri funebri",
+          "translations": ["Vier Leichternkärzli"],
+          "definition": "\"Quattro\" (vier) | \"ceri\" (grossi Wächskärzli bi katholisch Begräbnis, Prozession zum Symbol ewigs Liechts) | \"funebri\" (leichen-). Grossi rituell Wächskärzli speziell für katholisch Todeszeremonie."
+        },
+        {
+          "word": "Quasi impedire",
+          "filename": "quasi impedire",
+          "translations": ["Fast verhindere"],
+          "definition": "\"Quasi\" (fast) | \"impedire\" (verhindere). Beschribt e Aktioni, wo grad no emol öppis stoppt het. Bispiel: \"Quasi impedire il disastro all'ultimo secondo\" (Het ds Unglück im letschte Moment fast verhindert.)"
+        },
+        {
+          "word": "Sorelle stagionate",
+          "filename": "sorelle stagionate",
+          "translations": ["Reif Schwöster", "älter Schwöster", "erfarne Schwöster"],
+          "definition": "\"Sorelle\" (Schwöster, Nonne) | \"stagionate\" (weiblich Mehrzahl vo \"stagionato\", gereift, gelagert wie Käse). Meint wörtlich älter Schwöster; bildlich erfarne oder wißi Frauä (au Nonne). Nit negativ — meist liebevoll oder humorvoll."
+        },
+        {
+          "word": "Lunghissima attesa",
+          "filename": "lunghissima attesa",
+          "translations": ["Extrem lang Wartegäng"],
+          "definition": "\"Lunghissima\" (extrem lang) | \"attesa\" (Wartä). Beschribt e extrem verlängert, angspant Wartegäng. Bispiel: \"Sopportò la lunghissima attesa con pazienza\" (Si het d’extrem lang Wartegäng mit Geduld ertrage.)"
+        },
+        {
+          "word": "Silenzio di quell’attesa",
+          "filename": "silenzio di quell’attesa",
+          "translations": ["Stöi vo dem Wartegäng"],
+          "definition": "\"Silenzio\" (Stöi) | \"di\" (vo) | \"quell’\" (dem) | \"attesa\" (Wartä). Dichtisch Uusdruck für dr schwere, fast greifbar Stöi um e angespannte Wartemoment, oft emptionell gfolt."
+        },
+        {
+          "word": "Che cosa mai son'io addiventata",
+          "filename": "che cosa mai son'io addiventata",
+          "translations": ["Was bin i num werdä?"],
+          "definition": "\"Che\" (was) | \"cosa\" (Sache) | \"mai\" (jemols) | \"son'io\" (bin i / bi i) | \"addiventata\" (worde). Dramatisch Selbstfroge über e Verwandlung oder veränderte Lage."
+        },
+        {
+          "word": "Riso di luce",
+          "filename": "riso di luce",
+          "translations": ["Lachä vom Liecht"],
+          "definition": "\"Riso\" (Lachä) | \"di\" (vom) | \"luce\" (Liecht). Dichtisch Uusdruck für schimmerig, tanzend Liecht wia Sunnästrahle dur Blätter."
+        }
+      ]
+    }
+  ]
+}

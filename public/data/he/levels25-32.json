@@ -1,0 +1,581 @@
+{
+  "levels": [
+    {
+      "id": 25,
+      "title": "ביטויים ורגשות",
+      "description": "ביטויים המביעים רגשות, ודאות והברות.",
+      "words": [
+        {
+          "word": "Certa",
+          "filename": "certa",
+          "translations": ["ודאית", "בטוחה"],
+          "definition": "צורת נקבה של \"certo\" (ודאי). מתארת ביטחון או שכנוע מלא לגבי משהו. דוגמה: \"Sono certa che arriverà\" (אני בטוחה שהוא יגיע)."
+        },
+        {
+          "word": "Sicuro",
+          "filename": "sicuro",
+          "translations": ["בטוח", "מוגן", "וודאי"],
+          "definition": "מתאר משהו בטוח, אמין או תחושת ביטחון מלא. דוגמה: \"Sono sicuro di vincere\" (אני בטוח שאנצח)."
+        },
+        {
+          "word": "Fermezza",
+          "filename": "fermezza",
+          "translations": ["נחישות", "עקשנות"],
+          "definition": "איכות של היות נחוש, יציב ובלתי מתפשר בהחלטה או בפעולה. דוגמה: \"Parlava con grande fermezza\" (דיבר בנחישות רבה)."
+        },
+        {
+          "word": "Puntualità",
+          "filename": "puntualità",
+          "translations": ["דייקנות"],
+          "definition": "הרגל להגיע בזמן או להשלים משימות במהירות. דוגמה: \"La sua puntualità è ammirevole\" (הדייקנות שלו ראויה להערצה)."
+        },
+        {
+          "word": "Lo vedo",
+          "filename": "lo vedo",
+          "translations": ["אני רואה את זה", "אני מבין"],
+          "definition": "צורת הווה של \"vedere\" (לראות) המביעה תפיסה חזותית נוכחית או הבנה פתאומית. דוגמה: \"Lo vedo ora!\" (עכשיו אני רואה!)."
+        },
+        {
+          "word": "Stupiti",
+          "filename": "stupiti",
+          "translations": ["מופתעים", "משתוממים"],
+          "definition": "צורת עבר מושלמת רבים זכר של \"stupire\" (להדהים). מתאר אנשים שהופתעו והשתאמו ממשהו בלתי צפוי."
+        },
+        {
+          "word": "Tacque",
+          "filename": "tacque",
+          "translations": ["שתק", "היה שקט"],
+          "definition": "צורת עבר מושלמת של \"tacere\" (לשתוק). מתאר מישהו שהפסיק לדבר פתאום והיה שקט לחלוטין."
+        },
+        {
+          "word": "Vero",
+          "filename": "vero",
+          "translations": ["אמיתי", "נכון"],
+          "definition": "מתאר משהו עובדתי, אותנטי או התואם למציאות. דוגמה: \"È vero quello che dici\" (מה שאתה אומר נכון)."
+        },
+        {
+          "word": "Che sarà di me",
+          "filename": "che sarà di me",
+          "translations": ["מה יהיה ממני"],
+          "definition": "\"Che\" (מה) | \"sarà\" (יהיה) | \"di\" (של) | \"me\" (אני). ביטוי המביע דאגה לגבי עתיד לא ודאי או גורל. דוגמה: \"Che sarà di me in questo posto caotico?\" (מה יהיה ממני במקום הכאוטי הזה?)."
+        },
+        {
+          "word": "Non diventare mai vecchia",
+          "filename": "non diventare mai vecchia",
+          "translations": ["אל תזדקני לעולם"],
+          "definition": "\"Non\" (לא) | \"diventare\" (להפוך) | \"mai\" (לעולם לא) | \"vecchia\" (זקנה). ביטוי המביע משאלה להישאר צעירה לנצח ולא להשתנות עם הזמן."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "טיפול, מחשבה ופעולה",
+      "description": "מילים לטיפול עדין, פעולות מכוונות וכוונות.",
+      "words": [
+        {
+          "word": "Cautamente",
+          "filename": "cautamente",
+          "translations": ["בזהירות", "בזהירות רבה"],
+          "definition": "מתאר פעולה זהירה ומחושבת להימנעות מסכנה. דוגמה: \"Camminava cautamente\" (הלך בזהירות)."
+        },
+        {
+          "word": "Carezzevole",
+          "filename": "carezzevole",
+          "translations": ["חיבה", "מלטף"],
+          "definition": "מתאר מגע עדין ואוהב או אופן חיבה. דוגמה: \"Voce carezzevole\" (קול מלטף)."
+        },
+        {
+          "word": "Ricerca",
+          "filename": "ricerca",
+          "translations": ["חיפוש", "מחקר"],
+          "definition": "פעולת חיפוש קפדני אחר משהו או חקירה שיטתית. דוגמה: \"Faceva ricerche storiche\" (עשה מחקר היסטורי)."
+        },
+        {
+          "word": "Ricamare",
+          "filename": "ricamare",
+          "translations": ["לרקום"],
+          "definition": "לקשט בד בתחרת מחט וחוטים. דוגמה: \"Ricamava fiori sul vestito\" (רקמה פרחים על השמלה)."
+        },
+        {
+          "word": "Pentirsi",
+          "filename": "pentirsi",
+          "translations": ["להתחרט", "לצטער"],
+          "definition": "להרגיש חרטה או מצפון על פעולות בעבר. דוגמה: \"Si pentì di averlo fatto\" (התחרט שזה עשה את זה)."
+        },
+        {
+          "word": "Toccarla",
+          "filename": "toccarla",
+          "translations": ["לגעת בה/בזה"],
+          "definition": "צורת הווה של \"toccare\" (לגעת) עם כינוי מושא ישיר 'la', המתייחס לגעגוע באישה או שם עצם נקבי. דוגמה: \"Non toccarla!\" (אל תיגע בה!)."
+        },
+        {
+          "word": "Di",
+          "filename": "di",
+          "translations": ["של", "מ", "על"],
+          "definition": "מילית יחס מציינת בעלות, מקור, חומר או נושא. דוגמאות: \"Libro di Maria\" (ספר של מריה) | \"Vengo di Roma\" (אני בא מרומא)."
+        },
+        {
+          "word": "Raccontarvelo",
+          "filename": "raccontarvelo",
+          "translations": ["לספר לכם את זה"],
+          "definition": "צורת הווה של \"raccontare\" (לספר). מתאר סיפור או מידע לקבוצת אנשים על משהו ספציפי (lo). דוגמה: \"Voglio raccontarvelo\" (אני רוצה לספר לכם את זה).",
+          "info": "\"Raccontarvelo\" היא צורת רבים בלתי רשמית (voi). צורת יחיד בלתי רשמית (tu) היא \"raccontartelo\". צורת יחיד רשמית (lei) היא \"raccontarglielo\". צורת רבים רשמית (loro) היא \"raccontarglielo\". צורת הדובר (io) היא \"raccontarlo\"."
+        },
+        {
+          "word": "Consumarla",
+          "filename": "consumarla",
+          "translations": ["לצרוך אותה/את זה"],
+          "definition": "צורת הווה של \"consumare\" (לצרוך, להרוס) עם כינוי מושא ישיר 'la', המתייחס לשימוש מלא או השמדה של משהו נקבי לחלוטין. דוגמה: \"Alice temeva che la follia la consumasse.\" (אליס חששה שהטירוף יצרוך אותה)."
+        },
+        {
+          "word": "Volontari",
+          "filename": "volontari",
+          "translations": ["מתנדבים"],
+          "definition": "צורת רבים זכרית של \"volontario\"; אנשים המציעים עזרה מרצונם ללא תשלום.",
+          "info": "יחיד זכר: \"volontario\"; יחיד נקבה: \"volontaria\"; רבים זכר: \"volontari\"; רבות נקבה: \"volontarie\""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "חפצים ואיכויות",
+      "description": "חפצים, מדידות ואיכויות תיאוריות.",
+      "words": [
+        {
+          "word": "Fogliolino",
+          "filename": "fogliolino",
+          "translations": ["עלה קטן", "גבעול"],
+          "definition": "צורת קטנה של \"foglio\" (עלה/דף). עלה קטן או דף נייר דק. דוגמה: \"Un fogliolino verde\" (עלה ירוק קטן)."
+        },
+        {
+          "word": "Grossezza",
+          "filename": "grossezza",
+          "translations": ["עובי", "נפח"],
+          "definition": "איכות של היות עב כרס או בעל גודל/מסה ניכרים. דוגמה: \"Misurò la grossezza del tronco\" (מדד את עובי הגזע)."
+        },
+        {
+          "word": "Manichetto",
+          "filename": "manichetto",
+          "translations": ["שרוולון קטן", "אטם"],
+          "definition": "צורת קטנה של \"manica\" (שרוול); שרוול קטן או אטם מגן."
+        },
+        {
+          "word": "Quella candela",
+          "filename": "quella candela",
+          "translations": ["הנר ההוא"],
+          "definition": "\"Quella\" (ההוא, נקבה) | \"Candela\" (נר). נר ספציפי שהוזכר קודם או גלוי לעין."
+        },
+        {
+          "word": "Questa commedia",
+          "filename": "questa commedia",
+          "translations": ["הקומדיה הזו"],
+          "definition": "\"Questa\" (זו, נקבה) | \"Commedia\" (קומדיה). מחזה, מצב או הופעה קומית ספציפיים."
+        },
+        {
+          "word": "Questa fune",
+          "filename": "questa fune",
+          "translations": ["החבל הזה"],
+          "definition": "\"Questa\" (זו, נקבה) | \"Fune\" (חבל). חבל ספציפי שמצביעים עליו או דנים בו."
+        },
+        {
+          "word": "Questa pena",
+          "filename": "questa pena",
+          "translations": ["הכאב הזה", "העונש הזה"],
+          "definition": "\"Questa\" (זו, נקבה) | \"Pena\" (כאב/סבל/עונש). סבל או עונש ספציפיים."
+        },
+        {
+          "word": "La camicia da notte",
+          "filename": "la camicia da notte",
+          "translations": ["הפיג'מה", "חולצת לילה"],
+          "definition": "\"La camicia\" (החולצה) | \"Da notte\" (לילה). בגד רופף המשמש לשינה."
+        },
+        {
+          "word": "Paperone",
+          "filename": "paperone",
+          "translations": ["איש עשיר", "מגנאט"],
+          "definition": "מונח עממי לאדם עשיר במיוחד, לעיתים בעל קונוטציה שלילית."
+        },
+        {
+          "word": "Nulla",
+          "filename": "nulla",
+          "translations": ["שום דבר"],
+          "definition": "היעדר מוחלט של משהו; כמות אפסית. דוגמה: \"Non ho nulla\" (אין לי שום דבר)."
+        },
+        {
+          "word": "Vestita di nero",
+          "filename": "vestita di nero",
+          "translations": ["לבושה בשחור"],
+          "definition": "צורת עבר מושלמת נקבית של \"vestire\" (להלביש) עם \"di nero\" (בשחור). מתארת אישה לבושה בבגדים שחורים.",
+          "info": "לתיאור גבר לבוש בשחור, השתמש ב-\"Vestito di nero\"."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "השתקפויות וזיכרון",
+      "description": "מילים לזכירה, סיפורים וחוויות עבר.",
+      "words": [
+        {
+          "word": "Ricordare",
+          "filename": "ricordare",
+          "translations": ["לזכור", "להיזכר"],
+          "definition": "להחזיר זיכרונות או מידע למודעות מהעבר. דוגמה: \"Ricordo bene quella giornata\" (אני זוכר היטב את היום ההוא)."
+        },
+        {
+          "word": "Ricordo",
+          "filename": "ricordo",
+          "translations": ["זיכרון", "מזכרת", "חפץ מזכיר"],
+          "definition": "היזכרות באירועים עבריים; גם חפץ ששמרו כתזכורת. דוגמאות: \"Quel profumo mi riporta ai ricordi d'infanzia\" (הניחוח הזה מחזיר אותי לזיכרונות ילדותי [זיכרון]) | \"Ho portato questo ricordo da Israele\" (הבאתי מזכרת מישראל [חפץ מזכיר])."
+        },
+        {
+          "word": "Voglio ricordare",
+          "filename": "voglio ricordare",
+          "translations": ["אני רוצה לזכור"],
+          "definition": "\"Voglio\" (אני רוצה) | \"ricordare\" (לזכור). צורת הווה המביעה רצון לשמר זיכרון. דוגמה: \"Voglio ricordare questo momento\" (אני רוצה לזכור את הרגע הזה)."
+        },
+        {
+          "word": "Ritorno",
+          "filename": "ritorno",
+          "translations": ["חזרה", "הגעה חזרה"],
+          "definition": "פעולת החזרה למקום, מצב או תנאי קודמים. דוגמה: \"Aspetto il tuo ritorno\" (אני ממתין לחזרתך)."
+        },
+        {
+          "word": "Parole come queste",
+          "filename": "parole come queste",
+          "translations": ["מילים כמו אלה"],
+          "definition": "\"Parole\" (מילים) | \"come queste\" (כמו אלה). מתייחס למילים מסוג או איכות ספציפיים אלה."
+        },
+        {
+          "word": "Veduta",
+          "filename": "veduta",
+          "translations": ["נוף", "מראה"],
+          "definition": "מה שניתן לראות מנקודה מסוימת; נוף או פנורמה. דוגמה: \"Bellissima veduta del mare\" (נוף ים נפלא)."
+        },
+        {
+          "word": "Stesso",
+          "filename": "stesso",
+          "translations": ["אותו", "עצמו"],
+          "definition": "זהה או אותו אדם/דבר עצמו. דוגמה: \"Lo stesso errore\" (אותה טעות) | \"Se stesso\" (עצמו)."
+        },
+        {
+          "word": "Stessa",
+          "filename": "stessa",
+          "translations": ["אותה", "עצמה"],
+          "definition": "צורת יחיד נקבית של \"stesso\"; זהה או אותו אדם/דבר עצמו. דוגמה: \"La stessa storia\" (אותה סיפור) | \"Se stessa\" (עצמה).",
+          "info": "יחיד זכר: \"stesso\"; רבים זכר: \"stessi\"; רבות נקבה: \"stesse\""
+        },
+        {
+          "word": "Volta",
+          "filename": "volta",
+          "translations": ["פעם", "תור", "קמרון"],
+          "definition": "בעיקר מציין \"פעם\" או \"תור\" באיטלקית, מתייחס למקרה, אירוע או רגע. יכול גם לשמש לציון מבנה אדריכלי מעוקל כמו קמרון או קשת. דוגמה: \"Ogni volta che guardo quel dipinto, inizio a sognare a occhi aperti Firenze\" (פעם בכל שאני מסתכל על הציור הזה, אני מתחיל לחלום בעיניים פקוחות על פירנצה)."
+        },
+        {
+          "word": "Così ingiallita",
+          "filename": "cosí ingiallita",
+          "translations": ["כל כך מצהיבה"],
+          "definition": "\"Così\" (כל כך) | \"Ingiallita\" (מצהיבה). מתאר משהו שהפך צהוב ומצהיב מגיל או בלאי."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "שינוי ואובדן",
+      "description": "מילים המתארות שינוי, היעלמות וקושי.",
+      "words": [
+        {
+          "word": "Ricrescere",
+          "filename": "ricrescere",
+          "translations": ["לגדול מחדש", "להצמיח שוב"],
+          "definition": "לגדול שוב לאחר שנקטע, אבד או נפגע. דוגמה: \"L'erba comincia a ricrescere dopo la pioggia\" (העשב מתחיל לגדול מחדש אחרי הגשם)."
+        },
+        {
+          "word": "Scomparso",
+          "filename": "scomparso",
+          "translations": ["נעלם", "חסר"],
+          "definition": "צורת עבר מושלמת זכרית של \"scomparire\" (להיעלם). מתאר מישהו/משהו שנעלם לחלוטין.",
+          "info": "צורה נקבית היא \"scomparsa\""
+        },
+        {
+          "word": "Tanto cambiato",
+          "filename": "tanto cambiato",
+          "translations": ["כל כך השתנה"],
+          "definition": "\"Tanto\" (כל כך הרבה) | \"Cambiato\" (השתנה). מתאר שינוי משמעותי ממצב קודם."
+        },
+        {
+          "word": "Tanto difficile",
+          "filename": "tanto difficile",
+          "translations": ["כל כך קשה"],
+          "definition": "\"Tanto\" (כל כך הרבה) | \"Difficile\" (קשה). מתאר משהו קשה מאוד לביצוע או להבנה."
+        },
+        {
+          "word": "Lontana",
+          "filename": "lontana",
+          "translations": ["רחוקה", "מנוכרת"],
+          "definition": "צורת יחיד נקבית של \"lontano\"; רחוקה פיזית או רגשית. דוגמה: \"La meta è lontana\" (המטרה רחוקה).",
+          "info": "יחיד זכר: \"lontano\"; רבים זכר: \"lontani\"; רבות נקבה: \"lontane\""
+        },
+        {
+          "word": "Poi",
+          "filename": "poi",
+          "translations": ["אחר כך", "לאחר מכן", "אז"],
+          "definition": "אחרי זה, בהמשך בזמן או ברצף. דוגמה: \"Prima mangio, poi studio\" (קודם אני אוכל, אחר כך אלמד)."
+        },
+        {
+          "word": "Tanto",
+          "filename": "tanto",
+          "translations": ["כל כך", "הרבה"],
+          "definition": "מדגיש כמות גדולה או דרגה גבוהה. דוגמה: \"Ho tanto lavoro\" (יש לי הרבה עבודה)."
+        },
+        {
+          "word": "Cosa simile",
+          "filename": "cosa simile",
+          "translations": ["משהו דומה"],
+          "definition": "\"Cosa\" (דבר) | \"Simile\" (דומה). מתייחס לחפץ או מצב דומה לאחר."
+        },
+        {
+          "word": "Ella",
+          "filename": "ella",
+          "translations": ["היא"],
+          "definition": "כינוי גוף שלישי נקבי יחיד רשמי או ספרותי. דוגמה: \"Ella arrivò tardi\" (היא הגיעה מאוחר)."
+        },
+        {
+          "word": "Loro",
+          "filename": "loro",
+          "translations": ["הם", "אותם"],
+          "definition": "כינוי גוף שלישי רבים לאנשים; גם 'אתם' רשמי ברבים. דוגמה: \"Loro arrivano\" (הם מגיעים)."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "סיפורים ומצבים",
+      "description": "ביטויים למשחקים, הכרזות וסצנות דרמטיות.",
+      "words": [
+        {
+          "word": "Partita",
+          "filename": "partita",
+          "translations": ["משחק", "מפגש"],
+          "definition": "משחק תחרותי או מפגש ספורטיבי; גם הסכם או מנה. דוגמה: \"Vince la partita\" (מנצח במשחק)."
+        },
+        {
+          "word": "Annunzio",
+          "filename": "annunzio",
+          "translations": ["הכרזה"],
+          "definition": "הצהרה ציבורית או פרסומת. דוגמה: \"L'annunzio sul giornale\" (ההכרזה בעיתון)."
+        },
+        {
+          "word": "Complemento",
+          "filename": "complemento",
+          "translations": ["מילוי", "תוספת"],
+          "definition": "משהו שמשלים או משפר. דוגמה: \"Il complemento perfetto\" (התוספת המושלמת)."
+        },
+        {
+          "word": "Smorfiose",
+          "filename": "smorfiose",
+          "translations": ["עושות פרצופים", "מצחיקות פנים"],
+          "definition": "צורת רבים נקבית של \"smorfiose\"; מתארות אנשים עושים הבעות פנים מכוערות.",
+          "info": "צורת רבים זכרית היא \"smorfiose\""
+        },
+        {
+          "word": "Vivente",
+          "filename": "vivente",
+          "translations": ["חי", "חי וקיים"],
+          "definition": "חי כעת ובעל חיים. דוגמה: \"Esseri viventi\" (יצורים חיים)."
+        },
+        {
+          "word": "Bestia",
+          "filename": "bestia",
+          "translations": ["חיה"],
+          "definition": "חיה בר גדולה, לעיתים אכזרית."
+        },
+        {
+          "word": "Esclamate",
+          "filename": "esclamate",
+          "translations": ["קראו בקול"],
+          "definition": "צורת עבר מושלמת רבות נקבה של \"esclamare\" (להקרא בקול). מתארות נשים שצעקו פתאום.",
+          "info": "הצורה הזכרית ביחיד של מילה זו היא \"esclamato\"; נקבה יחיד: \"esclamata\"; זכר רבים: \"esclamati\"."
+        },
+        {
+          "word": "Furiosa",
+          "filename": "furiosa",
+          "translations": ["זועמת"],
+          "definition": "מתארת אישה או שם עצם נקבי במצב כעס קיצוני.",
+          "info": "הצורה הזכרית ביחיד של מילה זו היא \"furioso\"; זכר רבים: \"furiosi\"; נקבה רבים: \"furiose\""
+        },
+        {
+          "word": "Scavando patate",
+          "filename": "scavando patate",
+          "translations": ["חופרים תפוחי אדמה"],
+          "definition": "צורת הווה מתמשכת של \"scavare\" (לחפור) עם מושא; מתאר פעולת חפירה מתמשכת של תפוחי אדמה מהקרקע."
+        },
+        {
+          "word": "In qualcuno",
+          "filename": "in qualcuno",
+          "translations": ["במישהו"],
+          "definition": "\"In\" (ב) | \"Qualcuno\" (מישהו). ביטוי איטלקי אידיומטי להבעת תפיסת איכות פנימית באדם. דוגמה: \"Sento coraggio in qualcuno che lotta per ciò in cui crede!\" (אני חש אומץ במישהו שנלחם על מה שהוא מאמין בו!)."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "אוצר מילים מתקדם I",
+      "description": "אוצר מילים איטלקי מתקדם עם ביטויים נדירים, מורכבים וספרותיים.",
+      "words": [
+        {
+          "word": "Istanze",
+          "filename": "istanze",
+          "translations": ["מקרים", "דוגמאות", "בקשות"],
+          "definition": "רבים של \"istanza\" (מקרה, בקשה, עתירה). יכול להתייחס לדוגמאות או מקרים ספציפיים של משהו, או לבקשות/עתירות כתובות רשמיות המוגשות לרשויות."
+        },
+        {
+          "word": "Silenzio della casa",
+          "filename": "silenzio della casa",
+          "translations": ["שקט הבית"],
+          "definition": "\"Silenzio\" (שקט) | \"della\" (של ה) | \"casa\" (בית). היעדר מוחלט של צליל בתוך בית, לעיתים מטריד או מדכא."
+        },
+        {
+          "word": "Violenza crudele",
+          "filename": "violenza crudele",
+          "translations": ["אלימות אכזרית", "אלימות ברברית"],
+          "definition": "\"Violenza\" (אלימות, כוח) | \"crudele\" (אכזרי, ללא רחמים). מדגיש לא רק תוקפנות פיזית, אלא את האופי המכוון והחסר רחמים של הנזק המוטל, לעיתים עם נימה מוסרית או רגשית."
+        },
+        {
+          "word": "Sentenza di morte",
+          "filename": "sentenza di morte",
+          "translations": ["גזר דין מוות"],
+          "definition": "\"Sentenza\" (גזר דין, פסק דין רשמי) | \"di morte\" (מוות). החלטה שיפוטית רשמית המגנה מישהו למוות, או באופן מטפורי פסק דין סופי ובלתי נמנע המחסל תקוות או עתיד של מישהו."
+        },
+        {
+          "word": "Origliando",
+          "filename": "origliando",
+          "translations": ["מאזין בסתר", "מצותת"],
+          "definition": "צורת הווה מתמשכת של \"origliare\" (להצות). להאזין בסתר לשיחות של אחרים, לעיתים קרובות על ידי הצמדת אוזן לדלת, קיר או מחסום דומה, מבלי להתגלות. נושא קונוטציה של הריגול חמקמק או פולשני לשיחות פרטיות.",
+          "info": "\"Origliando\" אינו משתנה לפי גוף, מספר או רשמיות. כל הצורות (יחיד בלתי רשמי (tu), רבים בלתי רשמי (voi), יחיד רשמי (lei), רבים רשמי (loro), הדובר (io)) הן פשוט \"origliando\"."
+        },
+        {
+          "word": "Sussulto",
+          "filename": "sussulto",
+          "translations": ["קפיצה", "זעזוע פתאומי"],
+          "definition": "נגזר מהפועל \"sussultare\" (לקפוץ או לזעזע פתאום), קפיצה פיזית או רגשית קצרה המופעלת מפחד, הלם, הפתעה או רגש חזק. משמש בדרך כלל לתגובות בלתי רצוניות. דוגמה: \"Sussultò il gatto non appena vide il suo riflesso nello specchio\" (החתול זעזע ברגע שראה את השתקפותו במראה)."
+        },
+        {
+          "word": "Scalpiccio",
+          "filename": "scalpiccio",
+          "translations": ["צליל צעדים מתמשך", "רשרוש רגליים"],
+          "definition": "צליל נמוך ומתמשך של צעדים רבים או דריכה קלה, כמו אנשים הולכים בחדר אחר או קהל נע יחד במסדרון."
+        },
+        {
+          "word": "Sommesso",
+          "filename": "sommesso",
+          "translations": ["מדוכא", "שקט", "נמוך קול"],
+          "definition": "מתאר קול, תפילה או תלונה שנאמרים בטון נמוך מאוד, כמעט לחישה, לעיתים כדי להישאר דיסקרטיים, מכבדים או מכילים רגשית."
+        },
+        {
+          "word": "Garbatézza",
+          "filename": "garbatezza",
+          "translations": ["נימוס", "עדינות", "נחמדות"],
+          "definition": "\"Garbatézza\" (נימוס, נימוס מזוקק). מתאר התנהגות ודיבור אלגנטיים ונחשבים, מסומנים בטקט, חביבות ונימוסים טובים ולא רק נימוס בסיסי."
+        },
+        {
+          "word": "Rigidità",
+          "filename": "rigidità",
+          "translations": ["קשיחות", "עקשנות", "חוסר גמישות"],
+          "definition": "האיכות או המצב של היות נוקשה, יציב או לא מסוגל להתכופף או להסתגל. יכול להתייחס לתכונות פיזיות (כמו חפץ נוקשה או שריר) או תכונות מטפוריות (כגון חוסר גמישות בהתנהגות או חוקים). דוגמה: \"La rigidità del materiale rende difficile la lavorazione.\" (הקשיחות של החומר מקשה על העיבוד.)"
+        },
+        {
+          "word": "Discorrere",
+          "filename": "discorrere",
+          "translations": ["לשוחח", "לדבר", "לדון"],
+          "definition": "להשתתף בשיחה או דיון על נושא, לעיתים קרובות באופן מתמשך או מנומק."
+        },
+        {
+          "word": "Ritegno",
+          "filename": "ritegno",
+          "translations": ["ריסון", "זהירות", "שליטה עצמית"],
+          "definition": "איכות של איפוק רגשי או בהתנהגות — להראות זהירות, צניעות או זהירות בדיבור/פעולות כדי להימנע מעודף או חריגה."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "אוצר מילים מתקדם II",
+      "description": "אוצר מילים איטלקי מתקדם להבנה מורכבת.",
+      "words": [
+        {
+          "word": "La grande città lontana",
+          "filename": "la grande città lontana",
+          "translations": ["העיר הגדולה הרחוקה"],
+          "definition": "\"La\" (ה) | \"grande\" (גדול, גדולה, נפלא) | \"città\" (עיר) | \"lontana\" (רחוקה, רחוקה). מטרופולין מרשים המרוחק, לעיתים אידיאלי או רומנטי."
+        },
+        {
+          "word": "Cipiglio severo",
+          "filename": "cipiglio severo",
+          "translations": ["מראה נוקשה"],
+          "definition": "\"Cipiglio\" (מבט נוקשה, נוכחות סמכותית) | \"severo\" (נוקשה, קפדני). מתאר הבעת פנים או תנוחה מאיימת המביעה סמכות. דוגמה: \"Guardava tutti con cipiglio severo\" (הסתכל על כולם במראה נוקשה)."
+        },
+        {
+          "word": "Con inesorabile puntualità",
+          "filename": "con inesorabile puntualità",
+          "translations": ["בדייקנות בלתי נלאית"],
+          "definition": "\"Con\" (עם) | \"inesorabile\" (בלתי נלאה, חסר רחמים) | \"puntualità\" (דייקנות). מתאר תזמון מדויק מכני שאינו משתנה או נכשל לעולם. דוגמה: \"Arrivava con inesorabile puntualità ogni mattina alle sette\" (הגיע בדייקנות בלתי נלאית כל בוקר בשבע)."
+        },
+        {
+          "word": "Sottotenente di complemento nel venticinquesimo fanteria",
+          "filename": "sottotenente di complemento nel venticinquesimo fanteria",
+          "translations": ["סגן משנה ממילואים בחטיבת חיל הרגלים ה-25"],
+          "definition": "\"Sottotenente\" (סגן משנה) | \"di\" (של) | \"complemento\" (מילואים/כוחות תגבור/כוחות זמניים/מילואימניקים) | \"nel\" (ב) | \"venticinquesimo\" (עשרים וחמישה) | \"fanteria\" (חיל רגלים).",
+          "info": "דרגה צבאית היסטורית איטלקית למילואימניקים אזרחים שנגררו לשירות בזמן מלחמה כדי למלא רשימות יחידות או להחליף אבדות. \"Di complemento\" מתייחס ספציפית לקצינים שנלקחו מחיי האזרחות, ולא בוגרי האקדמיות הצבאיות קבע."
+        },
+        {
+          "word": "Fracasso di vetri rotti",
+          "filename": "fracasso di vetri rotti",
+          "translations": ["רעש של זכוכית נשברת"],
+          "definition": "\"Fracasso\" (רעש חזק, רעש מחריש אוזניים) | \"di vetri rotti\" (של זכוכית שבורה). הצליל החזק והכאוטי ביותר של זכוכית נשברת באלימות. דוגמה: \"Il fracasso di vetri rotti svegliò tutto il vicinato\" (רעש הזכוכית השבורה העיר את כל השכונה)."
+        },
+        {
+          "word": "Quattro ceri funebri",
+          "filename": "quattro ceri funebri",
+          "translations": ["ארבעה נרות הלוויה"],
+          "definition": "\"Quattro\" (ארבעה) | \"ceri\" (נרות שעווה גדולים המשמשים בהלוויות קתוליות, תהלוכות, חגיגות קדושים כדי לסמל אור נצחי) | \"funebri\" (הלוויה). נרות שעווה גדולים לטקסים דתיים המשמשים ספציפית בטקסי מוות קתוליים כדי להאיר את חדר הנפטר ולסמל אור נצחי."
+        },
+        {
+          "word": "Quasi impedire",
+          "filename": "quasi impedire",
+          "translations": ["כמעט מנע", "כמעט עצר"],
+          "definition": "\"Quasi\" (כמעט) | \"impedire\" (למנוע, לעכב). מתאר פעולה שהגיעה ממש קרוב למניעת התרחשות של משהו. דוגמה: \"Quasi impedire il disastro all'ultimo secondo\" (כמעט מנע את האסון ברגע האחרון)."
+        },
+        {
+          "word": "Sorelle stagionate",
+          "filename": "sorelle stagionate",
+          "translations": ["אחיות ותיקות", "אחיות מבוגרות", "אחיות בשלות"],
+          "definition": "\"Sorelle\" (אחיות, נזירות) | \"stagionate\" (צורת רבות נקבה של \"stagionato,\" שמשמעותה מזוקנת, בשלה או ותיקה, כמו גבינה מזוקנת). מתייחס באופן מילולי לאחיות מבוגרות/בשלות; באופן מטפורי לנשים מנוסות או חכמות (כולל נזירות). לא לזלזול — בדרך כלל חיבה או הומור באיטלקית לא רשמית."
+        },
+        {
+          "word": "Lunghissima attesa",
+          "filename": "lunghissima attesa",
+          "translations": ["המתנה ארוכה במיוחד"],
+          "definition": "\"Lunghissima\" (ארוכה במיוחד) | \"attesa\" (המתנה, ציפייה). מתאר תקופה ממושכת במיוחד של המתנה מודאגת. דוגמה: \"Sopportò la lunghissima attesa con pazienza\" (סבלה את ההמתנה הארוכה במיוחד בסבלנות)."
+        },
+        {
+          "word": "Silenzio di quell'attesa",
+          "filename": "silenzio di quell'attesa",
+          "translations": ["שקט של אותה המתנה"],
+          "definition": "\"Silenzio\" (שקט) | \"di\" (של) | \"quell'\" (אותה) | \"attesa\" (המתנה, ציפייה). ביטוי שירי לשקט הכבד, כמעט מוחשי, שמלווה רגע ספציפי של המתנה מתוחה, לעיתים קרובות טעון רגש."
+        },
+        {
+          "word": "Che cosa mai son'io addiventata",
+          "filename": "che cosa mai son'io addiventata",
+          "translations": ["למה לעזאזל הפכתי?"],
+          "definition": "\"Che\" (מה) | \"cosa\" (דבר) | \"mai\" (אי פעם) | \"son'io\" (אני/הפכתי) | \"addiventata\" (הפכתי, נהפכתי). ביטוי דרמטי של תהיות עצמיות לגבי השינוי או המצב המשתנה של אדם."
+        },
+        {
+          "word": "Riso di luce",
+          "filename": "riso di luce",
+          "translations": ["צחוק של אור"],
+          "definition": "\"Riso\" (צחוק) | \"di\" (של) | \"luce\" (אור). ביטוי שירי המתאר אפקטים רוטטים, רוקדים של אור כמו קרני שמש משחקות דרך עלים."
+        }
+      ]
+    }
+  ]
+}
