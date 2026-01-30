@@ -6,6 +6,8 @@ SourceForge page: https://sourceforge.net/p/onda-sfasata/
 
 Check it out at: https://onda-sfasata.netlify.app/
 
+![Alt Logo](https://raw.githubusercontent.com/Northstrix/onda-sfasata/refs/heads/main/public/logo.webp)
+
 ![Alt Preview](https://raw.githubusercontent.com/Northstrix/onda-sfasata/refs/heads/main/preview.gif)
 
 This app is fully localized into English, Hebrew, and two dialects of German — Hochdeutsch and a mixture of Zurich and Basel dialects (approximately 64%–36%), labeled as “Schwiizerdütsch”
