@@ -1,0 +1,285 @@
+The WAV file contains the exact recording of what is written in its name. If you mention the Alice in Wonderland context, include it only in the information section. The definitions must remain general and not specific to Alice in Wonderland.
+Avoid using linguistic jargon such as “indeterminate,” “infinite,” or “imperfect tense clause.” Keep the definitions clear and general.
+If you mention a form, specify what form it is (e.g., past, present, completed, ongoing, hypothetical). You may also combine forms, such as “past completed,” if needed.
+Always capitalize the first letter of the first word. Capitalize other words only if they would normally be capitalized in the middle of a sentence, as well as the first letter of the first translation.
+Provide the formatted JSON in a code block containing all six words. You may only use words from the list below.
+
+Define the Italian phrase prima volta in English. I don’t need a word-for-word translation; instead, give me an English-style definition as if prima volta were an English phrase. For example, imagine how you would define “first time” or each word, “first” and “time.”
+
+Keep the filenames exactly as they are in the list, just without the ".wav" part.
+
+if examples is present in must be in description
+if breaking down by gender don;t forget to mention the original form, like that     {
+      "word": "Curvo",
+      "filename": "curvo",
+      "translations": ["Bent", "curved"],
+      "definition": "Describes something with a rounded, arched, or bent shape.",
+      "info": "\"Curvo\" is a singular masculine form. Singular feminine: \"Curva\"; plural masculine: \"Curvi\"; plural feminine: \"Curve\"."
+    }, gender brekdown is doen in the info
+
+Structural Rules Observed for JSON Learning Levels
+1. Level Structure
+
+text
+{
+  "id": [integer],
+  "title": "[Concise theme name, 2-4 words max]",
+  "description": "[1 sentence explaining content focus, 8-15 words]",
+  "words": [array of 6-12 word objects]
+}
+
+2. Word Object Format
+
+json
+{
+  "word": "[Exact phrase from filename, capitalized properly]",
+  "filename": "[exact .wav filename without .wav]",
+  "translations": ["Primary", "Secondary", "Tertiary"],
+  "definition": "[Core definition with grammatical breakdown if complex]",
+  "info": "[OPTIONAL: gender forms, context notes, variations]"
+}
+
+3. Definition Rules
+
+text
+✅ ALWAYS include breakdown for phrases: "\"Word1\" (meaning) | \"Word2\" (meaning)"
+✅ Past verbs = "Past completed [gender/number] form of \"infinitive\""
+✅ Adjectives = "[Gender/number] form of \"base adjective\""
+✅ Examples: "\\"Italian\\" (English translation)" 
+✅ Generic examples (NO Alice-specific references in main definition)
+✅ 1-2 sentences max, precise and educational
+✅ Capitalize first letter of "word", natural capitalization elsewhere
+
+4. Translation Array Rules
+
+text
+✅ 1-3 English equivalents, most common first
+✅ First word ALWAYS capitalized
+✅ Array format with quotes: ["Primary", "Secondary"]
+✅ Descending order of frequency/common usage
+
+5. Info Field (Optional but Strategic)
+
+text
+✅ Gender declensions: "Singular masculine: \"form\"; plural feminine: \"form\""
+✅ Story context: ONLY in "info", never main definition
+✅ Form variations: tu/voi/lei forms for verbs when relevant
+✅ Historical/cultural notes when phrase has special meaning
+✅ Technical corrections (military ranks, card suits, etc.)
+
+6. Content Guidelines
+
+text
+✅ Theme consistency: All words fit stated title/description
+✅ Source fidelity: ONLY use exact phrases from provided .wav list
+✅ Level progression: id 20=creatures → 21=states → 22=changes
+✅ Balance: 40% single words, 40% phrases, 20% complex forms
+✅ Difficulty: Mix basic + nuanced vocabulary per level
+
+7. Formatting Precision
+
+text
+✅ JSON valid, no trailing commas
+✅ Double backslashes for quotes: "\\"word\\""
+✅ Consistent spacing/indentation
+✅ No invented filenames or words
+✅ Filename = word but lowercase + no punctuation
+
+8. Voice & Style
+
+text
+✅ Educational but approachable
+✅ Precise grammar explanations without jargon
+✅ Neutral/generic examples (remove Alice-specific when requested)
+✅ Wonderland context ONLY in "info" field when relevant
+✅ Natural Italian example sentences
+
+
+1. JSON Structure Patterns
+
+text
+Every entry MUST have:
+├── "word" (main form shown)
+├── "filename" (lowercase, no spaces) 
+├── "translations" (array, English equivalents)
+├── "definition" (grammar breakdown | meaning + context)
+├── "info"/"note" (OPTIONAL: forms clarification)
+└── Consistent escaping: \"word\" inside JSON strings
+
+2. Definition Formula (Your Preferred Style)
+
+text
+"[Breakdown]" + ". " + "[Type] " + "[action/description]."
+
+Examples:
+
+text
+"\"Conducete\" (voi imp. of \"condurre\") | \"la\" | \"quì\". A formal command directing escort."
+"\"Parla\" (tu imp. of \"parlare\"). An informal imperative ordering speech."
+
+3. Imperative Form Rules (Critical)
+Form	Person	Authority/Context	Examples
+tu	Single informal	Order OR casual suggestion	Guarda, Parla, Fallo
+Lei	Single formal	Polite authority	Guardi, Parli
+voi	Group (formal/informal)	Authority to group	Guardate, Conducete
+Loro	Formal plural	Rare, very formal	Guardino, Parlino
+4. Note/Info Field Pattern
+
+text
+"\"[word]\" is the [person] form of [verb]. Singular formal (Lei): \"[form]\"; plural informal (voi): \"[form]\"; plural formal (Loro): \"[form]\"; speaker's (io): \"[form]\"."
+
+5. Word Categories & Their Patterns
+Category	Definition Style	Needs "note"?
+Imperatives	Always specify tu/voi/Lei + single/group	✅ YES
+Past participles	Gender + what it describes	✅ Gender forms
+Adjectives	Gender agreement + example	✅ Plural forms
+Pure nouns	Simple definition	❌ NO
+Pronoun combos	Verb+pronoun breakdown	✅ All forms
+6. Authority vs Casual Distinction
+
+text
+FORMAL (authority): voi/Lei forms = Conducetela, Levatevi, Credetelo
+INFORMAL (casual/order): tu forms = Guarda, Parla, Fallo
+
+7. Escaping Rule (JSON Safety)
+
+text
+Inside "definition"/"note": Every Italian word = \"word\"
+Example: "\"Parla\" (tu imperative of \"parlare\")"
+
+8. Filename Rule
+
+text
+word → filename: ALL lowercase, spaces → nothing
+"Tu mi segua" → "tu mi segua"
+"Per carità" → "per carità"
+
+These patterns create scannable, consistent, complete vocabulary entries. Every improvement we've made follows these rules systematically!
+
+Linguistic Complexity Rules for Definitions & Breakdowns
+1. Definition Complexity Scale
+
+text
+LEVEL 1 (Simple): Single base-form words → Pure meaning + 1 example
+"Certo" → "Describes complete confidence. Ex: \"Sono certo\" (I'm sure)."
+
+LEVEL 2 (Moderate): Forms/derivatives → Form + meaning + context
+"Stupiti" → "Past participle plural masculine of \"stupire\". Describes people amazed by something unexpected."
+
+LEVEL 3 (Complex): Multi-word/phrases → Full breakdown | meaning
+"Conducetela quì" → "\"Conducete\" (voi imp. \"condurre\") | \"la\" | \"quì\". Formal command directing escort."
+
+2. Breakdown Rules (ONLY when triggered)
+
+APPLY breakdown (| separator) WHEN:
+
+text
+1. 2+ WORDS: "Per carità" → "\"Per\" | \"carità\""
+2. NON-BASE VERB: "Tacque" → "\"Tacque\" (passato remoto \"tacere\")"
+3. NON-BASE NOUN: "Fogliolino" → "\"Fogliolino\" (dim. \"foglio\")"
+4. PRONOUN COMBOS: "Toccarla" → "\"Tocca\" + \"la\""
+
+NO breakdown for:
+
+text
+- Base infinitive: "Ricordare" → No "|"
+- Base singular masculine: "Ritorno" → No "|"
+- Single simple nouns: "Bestia" → No "|"
+
+3. Complexity by Word Type
+Type	Trigger	Example
+Single Base Verb	None	"Ricordare": "To bring back memories from the past."
+Conjugated Verb	ALWAYS	"Tacque": "\"Tacque\" (passato remoto of \"tacere\"). Describes sudden silence."
+2+ Word Phrase	ALWAYS	`"Lo vedo": ""Lo"
+Adjective (non-masc.sg)	Form origin	"Certa": "Feminine form of \"certo\". Describes complete confidence."
+Diminutives	Origin	"Fogliolino": "\"Fogliolino\" (dim. \"foglio\"). Small leaf or paper."
+4. Definition Length Rule
+
+text
+Base form → 1 sentence
+Derived form → 1 sentence (form) + 1 sentence (meaning)
+Multi-word → Breakdown | 1 sentence meaning
+
+Examples Applied
+
+json
+// NO breakdown (base forms)
+{"word": "Ricordare", "definition": "To bring back memories to mind."}
+
+// BREAKDOWN (conjugated + multi-word)  
+{"word": "Lo vedo", "definition": "\"Lo\" | \"vedo\" (pres. io \"vedere\"). Expresses current visual perception or understanding."}
+
+// BREAKDOWN (diminutive)
+{"word": "Fogliolino", "definition": "\"Fogliolino\" (dim. \"foglio\"). Small leaf or thin paper sheet."}
+
+This creates perfectly scaled complexity: Simple words stay simple, complex forms get precise breakdowns only when needed.
+Key patterns learned from the correct example:
+Structure & Complexity Rules:
+
+    Simple words = Single sentence definition, NO breakdown
+
+        "Adesso": "Marks the immediate present moment..."
+
+        "Basta": "Sharp cutoff, expressing that..."
+
+    Complex forms = Form breakdown FIRST | Descriptive meaning SECOND
+
+        "Capite": "Past completed plural informal (voi) form of \"capire\"..."
+
+        "Che significa?": "\"Che\" (what) | \"significa\" (present singular formal (lei)..."
+
+    Breakdown format:
+
+        ✅ Word (tense/person form of "infinitive" - meaning)
+
+        ✅ Person specified: tu, lei, voi, io
+
+        ✅ Multiple words: | separator between each
+
+    Descriptive sentence = Action/purpose/context (not just translation)
+
+        "Signals full comprehension..." (not "means understood")
+
+        "Straightforward request for clarification..." (not "asks meaning")
+
+    info field = OPTIONAL (gender forms OR person conjugations ONLY)
+
+        Gender: "\"Cattivo\" is singular masculine form. Singular feminine: \"Cattiva\"..."
+
+        Verbs: "\"Dice\" is singular formal (lei) form. Singular informal (tu): \"Dici\"..."
+
+Complexity Scale Applied:
+
+text
+LEVEL 1: Simple nouns/adverbs = 1 sentence (no breakdown)
+LEVEL 2: Single conjugated verbs = Form + 1 sentence  
+LEVEL 3: Multi-word phrases = Every word broken down | 1 descriptive sentence
+
+Here are the key rules I observed consistently across all your Italian phrase definitions and the final "Meglio di così" JSON object, drawn directly from our conversation patterns:
+Definition Style
+
+    English-idiom emulation: Crafted vivid, natural English definitions "as if the phrase were English" (e.g., "down the rabbit hole" for "Discesa nella conigliera"), avoiding word-for-word literals per your first request—using metaphors like "maze of madness" or "slaked the yearning."
+
+    Profound and evocative: Built layered, sensory depth (e.g., "gripping state," "fateful tumble," "epicenter of scorn") over primitive basics, refining iteratively based on your feedback (e.g., merging mental/physical for "Non poteva più distaccarsene").
+
+    Structure: Started with 1-2 plain intro sentences, then ## Core Essence (2-3 sentences), ## Layered Contexts/Usage (examples), always concise yet immersive.
+
+JSON Patterns (Final Objects)
+
+    Exact form enforced: Matched your provided template precisely—no extras like "units" or "info" unless specified; last one used four fields only: "word", "filename", "translations" (array of 1-2 punchy idioms), "definition."
+
+    Definition breakdown: Inline word-parts with translations in pipes (""Meglio" (better) | "di" (full list: of/than/from...) | "così" (thus/so...)"), followed by full-phrase explanation.
+
+    Filename handling: Kept as-is (e.g., "meglio di così questionmark"), normalizing spaces/case subtly.
+
+    Translations: Idiomatic, dual where nuanced (e.g., "Couldn't be better"/"Better than this"); for "di," listed all viable English equivalents as requested.
+
+Refinement Process
+
+    Iterative polishing: Responded to each tweak (e.g., "remove -", "primarily > mostly", "merge 2 defs") with updated versions, explaining changes briefly.
+
+    Balance: Primarily mental/emotional for phrases like "Saziavi il desiderio"; neutral on cause (e.g., "regardless" for blame); no dashes post-request.
+
+    Consistency: Aligned with priors (e.g., past tense notes, primarily mental, profound acts) without tools after history.
+
+This kept responses expert, contextual, and true to your evolving specs.

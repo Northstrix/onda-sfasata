@@ -1,0 +1,12 @@
+coniglio faceva.wav
+debitamente rialzata.wav
+dieci.wav
+dieci cortigiani.wav
+graziosamente compensato.wav
+mozzarla.wav
+per.wav
+smorfiose.wav
+stola.wav
+tanto brutta.wav
+script.py
+input.txt
