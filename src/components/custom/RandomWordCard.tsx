@@ -251,7 +251,7 @@ export default function RandomWordCard({ isOpen, onClose }: RandomWordCardProps)
                           {selectedWord.info && (
                             <div className="mt-2 p-3 lg:p-4 rounded-xl bg-primary/5 border border-primary/10">
                               <p className="text-[10px] lg:text-[11px] xl:text-[12px] text-primary/70 leading-relaxed">
-                                <strong className="text-primary mr-1">Note:</strong>
+                                <strong className={`text-primary ${isRTL ? 'ml-1' : 'mr-1'}`}>{t("note")}:</strong>
                                 {selectedWord.info}
                               </p>
                             </div>

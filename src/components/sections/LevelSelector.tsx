@@ -25,6 +25,9 @@ import LanguageIsle from '../custom/LanguageIsle';
 import Acknowledgements from '../sections/Acknowledgements';
 import Footer from '../sections/Footer';
 import LevelCardWrapper from '@/components/custom/LevelCardWrapper';
+import FakeSearchBar from '@/components/custom/FakeSearchBar';
+import { WordSearchModal } from '@/components/custom/WordSearchModal';
+import { cn } from "@/lib/utils";
 
 // ===== StudyAccordionContent =====
 function StudyAccordionContent({ level }: { level: Level }) {
@@ -126,6 +129,7 @@ export default function LevelSelector() {
   const [key, setKey] = useState(0);
   const [isAudioLoaded, setIsAudioLoaded] = useState(false);
   const [showRandomWordCard, setShowRandomWordCard] = useState(false);
+  const [showWordSearch, setShowWordSearch] = useState(false);
 
   // ===== Effects =====
   useEffect(() => {
@@ -215,7 +219,10 @@ export default function LevelSelector() {
           isOpen={showRandomWordCard}
           onClose={() => setShowRandomWordCard(false)}
         />
-
+        <WordSearchModal
+          show={showWordSearch}
+          onClose={() => setShowWordSearch(false)}
+        />
         <div
           dir={isRTL ? 'rtl' : 'ltr'}
           className="fixed inset-0 w-screen h-screen flex flex-col overflow-hidden bg-background text-foreground no-scrollbar"
@@ -265,7 +272,7 @@ export default function LevelSelector() {
 
                   {/* Mode Selection */}
                   <div className="max-w-[1296px]">
-                    <div className="max-w-3xl mx-auto mb-8">
+                    <div className="max-w-3xl mx-auto mb-4">
                       <CustomRadioGroup
                         value={gameMode}
                         onChange={(v) => setGameMode(v as any)}
@@ -273,6 +280,16 @@ export default function LevelSelector() {
                         direction={direction}
                       />
                     </div>
+                  </div>
+
+                  <div className="max-w-[1296px] p-2 mb-[-8px]">
+                      {/* Fake search bar below mode selector */}
+                      <FakeSearchBar
+                        placeholderText={t('search_words')}
+                        onClick={() => setShowWordSearch(true)}
+                        // Make sure it stretches full width
+                        style={{ width: '100%' }}
+                      />
                   </div>
 
                   {gameMode === 'study' ? (
