@@ -80,6 +80,8 @@ The existence of this app wouldn’t've been possible without the following:
 
 [Unnamed Luminous Material](https://x.com/gibkun1/status/2013734035454042547) by [タツキ｜サムネ顧問](https://x.com/gibkun1)
 
+telescope from [AnimateIcons](https://www.animateicons.in/)
+
 [framer-motion](https://www.npmjs.com/package/framer-motion)
 
 [Lucide React](https://www.npmjs.com/package/lucide-react)
