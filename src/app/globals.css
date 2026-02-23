@@ -10,6 +10,7 @@ body {
   :root {
     --background: 0 0% 0%;
     --slightly-lightened-background: #0A0A0A;
+    --card-background: #121212;
     --foreground: 0 0% 100%;
     --card: 0 0% 8%;
     --card-foreground: 0 0% 98%;

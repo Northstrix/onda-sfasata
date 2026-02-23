@@ -242,9 +242,8 @@ export const WordSearchModal: React.FC<WordSearchModalProps> = ({ show, onClose 
                       >
                         <BorderContainer>
                           <div className="p-4">
-                            {/* ✅ NO PLAY ICON - Clean word card only */}
                             <div className="mb-2">
-                              <div className="font-headline text-2xl">{word.word}</div>
+                              <div className="font-headline text-2xl align-right"><span dir="ltr">{word.word}</span></div>
                             </div>
                             <div className="text-sm text-muted-foreground mb-1">
                               {word.translations?.join(', ')}

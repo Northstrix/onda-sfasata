@@ -81,7 +81,7 @@ export default function StudyModeList({ level }: StudyModeListProps) {
             >
               <CardHeader>
                 <div className="flex justify-between items-center">
-                  <CardTitle className="font-headline text-2xl">
+                  <CardTitle className="font-headline text-2xl" dir="ltr">
                     {word.word}
                   </CardTitle>
                   <button

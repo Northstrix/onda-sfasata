@@ -1,5 +1,6 @@
 'use client';
-import { useState, useEffect, useRef, useMemo, useCallback } from 'react';
+
+import { useState, useEffect, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence, LayoutGroup } from 'framer-motion';
 import {
   Volume2,
@@ -13,13 +14,14 @@ import {
   Timer,
 } from 'lucide-react';
 import type { Level, Word } from '@/lib/types';
-import { shuffle, cn } from '@/lib/utils';
+import { shuffle } from '@/lib/utils';
 import PositionAwareButton from '../custom/PositionAwareButton';
 import RefinedChronicleButton from '../custom/RefinedChronicleButton';
 import { useApp } from '@/context/AppContext';
 import BasicBadge from '../custom/BasicBadge';
 import { useIsRTL } from '@/hooks/use-is-rtl';
 import { useRouter } from 'next/navigation';
+import { cn } from '@/lib/utils';
 
 interface QuizModeProps {
   level: Level;
@@ -38,9 +40,17 @@ export default function QuizMode({
   onRestart,
   onQuit,
   canPlayAudioForWord,
-  supportsPositionAware = false
+  supportsPositionAware = false,
 }: QuizModeProps) {
-  const { playSound, allLevels, t, direction, endLevel, setLevelToScrollTo } = useApp();
+  const {
+    playSound,
+    allLevels,
+    t,
+    direction,
+    endLevel,
+    setLevelToScrollTo,
+    loadAudioForLevel,
+  } = useApp();
   const isRTL = useIsRTL();
   const router = useRouter();
 
@@ -57,99 +67,174 @@ export default function QuizMode({
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [isRevealed, setIsRevealed] = useState(false);
   const [options, setOptions] = useState<string[]>([]);
-  const [hasPlayedForCurrent, setHasPlayedForCurrent] = useState(false);
-  const [animationDirection, setAnimationDirection] = useState<'forward' | 'backward'>('forward');
-  const [showLevelCompleteModal, setShowLevelCompleteModal] = useState(false);
+  const [hasPlayedForCurrent, setHasPlayedForCurrent] =
+    useState(false);
+  const [animationDirection, setAnimationDirection] =
+    useState<'forward' | 'backward'>('forward');
+  const [showLevelCompleteModal, setShowLevelCompleteModal] =
+    useState(false);
 
   // Slide variants
   const slideVariants = {
     enter: (dir: 'forward' | 'backward') => {
-      let offset = isRTL ? (dir === 'forward' ? 100 : -100) : (dir === 'forward' ? -100 : 100);
+      const offset = isRTL
+        ? dir === 'forward'
+          ? 100
+          : -100
+        : dir === 'forward'
+        ? -100
+        : 100;
       return { x: `${offset}%`, opacity: 0 };
     },
     center: { x: 0, opacity: 1 },
     exit: (dir: 'forward' | 'backward') => {
-      let offset = isRTL ? (dir === 'forward' ? -100 : 100) : (dir === 'forward' ? 100 : -100);
+      const offset = isRTL
+        ? dir === 'forward'
+          ? -100
+          : 100
+        : dir === 'forward'
+        ? 100
+        : -100;
       return { x: `${offset}%`, opacity: 0 };
     },
   };
 
-  const setupLevel = useCallback((words: Word[], currentPhase: QuizPhase) => {
-    setWordSet(shuffle(words));
-    setCurrentIndex(0);
-    setPhase(currentPhase);
-    setSelectedAnswer(null);
-    setIsRevealed(false);
-    setHasPlayedForCurrent(false);
-    setShowLevelCompleteModal(false);
-    if (currentPhase === 'initial') {
-      setScore(0);
-      setStreak(0);
-      setMaxStreak(0);
-      setMistakes([]);
-      setMistakeCount(0);
-      setStartTime(Date.now());
-    }
-  }, []);
+  const setupLevel = useCallback(
+    (words: Word[], currentPhase: QuizPhase) => {
+      setWordSet(shuffle(words));
+      setCurrentIndex(0);
+      setPhase(currentPhase);
+      setSelectedAnswer(null);
+      setIsRevealed(false);
+      setHasPlayedForCurrent(false);
+      setShowLevelCompleteModal(false);
 
+      if (currentPhase === 'initial') {
+        setScore(0);
+        setStreak(0);
+        setMaxStreak(0);
+        setMistakes([]);
+        setMistakeCount(0);
+        setStartTime(Date.now());
+      }
+    },
+    []
+  );
+
+  // Initialize level state
   useEffect(() => {
     if (level.words.length > 0) {
       setupLevel(level.words as Word[], 'initial');
     }
   }, [level, setupLevel]);
 
-  const currentWord = useMemo(() => wordSet[currentIndex] || null, [wordSet, currentIndex]);
+  // Preload all audio for this level
+  useEffect(() => {
+    if (!level?.id) return;
+    loadAudioForLevel(level.id).catch(console.error);
+  }, [level?.id, loadAudioForLevel]);
 
-  const { question, correctAnswer, audioLookupKey, hasAudioForItalian } = useMemo(() => {
-    if (!currentWord) {
-      return { question: '', correctAnswer: '', audioLookupKey: '', hasAudioForItalian: false };
-    }
-    const audioKey = currentWord.filename;
-    const audioAvailable = canPlayAudioForWord ? canPlayAudioForWord(audioKey) : Boolean(audioKey);
-    if (mode === 'it-en') {
+  const currentWord = useMemo(
+    () => wordSet[currentIndex] || null,
+    [wordSet, currentIndex]
+  );
+
+  const { question, correctAnswer, audioLookupKey, hasAudioForItalian } =
+    useMemo(() => {
+      if (!currentWord) {
+        return {
+          question: '',
+          correctAnswer: '',
+          audioLookupKey: '',
+          hasAudioForItalian: false,
+        };
+      }
+
+      const audioKey = currentWord.filename;
+      const audioAvailable = canPlayAudioForWord
+        ? canPlayAudioForWord(audioKey)
+        : Boolean(audioKey);
+
+      if (mode === 'it-en') {
+        return {
+          question: currentWord.word,
+          correctAnswer: currentWord.translations[0],
+          audioLookupKey: audioKey,
+          hasAudioForItalian: audioAvailable,
+        };
+      }
+
       return {
-        question: currentWord.word,
-        correctAnswer: currentWord.translations[0],
+        question: currentWord.translations[0],
+        correctAnswer: currentWord.word,
         audioLookupKey: audioKey,
         hasAudioForItalian: audioAvailable,
       };
-    }
-    return {
-      question: currentWord.translations[0],
-      correctAnswer: currentWord.word,
-      audioLookupKey: audioKey,
-      hasAudioForItalian: audioAvailable,
-    };
-  }, [currentWord, mode, canPlayAudioForWord]);
+    }, [currentWord, mode, canPlayAudioForWord]);
 
+  // Generate options whenever the word changes
   useEffect(() => {
-    if (currentWord && !hasPlayedForCurrent) {
-      const correctOption = mode === 'it-en' ? currentWord.translations[0] : currentWord.word;
-      
-      // ✅ FAILPROOF: Get ALL possible wrong options from entire dictionary
-      const allPossibleWords = allLevels.flatMap((l) => l.words as Word[]);
-      const allWrongOptions = allPossibleWords
-        .map((w) => (mode === 'it-en' ? w.translations[0] : w.word))
-        .filter((text) => {
-          // ❌ EXCLUDE: Syntactically identical to correct answer
-          return text !== correctOption;
-        });
+    if (!currentWord) return;
 
-      // ✅ DEDUPE: Use Set to avoid duplicate wrong options
-      const uniqueWrongOptions = Array.from(new Set(allWrongOptions));
-      
-      // ✅ SHUFFLE & SELECT: 4-5 random truly different distractors
-      const wrongOptions = shuffle(uniqueWrongOptions).slice(0, Math.min(5, Math.floor(Math.random() * 2) + 4));
-      
-      // ✅ FINAL SHUFFLE: Mix correct with truly different wrong options
-      setOptions(shuffle([correctOption, ...wrongOptions]));
-      setHasPlayedForCurrent(true);
-    }
-  }, [currentWord, mode, hasPlayedForCurrent, allLevels]);
+    const correctOption =
+      mode === 'it-en'
+        ? currentWord.translations[0]
+        : currentWord.word;
+
+    const allPossibleWords = allLevels.flatMap(
+      (l) => l.words as Word[]
+    );
+
+    const allWrongOptions = allPossibleWords
+      .map((w) =>
+        mode === 'it-en' ? w.translations[0] : w.word
+      )
+      .filter((text) => text !== correctOption);
+
+    const uniqueWrongOptions = Array.from(
+      new Set(allWrongOptions)
+    );
+
+    const wrongOptions = shuffle(uniqueWrongOptions).slice(
+      0,
+      Math.min(5, Math.floor(Math.random() * 2) + 4)
+    );
+
+    setOptions(shuffle([correctOption, ...wrongOptions]));
+    // reset autoplay guard for this word
+    setHasPlayedForCurrent(false);
+  }, [currentWord, mode, allLevels]);
+
+  // Autoplay current word once per card (including first one)
+  useEffect(() => {
+    if (
+      !currentWord ||
+      !hasAudioForItalian ||
+      !audioLookupKey
+    )
+      return;
+    if (hasPlayedForCurrent) return;
+
+    setHasPlayedForCurrent(true);
+
+    const id = setTimeout(() => {
+      playSound(audioLookupKey);
+    }, 0);
+
+    return () => clearTimeout(id);
+  }, [
+    currentWord,
+    hasAudioForItalian,
+    audioLookupKey,
+    hasPlayedForCurrent,
+    playSound,
+  ]);
 
   const handleAnswerSelect = (answer: string) => {
     if (isRevealed) return;
-    setSelectedAnswer((prev) => (prev === answer ? null : answer));
+    setSelectedAnswer((prev) =>
+      prev === answer ? null : answer
+    );
   };
 
   const handlePlayAudio = () => {
@@ -160,9 +245,13 @@ export default function QuizMode({
 
   const getNextButtonText = () => {
     if (isRevealed) {
-      const isLastWord = currentIndex === wordSet.length - 1;
-      const noMoreMistakesToRetry = phase === 'retry' || mistakes.length === 0;
-      return isLastWord && noMoreMistakesToRetry ? t('finish') : t('next');
+      const isLastWord =
+        currentIndex === wordSet.length - 1;
+      const noMoreMistakesToRetry =
+        phase === 'retry' || mistakes.length === 0;
+      return isLastWord && noMoreMistakesToRetry
+        ? t('finish')
+        : t('next');
     }
     return t('check');
   };
@@ -175,7 +264,9 @@ export default function QuizMode({
       playSound(isCorrect ? 'success' : 'error');
 
       if (isCorrect) {
-        if (phase === 'initial') setScore((s) => s + 1);
+        if (phase === 'initial') {
+          setScore((s) => s + 1);
+        }
         setStreak((s) => {
           const newS = s + 1;
           if (newS > maxStreak) setMaxStreak(newS);
@@ -183,14 +274,22 @@ export default function QuizMode({
         });
       } else {
         setStreak(0);
-        if (phase === 'initial') setMistakeCount((mc) => mc + 1);
-        if (currentWord)
-          setMistakes((m) => [...m, { ...(currentWord as any), isMistake: true }]);
+        if (phase === 'initial') {
+          setMistakeCount((mc) => mc + 1);
+        }
+        if (currentWord) {
+          setMistakes((m) => [
+            ...m,
+            { ...(currentWord as any), isMistake: true },
+          ]);
+        }
       }
+
       setIsRevealed(true);
     } else {
       setAnimationDirection('forward');
       const nextIndex = currentIndex + 1;
+
       if (nextIndex < wordSet.length) {
         setCurrentIndex(nextIndex);
         setSelectedAnswer(null);
@@ -202,7 +301,6 @@ export default function QuizMode({
           setMistakes([]);
         } else {
           setEndTime(Date.now());
-          // ✅ EXACT SOUND TIMING: playSound('completed') ONLY when modal emerges
           setTimeout(() => {
             setShowLevelCompleteModal(true);
             playSound('completed');
@@ -225,13 +323,37 @@ export default function QuizMode({
     const isRTL = useIsRTL();
 
     const stats = [
-      { icon: <CheckCircle className="w-6 h-6 text-[hsl(var(--success))]" />, label: t('correct'), value: `${score}/${level.words.length}` },
-      { icon: <AlertCircle className="w-6 h-6 text-destructive" />, label: t('errors'), value: mistakeCount },
-      { icon: <TrendingUp className="w-6 h-6 text-primary" />, label: t('bestStreak'), value: maxStreak },
       {
-        icon: <Timer className="w-6 h-6 text-muted-foreground" />,
+        icon: (
+          <CheckCircle className="w-6 h-6 text-[hsl(var(--success))]" />
+        ),
+        label: t('correct'),
+        value: `${score}/${level.words.length}`,
+      },
+      {
+        icon: (
+          <AlertCircle className="w-6 h-6 text-destructive" />
+        ),
+        label: t('errors'),
+        value: mistakeCount,
+      },
+      {
+        icon: (
+          <TrendingUp className="w-6 h-6 text-primary" />
+        ),
+        label: t('bestStreak'),
+        value: maxStreak,
+      },
+      {
+        icon: (
+          <Timer className="w-6 h-6 text-muted-foreground" />
+        ),
         label: t('time'),
-        value: `${Math.floor((endTime - startTime) / 60000)}:${Math.floor(((endTime - startTime) % 60000) / 1000)
+        value: `${Math.floor(
+          (endTime - startTime) / 60000
+        )}:${Math.floor(
+          ((endTime - startTime) % 60000) / 1000
+        )
           .toString()
           .padStart(2, '0')}`,
       },
@@ -253,9 +375,14 @@ export default function QuizMode({
       visible: {
         opacity: 1,
         y: 0,
-        transition: { type: 'spring', stiffness: 140, damping: 16 },
+        transition: {
+          type: 'spring',
+          stiffness: 140,
+          damping: 16,
+        },
       },
     };
+
 
     return (
       <>
@@ -352,7 +479,6 @@ export default function QuizMode({
     );
   };
 
-
   if (showLevelCompleteModal) {
     return <LevelCompleteModal />;
   }
@@ -360,8 +486,15 @@ export default function QuizMode({
   if (!currentWord) return null;
 
   const progressText =
-    phase === 'initial' ? t('progress', { current: currentIndex + 1, total: wordSet.length }) : t('retryingMistakes');
-  const isCorrectChoice = selectedAnswer === correctAnswer;
+    phase === 'initial'
+      ? t('progress', {
+          current: currentIndex + 1,
+          total: wordSet.length,
+        })
+      : t('retryingMistakes');
+
+  const isCorrectChoice =
+    selectedAnswer === correctAnswer;
 
   return (
     <>
@@ -468,9 +601,8 @@ export default function QuizMode({
                           animate={{ opacity: 1, y: 0 }}
                           exit={{ opacity: 0, y: 30 }}
                           transition={{ duration: 0.3, ease: 'linear' }}
-                          className={`overflow-hidden rounded-xl border shadow-xl backdrop-blur-sm flex flex-col gap-4 p-6 w-full ${
-                            isCorrectChoice ? 'bg-[var(--slightly-lightened-background)] border-border' : 'bg-secondary/70 border-border'
-                          }`}
+                          className={'overflow-hidden rounded-xl border shadow-xl backdrop-blur-sm flex flex-col gap-4 p-6 w-full bg-[var(--card-background)] border-border'
+                          }
                         >
                           <div className="flex items-center gap-3">
                             {isCorrectChoice ? (
@@ -542,5 +674,4 @@ export default function QuizMode({
       </div>
     </>
   );
-
 }

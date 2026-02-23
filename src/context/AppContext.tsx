@@ -1,8 +1,23 @@
 'use client';
-import React, {createContext,useContext,useState,useMemo,ReactNode,useCallback,useEffect,} from 'react';
+
+import React, {
+  createContext,
+  useContext,
+  useState,
+  useMemo,
+  ReactNode,
+  useCallback,
+  useEffect,
+} from 'react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import type { Level, Word } from '@/lib/types';
-import {getDictionary,TranslationKey,Dictionary,Locale,supportedLocales,} from '@/lib/translations';
+import {
+  getDictionary,
+  TranslationKey,
+  Dictionary,
+  Locale,
+  supportedLocales,
+} from '@/lib/translations';
 
 // =================================================================
 // ============== IMPROVED AUDIO ENGINE ============================
@@ -10,47 +25,49 @@ import {getDictionary,TranslationKey,Dictionary,Locale,supportedLocales,} from '
 class AudioEngine {
   private audioContext: AudioContext | null = null;
   private audioCache: Map<string, AudioBuffer | 'loading' | 'failed'> = new Map();
-  
+
   // HARDCODED UI SOUND VOLUMES (0.0 to 1.0)
   private uiSoundVolumes: Record<string, number> = {
-    'success': 0.8,
-    'error': 0.8,
-    'completed': 0.72
+    success: 0.8,
+    error: 0.8,
+    completed: 0.72,
   };
-  
+
   private uiSounds = ['success', 'error', 'completed'];
 
   private async initializeContext() {
     if (this.audioContext || typeof window === 'undefined') return;
-    
+
     try {
-      // IMPROVED: Better legacy browser support
-      const AudioContextConstructor = (window as any).AudioContext || 
-                                     (window as any).webkitAudioContext ||
-                                     (window as any).mozAudioContext ||
-                                     (window as any).oAudioContext;
-      
+      const AudioContextConstructor =
+        (window as any).AudioContext ||
+        (window as any).webkitAudioContext ||
+        (window as any).mozAudioContext ||
+        (window as any).oAudioContext;
+
       if (!AudioContextConstructor) {
         console.error('Web Audio API not supported');
         return;
       }
-      
+
       this.audioContext = new AudioContextConstructor();
-      
-      // IMPROVED: Robust user gesture handling for ALL devices
+
+      // Robust user gesture handling
       if (this.audioContext.state === 'suspended') {
         const resumeContext = () => {
-          this.audioContext?.resume().then(() => {
-            console.log('AudioContext resumed');
-          }).catch(e => console.warn('Failed to resume AudioContext', e));
-          // Clean up listeners after first resume
+          this.audioContext
+            ?.resume()
+            .then(() => {
+              console.log('AudioContext resumed');
+            })
+            .catch((e) => console.warn('Failed to resume AudioContext', e));
+
           window.removeEventListener('click', resumeContext);
           window.removeEventListener('touchstart', resumeContext);
           window.removeEventListener('keydown', resumeContext);
         };
-        
-        // Multiple gesture types for maximum compatibility
-        ['click', 'touchstart', 'keydown'].forEach(event => {
+
+        ['click', 'touchstart', 'keydown'].forEach((event) => {
           window.addEventListener(event, resumeContext, { once: true, passive: true });
         });
       }
@@ -62,7 +79,7 @@ class AudioEngine {
   public async preloadUISounds(): Promise<void> {
     await this.initializeContext();
     if (!this.audioContext) return;
-    
+
     const promises = this.uiSounds.map((sound) =>
       this.loadAudio(sound, `/${sound}.wav`)
     );
@@ -74,13 +91,15 @@ class AudioEngine {
     if (!this.audioContext || this.audioCache.has(key)) return;
 
     this.audioCache.set(key, 'loading');
+
     try {
       const response = await fetch(path);
       if (!response.ok) {
         throw new Error(`Failed to fetch audio: ${path}, status: ${response.status}`);
       }
+
       const arrayBuffer = await response.arrayBuffer();
-      const audioBuffer = await this.audioContext!.decodeAudioData(arrayBuffer);
+      const audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
       this.audioCache.set(key, audioBuffer);
     } catch (e) {
       console.error(`Failed to load audio from path: ${path}`, e);
@@ -91,36 +110,35 @@ class AudioEngine {
   public playSound(key: string): void {
     if (!this.audioContext) {
       // Try to initialize on play attempt (fallback for edge cases)
-      this.initializeContext();
+      void this.initializeContext();
       return;
     }
 
     if (this.audioContext.state === 'suspended') {
       this.audioContext.resume();
-      // Retry after resume
       setTimeout(() => this.playSound(key), 50);
       return;
     }
 
     const audioBuffer = this.audioCache.get(key);
+
     if (audioBuffer instanceof AudioBuffer) {
       try {
         const source = this.audioContext.createBufferSource();
         source.buffer = audioBuffer;
-        
-        // IMPROVED: Separate volume control for UI sounds vs Italian words
+
+        // Separate volume control for UI sounds vs Italian words
         if (this.uiSounds.includes(key)) {
-          // UI SOUND: Apply hardcoded volume
           const uiVolume = this.uiSoundVolumes[key as keyof typeof this.uiSoundVolumes];
           const gainNode = this.audioContext.createGain();
           gainNode.gain.setValueAtTime(uiVolume, this.audioContext.currentTime);
           source.connect(gainNode);
           gainNode.connect(this.audioContext.destination);
         } else {
-          // ITALIAN WORDS: Full volume (1.0)
+          // Word audio at full volume
           source.connect(this.audioContext.destination);
         }
-        
+
         source.start(0);
       } catch (e) {
         console.error(`Error playing sound '${key}':`, e);
@@ -173,10 +191,13 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  
+
   const currentLangParam = searchParams.get('lang') as Locale | null;
-  const currentLang = currentLangParam && supportedLocales.includes(currentLangParam) ? currentLangParam : 'en';
-  
+  const currentLang =
+    currentLangParam && supportedLocales.includes(currentLangParam)
+      ? currentLangParam
+      : 'en';
+
   const [lang, setLangInternal] = useState<Locale>(currentLang);
   const [dictionary, setDictionary] = useState<Dictionary>({} as Dictionary);
   const [isHydrated, setIsHydrated] = useState(false);
@@ -199,13 +220,17 @@ export function AppProvider({ children }: { children: ReactNode }) {
   // Dictionary loading
   useEffect(() => {
     let isMounted = true;
+
     getDictionary(lang).then((d: Dictionary) => {
       if (isMounted) {
         setDictionary(d);
         if (!isHydrated) setIsHydrated(true);
       }
     });
-    return () => { isMounted = false; };
+
+    return () => {
+      isMounted = false;
+    };
   }, [lang, isHydrated]);
 
   // Document lang/dir
@@ -214,7 +239,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     document.documentElement.dir = dir(lang);
   }, [lang]);
 
-  // IMPROVED: Preload UI sounds with legacy device support
+  // Preload UI sounds
   useEffect(() => {
     audioManager.preloadUISounds().catch(console.error);
   }, []);
@@ -222,6 +247,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   // Load levels for current lang
   useEffect(() => {
     let cancelled = false;
+
     async function loadLevels() {
       try {
         const basePath = `/data/${lang}`;
@@ -274,7 +300,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
         const totalGeneratedLevels = levels.length;
         const ranges: { value: string; label: string }[] = [];
         const numTabs = Math.ceil(totalGeneratedLevels / MAX_LEVELS_PER_PAGE);
-        
+
         for (let i = 0; i < numTabs; i++) {
           const start = i * MAX_LEVELS_PER_PAGE + 1;
           const end = Math.min((i + 1) * MAX_LEVELS_PER_PAGE, totalGeneratedLevels);
@@ -282,10 +308,13 @@ export function AppProvider({ children }: { children: ReactNode }) {
         }
 
         setLevelRanges(ranges);
+
         const newLevelsByRange: { [key: string]: Level[] } = {};
         for (const range of ranges) {
           const [start, end] = range.value.split('-').map(Number);
-          newLevelsByRange[range.value] = levels.filter((l) => l.id >= start && l.id <= end);
+          newLevelsByRange[range.value] = levels.filter(
+            (l) => l.id >= start && l.id <= end
+          );
         }
         setLevelsByRange(newLevelsByRange);
 
@@ -297,66 +326,80 @@ export function AppProvider({ children }: { children: ReactNode }) {
       }
     }
 
-    loadLevels();
-    return () => { cancelled = true; };
+    void loadLevels();
+
+    return () => {
+      cancelled = true;
+    };
   }, [lang]);
 
   const playSound = useCallback((key: string) => {
     audioManager.playSound(key);
   }, []);
 
-  const loadAudioForLevel = useCallback(async (levelId: number, onProgress?: (p: number) => void) => {
-    const levelToLoad = allLevels.find((l) => l.id === levelId);
-    if (!levelToLoad) return;
+  // Preload all audio for a specific level (for instant playback in QuizMode)
+  const loadAudioForLevel = useCallback(
+    async (levelId: number, onProgress?: (p: number) => void) => {
+      const levelToLoad = allLevels.find((l) => l.id === levelId);
+      if (!levelToLoad) return;
 
-    const wordsToLoad = (levelToLoad.words || []) as Word[];
-    if (wordsToLoad.length === 0) {
-      if (onProgress) onProgress(100);
-      return;
-    }
-
-    const loadPromises: Promise<void>[] = [];
-    for (const word of wordsToLoad) {
-      const cacheKey = word.filename;
-      const audioPath = `/audio/Italian/${cacheKey}.wav`;
-      loadPromises.push(audioManager.loadAudio(cacheKey, audioPath));
-    }
-
-    if (!onProgress) {
-      await Promise.all(loadPromises);
-    } else {
-      let loadedCount = 0;
-      const totalToLoad = loadPromises.length;
-      if (totalToLoad === 0) {
-        onProgress(100);
+      const wordsToLoad = (levelToLoad.words || []) as Word[];
+      if (wordsToLoad.length === 0) {
+        if (onProgress) onProgress(100);
         return;
       }
 
-      const reportProgress = () => {
-        loadedCount++;
-        const progress = Math.round((loadedCount / totalToLoad) * 100);
-        onProgress(progress);
-      };
+      const loadPromises: Promise<void>[] = [];
 
-      for (const promise of loadPromises) {
-        promise.then(reportProgress, reportProgress);
+      for (const word of wordsToLoad) {
+        if (!word.filename) continue;
+        const cacheKey = word.filename;
+        const audioPath = `/audio/Italian/${cacheKey}.wav`;
+        loadPromises.push(audioManager.loadAudio(cacheKey, audioPath));
       }
-      await Promise.all(loadPromises);
-    }
-  }, [allLevels]);
 
-  const setLang = useCallback((newLang: Locale) => {
-    setLangInternal(newLang);
-    const current = new URLSearchParams(Array.from(searchParams.entries()));
-    if (newLang === 'en') {
-      current.delete('lang');
-    } else {
-      current.set('lang', newLang);
-    }
-    const search = current.toString();
-    const query = search ? `?${search}` : '';
-    router.push(`${pathname}${query}`, { scroll: false });
-  }, [pathname, router, searchParams]);
+      if (!onProgress) {
+        await Promise.all(loadPromises);
+      } else {
+        let loadedCount = 0;
+        const totalToLoad = loadPromises.length;
+
+        if (totalToLoad === 0) {
+          onProgress(100);
+          return;
+        }
+
+        const reportProgress = () => {
+          loadedCount++;
+          const progress = Math.round((loadedCount / totalToLoad) * 100);
+          onProgress(progress);
+        };
+
+        for (const promise of loadPromises) {
+          promise.then(reportProgress, reportProgress);
+        }
+
+        await Promise.all(loadPromises);
+      }
+    },
+    [allLevels]
+  );
+
+  const setLang = useCallback(
+    (newLang: Locale) => {
+      setLangInternal(newLang);
+      const current = new URLSearchParams(Array.from(searchParams.entries()));
+      if (newLang === 'en') {
+        current.delete('lang');
+      } else {
+        current.set('lang', newLang);
+      }
+      const search = current.toString();
+      const query = search ? `?${search}` : '';
+      router.push(`${pathname}${query}`, { scroll: false });
+    },
+    [pathname, router, searchParams]
+  );
 
   const startLevel = useCallback((selectedLevel: Level) => {
     if (selectedLevel.words && selectedLevel.words.length > 0) {
@@ -365,20 +408,25 @@ export function AppProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
-  const endLevel = useCallback((completedLevel: Level | null) => {
-    if (completedLevel) {
-      const range = levelRanges.find((r) => {
-        const [start, end] = r.value.split('-').map(Number);
-        return completedLevel.id >= start && completedLevel.id <= end;
-      });
-      if (range && range.value !== activeTab) {
-        setActiveTabInternal(range.value);
+  const endLevel = useCallback(
+    (completedLevel: Level | null) => {
+      if (completedLevel) {
+        const range = levelRanges.find((r) => {
+          const [start, end] = r.value.split('-').map(Number);
+          return completedLevel.id >= start && completedLevel.id <= end;
+        });
+
+        if (range && range.value !== activeTab) {
+          setActiveTabInternal(range.value);
+        }
+        setLevelToScrollToInternal(completedLevel.id);
       }
-      setLevelToScrollToInternal(completedLevel.id);
-    }
-    setLevel(null);
-    setView('landing');
-  }, [activeTab, levelRanges]);
+
+      setLevel(null);
+      setView('landing');
+    },
+    [activeTab, levelRanges]
+  );
 
   const setGameMode = useCallback((mode: GameMode) => {
     setGameModeInternal(mode);
@@ -392,42 +440,58 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setLevelToScrollToInternal(id);
   }, []);
 
-  const value = useMemo(() => ({
-    view,
-    level,
-    startLevel,
-    endLevel,
-    gameMode,
-    setGameMode,
-    playSound,
-    activeTab,
-    setActiveTab,
-    allLevels,
-    levelRanges,
-    levelsByRange,
-    loadAudioForLevel,
-    levelToScrollTo,
-    setLevelToScrollTo,
-    lang,
-    setLang,
-    dictionary,
-    t: (key: TranslationKey | string, values?: Record<string, string | number>): string => {
-      if (Object.keys(dictionary).length === 0) return String(key);
-      let translation = dictionary[key as TranslationKey] || String(key);
-      if (values) {
-        Object.keys(values).forEach((k) => {
-          translation = translation.replace(`{${k}}`, String(values[k]));
-        });
-      }
-      return translation;
-    },
-    isHydrated,
-    direction: dir(lang),
-  }), [
-    view, level, startLevel, endLevel, gameMode, playSound, activeTab, allLevels,
-    levelRanges, levelsByRange, loadAudioForLevel, levelToScrollTo, lang, setLang,
-    dictionary, isHydrated, dir
-  ]);
+  const value = useMemo(
+    () => ({
+      view,
+      level,
+      startLevel,
+      endLevel,
+      gameMode,
+      setGameMode,
+      playSound,
+      activeTab,
+      setActiveTab,
+      allLevels,
+      levelRanges,
+      levelsByRange,
+      loadAudioForLevel,
+      levelToScrollTo,
+      setLevelToScrollTo,
+      lang,
+      setLang,
+      dictionary,
+      t: (key: TranslationKey | string, values?: Record<string, string | number>): string => {
+        if (Object.keys(dictionary).length === 0) return String(key);
+        let translation = dictionary[key as TranslationKey] || String(key);
+        if (values) {
+          Object.keys(values).forEach((k) => {
+            translation = translation.replace(`{${k}}`, String(values[k]));
+          });
+        }
+        return translation;
+      },
+      isHydrated,
+      direction: dir(lang),
+    }),
+    [
+      view,
+      level,
+      startLevel,
+      endLevel,
+      gameMode,
+      playSound,
+      activeTab,
+      allLevels,
+      levelRanges,
+      levelsByRange,
+      loadAudioForLevel,
+      levelToScrollTo,
+      lang,
+      setLang,
+      dictionary,
+      isHydrated,
+    ]
+  );
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>;
 }
