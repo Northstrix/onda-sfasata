@@ -1,0 +1,899 @@
+Extract words from CC0 audio using https://github.com/Northstrix/bootleg-text-slicer
+
+[La casettina del coniglio](https://www.archive.org/download/avventuredalice_1907_librivox/alicenelpaesemeraviglie_04_carroll_128kb.mp3) from [Le Avventure d'Alice nel Paese delle Meraviglie](https://librivox.org/le-avventure-dalice-nel-paese-delle-meraviglie-by-lewis-carroll/)
+
+---cutTemplate.txt---
+
+# word,start_ms,end_ms,global_m_start,global_m_end,local_m_start,local_m_end,export_path
+la casettina del coniglio,30581.9486,31121.9486,-0.0600,0.2000,-0.0700,0.6200,ApprovedWords\la casettina del coniglio_1770035738.wav
+coniglio,31341.9486,31881.9486,-0.0600,0.2000,0.1000,-0.1400,ApprovedWords\coniglio_1770035799.wav
+bello indietro,36481.9486,36741.9486,-0.0600,0.2000,0.1400,0.4200,ApprovedWords\bello indietro_1770035934.wav
+guardando ansiosamente,38201.9486,38881.9486,-0.0600,0.2000,-0.4200,0.0500,ApprovedWords\guardando ansiosamente_1770036003.wav
+mormorando fra sè stesso,42961.9486,43401.9486,-0.0600,0.2000,-0.8700,-0.0600,ApprovedWords\mormorando fra sè stesso_1770036123.wav
+duchessa,44541.9486,45221.9486,-0.0600,0.2000,0.1100,-0.0500,ApprovedWords\duchessa_1770036210.wav
+Oh zampine mie,47961.9486,48421.9486,-0.0600,0.2000,-0.5900,-0.0500,ApprovedWords\Oh zampine mie_1770036252.wav
+mi farà impiccare,52241.9486,52381.9486,-0.0590,0.2000,0.0700,0.8600,ApprovedWords\mi farà impiccare_1770036364.wav
+caduti,59261.9486,59781.9486,-0.0600,0.2000,0.1400,-0.0600,ApprovedWords\caduti_1770036714.wav
+indovinò subito,61821.9486,62381.9486,-0.0600,0.2000,-0.3800,-0.0900,ApprovedWords\indovinò subito_1770036761.wav
+guanti bianchi,65561.9486,66201.9486,-0.0600,0.2000,-0.1200,-0.1300,ApprovedWords\guanti bianchi_1770036865.wav
+ma fu inutile,71361.9486,71961.9486,-0.0600,0.2000,-0.2500,-0.0700,ApprovedWords\ma fu inutile_1770036932.wav
+non si trovarono più,72621.9486,73181.9486,-0.0600,0.2000,-0.1700,0.1100,ApprovedWords\non si trovarono più_1770037003.wav
+svaniti totalmente,83121.9486,83601.9486,-0.0600,0.2000,-0.3100,0.2400,ApprovedWords\svaniti totalmente_1770037252.wav
+bentosto,84501.9486,85121.9486,-0.0600,0.2000,0.0200,-0.0700,ApprovedWords\bentosto_1770037278.wav
+ricerca,88261.9486,88861.9486,-0.0600,0.2000,0.0800,-0.0900,ApprovedWords\ricerca_1770037331.wav
+che cosa stai facendo quì QUESTIONMARK,92820.2620,93300.2620,0.0600,0.2000,-0.7700,0.3300,ApprovedWords\che cosa stai facendo quì QUESTIONMARK_1770037655.wav
+corri a casa,95360.2620,95640.2620,0.0600,0.2000,-0.0400,0.4200,ApprovedWords\corri a casa_1770037716.wav
+casa,95760.2620,96120.2620,0.0600,0.2000,-0.0700,-0.0500,ApprovedWords\casa_1770037747.wav
+ventaglio,98120.2620,98720.2620,0.0600,0.2000,-0.0200,-0.1000,ApprovedWords\ventaglio_1770037810.wav
+coniglio faceva,110140.2620,110460.2620,0.0600,0.2000,-0.0700,0.4200,ApprovedWords\coniglio faceva_1770037884.wav
+faceva,110460.2620,111020.2620,0.0600,0.2000,0.0100,-0.1200,ApprovedWords\faceva_1770037908.wav
+cameriera,112860.2620,113440.2620,0.0600,0.2000,-0.0300,-0.0800,ApprovedWords\cameriera_1770037985.wav
+trovare,123860.2620,124480.2620,0.0600,0.2000,0.0700,-0.0700,ApprovedWords\trovare_1770038044.wav
+casettina,127120.2620,127840.2620,0.0600,0.2000,-0.0100,-0.1200,ApprovedWords\casettina_1770038087.wav
+lamina di ottone,132300.2620,132800.2620,0.0600,0.2000,-0.5400,-0.1400,ApprovedWords\lamina di ottone_1770038199.wav
+entrò,136200.2620,136720.2620,0.0600,0.2000,-0.0100,-0.1500,ApprovedWords\entrò_1770038242.wav
+casa,145640.2620,146040.2620,0.0600,0.2000,0.0400,-0.0900,ApprovedWords\casa_1770038289.wav
+curioso,150060.2620,150900.2620,0.0600,0.2000,0.1800,-0.1300,ApprovedWords\curioso_1770038386.wav
+servizi,154140.2620,154800.2620,0.0600,0.2000,-0.0500,-0.1000,ApprovedWords\servizi_1770038480.wav
+lei,158680.2620,159000.2620,0.0600,0.2000,-0.0500,-0.1400,ApprovedWords\lei_1770038519.wav
+fantasticare,160320.2620,161140.2620,0.0600,0.2000,-0.1400,-0.0700,ApprovedWords\fantasticare_1770038590.wav
+subito,165340.2620,165860.2620,0.0600,0.2000,-0.0500,-0.0900,ApprovedWords\subito_1770038699.wav
+scappi,174531.8226,175051.8226,0.0000,0.0000,-0.0500,0.0400,ApprovedWords\scappi_1770038889.wav
+non crederei,176611.8226,177231.8226,0.0000,0.0000,-0.1300,0.1300,ApprovedWords\non crederei_1770038934.wav
+ciarlando,185631.8226,186091.8226,0.0000,0.2000,-0.0400,-0.0400,ApprovedWords\ciarlando_1770039027.wav
+cameretta assai pulitina,187671.8226,188311.8226,0.0000,0.2000,-0.7300,-0.0800,ApprovedWords\cameretta assai pulitina_1770039100.wav
+pulitina,187671.8226,188311.8226,0.0000,0.2000,0.0300,-0.1000,ApprovedWords\pulitina_1770039142.wav
+terrazzino,190031.8226,190731.8226,0.0000,0.2000,0.0300,-0.1200,ApprovedWords\terrazzino_1770039169.wav
+ventaglio,194451.8226,195091.8226,0.0000,0.2000,0.0200,-0.1900,ApprovedWords\ventaglio_1770039224.wav
+guanti,200351.8226,200831.8226,0.0000,0.2000,0.0400,-0.0800,ApprovedWords\guanti_1770039326.wav
+specchio,205231.8226,205771.8226,0.0000,0.2000,-0.0300,-0.1300,ApprovedWords\specchio_1770039380.wav
+mangio,218291.8226,218831.8226,0.0000,0.2000,0.0400,-0.1500,ApprovedWords\mangio_1770039446.wav
+che cosa produrrà questo liquore,222275.7197,222795.7197,0.0000,0.2000,-1.1200,-0.1100,ApprovedWords\che cosa produrrà questo liquore_1770089391.wav
+crescere di nuovo,224575.7197,224755.7197,0.0000,0.2000,-0.3100,0.2200,ApprovedWords\crescere di nuovo_1770089613.wav
+così piccina,227255.7197,227935.7197,0.0000,0.2000,-0.1300,-0.0900,ApprovedWords\così piccina_1770089671.wav
+così accadde,229715.7197,230315.7197,0.0000,0.2000,-0.1900,-0.0500,ApprovedWords\così accadde_1770089810.wav
+volta,238035.7197,238415.7197,0.0000,0.2000,0.0000,-0.0500,ApprovedWords\volta_1770089971.wav
+contro la volta,238035.7197,238415.7197,0.0000,0.2000,-0.3800,-0.0500,ApprovedWords\contro la volta_1770090011.wav
+crescendo,259295.7197,259955.7197,0.0000,0.2000,-0.0300,-0.0700,ApprovedWords\crescendo_1770090364.wav
+un altro minuto,264735.7197,265275.7197,0.0000,0.2000,-0.2900,-0.1100,ApprovedWords\un altro minuto_1770090456.wav
+capo,270195.7197,270895.7197,0.0000,0.2000,0.0400,-0.4100,ApprovedWords\capo_1770090505.wav
+E cresceva ancora,271495.7197,271975.7197,0.0000,0.2000,-0.4600,-0.0600,ApprovedWords\E cresceva ancora_1770090609.wav
+disperata,272675.7197,273195.7197,0.0000,0.2000,-0.1300,-0.1000,ApprovedWords\disperata_1770090775.wav
+finestra,274835.7197,275575.7197,0.0000,0.2000,0.0750,-0.0800,ApprovedWords\finestra_1770090823.wav
+caminetto,276957.0199,277697.0199,0.0000,0.0000,0.0300,-0.0300,ApprovedWords\caminetto_1770091178.wav
+Che sarà di me QUESTIONMARK,282277.0199,282397.0199,0.0000,0.1000,0.0300,0.7600,ApprovedWords\Che sarà di me QUESTIONMARK_1770091262.wav
+impiccolire,304297.0199,305117.0199,0.0000,0.1000,0.0000,0.0300,ApprovedWords\impiccolire_1770091677.wav
+conigli,307157.0199,307797.0199,0.0000,0.1000,0.1100,0.0000,ApprovedWords\conigli_1770091803.wav
+discesa nella Conigliera,310977.0199,311677.0199,0.0000,0.1000,-0.5600,-0.0100,ApprovedWords\discesa nella Conigliera_1770091880.wav
+vita,315897.0199,316217.0199,0.0000,0.1000,0.0100,0.0200,ApprovedWords\vita_1770092346.wav
+che cosa mai son'io addiventata QUESTIONMARK,317557.0199,317997.0199,0.0000,0.1000,-0.1000,1.8000,ApprovedWords\che cosa mai son'io addiventata QUESTIONMARK_1770092472.wav
+grande,335417.0199,335837.0199,0.0000,0.1000,0.0200,0.0700,ApprovedWords\grande_1770092597.wav
+uno,336717.0199,336997.0199,0.0000,0.1000,0.0100,-0.0200,ApprovedWords\uno_1770092640.wav
+ne scriverò uno,336717.0199,336997.0199,0.0000,0.1000,-0.6800,-0.0200,ApprovedWords\ne scriverò uno_1770092714.wav
+mestizia,340257.0199,340977.0199,0.0000,0.1000,-0.0500,-0.1000,ApprovedWords\mestizia_1770092803.wav
+qui,343511.1774,343831.1774,0.0000,0.1000,0.1500,0.0100,ApprovedWords\qui_1770092940.wav
+ma che,344931.1774,345211.1774,0.0000,0.2000,-0.2200,-0.0400,ApprovedWords\ma che_1770093004.wav
+bene,350211.1774,350511.1774,0.0000,0.2000,0.0300,-0.0600,ApprovedWords\bene_1770093094.wav
+non diventare mai vecchia,351491.1774,351711.1774,0.0000,0.2000,-0.6400,0.4300,ApprovedWords\non diventare mai vecchia_1770093157.wav
+vecchia,351711.1774,352251.1774,0.0000,0.2000,0.0400,-0.1400,ApprovedWords\vecchia_1770093182.wav
+pazzerella che sei!,359371.1774,359751.1774,0.0000,0.2000,-0.6900,-0.0600,ApprovedWords\pazzerella che sei!_1770093244.wav
+stessa,360911.1774,361431.1774,0.0000,0.2000,0.0300,-0.1000,ApprovedWords\stessa_1770093297.wav
+tempo,369311.1774,369691.1774,0.0000,0.2000,0.0300,-0.0800,ApprovedWords\tempo_1770093358.wav
+parlando,370451.1774,371091.1774,0.0000,0.2000,0.0900,-0.0400,ApprovedWords\parlando_1770093555.wav
+stessa,372451.1774,372971.1774,0.0000,0.2000,0.0200,-0.1200,ApprovedWords\stessa_1770093586.wav
+voce di fuori,379451.1774,379571.1774,0.0000,0.2000,-0.2200,0.2500,ApprovedWords\voce di fuori_1770093750.wav
+tale di fuori,386491.1774,386931.1774,0.0000,0.2000,-0.3500,-0.0800,ApprovedWords\tale di fuori_1770093958.wav
+portami subito i guanti,388631.1774,389031.1774,0.0000,0.2000,-0.9500,0.0500,ApprovedWords\portami subito i guanti_1770094024.wav
+scala,392151.1774,392591.1774,0.0000,0.2000,0.0000,-0.0900,ApprovedWords\scala_1770094074.wav
+calpestìo frettoloso per la scala,392151.1774,392591.1774,0.0000,0.2000,-1.6000,-0.1000,ApprovedWords\calpestìo frettoloso per la scala_1770094157.wav
+presto,396591.1774,397431.1774,0.0000,0.2000,0.0800,-0.4100,ApprovedWords\presto_1770094222.wav
+paura,407271.1774,407751.1774,0.0000,0.2000,0.0500,-0.0600,ApprovedWords\paura_1770094338.wav
+cercò di aprirlo,410781.1791,411301.1791,0.0000,0.2000,-0.4000,-0.1100,ApprovedWords\cercò di aprirlo_1770097127.wav
+contro,415761.1791,416221.1791,0.0000,0.2000,0.0900,-0.0400,ApprovedWords\contro_1770097249.wav
+finestra,422001.1791,422561.1791,0.0000,0.2000,-0.0100,-0.1000,ApprovedWords\finestra_1770097410.wav
+qualche cosa nell'aria,434541.1791,434921.1791,0.0000,0.2000,-0.6700,-0.1100,ApprovedWords\qualche cosa nell'aria_1770097559.wav
+non afferrò nulla,436161.1791,436621.1791,0.0000,0.2000,-0.5400,-0.1500,ApprovedWords\non afferrò nulla_1770097670.wav
+caduta,439101.1791,439561.1791,0.0000,0.2000,0.0700,-0.0900,ApprovedWords\caduta_1770097722.wav
+fracasso di vetri rotti,440401.1791,440901.1791,0.0000,0.2000,0.0500,0.6700,ApprovedWords\fracasso di vetri rotti_1770097833.wav
+vetri rotti,441041.1791,441261.1791,0.0000,0.2000,-0.0100,0.3200,ApprovedWords\vetri rotti_1770097870.wav
+cosa simile,447101.1791,447681.1791,0.0000,0.2000,-0.1500,-0.1300,ApprovedWords\cosa simile_1770098042.wav
+voce rabbiosa,449641.1791,450241.1791,0.0000,0.2000,-0.1900,-0.0700,ApprovedWords\voce rabbiosa_1770098113.wav
+Dove sei QUESTION MARK,454001.1791,454301.1791,0.0000,0.2000,0.0600,0.2800,ApprovedWords\Dove sei QUESTION MARK_1770098148.wav
+sentita,457761.1791,458321.1791,0.0000,0.2000,0.0000,-0.0800,ApprovedWords\sentita_1770098182.wav
+Scavando patate!,464081.1791,464441.1791,0.0000,0.2000,-0.2600,0.5100,ApprovedWords\Scavando patate!_1770098310.wav
+finestra,478221.1791,478841.1791,0.0000,0.2000,0.0300,-0.1300,ApprovedWords\finestra_1770098399.wav
+un braccio,483901.1791,484161.1791,0.0000,0.2000,0.0900,0.4200,ApprovedWords\un braccio_1770098492.wav
+paperone,485821.1791,486421.1791,0.0000,0.2000,0.0300,-0.0400,ApprovedWords\paperone_1770098536.wav
+grossezza,488441.1791,489201.1791,0.0000,0.2000,0.0700,-0.1300,ApprovedWords\grossezza_1770098639.wav
+riempie tutta la finestra,491081.1791,491681.1791,0.0000,0.2000,-0.7400,-0.1200,ApprovedWords\riempie tutta la finestra_1770098802.wav
+silenzio,503301.1791,503541.1791,0.0000,0.2000,-0.0200,0.2100,ApprovedWords\silenzio_1770098918.wav
+bisbiglio sommesso,505761.8308,506401.8308,0.0000,0.2000,-0.4100,-0.0700,ApprovedWords\bisbiglio sommesso_1770099420.wav
+parole come queste,507441.8308,507881.8308,0.0000,0.2000,-0.4900,0.0000,ApprovedWords\parole come queste_1770099663.wav
+vigliacone,513201.8308,513801.8308,0.0000,0.2000,-0.0300,-0.1000,ApprovedWords\vigliacone_1770099769.wav
+vetro,525421.8308,525821.8308,-0.0200,0.2000,0.0100,-0.1700,ApprovedWords\vetro_1770100111.wav
+faranno dopo,532321.8308,532741.8308,-0.0200,0.2000,-0.3700,-0.0800,ApprovedWords\faranno dopo_1770100310.wav
+farlo,536661.8308,537221.8308,-0.0200,0.2000,0.0700,-0.1700,ApprovedWords\farlo_1770100368.wav
+io,538481.8308,538701.8308,-0.0200,0.2000,-0.0200,-0.0300,ApprovedWords\io_1770100402.wav
+Aspettò un poco,541741.8308,542281.8308,-0.0200,0.2000,0.2100,0.4500,ApprovedWords\Aspettò un poco_1770100544.wav
+poco,542501.8308,542741.8308,-0.0200,0.2000,0.0200,0.0000,ApprovedWords\poco_1770100635.wav
+ma non si sentiva nulla,543381.8308,543761.8308,-0.0200,0.2000,-0.3700,0.3400,ApprovedWords\ma non si sentiva nulla_1770100877.wav
+parlavano insieme,551441.8308,552021.8308,-0.0200,0.2000,-0.4400,-0.1000,ApprovedWords\parlavano insieme_1770100960.wav
+insieme,551441.8308,552021.8308,-0.0200,0.2000,0.0300,-0.1000,ApprovedWords\insieme_1770101013.wav
+dicevano,553161.8308,553741.8308,-0.0200,0.2000,0.0400,-0.1200,ApprovedWords\dicevano_1770101073.wav
+Dov'è l'altra scala QUESTIONMARK,554861.8308,555661.8308,-0.0200,0.2000,-0.5900,-0.3000,ApprovedWords\Dov'è l'altra scala QUESTIONMARK_1770101123.wav
+cantone,564981.8308,565601.8308,-0.0200,0.2000,0.0600,-0.0600,ApprovedWords\cantone_1770101396.wav
+tanto difficile,573001.8308,573501.8308,-0.0200,0.2000,-0.1500,0.1200,ApprovedWords\tanto difficile_1770101522.wav
+questa fune,575861.8308,576341.8308,-0.0200,0.2000,-0.2000,-0.0200,ApprovedWords\questa fune_1770101553.wav
+vacilla,579801.8308,580361.8308,-0.0200,0.2000,0.0500,-0.0400,ApprovedWords\vacilla_1770101596.wav
+caminetto,591401.8308,592161.8308,-0.0200,0.2000,0.0600,-0.1000,ApprovedWords\caminetto_1770101640.wav
+No,594901.8308,595221.8308,-0.0200,0.2000,0.0600,-0.0900,ApprovedWords\No_1770101681.wav
+scendervi,597941.8308,598601.8308,-0.0200,0.2000,0.0100,-0.1300,ApprovedWords\scendervi_1770101760.wav
+caminetto,603122.4826,603802.4826,0.0000,0.2000,0.0200,-0.1400,ApprovedWords\caminetto_1770101946.wav
+Bellino,605262.4826,605902.4826,0.0000,0.2000,0.0500,-0.0300,ApprovedWords\Bellino_1770101965.wav
+caminetto,627242.4826,627962.4826,0.0000,0.2000,0.0300,-0.1500,ApprovedWords\caminetto_1770102062.wav
+scendeva adagino lunghesso il camino,637062.4826,637582.4826,0.0000,0.2000,-1.7500,-0.1100,ApprovedWords\scendeva adagino lunghesso il camino_1770102277.wav
+diceva,648282.4826,648842.4826,0.0000,0.2000,0.0400,-0.1800,ApprovedWords\diceva_1770103142.wav
+gridava,652342.4826,652922.4826,0.0000,0.2000,0.0800,-0.1000,ApprovedWords\gridava_1770103211.wav
+siepe,656722.4826,657222.4826,0.0000,0.2000,-0.0100,-0.0400,ApprovedWords\siepe_1770103273.wav
+voci,661122.4826,661542.4826,0.0000,0.2000,0.0000,-0.1100,ApprovedWords\voci_1770103336.wav
+tutto,669182.4826,669522.4826,0.0000,0.2000,0.0500,0.0300,ApprovedWords\tutto_1770103383.wav
+sibilante,673502.4826,674202.4826,0.0000,0.2000,-0.1400,-0.0400,ApprovedWords\sibilante_1770103443.wav
+raccontarvelo,684602.4826,685742.4826,0.0000,0.2000,0.0100,-0.1900,ApprovedWords\raccontarvelo_1770103506.wav
+razzo,692662.4826,693182.4826,0.0000,0.2000,-0.0800,-0.1400,ApprovedWords\razzo_1770103644.wav
+gran silenzio,711756.3814,712816.3814,0.0000,0.0000,-0.2600,0.0600,ApprovedWords\gran silenzio_1770103996.wav
+cervello,719316.3814,720096.3814,0.0000,0.0000,0.0300,0.0800,ApprovedWords\cervello_1770104117.wav
+scoperchierebbero il tetto,721776.3814,722296.3814,0.0000,0.0000,-1.1100,0.0200,ApprovedWords\scoperchierebbero il tetto_1770104230.wav
+diceva,727396.3814,728036.3814,0.0000,0.2000,0.0300,-0.2300,ApprovedWords\diceva_1770104283.wav
+cominciare,730216.3814,730936.3814,0.0000,0.2000,0.0300,-0.1000,ApprovedWords\cominciare_1770104348.wav
+faccia,743056.3814,743536.3814,0.0000,0.2000,-0.0600,-0.1700,ApprovedWords\faccia_1770104476.wav
+gridò,746316.3814,746656.3814,0.0000,0.2000,-0.0400,-0.1700,ApprovedWords\gridò_1770104516.wav
+pavimento,761053.5257,761713.5257,0.0000,0.0000,0.0400,0.1200,ApprovedWords\pavimento_1770106914.wav
+toccavano il pavimento,761053.5257,761713.5257,0.0000,0.0000,-0.5500,0.1200,ApprovedWords\toccavano il pavimento_1770106973.wav
+un idea le sfolgorò in mente,764773.5257,765193.5257,0.0000,0.1000,-1.4500,0.0500,ApprovedWords\un idea le sfolgorò in mente_1770107324.wav
+questi pasticcini,767893.5257,768813.5257,0.0000,0.1000,-0.2200,-0.0700,ApprovedWords\questi pasticcini_1770107824.wav
+statura,773273.5257,773833.5257,0.0000,0.1000,0.0100,-0.0300,ApprovedWords\statura_1770107894.wav
+forse,779013.5257,779653.5257,0.0000,0.2000,0.0700,-0.1400,ApprovedWords\forse_1770107963.wav
+pasticcino,780933.5257,781733.5257,0.0000,0.2000,0.0300,-0.1900,ApprovedWords\pasticcino_1770108011.wav
+casa,790053.5257,790593.5257,0.0000,0.2000,0.1600,-0.0800,ApprovedWords\casa_1770108261.wav
+fuori,794333.5257,794773.5257,0.0000,0.2000,0.0300,-0.1200,ApprovedWords\fuori_1770108312.wav
+porcellini d'India,800333.5257,800853.5257,0.0000,0.2000,0.0400,0.3800,ApprovedWords\porcellini d'India_1770108584.wav
+bottiglia,803033.5257,803693.5257,0.0000,0.2000,0.0200,-0.1300,ApprovedWords\bottiglia_1770108639.wav
+le si avventarono addosso,807453.5257,808073.5257,0.0000,0.2000,-0.8500,-0.1600,ApprovedWords\le si avventarono addosso_1770108811.wav
+foresta,812233.5257,812893.5257,0.0000,0.2000,0.0000,-0.1700,ApprovedWords\foresta_1770108891.wav
+statura naturale,820973.5257,821633.5257,0.0000,0.2000,-0.3900,-0.0300,ApprovedWords\statura naturale_1770108987.wav
+giardino,825673.5257,826373.5257,0.0000,0.2000,0.1100,-0.1200,ApprovedWords\giardino_1770109950.wav
+benino,833893.5257,834373.5257,0.0000,0.2000,0.0100,-0.1500,ApprovedWords\benino_1770110449.wav
+un piccolo latrato acuto,844793.5257,845253.5257,0.0000,0.2000,-0.9800,-0.0600,ApprovedWords\un piccolo latrato acuto_1770110640.wav
+presto,848353.5257,848873.5257,0.0000,0.2000,0.0300,-0.2100,ApprovedWords\presto_1770110845.wav
+rotondi,852813.5257,853473.5257,0.0000,0.2000,-0.0100,-0.2200,ApprovedWords\rotondi_1770110912.wav
+zampa cercava di toccarla,854613.5257,855053.5257,0.0000,0.2000,0.0600,1.0700,ApprovedWords\zampa cercava di toccarla_1770110983.wav
+voce carezzevole,859733.5257,860513.5257,0.0000,0.2000,-0.2400,-0.1700,ApprovedWords\voce carezzevole_1770111059.wav
+fosse affamato,867076.4489,867716.4489,0.0000,0.1000,-0.2400,0.0000,ApprovedWords\fosse affamato_1770111456.wav
+carezze,871776.4489,872316.4489,0.0000,0.1000,0.0400,-0.0200,ApprovedWords\carezze_1770111550.wav
+non sapendo che farsi,873876.4489,874396.4489,0.0000,0.1000,-0.6700,0.0000,ApprovedWords\non sapendo che farsi_1770111636.wav
+ramuscello,875236.4489,875916.4489,0.0000,0.1000,-0.0500,-0.0400,ApprovedWords\ramuscello_1770111710.wav
+razzo,879996.4489,880496.4489,0.0000,0.1000,-0.0200,-0.0700,ApprovedWords\razzo_1770111756.wav
+sbranare,884536.4489,885196.4489,0.0000,0.1000,0.0700,-0.0600,ApprovedWords\sbranare_1770111808.wav
+rovesciata,890956.4489,891676.4489,0.0000,0.1000,0.0400,-0.0300,ApprovedWords\rovesciata_1770111852.wav
+furia d'afferrarlo,899930.3591,900630.3591,0.0000,0.0000,-0.3900,-0.0100,ApprovedWords\furia d'afferrarlo_1770113211.wav
+conveniva,920530.3591,921210.3591,0.0000,0.2000,0.0600,-0.1700,ApprovedWords\conveniva_1770113400.wav
+fuggì,933430.3591,933910.3591,0.0000,0.2000,-0.0500,-0.1900,ApprovedWords\fuggì_1770113544.wav
+fiato,935930.3591,936350.3591,0.0000,0.2000,-0.0700,-0.0900,ApprovedWords\fiato_1770113585.wav
+lontananza,938970.3591,939770.3591,0.0000,0.2000,0.0800,-0.1100,ApprovedWords\lontananza_1770113637.wav
+quello,942210.3591,942670.3591,0.0000,0.2000,0.0700,-0.0700,ApprovedWords\quello_1770113688.wav
+foglie,947530.3591,948010.3591,0.0000,0.2000,0.0000,-0.1600,ApprovedWords\foglie_1770113755.wav
+cosa,965740.7880,966340.7880,0.0000,0.0000,0.2400,0.0900,ApprovedWords\cosa_1770115097.wav
+punto,969060.7880,969480.7880,0.0000,0.1000,0.0300,0.0100,ApprovedWords\punto_1770115163.wav
+quale cosa QUESTIONMARK,973000.7880,973400.7880,0.0000,0.1000,0.1300,0.4700,ApprovedWords\quale cosa QUESTIONMARK_1770115200.wav
+guardò tutt'intorno,975120.7880,975480.7880,0.0000,0.2000,0.0000,0.7800,ApprovedWords\guardò tutt'intorno_1770115263.wav
+quell'occorrenza,981140.7880,981360.7880,0.0000,0.2000,0.0100,0.6400,ApprovedWords\quell'occorrenza_1770115328.wav
+grosso fungo vicino a lei,984660.7880,984800.7880,0.0000,0.2000,-1.0300,0.1600,ApprovedWords\grosso fungo vicino a lei_1770115401.wav
+lei,984800.7880,985060.7880,0.0000,0.2000,-0.0800,-0.1100,ApprovedWords\lei_1770115437.wav
+lei,986500.7880,987020.7880,0.0000,0.2000,0.2000,-0.1500,ApprovedWords\lei_1770115464.wav
+sopra,993780.7880,994220.7880,0.0000,0.2000,-0.0400,-0.1700,ApprovedWords\sopra_1770115512.wav
+piedi,996400.7880,996860.7880,0.0000,0.2000,0.0500,-0.2100,ApprovedWords\piedi_1770115577.wav
+fungo,998520.7880,999060.7880,0.0000,0.2000,0.0000,-0.1400,ApprovedWords\fungo_1770115628.wav
+turchino,1002740.7880,1003820.7880,0.0000,0.2000,0.4400,-0.1300,ApprovedWords\turchino_1770115722.wav
+fumando tranquillamente una lunga pipa turca,1007360.7880,1007720.7880,0.0000,0.2000,-0.0600,2.0600,ApprovedWords\fumando tranquillamente una lunga pipa turca_1770115925.wav
+quattro,1016520.7880,1016980.7880,0.0000,0.2000,0.1100,-0.0600,ApprovedWords\quattro_1770116013.wav
+  
+[Esser morta vorrei...](https://www.archive.org/download/multilingual_poetry_collection_004_librivox/italian_essermortavorrei_saffo_aa.mp3) from [Multilingual Poetry Collection 004](https://librivox.org/multilingual-poetry-collection-004/)
+
+---cutTemplate.txt---
+
+# word,start_ms,end_ms,global_m_start,global_m_end,local_m_start,local_m_end,export_path
+volontario,10500.0000,11220.0000,0.0000,0.2000,0.0700,-0.0500,ApprovedWords\volontario_1769879392.wav
+veramente,27740.0000,28140.0000,0.0000,0.2000,0.0300,0.3000,ApprovedWords\veramente_1769879517.wav
+molte cose,30940.0000,31280.0000,0.0000,0.2000,0.0100,0.3000,ApprovedWords\molte cose_1769879606.wav
+cose,31280.0000,31620.0000,0.0000,0.2000,0.0500,0.0000,ApprovedWords\cose_1769879615.wav
+mi disse,31960.0000,32260.0000,0.0000,0.2000,-0.1700,0.0100,ApprovedWords\mi disse_1769879700.wav
+proviamo,34840.0000,35400.0000,0.0000,0.2000,0.0800,0.0000,ApprovedWords\proviamo_1769879742.wav
+per mio volere,38140.0000,38580.0000,0.0000,0.2000,-0.2700,0.0000,ApprovedWords\per mio volere_1769879843.wav
+rispondevo,40360.0000,41100.0000,0.0000,0.2000,0.0300,-0.0500,ApprovedWords\rispondevo_1769879882.wav
+ricordo,44680.0000,45280.0000,0.0000,0.2000,0.0700,0.0000,ApprovedWords\ricordo_1769880053.wav
+non lo sai,48380.0000,48680.0000,0.0000,0.2000,-0.2900,0.0000,ApprovedWords\non lo sai_1769880140.wav
+voglio ricordare,49360.0000,49680.0000,0.0000,0.2000,0.0700,0.7000,ApprovedWords\voglio ricordare_1769880283.wav
+ricordare,49680.0000,50400.0000,0.0000,0.2000,0.0200,0.0000,ApprovedWords\ricordare_1769880393.wav
+cose belle noi godevamo,51000.0000,51380.0000,0.0000,0.2000,-0.2000,0.9200,ApprovedWords\cose belle noi godevamo_1769881216.wav
+godevamo,51660.0000,52280.0000,0.0000,0.2000,0.0100,0.0000,ApprovedWords\godevamo_1769881272.wav
+insieme,55560.0000,56160.0000,0.0000,0.2000,0.0200,0.0000,ApprovedWords\insieme_1769881367.wav
+molte collane intrecciate,61780.0000,62660.0000,0.0000,0.2000,-0.7800,-0.0200,ApprovedWords\molte collane intrecciate_1769881695.wav
+profumato,66960.0000,67780.0000,0.0000,0.2000,0.1000,0.0200,ApprovedWords\profumato_1769881953.wav
+di unguento profumato,66440.0000,66540.0000,0.0000,0.2000,-0.0500,1.1800,ApprovedWords\di unguento profumato_1769882086.wav
+quello regale,69060.0000,69640.0000,0.0000,0.2000,-0.1900,0.1000,ApprovedWords\quello regale_1769882193.wav
+saziavi il desiderio,71800.0000,72340.0000,0.0000,0.2000,0.0300,0.7000,ApprovedWords\saziavi il desiderio_1769882381.wav
+desiderio,72480.0000,73100.0000,0.0000,0.2000,-0.0200,-0.0700,ApprovedWords\desiderio_1769882444.wav
+festa,75320.0000,76160.0000,0.0000,0.2000,0.3900,0.0000,ApprovedWords\festa_1769882597.wav
+bosco sacro,79060.0000,79460.0000,0.0000,0.2000,0.0300,0.4000,ApprovedWords\bosco sacro_1769882667.wav
+sacro,79460.0000,79960.0000,0.0000,0.2000,0.0400,-0.0900,ApprovedWords\sacro_1769882700.wav
+
+[Il croquet della regina](https://www.archive.org/download/avventuredalice_1907_librivox/alicenelpaesemeraviglie_08_carroll_128kb.mp3) from [Le Avventure d'Alice nel Paese delle Meraviglie](https://librivox.org/le-avventure-dalice-nel-paese-delle-meraviglie-by-lewis-carroll/)
+
+---cutTemplate.txt---
+
+# word,start_ms,end_ms,global_m_start,global_m_end,local_m_start,local_m_end,export_path
+Paese delle Meraviglie,3560.0000,3800.0000,0.0000,0.2000,-0.2600,0.5400,ApprovedWords\Paese delle Meraviglie_1770266288.wav
+dominio pubblico,10220.0000,10540.0000,0.0000,0.2000,0.0400,0.3900,ApprovedWords\dominio pubblico_1770266394.wav
+volontari,13700.0000,14320.0000,0.0000,0.2000,0.0500,-0.1300,ApprovedWords\volontari_1770266478.wav
+meraviglie,22660.0000,23300.0000,0.0000,0.2000,0.0600,-0.0900,ApprovedWords\meraviglie_1770266556.wav
+stava vicino all'ingresso del giardino,33260.0000,33580.0000,0.0000,0.2000,0.0500,1.5200,ApprovedWords\stava vicino all'ingresso del giardino_1770266717.wav
+giardino,34700.0000,35220.0000,0.0000,0.2000,0.0200,-0.1000,ApprovedWords\giardino_1770266780.wav
+a colorirle di rosso,42100.0000,42560.0000,0.0000,0.2000,-0.9600,-0.1000,ApprovedWords\a colorirle di rosso_1770266894.wav
+curioso,43860.0000,44540.0000,0.0000,0.2000,0.1400,-0.1400,ApprovedWords\curioso_1770266927.wav
+diceva,50240.0000,50820.0000,0.0000,0.2000,0.0500,-0.1800,ApprovedWords\diceva_1770266961.wav
+cinque,52140.0000,52660.0000,0.0000,0.2000,0.0900,-0.0900,ApprovedWords\cinque_1770266994.wav
+meno,57020.0000,57360.0000,0.0000,0.2000,0.0100,-0.0100,ApprovedWords\meno_1770267070.wav
+gomito,61080.0000,61500.0000,0.0000,0.2000,0.0400,-0.0800,ApprovedWords\gomito_1770267119.wav
+disse,63220.0000,63540.0000,0.0000,0.2000,0.0400,-0.0500,ApprovedWords\disse_1770267143.wav
+zittire,68168.1095,68688.1095,-0.1200,0.2000,0.1400,-0.0700,ApprovedWords\zittire_1770267593.wav
+decollato,74648.1095,75368.1095,-0.1200,0.2000,0.2400,-0.0600,ApprovedWords\decollato_1770267712.wav
+due,81228.1095,81488.1095,-0.1200,0.2000,0.1100,-0.0400,ApprovedWords\due_1770267775.wav
+sette,82368.1095,82968.1095,-0.1200,0.2000,0.2100,-0.1900,ApprovedWords\sette_1770267804.wav
+cipolle,91648.1095,92448.1095,-0.1200,0.2000,0.1300,-0.3100,ApprovedWords\cipolle_1770267930.wav
+frase,102988.1095,103368.1095,-0.1200,0.2000,0.1900,0.0100,ApprovedWords\frase_1770268253.wav
+profonda riverenza,107968.1095,108628.1095,-0.1200,0.2000,-0.2400,-0.0500,ApprovedWords\profonda riverenza_1770268341.wav
+Mi direste,110088.1095,110628.1095,-0.1200,0.2000,-0.0100,-0.0200,ApprovedWords\Mi direste_1770268377.wav
+direste,110088.1095,110628.1095,-0.1200,0.2000,0.1500,-0.0200,ApprovedWords\direste_1770268413.wav
+timidamente,111988.1095,112568.1095,-0.1200,0.2000,0.2000,0.1300,ApprovedWords\timidamente_1770268459.wav
+colorendo quelle rose,114848.1095,115208.1095,-0.1200,0.2000,-0.6000,-0.0100,ApprovedWords\colorendo quelle rose_1770268535.wav
+risposero,117088.1095,117848.1095,-0.1200,0.2000,0.1800,-0.1800,ApprovedWords\risposero_1770268613.wav
+voce bassa,121148.1095,121728.1095,-0.1200,0.2000,-0.0600,-0.1700,ApprovedWords\voce bassa_1770268712.wav
+costì,123808.1095,124408.1095,-0.1200,0.2000,0.2600,-0.1100,ApprovedWords\costì_1770268768.wav
+signorina,137408.1095,137988.1095,-0.1200,0.2000,-0.0400,-0.0900,ApprovedWords\signorina_1770269030.wav
+in quell'istante,141748.1095,142208.1095,-0.1200,0.2000,-0.2300,-0.0400,ApprovedWords\in quell'istante_1770269130.wav
+terra,150268.1095,150628.1095,-0.1200,0.2000,0.1900,-0.0800,ApprovedWords\terra_1770269187.wav
+scalpiccío,152008.1095,152888.1095,-0.1200,0.2000,0.2300,-0.1000,ApprovedWords\scalpiccío_1770269292.wav
+dieci soldati,158170.8458,158530.8458,-0.0600,0.2000,0.1400,0.5900,ApprovedWords\dieci soldati_1770269522.wav
+armati di bastoni,159130.8458,159810.8458,-0.0600,0.2000,0.2500,0.6200,ApprovedWords\armati di bastoni_1770269670.wav
+bastoni,159930.8458,160530.8458,-0.0600,0.2000,0.0900,-0.1100,ApprovedWords\bastoni_1770269688.wav
+tre giardinieri,163090.8458,163870.8458,-0.0600,0.2000,-0.0600,-0.1000,ApprovedWords\tre giardinieri_1770269726.wav
+seguivano dieci cortigiani,167650.8458,168230.8458,-0.0600,0.2000,0.0200,1.0400,ApprovedWords\seguivano dieci cortigiani_1770269899.wav
+dieci cortigiani,168650.8458,169350.8458,-0.0600,0.2000,-0.1700,-0.0800,ApprovedWords\dieci cortigiani_1770269955.wav
+i principini reali,176990.8458,177590.8458,-0.0600,0.2000,-0.6700,-0.1600,ApprovedWords\i principini reali_1770270225.wav
+dieci,178470.8458,178990.8458,-0.0600,0.2000,0.1200,-0.1100,ApprovedWords\dieci_1770270274.wav
+mano,181250.8458,181590.8458,-0.0600,0.2000,0.0700,-0.1100,ApprovedWords\mano_1770270297.wav
+saltando come matti,184350.8458,184890.8458,-0.0600,0.2000,-0.6900,-0.1800,ApprovedWords\saltando come matti_1770270389.wav
+bianco,193510.8458,194070.8458,-0.0600,0.2000,0.1800,-0.1500,ApprovedWords\bianco_1770270548.wav
+Fante di Cuori,203910.8458,204330.8458,-0.0600,0.2000,-0.3500,-0.1400,ApprovedWords\Fante di Cuori_1770270791.wav
+tre giardinieri,215170.8458,215970.8458,-0.0600,0.2000,-0.0500,-0.1500,ApprovedWords\tre giardinieri_1770270928.wav
+processioni,223430.8458,223990.8458,-0.0600,0.2000,-0.0800,-0.0900,ApprovedWords\processioni_1770271020.wav
+cipiglio severo,240890.8458,241430.8458,-0.0600,0.2000,-0.3300,-0.1800,ApprovedWords\cipiglio severo_1770271181.wav
+con molta garbatezza,263158.9751,263958.9751,-0.0600,0.2000,-0.3400,-0.1200,ApprovedWords\con molta garbatezza_1770271724.wav
+stessa,265238.9751,265778.9751,-0.0600,0.2000,0.0800,-0.0700,ApprovedWords\stessa_1770271752.wav
+perchè,278618.9751,279058.9751,-0.0600,0.2000,0.1600,-0.0500,ApprovedWords\perchè_1770272287.wav
+capite,279358.9751,279778.9751,-0.0600,0.2000,0.0300,-0.1100,ApprovedWords\capite_1770272303.wav
+mazzo,285878.9751,286318.9751,-0.0600,0.2000,0.0700,-0.0900,ApprovedWords\mazzo_1770272361.wav
+sappia,295438.9751,295978.9751,-0.0600,0.2000,0.0600,-0.1400,ApprovedWords\sappia_1770272477.wav
+rabbia,304358.9751,304818.9751,-0.0600,0.2000,0.0700,-0.1800,ApprovedWords\rabbia_1770272512.wav
+fermezza,316138.9751,316838.9751,-0.0600,0.2000,0.0500,-0.1600,ApprovedWords\fermezza_1770272636.wav
+tacque,318078.9751,318518.9751,-0.0600,0.2000,0.1100,-0.1100,ApprovedWords\tacque_1770272737.wav
+timidamente,322358.9751,322958.9751,-0.0600,0.2000,0.1600,0.0700,ApprovedWords\timidamente_1770272876.wav
+rivoltò cautamente,336458.9751,336878.9751,-0.0600,0.2000,0.1100,0.7400,ApprovedWords\rivoltò cautamente_1770272971.wav
+cautamente,336878.9751,337478.9751,-0.0600,0.2000,0.1700,0.1200,ApprovedWords\cautamente_1770273022.wav
+Levatevi,338538.9751,339178.9751,-0.0600,0.2000,0.0300,-0.1600,ApprovedWords\Levatevi_1770273040.wav
+regina,340318.9751,340858.9751,-0.0600,0.2000,0.0800,-0.1200,ApprovedWords\regina_1770273067.wav
+capo,354458.9751,354978.9751,-0.0600,0.2000,0.0700,-0.2400,ApprovedWords\capo_1770273252.wav
+decapiteranno,385684.4080,386524.4080,-0.0600,0.2000,-0.0200,-0.0300,ApprovedWords\decapiteranno_1770274068.wav
+vicino a lei,390124.4080,390504.4080,-0.0600,0.2000,0.1200,0.2400,ApprovedWords\vicino a lei_1770274124.wav
+lei,390644.4080,390864.4080,-0.0600,0.2000,-0.0200,-0.1200,ApprovedWords\lei_1770274211.wav
+loro,395384.4080,395664.4080,-0.0600,0.2000,0.0200,-0.0500,ApprovedWords\loro_1770274266.wav
+Avvicinatevi dunque!,420404.4080,421124.4080,-0.0600,0.2000,0.0100,0.3300,ApprovedWords\Avvicinatevi dunque!_1770274381.wav
+dunque,421124.4080,421564.4080,-0.0600,0.2000,0.0800,-0.1100,ApprovedWords\dunque_1770274403.wav
+seguito,427824.4080,428264.4080,-0.0600,0.2000,0.0000,-0.1000,ApprovedWords\seguito_1770274444.wav
+tempo,430544.4080,430944.4080,-0.0600,0.2000,0.1300,0.0000,ApprovedWords\tempo_1770274459.wav
+timoroso,441733.2935,442313.2935,0.0000,0.2000,0.0300,-0.0900,ApprovedWords\timoroso_1770274759.wav
+parlando in fretta,450273.2935,450733.2935,0.0000,0.2000,-0.5700,-0.1600,ApprovedWords\parlando in fretta_1770274874.wav
+lui,452933.2935,453173.2935,0.0000,0.2000,-0.0600,-0.0700,ApprovedWords\lui_1770274910.wav
+sentenza di morte,458933.2935,459233.2935,0.0000,0.2000,-0.6900,0.1500,ApprovedWords\sentenza di morte_1770275049.wav
+peccato,460873.2935,461533.2935,0.0000,0.2000,0.1100,-0.1300,ApprovedWords\peccato_1770275155.wav
+peccato,470513.2935,471093.2935,0.0000,0.2000,0.0200,-0.1100,ApprovedWords\peccato_1770275238.wav
+per,471813.2935,472293.2935,0.0000,0.2000,0.1500,-0.1200,ApprovedWords\per_1770275263.wav
+grossa risata,479393.2935,479913.2935,0.0000,0.2000,-0.2900,-0.0900,ApprovedWords\grossa risata_1770275336.wav
+tremante,482153.2935,482733.2935,0.0000,0.2000,0.0700,-0.0700,ApprovedWords\tremante_1770275369.wav
+sentire,484313.2935,485053.2935,0.0000,0.2000,0.1400,-0.0200,ApprovedWords\sentire_1770275395.wav
+tardi,487873.2935,488333.2935,0.0000,0.2000,-0.0100,-0.1700,ApprovedWords\tardi_1770275427.wav
+direzioni,497013.2935,497713.2935,0.0000,0.2000,0.0400,-0.0900,ApprovedWords\direzioni_1770275494.wav
+fenicònteri viventi,516813.2935,517413.2935,0.0000,0.2000,0.0400,0.5900,ApprovedWords\fenicònteri viventi_1770275798.wav
+penzoloni,532171.8010,532871.8010,-0.0600,0.2000,0.1300,-0.1500,ApprovedWords\penzoloni_1770276267.wav
+tanto stupefatta,542051.8010,542811.8010,-0.0600,0.2000,-0.0800,-0.0300,ApprovedWords\tanto stupefatta_1770276351.wav
+ricominciare,549211.8010,549851.8010,-0.0600,0.2000,-0.0100,-0.1500,ApprovedWords\ricominciare_1770276407.wav
+disperatamente difficile,565431.8010,566291.8010,-0.0600,0.2000,0.2800,0.5800,ApprovedWords\disperatamente difficile_1770276526.wav
+difficile,566291.8010,566851.8010,-0.0600,0.2000,0.1800,0.0200,ApprovedWords\difficile_1770276564.wav
+volta,570751.8010,571231.8010,-0.0600,0.2000,0.1400,-0.1000,ApprovedWords\volta_1770276606.wav
+furiosa,575951.8010,576511.8010,-0.0600,0.2000,0.0700,-0.0200,ApprovedWords\furiosa_1770276689.wav
+veduta,604911.8010,605431.8010,-0.0600,0.2000,0.0800,-0.1400,ApprovedWords\veduta_1770276972.wav
+discorrere,618291.8010,618971.8010,-0.0600,0.2000,0.0700,-0.0700,ApprovedWords\discorrere_1770277208.wav
+gatto,621532.2289,621852.2289,-0.0600,0.2000,0.0300,-0.0600,ApprovedWords\gatto_1770277521.wav
+parlare,624112.2289,624652.2289,-0.0600,0.2000,0.0200,-0.1600,ApprovedWords\parlare_1770277570.wav
+testa,637572.2289,638092.2289,-0.0600,0.2000,0.1000,-0.1700,ApprovedWords\testa_1770277723.wav
+fenicòntero,639772.2289,640552.2289,-0.0600,0.2000,0.0800,-0.1000,ApprovedWords\fenicòntero_1770277756.wav
+niuno lo segue,665312.2289,665672.2289,-0.0600,0.2000,-0.5000,-0.0500,ApprovedWords\niuno lo segue_1770278057.wav
+per esempio,670692.2289,671132.2289,-0.0600,0.2000,-0.0200,0.0200,ApprovedWords\per esempio_1770278107.wav
+traversare,672612.2289,673392.2289,-0.0600,0.2000,0.1300,-0.1200,ApprovedWords\traversare_1770278208.wav
+Come vi piace la Regina QUESTIONMARK,682172.2289,682392.2289,-0.0600,0.2000,0.0900,1.1400,ApprovedWords\Come vi piace la Regina QUESTIONMARK_1770278945.wav
+voce bassa,685152.2289,685352.2289,-0.0600,0.2000,0.0300,0.3400,ApprovedWords\voce bassa_1770279084.wav
+domandò il Gatto a voce bassa,685352.2289,685712.2289,-0.0600,0.2000,-1.0600,0.0300,ApprovedWords\domandò il Gatto a voce bassa_1770279178.wav
+origliando,692872.2289,693532.2289,-0.0600,0.2000,0.0200,-0.0500,ApprovedWords\origliando_1770279340.wav
+partita,697932.2289,698432.2289,-0.0600,0.2000,0.0700,-0.0700,ApprovedWords\partita_1770279450.wav
+molta curiosità,708292.2289,708912.2289,-0.0600,0.2000,-0.2400,-0.1200,ApprovedWords\molta curiosità_1770279961.wav
+curiosità,708292.2289,708912.2289,-0.0600,0.2000,0.1400,-0.1200,ApprovedWords\curiosità_1770279979.wav
+osservò il Gatto,722661.5025,723101.5025,-0.0600,0.2000,0.0700,0.4400,ApprovedWords\osservò il Gatto_1770281131.wav
+impertinente,724861.5025,725801.5025,-0.0600,0.2000,0.1200,-0.0900,ApprovedWords\impertinente_1770281652.wav
+nascondeva dietro ad Alice,730361.5025,730941.5025,-0.0600,0.2000,0.0500,0.6700,ApprovedWords\nascondeva dietro ad Alice_1770281980.wav
+quale,738161.5025,738601.5025,-0.0600,0.2000,0.1400,-0.1500,ApprovedWords\quale_1770282047.wav
+cacciarlo via,741161.5025,741461.5025,-0.0600,0.2000,-0.3300,-0.0400,ApprovedWords\cacciarlo via_1770282232.wav
+voce autorevole,743101.5025,743721.5025,-0.0600,0.2000,-0.2000,-0.1800,ApprovedWords\voce autorevole_1770282333.wav
+quel momento,746281.5025,746621.5025,-0.0600,0.2000,-0.0800,0.0400,ApprovedWords\quel momento_1770285139.wav
+cacciato via,750541.5025,750861.5025,-0.0600,0.2000,-0.2700,-0.0500,ApprovedWords\cacciato via_1770285181.wav
+difficoltà,754801.5025,755441.5025,-0.0600,0.2000,0.0600,-0.1500,ApprovedWords\difficoltà_1770285250.wav
+frettolosamente,766481.5025,767261.5025,-0.0600,0.2000,0.0600,0.0100,ApprovedWords\frettolosamente_1770285795.wav
+progrediva,771061.5025,771801.5025,-0.0600,0.2000,0.1400,-0.1200,ApprovedWords\progrediva_1770285988.wav
+Ella,776441.5025,776721.5025,-0.0600,0.2000,0.0700,-0.0300,ApprovedWords\Ella_1770286088.wav
+piaceva,784041.5025,784641.5025,-0.0600,0.2000,0.0500,-0.2300,ApprovedWords\piaceva_1770286235.wav
+loro,801877.7015,802177.7015,-0.0600,0.2000,0.1100,-0.0500,ApprovedWords\loro_1770287383.wav
+fenicòntero,805157.7015,805997.7015,-0.0600,0.2000,0.0800,-0.1800,ApprovedWords\fenicòntero_1770287420.wav
+albero,811417.7015,811777.7015,-0.0600,0.2000,0.0400,-0.1100,ApprovedWords\albero_1770287536.wav
+terreno,825537.7015,826077.7015,-0.0600,0.2000,0.1000,-0.1500,ApprovedWords\terreno_1770287733.wav
+discorso,833197.7015,833837.7015,-0.0600,0.2000,0.0200,-0.1200,ApprovedWords\discorso_1770287842.wav
+malinconici,843897.7015,844637.7015,-0.0600,0.2000,0.0200,-0.1300,ApprovedWords\malinconici_1770287942.wav
+volta,852897.7015,853297.7015,-0.0600,0.2000,0.1200,-0.0700,ApprovedWords\volta_1770288006.wav
+volessero dire,856157.7015,856517.7015,-0.0600,0.2000,-0.4200,-0.1100,ApprovedWords\volessero dire_1770288124.wav
+mozzarla,862648.1194,863328.1194,-0.0500,0.2000,0.0800,-0.1300,ApprovedWords\mozzarla_1770288407.wav
+quell'età,868488.1194,868708.1194,-0.0500,0.2000,0.0300,0.0500,ApprovedWords\quell'età_1770288928.wav
+decapitato,873128.1194,873888.1194,-0.0500,0.2000,0.1300,-0.1400,ApprovedWords\decapitato_1770289028.wav
+circondavano,882548.1194,883368.1194,-0.0500,0.2000,0.0300,-0.1200,ApprovedWords\circondavano_1770289205.wav
+fossero decapitati,883948.1194,884748.1194,-0.0500,0.2000,-0.3500,-0.1400,ApprovedWords\fossero decapitati_1770289327.wav
+prigione,898948.1194,899428.1194,-0.0500,0.2000,0.0600,-0.0400,ApprovedWords\prigione_1770289529.wav
+Conducetela quì,901628.1194,902188.1194,-0.0500,0.2000,-0.0100,0.0900,ApprovedWords\Conducetela quì_1770289738.wav
+saetta,904628.1194,905248.1194,-0.0500,0.2000,0.0300,-0.1900,ApprovedWords\saetta_1770289841.wav
+dileguandosi,908308.1194,909068.1194,-0.0500,0.2000,0.0500,-0.1000,ApprovedWords\dileguandosi_1770289915.wav
+totalmente,911728.1194,912228.1194,-0.0500,0.2000,0.1300,0.1500,ApprovedWords\totalmente_1770290086.wav
+
+[Zafferanetta](https://www.archive.org/download/novelleperunanno_vol12_ilviaggio_1407_librivox/novelle12_08_pirandello_128kb.mp3) from [Novelle per un Anno, vol. 12: Il Viaggio](https://librivox.org/novelle-per-un-anno-vol-12-il-viaggio-by-luigi-pirandello/)
+
+---cutTemplate.txt---
+  
+# word,start_ms,end_ms,global_m_start,global_m_end,local_m_start,local_m_end,export_path
+madre,31241.5755,31581.5755,-0.0600,0.2000,0.0900,-0.0300,ApprovedWords\madre_1769933626.wav
+cugino,33141.5755,33621.5755,-0.0500,0.2000,0.1200,-0.0700,ApprovedWords\cugino_1769934063.wav
+come sono felice,41861.5755,42081.5755,-0.0500,0.2000,0.0700,0.7500,ApprovedWords\come sono felice_1769934217.wav
+felice,42321.5755,42841.5755,-0.0500,0.2000,0.1100,-0.0100,ApprovedWords\felice_1769934245.wav
+fiume,46781.5755,47181.5755,-0.0500,0.2000,-0.0600,-0.2000,ApprovedWords\fiume_1769934332.wav
+partenza,48001.5755,48621.5755,-0.0500,0.2000,0.0600,-0.0900,ApprovedWords\partenza_1769934411.wav
+giongo mio,49521.5755,49861.5755,-0.0500,0.2000,0.0700,0.2500,ApprovedWords\giongo mio_1769935309.wav
+qual diavolo di pasticcio burocratico,56121.5755,56941.5755,-0.0500,0.2000,-1.0400,-0.1700,ApprovedWords\qual diavolo di pasticcio burocratico_1769935522.wav
+ritorna,65201.5755,65761.5755,-0.0400,0.2000,0.0400,-0.1300,ApprovedWords\ritorna_1769935661.wav
+contenta anche lei,72501.5755,73101.5755,-0.0400,0.2000,0.1400,0.4500,ApprovedWords\contenta anche lei_1769935850.wav
+lei,73301.5755,73561.5755,-0.0400,0.2000,0.1000,-0.0400,ApprovedWords\lei_1769935903.wav
+uscendo dalla zia,75441.5755,75781.5755,-0.0400,0.2000,0.0400,0.5000,ApprovedWords\uscendo dalla zia_1769936022.wav
+t’aspetto,79201.5755,79361.5755,-0.0400,0.2000,0.0900,0.5000,ApprovedWords\t’aspetto_1769936262.wav
+aspetto,79361.5755,79661.5755,-0.0400,0.2000,0.0100,0.1500,ApprovedWords\aspetto_1769936314.wav
+quella lettera in mano,83821.5755,84061.5755,-0.0400,0.2000,0.0600,0.7100,ApprovedWords\quella lettera in mano_1769936891.wav
+sorriso lieto,93501.5755,93921.5755,-0.0400,0.2000,0.0100,0.3400,ApprovedWords\sorriso lieto_1769937884.wav
+quella lettera,105601.5755,106081.5755,-0.0400,0.2000,-0.1500,-0.1500,ApprovedWords\quella lettera_1769938267.wav
+esultare come lui,108001.5755,108681.5755,-0.0400,0.2000,0.1600,0.4600,ApprovedWords\esultare come lui_1769938375.wav
+recava,110261.5755,111021.5755,-0.0400,0.2000,0.3000,-0.1600,ApprovedWords\recava_1769938454.wav
+più forte,114541.5755,115021.5755,-0.0400,0.2000,-0.0300,-0.1100,ApprovedWords\più forte_1769939210.wav
+forte,114541.5755,115021.5755,-0.0400,0.2000,0.0500,-0.1100,ApprovedWords\forte_1769939255.wav
+sì,123841.5755,124901.5755,-0.0400,0.2000,0.7600,-0.1000,ApprovedWords\sì_1769939614.wav
+rassegnata,126041.5755,126861.5755,-0.0400,0.2000,0.1400,-0.1600,ApprovedWords\rassegnata_1769939700.wav
+quasi pretendere che ne partecipasse,132321.5755,132581.5755,-0.0400,0.2000,0.1100,1.9700,ApprovedWords\quasi pretendere che ne partecipasse_1769939909.wav
+partecipasse,133641.5755,134481.5755,-0.0400,0.2000,0.0900,0.0000,ApprovedWords\partecipasse_1769940006.wav
+madre,31241.5755,31581.5755,-0.0436,0.2000,0.0900,-0.0300,ApprovedWords\madre_1769940133.wav
+cugino,33141.5755,33621.5755,-0.0429,0.2000,0.1200,-0.0700,ApprovedWords\cugino_1769940136.wav
+comesonofelice,41861.5755,42081.5755,-0.0427,0.2000,0.0700,0.7500,ApprovedWords\comesonofelice_1769940139.wav
+felice,42321.5755,42841.5755,-0.0424,0.2000,0.1100,-0.0100,ApprovedWords\felice_1769940140.wav
+fiume,46781.5755,47181.5755,-0.0421,0.2000,-0.0600,-0.2000,ApprovedWords\fiume_1769940141.wav
+partenza,48001.5755,48621.5755,-0.0417,0.2000,0.0600,-0.0900,ApprovedWords\partenza_1769940143.wav
+giongomio,49521.5755,49861.5755,-0.0414,0.2000,0.0700,0.2500,ApprovedWords\giongomio_1769940147.wav
+qualdiavolodipasticcioburocratico,56121.5755,56941.5755,-0.0411,0.2000,-1.0400,-0.1700,ApprovedWords\qualdiavolodipasticcioburocratico_1769940153.wav
+ritorna,65201.5755,65761.5755,-0.0407,0.2000,0.0400,-0.1300,ApprovedWords\ritorna_1769940156.wav
+contentaanchelei,72501.5755,73101.5755,-0.0407,0.2000,0.1400,0.4500,ApprovedWords\contentaanchelei_1769940160.wav
+lei,73301.5755,73561.5755,-0.0408,0.2000,0.1000,-0.0400,ApprovedWords\lei_1769940162.wav
+uscendodallazia,75441.5755,75781.5755,-0.0408,0.2000,0.0400,0.5000,ApprovedWords\uscendodallazia_1769940167.wav
+taspetto,79201.5755,79361.5755,-0.0408,0.2000,0.0900,0.5000,ApprovedWords\taspetto_1769940169.wav
+aspetto,79361.5755,79661.5755,-0.0409,0.2000,0.0100,0.1500,ApprovedWords\aspetto_1769940170.wav
+quellaletterainmano,83821.5755,84061.5755,-0.0409,0.2000,0.0600,0.7100,ApprovedWords\quellaletterainmano_1769940174.wav
+sorrisolieto,93501.5755,93921.5755,-0.0409,0.2000,0.0100,0.3400,ApprovedWords\sorrisolieto_1769940177.wav
+quellalettera,105601.5755,106081.5755,-0.0410,0.2000,-0.1500,-0.1500,ApprovedWords\quellalettera_1769940180.wav
+esultarecomelui,108001.5755,108681.5755,-0.0410,0.2000,0.1600,0.4600,ApprovedWords\esultarecomelui_1769940183.wav
+recava,110261.5755,111021.5755,-0.0411,0.2000,0.3000,-0.1600,ApprovedWords\recava_1769940184.wav
+piùforte,114541.5755,115021.5755,-0.0411,0.2000,-0.0300,-0.1100,ApprovedWords\piùforte_1769940190.wav
+forte,114541.5755,115021.5755,-0.0411,0.2000,0.0500,-0.1100,ApprovedWords\forte_1769940191.wav
+sì,123841.5755,124901.5755,-0.0412,0.2000,0.7600,-0.1000,ApprovedWords\sì_1769940193.wav
+rassegnata,126041.5755,126861.5755,-0.0412,0.2000,0.1400,-0.1600,ApprovedWords\rassegnata_1769940195.wav
+quasipretenderechenepartecipasse,132321.5755,132581.5755,-0.0413,0.2000,0.1100,1.9700,ApprovedWords\quasipretenderechenepartecipasse_1769940202.wav
+partecipasse,133641.5755,134481.5755,-0.0413,0.2000,0.0900,0.0000,ApprovedWords\partecipasse_1769940204.wav
+quando mai però,139500.2405,139760.2405,0.0600,0.2000,0.0600,0.6200,ApprovedWords\quando mai però_1769944476.wav
+vero,140900.2405,141360.2405,0.0600,0.2000,0.0200,-0.2000,ApprovedWords\vero_1769944531.wav
+rischiose avventure,149940.2405,150420.2405,0.0600,0.2000,-0.0300,0.5000,ApprovedWords\rischiose avventure_1769944736.wav
+avventure,150420.2405,151000.2405,0.0600,0.2000,-0.0600,-0.0700,ApprovedWords\avventure_1769944800.wav
+dentro,152400.2405,152800.2405,0.0600,0.2000,0.0000,-0.0700,ApprovedWords\dentro_1769944841.wav
+bufera,153960.2405,154400.2405,0.0600,0.2000,0.0400,0.0000,ApprovedWords\bufera_1769944888.wav
+scompigliava tutto,156140.2405,156760.2405,0.0600,0.2000,-0.1000,0.3000,ApprovedWords\scompigliava tutto_1769945077.wav
+frasi sconclusionate,161300.2405,162200.2405,0.0600,0.2000,-0.3300,-0.0400,ApprovedWords\frasi sconclusionate_1769945238.wav
+parole inconcludenti,162440.2405,162680.2405,0.0600,0.2000,-0.0500,0.7700,ApprovedWords\parole inconcludenti_1769945317.wav
+capitomboli,167180.2405,167980.2405,0.0600,0.2000,0.0700,-0.1300,ApprovedWords\capitomboli_1769945479.wav
+non sapeva più lei stessa,171260.2405,171600.2405,0.0600,0.2000,0.1000,1.2900,ApprovedWords\non sapeva più lei stessa_1769945583.wav
+stessa,172420.2405,172940.2405,0.0600,0.2000,-0.0400,-0.0500,ApprovedWords\stessa_1769945669.wav
+dall’infanzia alla giovinezza,177040.2405,177240.2405,0.0600,0.2000,0.0700,1.3600,ApprovedWords\dall’infanzia alla giovinezza_1769945731.wav
+giovinezza,178000.2405,178700.2405,0.0600,0.2000,0.0000,-0.1100,ApprovedWords\giovinezza_1769945779.wav
+casa,182940.2405,183260.2405,0.0600,0.2000,-0.0200,-0.0300,ApprovedWords\casa_1769945826.wav
+giovinetto,183740.2405,184460.2405,0.0600,0.2000,0.0000,-0.0800,ApprovedWords\giovinetto_1769945953.wav
+chinare la testa,196800.2405,197160.2405,0.0600,0.2000,0.0000,0.4900,ApprovedWords\chinare la testa_1769946149.wav
+testa,197320.2405,197820.2405,0.0600,0.2000,-0.0300,-0.1800,ApprovedWords\testa_1769946220.wav
+maggiorenne,199380.2405,199980.2405,0.0600,0.2000,-0.0100,-0.0600,ApprovedWords\maggiorenne_1769946296.wav
+irriconoscibile,217080.2405,218000.2405,0.0600,0.2000,-0.0800,-0.1400,ApprovedWords\irriconoscibile_1769946406.wav
+dissenteria,219840.2405,220560.2405,0.0600,0.2000,-0.0200,-0.0800,ApprovedWords\dissenteria_1769946479.wav
+voleva ritornarci,224320.2405,224540.2405,0.0600,0.2000,-0.1200,0.7000,ApprovedWords\voleva ritornarci_1769946562.wav
+sarebbe ritornato,226160.2405,226520.2405,0.0600,0.2000,-0.0700,0.6400,ApprovedWords\sarebbe ritornato_1769946632.wav
+ritornato,226520.2405,227240.2405,0.0600,0.2000,-0.0100,-0.1100,ApprovedWords\ritornato_1769946693.wav
+licenza,262373.5072,262933.5072,0.0000,0.2000,0.0300,-0.0900,ApprovedWords\licenza_1769948647.wav
+a cadere in cupe malinconie,268153.5072,268273.5072,0.0000,0.2000,-0.0100,1.2500,ApprovedWords\a cadere in cupe malinconie_1769948798.wav
+disperato,272453.5072,273193.5072,0.0000,0.2000,0.1100,-0.1200,ApprovedWords\disperato_1769949727.wav
+piangere,274173.5072,274713.5072,0.0000,0.2000,0.0500,-0.1100,ApprovedWords\piangere_1769949760.wav
+bambino,276173.5072,276633.5072,0.0000,0.2000,0.0000,-0.1500,ApprovedWords\bambino_1769949819.wav
+era innamorato,277453.5072,278173.5072,0.0000,0.2000,-0.1700,-0.1100,ApprovedWords\era innamorato_1769949884.wav
+partire per forza,285093.5072,285773.5072,0.0000,0.2000,0.3000,0.7100,ApprovedWords\partire per forza_1769950096.wav
+forza,286013.5072,286533.5072,0.0000,0.2000,-0.0200,-0.1400,ApprovedWords\forza_1769950122.wav
+cinque anni,295353.5072,295693.5072,0.0000,0.2000,0.0100,0.2400,ApprovedWords\cinque anni_1769950266.wav
+lontano,301373.5072,301993.5072,0.0000,0.2000,0.0800,-0.1400,ApprovedWords\lontano_1769950798.wav
+circa due anni,303453.5072,303693.5072,0.0000,0.2000,0.0500,0.5400,ApprovedWords\circa due anni_1769950884.wav
+creaturina,313013.5072,313773.5072,0.0000,0.2000,0.0700,-0.1000,ApprovedWords\creaturina_1769950984.wav
+piangere,321333.5072,321853.5072,0.0000,0.2000,0.0500,-0.0700,ApprovedWords\piangere_1769951075.wav
+non poteva più distaccarsene,333033.5072,333993.5072,0.0000,0.2000,-0.7500,-0.0600,ApprovedWords\non poteva più distaccarsene_1769951462.wav
+doveva partire,334813.5072,335353.5072,0.0000,0.2000,-0.3600,-0.0900,ApprovedWords\doveva partire_1769951504.wav
+ritornare a lei,335753.5072,336213.5072,0.0000,0.2000,-0.0900,0.3000,ApprovedWords\ritornare a lei_1769951529.wav
+ora,354113.5072,354373.5072,0.0000,0.2000,-0.0500,-0.1200,ApprovedWords\ora_1769951812.wav
+prima di dire di sì,374188.2504,374388.2504,0.0000,0.0000,-0.7900,0.0200,ApprovedWords\prima di dire di sì_1769952073.wav
+costanza,381028.2504,381648.2504,0.0000,0.0000,0.0200,0.1300,ApprovedWords\costanza_1769952217.wav
+disordinato,393188.2504,394008.2504,0.0000,0.0000,-0.0600,0.1400,ApprovedWords\disordinato_1769952430.wav
+profondi,403708.2504,404328.2504,0.0000,0.0000,0.0100,0.0700,ApprovedWords\profondi_1769952678.wav
+considerazioni,408748.2504,409608.2504,0.0000,0.0000,0.0800,0.2200,ApprovedWords\considerazioni_1769952749.wav
+era innamorata davvero,413008.2504,413528.2504,0.0000,0.0000,-0.7100,0.0600,ApprovedWords\era innamorata davvero_1769952872.wav
+cugino,417308.2504,417828.2504,0.0000,0.0000,0.0700,0.0600,ApprovedWords\cugino_1769952960.wav
+quasi sgomento,436964.5879,437664.5879,0.0000,0.0000,-0.1900,0.0900,ApprovedWords\quasi sgomento_1769955598.wav
+bonificarla,448784.5879,449604.5879,-0.0400,0.2000,0.0600,-0.1200,ApprovedWords\bonificarla_1769955748.wav
+dissimulata,471064.5879,471664.5879,-0.0400,0.2000,-0.0300,-0.1000,ApprovedWords\dissimulata_1769955934.wav
+convulso,476344.5879,476824.5879,-0.0400,0.2000,-0.1200,-0.1400,ApprovedWords\convulso_1769955997.wav
+quasi a soffocarla,493704.5879,494444.5879,-0.0400,0.2000,-0.3000,-0.0800,ApprovedWords\quasi a soffocarla_1769956298.wav
+cattivo,511744.5879,512424.5879,-0.0400,0.2000,0.0000,-0.1100,ApprovedWords\cattivo_1769956470.wav
+E quest’è niente!,516215.9835,516355.9835,0.0000,0.0000,-0.3900,0.5600,ApprovedWords\E quest’è niente!_1769957074.wav
+niente,516355.9835,516755.9835,0.0000,0.0000,-0.0600,0.1600,ApprovedWords\niente_1769957108.wav
+zapperai,519755.9835,520415.9835,0.0000,0.0000,0.0700,0.1200,ApprovedWords\zapperai_1769957299.wav
+placido mondo,531575.9835,531995.9835,0.0000,0.0000,0.0500,0.5500,ApprovedWords\placido mondo_1769957580.wav
+coloniali,547175.9835,547955.9835,0.0000,0.0000,0.1500,0.0000,ApprovedWords\coloniali_1769957853.wav
+banane,557875.9835,558335.9835,0.0000,0.0000,0.0400,0.1000,ApprovedWords\banane_1769957904.wav
+foresta senza fine,563715.9835,564195.9835,0.0000,0.0000,-0.0100,0.8000,ApprovedWords\foresta senza fine_1769958029.wav
+fermo,575195.9835,575695.9835,0.0000,0.0000,-0.0100,0.0600,ApprovedWords\fermo_1769958149.wav
+groviglio delle liane,585295.9835,585735.9835,0.0000,0.0000,-0.0100,0.8600,ApprovedWords\groviglio delle liane_1769958355.wav
+un piccolo,588955.9835,589495.9835,0.0000,0.0000,-0.1700,0.1400,ApprovedWords\un piccolo_1769958407.wav
+scherzava,625338.3554,626038.3554,0.0000,0.2000,0.0100,-0.1000,ApprovedWords\scherzava_1769958761.wav
+commozione,638038.3554,638678.3554,0.0000,0.2000,0.0000,-0.0800,ApprovedWords\commozione_1769958872.wav
+parlava anche,647858.3554,648258.3554,0.0000,0.2000,0.0000,0.3400,ApprovedWords\parlava anche_1769959573.wav
+comprese,667748.8391,668768.8391,0.0000,0.2000,0.4800,0.0300,ApprovedWords\comprese_1770001704.wav
+primo momento,672208.8391,672728.8391,0.0000,0.2000,-0.1800,-0.0700,ApprovedWords\primo momento_1770001754.wav
+petto,682248.8391,682728.8391,0.0000,0.2000,0.0500,-0.2300,ApprovedWords\petto_1770001892.wav
+gracili,686268.8391,686768.8391,0.0000,0.2000,0.0100,-0.0400,ApprovedWords\gracili_1770001964.wav
+gremiti,689748.8391,690188.8391,0.0000,0.2000,-0.0200,-0.0600,ApprovedWords\gremiti_1770002136.wav
+piuttosto lunghi,690428.8391,690788.8391,0.0000,0.2000,-0.0200,0.4400,ApprovedWords\piuttosto lunghi_1770002218.wav
+boffici,691608.8391,692068.8391,0.0000,0.2000,0.0000,0.0000,ApprovedWords\boffici_1770002260.wav
+quasi metallici,692388.8391,692648.8391,0.0000,0.2000,0.0500,0.6500,ApprovedWords\quasi metallici_1770002312.wav
+raccapriccio,723408.8391,724148.8391,0.0000,0.2000,0.0500,-0.1600,ApprovedWords\raccapriccio_1770002607.wav
+circondava,781417.8410,782137.8410,0.0000,0.0000,0.0200,0.0900,ApprovedWords\circondava_1770003402.wav
+dolcissima,815394.4735,816174.4735,0.0000,0.0000,0.0100,0.0700,ApprovedWords\dolcissima_1770003929.wav
+oppresse di stupore,832754.4735,833294.4735,0.0000,0.0000,-0.6400,0.0900,ApprovedWords\oppresse di stupore_1770004102.wav
+misura,848194.4735,848694.4735,0.0000,0.0000,-0.3000,0.0600,ApprovedWords\misura_1770004206.wav
+Ecco,881034.4735,881554.4735,0.0000,0.0000,0.1100,0.0400,ApprovedWords\Ecco_1770004501.wav
+questo,881914.4735,882354.4735,0.0000,0.0000,0.1100,0.1600,ApprovedWords\questo_1770004539.wav
+domani,886494.4735,886934.4735,0.0000,0.0000,0.0400,0.0900,ApprovedWords\domani_1770004601.wav
+ch’era sua moglie,893374.4735,893794.4735,0.0000,0.0000,-0.3900,0.0900,ApprovedWords\ch’era sua moglie_1770004821.wav
+grandioso fascino ardente,901134.4735,901574.4735,0.0000,0.0000,0.0300,1.1400,ApprovedWords\grandioso fascino ardente_1770005012.wav
+vivo,904674.4735,905134.4735,0.0000,0.0000,0.1200,0.1000,ApprovedWords\vivo_1770005087.wav
+davvero,920962.3507,921482.3507,0.0000,0.0000,0.0600,0.0700,ApprovedWords\davvero_1770005494.wav
+uno smarrimento angoscioso,974142.3507,974942.3507,0.0000,0.0000,-0.6800,0.1200,ApprovedWords\uno smarrimento angoscioso_1770007815.wav
+a ogni minimo rumore,980882.3507,981342.3507,0.0000,0.0000,-0.7800,0.1000,ApprovedWords\a ogni minimo rumore_1770007869.wav
+a ogni sensazione,982162.3507,982962.3507,0.0000,0.0000,-0.3100,0.1500,ApprovedWords\a ogni sensazione_1770008007.wav
+selvaggia,992562.3507,993222.3507,0.0000,0.0000,0.0000,0.0400,ApprovedWords\selvaggia_1770008158.wav
+silenzio,995842.3507,996502.3507,0.0000,0.0000,-0.0100,0.0400,ApprovedWords\silenzio_1770008329.wav
+tanto brutta,1006982.3507,1007702.3507,0.0000,0.0000,-0.0900,0.0100,ApprovedWords\tanto brutta_1770008458.wav
+incuteva ribrezzo,1010402.3507,1010882.3507,0.0000,0.0000,-0.0500,0.7000,ApprovedWords\incuteva ribrezzo_1770008664.wav
+ribrezzo,1010882.3507,1011482.3507,0.0000,0.0000,0.0300,0.0800,ApprovedWords\ribrezzo_1770008711.wav
+diverso e lontano,1032825.5978,1033325.5978,0.0000,0.0000,0.0100,0.7000,ApprovedWords\diverso e lontano_1770009229.wav
+parlare,1067905.5978,1068485.5978,0.0000,0.0000,0.0200,0.0600,ApprovedWords\parlare_1770009400.wav
+guardarla,1076445.5978,1077065.5978,0.0000,0.2000,0.0100,-0.1200,ApprovedWords\guardarla_1770009512.wav
+guardarla,1076438.7728,1077078.7728,0.0000,0.0000,0.0100,0.0600,ApprovedWords\guardarla_1770014194.wav
+Che fa QUESTIONMARK,1091858.7728,1092138.7728,0.0000,0.0000,-0.0800,0.0800,ApprovedWords\Che fa QUESTIONMARK_1770014312.wav
+Sta male QUESTIONMARK,1092638.7728,1092998.7728,0.0000,0.0000,-0.2500,0.1700,ApprovedWords\Sta male QUESTIONMARK_1770014397.wav
+domandava,1093358.7728,1094018.7728,0.0000,0.0000,0.0500,0.1000,ApprovedWords\domandava_1770014424.wav
+scusarsi,1098018.7728,1098598.7728,0.0000,0.0000,-0.0360,0.1900,ApprovedWords\scusarsi_1770014518.wav
+cangiando voce,1105958.7728,1106418.7728,0.0000,0.0000,-0.0300,0.5300,ApprovedWords\cangiando voce_1770015236.wav
+sospirava,1138318.7728,1138978.7728,0.0000,0.2000,-0.0200,-0.0900,ApprovedWords\sospirava_1770015445.wav
+Che dice QUESTIONMARK,1142118.7728,1142298.7728,0.0000,0.2000,0.0800,0.2700,ApprovedWords\Che dice QUESTIONMARK_1770015494.wav
+dice,1142298.7728,1142618.7728,0.0000,0.2000,0.0300,-0.0400,ApprovedWords\dice_1770015518.wav
+malata,1155858.7728,1156398.7728,0.0000,0.2000,0.0500,-0.1200,ApprovedWords\malata_1770015760.wav
+solitudine immensa,1163665.0746,1164265.0746,0.0000,0.0000,-0.5400,0.1000,ApprovedWords\solitudine immensa_1770016151.wav
+malata,1166965.0746,1167505.0746,0.0000,0.0000,0.0400,0.0800,ApprovedWords\malata_1770016181.wav
+quasi impazzito,1177125.0746,1177885.0746,0.0000,0.0000,-0.1500,0.1000,ApprovedWords\quasi impazzito_1770016351.wav
+tu mi segua,1180965.0746,1181465.0746,0.0000,0.0000,-0.2500,0.0400,ApprovedWords\tu mi segua_1770016449.wav
+lascio,1182665.0746,1183165.0746,0.0000,0.0000,0.0100,0.0500,ApprovedWords\lascio_1770016500.wav
+per carità,1190765.0746,1190925.0746,0.0000,0.2000,0.0200,0.3400,ApprovedWords\per carità_1770016625.wav
+carità,1190925.0746,1191385.0746,0.0000,0.2000,0.0500,-0.1200,ApprovedWords\carità_1770016674.wav
+pazzo,1198565.0746,1199045.0746,0.0000,0.2000,0.0000,-0.1800,ApprovedWords\pazzo_1770016820.wav
+come tu vuoi,1199945.0746,1200305.0746,0.0000,0.2000,-0.3600,-0.2100,ApprovedWords\come tu vuoi_1770016915.wav
+Per quella lì QUESTIONMARK,1207085.0746,1207405.0746,0.0000,0.2000,-0.0900,0.1800,ApprovedWords\Per quella lì QUESTIONMARK_1770017017.wav
+impazzisco,1228965.0746,1229605.0746,0.0000,0.2000,-0.2100,-0.0600,ApprovedWords\impazzisco_1770017197.wav
+Per carità COMMA lasciami partire,1232945.0746,1233425.0746,0.0000,0.2000,-0.5600,0.6000,ApprovedWords\Per carità COMMA lasciami partire_1770017996.wav
+forse ritornerò,1236545.0746,1237225.0746,0.0000,0.2000,-0.3200,-0.1300,ApprovedWords\forse ritornerò_1770018092.wav
+certo ritornerò,1237925.0746,1238185.0746,0.0000,0.2000,0.0500,0.5900,ApprovedWords\certo ritornerò_1770018133.wav
+consolarmi,1250285.0746,1251145.0746,0.0000,0.2000,0.1600,-0.1600,ApprovedWords\consolarmi_1770018245.wav
+fosse rimasto,1270185.0746,1270785.0746,0.0000,0.2000,-0.1600,-0.0500,ApprovedWords\fosse rimasto_1770018388.wav
+parti,1271385.0746,1271905.0746,0.0000,0.2000,0.0900,-0.0900,ApprovedWords\parti_1770018443.wav
+gli disse,1272305.0746,1272485.0746,0.0000,0.2000,0.0500,0.3300,ApprovedWords\gli disse_1770018517.wav
+non tornò più,1280665.0746,1281005.0746,0.0000,0.2000,-0.1400,0.1200,ApprovedWords\non tornò più_1770018725.wav
+
+[Candelora](https://www.archive.org/download/novelle_per_un_anno_vol_13_candelora_1503_librivox/novelle_per_un_anno_vol_13_candelora_01_pirandello_128kb.mp3) from [Novelle per un Anno, vol. 13: Candelora](https://librivox.org/novelle-per-un-anno-vol-13-candelora-by-luigi-pirandello/)
+
+---cutTemplate.txt---
+
+# word,start_ms,end_ms,global_m_start,global_m_end,local_m_start,local_m_end,export_path
+placido,50173.7910,50613.7910,-0.0600,0.2000,0.0600,-0.1200,ApprovedWords\placido_1770177498.wav
+senza crepare,54933.7910,55553.7910,-0.0600,0.2000,-0.1100,-0.1100,ApprovedWords\senza crepare_1770177581.wav
+finire,88713.7910,89173.7910,0.0000,0.2000,0.0000,-0.1000,ApprovedWords\finire_1770177866.wav
+barone,91553.7910,92093.7910,0.0000,0.2000,-0.0200,-0.2800,ApprovedWords\barone_1770177993.wav
+vedi,92833.7910,93193.7910,0.0000,0.2000,0.0100,-0.1100,ApprovedWords\vedi_1770178023.wav
+che significa QUESTIONMARK,95673.7910,96153.7910,0.0000,0.2000,-0.0800,0.0300,ApprovedWords\che significa QUESTIONMARK_1770178092.wav
+negare,104993.7910,105393.7910,0.0000,0.2000,-0.0100,-0.1100,ApprovedWords\negare_1770178168.wav
+al colmo della rabbia,109833.7910,110413.7910,0.0000,0.2000,-0.5800,-0.2900,ApprovedWords\al colmo della rabbia_1770178254.wav
+scarpa,115053.7910,115773.7910,0.0000,0.2000,0.0100,-0.3300,ApprovedWords\scarpa_1770178328.wav
+marito,128706.8856,129166.8856,-0.0600,0.1000,0.0900,-0.0500,ApprovedWords\marito_1770178721.wav
+svanirebbe,140186.8856,140806.8856,-0.0600,0.1000,-0.0100,0.0200,ApprovedWords\svanirebbe_1770178861.wav
+diciamo così,147946.8856,148306.8856,-0.0600,0.2000,-0.2800,-0.0900,ApprovedWords\diciamo così_1770179058.wav
+senza lasciare,180646.8856,181326.8856,-0.0600,0.2000,-0.2300,-0.1500,ApprovedWords\senza lasciare_1770179339.wav
+stringendo sempre più forte,182726.8856,183166.8856,-0.0600,0.2000,-1.2600,-0.0700,ApprovedWords\stringendo sempre più forte_1770179488.wav
+rabbiosamente,183446.8856,184146.8856,-0.0600,0.2000,0.0200,0.0000,ApprovedWords\rabbiosamente_1770179518.wav
+Curvo,185126.8856,185566.8856,-0.0600,0.2000,0.1000,-0.1200,ApprovedWords\Curvo_1770179625.wav
+delizia,202506.8856,203126.8856,-0.0600,0.2000,0.0900,-0.1200,ApprovedWords\delizia_1770179865.wav
+giacca,210466.8856,211046.8856,-0.0600,0.2000,0.1800,-0.1800,ApprovedWords\giacca_1770180106.wav
+dentro,239466.8856,239906.8856,-0.0600,0.2000,0.1600,-0.0300,ApprovedWords\dentro_1770180434.wav
+veleno,263148.5970,263488.5970,-0.0600,0.2000,0.0200,-0.1200,ApprovedWords\veleno_1770181505.wav
+destra,270808.5970,271248.5970,-0.0600,0.2000,0.0600,-0.1900,ApprovedWords\destra_1770181703.wav
+guarda,279868.5970,280368.5970,-0.0600,0.2000,0.0900,-0.1900,ApprovedWords\guarda_1770181802.wav
+spaventosa,302388.5970,303128.5970,-0.0600,0.2000,0.0400,-0.1000,ApprovedWords\spaventosa_1770181974.wav
+mare,306208.5970,306468.5970,-0.0600,0.2000,0.0700,-0.0800,ApprovedWords\mare_1770182062.wav
+chiari bruciati,310828.5970,311468.5970,-0.0600,0.2000,-0.1400,-0.1000,ApprovedWords\chiari bruciati_1770182265.wav
+gialli irruviditi,314208.5970,314808.5970,-0.0600,0.2000,-0.2200,-0.1100,ApprovedWords\gialli irruviditi_1770182602.wav
+poderose,321228.5970,321848.5970,-0.0600,0.2000,0.1500,-0.1000,ApprovedWords\poderose_1770182762.wav
+deserta,338028.5970,338688.5970,-0.0600,0.2000,0.1100,-0.2000,ApprovedWords\deserta_1770183090.wav
+celeste,352488.5970,353068.5970,-0.0600,0.2000,0.1400,-0.0800,ApprovedWords\celeste_1770183254.wav
+decenza,354228.5970,354808.5970,-0.0600,0.2000,0.1500,-0.0500,ApprovedWords\decenza_1770183443.wav
+lui,362768.5970,363008.5970,-0.0600,0.2000,0.0600,-0.1500,ApprovedWords\lui_1770183588.wav
+ferito,385736.5174,386176.5174,-0.0500,0.2000,0.0600,-0.1200,ApprovedWords\ferito_1770184199.wav
+meriggio d’agosto,395956.5174,396356.5174,-0.0500,0.2000,0.0600,0.4400,ApprovedWords\meriggio d’agosto_1770184330.wav
+stranezza,441736.5174,442416.5174,-0.0500,0.2000,0.0500,-0.1000,ApprovedWords\stranezza_1770185002.wav
+attorno,446496.5174,447096.5174,-0.0500,0.2000,0.0900,-0.0700,ApprovedWords\attorno_1770185056.wav
+fascino ostile,451516.5174,451996.5174,-0.0500,0.2000,-0.4200,-0.1200,ApprovedWords\fascino ostile_1770185200.wav
+circa sei mesi,467796.5174,468016.5174,-0.0500,0.2000,0.0400,0.6500,ApprovedWords\circa sei mesi_1770185369.wav
+nudità,479956.5174,480216.5174,-0.0500,0.2000,0.0400,0.0500,ApprovedWords\nudità_1770185720.wav
+giusto,520544.4378,521044.4378,-0.0600,0.2000,0.0900,-0.1000,ApprovedWords\giusto_1770191131.wav
+morisse di fame,523464.4378,523784.4378,-0.0600,0.2000,-0.4800,-0.1000,ApprovedWords\morisse di fame_1770191272.wav
+pagato,539184.4378,539644.4378,-0.0600,0.2000,0.0600,-0.1500,ApprovedWords\pagato_1770191416.wav
+graziosamente compensato,541084.4378,541964.4378,-0.0600,0.2000,-0.5800,-0.1300,ApprovedWords\graziosamente compensato_1770191518.wav
+vittoria,552824.4378,553384.4378,-0.0600,0.2000,0.1100,-0.0700,ApprovedWords\vittoria_1770191691.wav
+quanto,555844.4378,556264.4378,-0.0600,0.2000,0.1400,-0.0400,ApprovedWords\quanto_1770191727.wav
+gratissima,558024.4378,558804.4378,-0.0600,0.2000,0.1400,-0.1500,ApprovedWords\gratissima_1770191767.wav
+gloria,571724.4378,572264.4378,-0.0600,0.2000,0.1300,-0.1700,ApprovedWords\gloria_1770191918.wav
+niente di male,578712.2736,578972.2736,-0.0600,0.2000,-0.4300,-0.0500,ApprovedWords\niente di male_1770195279.wav
+male,578712.2736,578972.2736,-0.0600,0.2000,0.0600,-0.0500,ApprovedWords\male_1770195334.wav
+vendicare,595132.2736,595792.2736,-0.0600,0.2000,0.1200,-0.0800,ApprovedWords\vendicare_1770195535.wav
+triste,609552.2736,609912.2736,-0.0600,0.2000,0.0900,0.0200,ApprovedWords\triste_1770195803.wav
+sciamannato come prima,612452.2736,612892.2736,-0.0600,0.2000,-0.7900,-0.1100,ApprovedWords\sciamannato come prima_1770196089.wav
+colori,615852.2736,616332.2736,-0.0600,0.2000,0.0500,-0.2000,ApprovedWords\colori_1770196223.wav
+fondo ad essa,623892.2736,624192.2736,-0.0600,0.2000,-0.3800,-0.0900,ApprovedWords\fondo ad essa_1770196436.wav
+Forse,634052.2736,634532.2736,-0.0600,0.2000,-0.0400,-0.1200,ApprovedWords\Forse_1770196499.wav
+transitorie,674752.2736,675572.2736,-0.0600,0.2000,0.0800,-0.1400,ApprovedWords\transitorie_1770196932.wav
+buona,706503.3831,707023.3831,-0.0600,0.2000,0.1300,-0.1600,ApprovedWords\buona_1770199755.wav
+misconosciuta,720303.3831,721223.3831,-0.0600,0.2000,0.1200,-0.1000,ApprovedWords\misconosciuta_1770199885.wav
+gatta inferocita,725383.3831,726103.3831,-0.0600,0.2000,-0.1400,-0.0900,ApprovedWords\gatta inferocita_1770200015.wav
+pazzia,742583.3831,743123.3831,-0.0600,0.2000,0.0600,-0.1600,ApprovedWords\pazzia_1770200239.wav
+allegramente,775203.3831,775923.3831,-0.0600,0.2000,0.0100,-0.0400,ApprovedWords\allegramente_1770200549.wav
+sciocchezze,777583.3831,778163.3831,-0.0600,0.2000,-0.0400,-0.0800,ApprovedWords\sciocchezze_1770200605.wav
+sconce,789643.3831,790243.3831,-0.0600,0.2000,0.0400,-0.1200,ApprovedWords\sconce_1770200774.wav
+cenere,792603.3831,792943.3831,-0.0600,0.2000,0.0400,-0.0500,ApprovedWords\cenere_1770200855.wav
+fatto,815355.5274,815875.5274,-0.0600,0.2000,0.0400,-0.0700,ApprovedWords\fatto_1770202691.wav
+lui,838855.5274,839135.5274,-0.0600,0.2000,-0.0100,-0.0900,ApprovedWords\lui_1770202827.wav
+adesso,839375.5274,839815.5274,-0.0600,0.2000,0.0300,-0.0600,ApprovedWords\adesso_1770202875.wav
+adesso,846815.5274,847215.5274,-0.0600,0.2000,-0.0200,-0.0500,ApprovedWords\adesso_1770202987.wav
+lui,862575.5274,862815.5274,-0.0600,0.2000,-0.0100,-0.0700,ApprovedWords\lui_1770203251.wav
+tondo,866435.5274,866795.5274,-0.0600,0.2000,0.1300,-0.0400,ApprovedWords\tondo_1770203305.wav
+vuote,892335.5274,892755.5274,-0.0600,0.2000,0.0700,-0.1000,ApprovedWords\vuote_1770203433.wav
+giallo nerastro,920833.7960,921553.7960,-0.1200,0.2000,-0.1100,-0.2100,ApprovedWords\giallo nerastro_1770203929.wav
+le grida,926393.7960,926733.7960,-0.1200,0.2000,-0.0400,-0.0800,ApprovedWords\le grida_1770204042.wav
+niente,930453.7960,930953.7960,-0.1200,0.2000,0.1000,-0.0900,ApprovedWords\niente_1770204102.wav
+sbalordito,996181.5473,996861.5473,-0.0600,0.2000,-0.0300,-0.0600,ApprovedWords\sbalordito_1770205682.wav
+vestito,1003101.5473,1003861.5473,-0.0600,0.2000,0.2400,-0.1000,ApprovedWords\vestito_1770205848.wav
+coscia scoperta,1010521.5473,1011101.5473,-0.0600,0.2000,-0.2700,-0.0400,ApprovedWords\coscia scoperta_1770205942.wav
+feroce,1054981.5473,1055441.5473,-0.0600,0.2000,-0.0800,-0.1100,ApprovedWords\feroce_1770206357.wav
+
+[La Camera in Attesa](https://www.archive.org/download/novelle_per_un_anno_vol_13_candelora_1503_librivox/novelle_per_un_anno_vol_13_candelora_03_pirandello_128kb.mp3) from [Novelle per un Anno, vol. 13: Candelora](https://librivox.org/novelle-per-un-anno-vol-13-candelora-by-luigi-pirandello/)
+
+---cutTemplate.txt---
+
+# word,start_ms,end_ms,global_m_start,global_m_end,local_m_start,local_m_end,export_path
+questa camera,31140.0000,31620.0000,-0.0600,0.2000,-0.1700,-0.0700,ApprovedWords\questa camera_1770521664.wav
+cruda,44460.0000,44900.0000,-0.0600,0.2000,0.1500,-0.1400,ApprovedWords\cruda_1770521781.wav
+sotterraneo,45740.0000,46520.0000,-0.0600,0.2000,0.0400,-0.1900,ApprovedWords\sotterraneo_1770521827.wav
+silenzio sospeso,57040.0000,57700.0000,-0.0600,0.2000,-0.4300,-0.0800,ApprovedWords\silenzio sospeso_1770522042.wav
+gli oggetti,59540.0000,60080.0000,-0.0600,0.2000,-0.0700,-0.1500,ApprovedWords\gli oggetti_1770522125.wav
+quali,60680.0000,61140.0000,-0.0600,0.2000,0.0500,-0.1900,ApprovedWords\quali_1770522165.wav
+ogni giorno,64720.0000,65200.0000,-0.0600,0.2000,-0.1100,-0.0500,ApprovedWords\ogni giorno_1770522365.wav
+ripuliti,67920.0000,68440.0000,-0.0600,0.2000,0.0000,-0.0900,ApprovedWords\ripuliti_1770522534.wav
+rimessi in ordine,68740.0000,69180.0000,-0.0600,0.2000,0.0500,0.4400,ApprovedWords\rimessi in ordine_1770522604.wav
+fogliolino,75900.0000,76580.0000,-0.0600,0.2000,0.1600,-0.1300,ApprovedWords\fogliolino_1770522836.wav
+quel silenzio,82860.0000,83600.0000,-0.0600,0.2000,-0.0400,-0.1900,ApprovedWords\quel silenzio_1770522931.wav
+bronzo,85480.0000,86020.0000,-0.0600,0.2000,0.1200,-0.1400,ApprovedWords\bronzo_1770522975.wav
+boccetta dell’acqua,99300.0000,99740.0000,-0.0600,0.2000,-0.5800,-0.1200,ApprovedWords\boccetta dell’acqua_1770523127.wav
+cristallo verde dorato,100820.0000,101420.0000,-0.0600,0.2000,-0.6800,-0.0900,ApprovedWords\cristallo verde dorato_1770523345.wav
+capovolto,103880.0000,104620.0000,-0.0600,0.2000,0.1300,-0.1500,ApprovedWords\capovolto_1770523426.wav
+quello sgomento diffuso nella camera,111920.0000,112400.0000,-0.0600,0.2000,-1.1800,-0.1200,ApprovedWords\quello sgomento diffuso nella camera_1770523584.wav
+tavolino da notte,116916.3731,117396.3731,-0.0600,0.2000,-0.4900,-0.2000,ApprovedWords\tavolino da notte_1770523966.wav
+filo di luce,122276.3731,122616.3731,-0.0600,0.2000,-0.3200,-0.1100,ApprovedWords\filo di luce_1770524289.wav
+trifoglio,145236.3731,145816.3731,-0.0600,0.2000,0.1100,-0.1000,ApprovedWords\trifoglio_1770524671.wav
+consumarla,149536.3731,150256.3731,-0.0600,0.2000,0.1400,-0.1100,ApprovedWords\consumarla_1770524728.wav
+scommettere,156076.3731,156756.3731,-0.0600,0.2000,0.0700,-0.0500,ApprovedWords\scommettere_1770524880.wav
+sorelle stagionate,163636.3731,164296.3731,-0.0600,0.2000,-0.3200,-0.0600,ApprovedWords\sorelle stagionate_1770525000.wav
+camera,168696.3731,169076.3731,-0.0600,0.2000,0.0900,-0.1000,ApprovedWords\camera_1770525044.wav
+sorelle,175216.3731,175796.3731,-0.0600,0.2000,0.0600,-0.1700,ApprovedWords\sorelle_1770525166.wav
+boccetta,178736.3731,179356.3731,-0.0600,0.2000,0.0800,-0.1200,ApprovedWords\boccetta_1770525243.wav
+filo di luce,183747.1194,184087.1194,-0.0600,0.2000,-0.3000,-0.0800,ApprovedWords\filo di luce_1770525560.wav
+almeno,184767.1194,185347.1194,-0.0600,0.2000,0.2000,-0.0400,ApprovedWords\almeno_1770525597.wav
+ogni quindici giorni,186167.1194,186787.1194,-0.0600,0.2000,-0.4700,-0.2100,ApprovedWords\ogni quindici giorni_1770525652.wav
+gialla,189627.1194,190067.1194,-0.0600,0.2000,0.1600,-0.0700,ApprovedWords\gialla_1770525734.wav
+la sera,197167.1194,197467.1194,-0.0600,0.2000,-0.0500,-0.0400,ApprovedWords\la sera_1770525892.wav
+tavolino da notte,198727.1194,199187.1194,-0.0600,0.2000,-0.4800,-0.1600,ApprovedWords\tavolino da notte_1770525989.wav
+dimenticanza deplorevole,201047.1194,201807.1194,-0.0600,0.2000,-0.6000,-0.0800,ApprovedWords\dimenticanza deplorevole_1770526089.wav
+ogni quindici giorni,207087.1194,207467.1194,-0.0600,0.2000,-0.1700,0.3900,ApprovedWords\ogni quindici giorni_1770526232.wav
+letto,209507.1194,209947.1194,-0.0600,0.2000,-0.0100,-0.1800,ApprovedWords\letto_1770526294.wav
+dormito,214127.1194,214647.1194,-0.0600,0.2000,0.1300,-0.1000,ApprovedWords\dormito_1770526389.wav
+due volte la settimana,215787.1194,216287.1194,-0.0600,0.2000,-0.4900,-0.0100,ApprovedWords\due volte la settimana_1770526439.wav
+la camicia da notte,217227.1194,217727.1194,-0.0600,0.2000,-0.5300,-0.2100,ApprovedWords\la camicia da notte_1770526480.wav
+coperte,220147.1194,220627.1194,-0.0600,0.2000,0.1200,-0.0500,ApprovedWords\coperte_1770526532.wav
+bianca,225747.1194,226367.1194,-0.0600,0.2000,0.1800,-0.1500,ApprovedWords\bianca_1770526600.wav
+debitamente rialzata,229887.1194,230667.1194,-0.0600,0.2000,-0.4800,-0.0700,ApprovedWords\debitamente rialzata_1770526672.wav
+cambiato,231687.1194,232227.1194,-0.0600,0.2000,0.0400,-0.0300,ApprovedWords\cambiato_1770526763.wav
+Dio,232467.1194,232927.1194,-0.0600,0.2000,0.3200,-0.0400,ApprovedWords\Dio_1770526809.wav
+Sicuro,238487.1194,239047.1194,-0.0600,0.2000,0.1100,-0.0700,ApprovedWords\Sicuro_1770526845.wav
+comodino,241507.1194,242067.1194,-0.0600,0.2000,0.0600,-0.1300,ApprovedWords\comodino_1770526895.wav
+dentro il comodino,241507.1194,242067.1194,-0.0600,0.2000,-0.3600,-0.1300,ApprovedWords\dentro il comodino_1770526948.wav
+nuove,245667.1194,246067.1194,-0.0600,0.2000,0.0700,-0.1200,ApprovedWords\nuove_1770527031.wav
+tre,248607.1194,248927.1194,-0.0600,0.2000,0.2200,-0.1000,ApprovedWords\tre_1770527063.wav
+calendario,249967.1194,250567.1194,-0.0600,0.2000,0.0700,-0.0600,ApprovedWords\calendario_1770527090.wav
+secondo,253587.1194,253927.1194,-0.0600,0.2000,0.0200,0.0600,ApprovedWords\secondo_1770527175.wav
+scorso,255587.1194,256107.1194,-0.0600,0.2000,0.1200,-0.1100,ApprovedWords\scorso_1770527198.wav
+dodici mesi,259807.1194,260587.1194,-0.0600,0.2000,-0.1000,-0.2700,ApprovedWords\dodici mesi_1770527278.wav
+mattina,261267.1194,261867.1194,-0.0600,0.2000,0.0800,-0.1400,ApprovedWords\mattina_1770527326.wav
+con inesorabile puntualità,262847.1194,263507.1194,-0.0600,0.2000,-0.6400,0.0000,ApprovedWords\con inesorabile puntualità_1770527398.wav
+pericolo,264539.1209,265059.1209,-0.0600,0.2000,0.1000,-0.1200,ApprovedWords\pericolo_1770527583.wav
+sorelle,266279.1209,266799.1209,-0.0600,0.2000,0.0500,-0.1400,ApprovedWords\sorelle_1770527620.wav
+pomeriggio,268759.1209,269339.1209,-0.0600,0.2000,0.1100,-0.1400,ApprovedWords\pomeriggio_1770527734.wav
+cassettone,274739.1209,275439.1209,-0.0600,0.2000,0.1000,-0.1000,ApprovedWords\cassettone_1770527866.wav
+ticchettando,278419.1209,279219.1209,-0.0600,0.2000,0.1500,-0.1100,ApprovedWords\ticchettando_1770527929.wav
+silenzio ticchettando,278419.1209,279219.1209,-0.0600,0.2000,-0.4100,-0.1100,ApprovedWords\silenzio ticchettando_1770528020.wav
+piano,281839.1209,282259.1209,-0.0600,0.2000,0.1900,-0.0900,ApprovedWords\piano_1770528138.wav
+piacere,287179.1209,287719.1209,-0.0600,0.2000,0.1100,-0.1000,ApprovedWords\piacere_1770528223.wav
+danno,290079.1209,290559.1209,-0.0600,0.2000,0.0700,-0.1900,ApprovedWords\danno_1770528254.wav
+scatola,292519.1209,293079.1209,-0.0600,0.2000,0.1200,-0.0900,ApprovedWords\scatola_1770528278.wav
+bianco occhio tondo del quadrante,299419.1209,300019.1209,-0.0600,0.2000,-1.2100,-0.0300,ApprovedWords\bianco occhio tondo del quadrante_1770528525.wav
+poltroncina,313179.1209,313919.1209,-0.0600,0.2000,0.0800,-0.0700,ApprovedWords\poltroncina_1770528654.wav
+candela,315719.1209,316279.1209,-0.0600,0.2000,0.1200,-0.1200,ApprovedWords\candela_1770528686.wav
+bugia,318359.1209,318899.1209,-0.0600,0.2000,0.1500,-0.0800,ApprovedWords\bugia_1770528721.wav
+Oh,319539.1209,319759.1209,-0.0600,0.2000,0.1200,-0.1000,ApprovedWords\Oh_1770528742.wav
+ancora intatta,332219.1209,332859.1209,-0.0600,0.2000,-0.2000,-0.0700,ApprovedWords\ancora intatta_1770528869.wav
+così ingiallita,333319.1209,333519.1209,-0.0600,0.2000,0.0100,0.5700,ApprovedWords\così ingiallita_1770528917.wav
+mesi,340379.1209,340859.1209,-0.0600,0.2000,0.0600,-0.2000,ApprovedWords\mesi_1770529016.wav
+quattordici mesi,340379.1209,340859.1209,-0.0600,0.2000,-0.5500,-0.2000,ApprovedWords\quattordici mesi_1770529048.wav
+potere,344619.1209,345199.1209,-0.0600,0.2000,0.0900,-0.1600,ApprovedWords\potere_1770529163.wav
+dovere,345599.1209,346119.1209,-0.0600,0.2000,0.0800,-0.0400,ApprovedWords\dovere_1770529184.wav
+sottotenente di complemento nel venticinquesimo fanteria,351359.3731,351979.3731,-0.0600,0.2000,-0.0200,2.8000,ApprovedWords\sottotenente di complemento nel venticinquesimo fanteria_1770529520.wav
+complemento,352159.3731,352999.3731,-0.0600,0.2000,0.1000,-0.2100,ApprovedWords\complemento_1770529541.wav
+fanteria,354299.3731,354899.3731,-0.0600,0.2000,0.0800,-0.1400,ApprovedWords\fanteria_1770529567.wav
+partito,355239.3731,355899.3731,-0.0600,0.2000,0.1800,-0.0900,ApprovedWords\partito_1770529587.wav
+due anni,357499.3731,357839.3731,-0.0600,0.2000,-0.1400,-0.1100,ApprovedWords\due anni_1770529629.wav
+vero,364699.3731,365119.3731,-0.0600,0.2000,0.0200,-0.2000,ApprovedWords\vero_1770529665.wav
+lui,366439.3731,366679.3731,-0.0600,0.2000,0.0800,-0.1200,ApprovedWords\lui_1770529687.wav
+colonia,374359.3731,374899.3731,-0.0600,0.2000,0.1200,-0.1400,ApprovedWords\colonia_1770529740.wav
+prigionieri,385599.3731,386239.3731,-0.0600,0.2000,0.0600,-0.0500,ApprovedWords\prigionieri_1770529913.wav
+anzi,391459.3731,391919.3731,-0.0600,0.2000,0.0700,-0.1200,ApprovedWords\anzi_1770529953.wav
+scomparso,391919.3731,392899.3731,-0.0600,0.2000,0.2100,-0.1700,ApprovedWords\scomparso_1770530042.wav
+in qualcuno,408659.3731,409179.3731,-0.0600,0.2000,-0.0500,-0.0700,ApprovedWords\in qualcuno_1770530760.wav
+puntualmente in ordine,415879.3731,416299.3731,-0.0600,0.2000,-0.6300,-0.1400,ApprovedWords\puntualmente in ordine_1770530910.wav
+questa commedia,421639.3731,422379.3731,-0.0600,0.2000,-0.1700,-0.0900,ApprovedWords\questa commedia_1770531147.wav
+morto,430679.3731,431419.3731,-0.0600,0.2000,0.1400,-0.3000,ApprovedWords\morto_1770531260.wav
+colonia,440599.3433,441199.3433,-0.0600,0.2000,0.1500,-0.1800,ApprovedWords\colonia_1770531824.wav
+morto,456499.3433,457139.3433,-0.0600,0.2000,0.2000,-0.1700,ApprovedWords\morto_1770531985.wav
+trovato,464339.3433,464879.3433,-0.0600,0.2000,0.1400,-0.1100,ApprovedWords\trovato_1770532053.wav
+nascosto,473159.3433,473899.3433,-0.0600,0.2000,0.1000,-0.0300,ApprovedWords\nascosto_1770532092.wav
+quasi impedire,478139.3433,478779.3433,-0.0600,0.2000,-0.1700,-0.1200,ApprovedWords\quasi impedire_1770532146.wav
+vestissero di nero,481359.3433,481859.3433,-0.0600,0.2000,0.1000,0.3600,ApprovedWords\vestissero di nero_1770532215.wav
+nero,485739.3433,486119.3433,-0.0600,0.2000,0.0400,-0.0800,ApprovedWords\nero_1770532240.wav
+nero,482019.3433,482359.3433,-0.0600,0.2000,0.0700,-0.1400,ApprovedWords\nero_1770532282.wav
+dubbio,493359.3433,493759.3433,-0.0600,0.2000,0.0600,-0.1300,ApprovedWords\dubbio_1770532414.wav
+certamente,501219.3433,501959.3433,-0.0600,0.2000,0.1100,-0.0400,ApprovedWords\certamente_1770532480.wav
+Ebbene,502399.3433,502979.3433,-0.0600,0.2000,0.1500,-0.0600,ApprovedWords\Ebbene_1770532534.wav
+inferma,517619.3433,518179.3433,-0.0600,0.2000,0.0800,-0.1100,ApprovedWords\inferma_1770532658.wav
+sorelle,519079.3433,519759.3433,-0.0600,0.2000,0.1000,-0.1800,ApprovedWords\sorelle_1770532710.wav
+questa illusione,523359.3433,523979.3433,-0.0600,0.2000,-0.1700,-0.0400,ApprovedWords\questa illusione_1770532751.wav
+camera in attesa,527786.4925,528306.4925,0.0000,0.0000,-0.7200,0.1000,ApprovedWords\camera in attesa_1770541207.wav
+minuziosa,530046.4925,530606.4925,0.0000,0.1000,0.0100,0.1600,ApprovedWords\minuziosa_1770541299.wav
+cura minuziosa,530046.4925,530606.4925,0.0000,0.1000,-0.2400,0.1600,ApprovedWords\cura minuziosa_1770541335.wav
+camicia da notte,534206.4925,534686.4925,0.0000,0.1000,-0.4800,-0.0200,ApprovedWords\camicia da notte_1770541423.wav
+coperte rimboccate,536466.4925,537266.4925,0.0000,0.1000,-0.3100,-0.0200,ApprovedWords\coperte rimboccate_1770541514.wav
+perché,538446.4925,539126.4925,0.0000,0.2000,0.3700,0.0300,ApprovedWords\perché_1770541560.wav
+piangerlo morto,541606.4925,542166.4925,0.0000,0.2000,-0.4100,-0.1800,ApprovedWords\piangerlo morto_1770541622.wav
+lui,546026.4925,546286.4925,0.0000,0.2000,-0.0100,-0.0400,ApprovedWords\lui_1770541661.wav
+loro,547286.4925,547586.4925,0.0000,0.2000,0.0100,-0.0300,ApprovedWords\loro_1770541672.wav
+lui,548306.4925,548606.4925,0.0000,0.2000,0.0000,0.0000,ApprovedWords\lui_1770541684.wav
+pantofole,565726.4925,566446.4925,0.0000,0.2000,0.0900,-0.0500,ApprovedWords\pantofole_1770541948.wav
+aspettando,567726.4925,568426.4925,0.0000,0.2000,-0.0100,-0.0900,ApprovedWords\aspettando_1770541979.wav
+ricamare,570766.4925,571306.4925,0.0000,0.2000,0.0100,-0.1200,ApprovedWords\ricamare_1770542012.wav
+Scusate tanto,580206.4925,580646.4925,0.0000,0.2000,-0.5300,-0.0800,ApprovedWords\Scusate tanto_1770542088.wav
+la grande città lontana,587266.4925,587586.4925,0.0000,0.2000,-0.0400,0.7900,ApprovedWords\la grande città lontana_1770542173.wav
+voce,592106.4925,592566.4925,0.0000,0.2000,0.0800,-0.0500,ApprovedWords\voce_1770542210.wav
+settimana,601326.4925,601866.4925,0.0000,0.2000,0.0100,-0.0300,ApprovedWords\settimana_1770542302.wav
+due volte la settimana,601326.4925,601866.4925,0.0000,0.2000,-0.4300,-0.0300,ApprovedWords\due volte la settimana_1770542348.wav
+bene,604586.4925,604906.4925,0.0000,0.2000,0.0000,-0.0900,ApprovedWords\bene_1770542380.wav
+Dio,623330.5672,623850.5672,-0.0600,0.2000,0.2000,-0.0100,ApprovedWords\Dio_1770542948.wav
+anima,629510.5672,630050.5672,-0.0600,0.2000,0.2100,-0.1100,ApprovedWords\anima_1770543026.wav
+sentire,632790.5672,633330.5672,-0.0600,0.2000,0.0700,-0.1200,ApprovedWords\sentire_1770543058.wav
+La verità,654330.5672,654730.5672,-0.0600,0.2000,-0.0600,-0.1000,ApprovedWords\La verità_1770543294.wav
+vestite di nero,668390.5672,668890.5672,-0.0600,0.2000,-0.3100,-0.1100,ApprovedWords\vestite di nero_1770543366.wav
+morte,669450.5672,669870.5672,-0.0600,0.2000,0.1400,-0.0400,ApprovedWords\morte_1770543389.wav
+riconoscere,681410.5672,682150.5672,-0.0600,0.2000,0.1100,-0.0600,ApprovedWords\riconoscere_1770543449.wav
+morto,687390.5672,687990.5672,-0.0600,0.2000,0.0500,-0.1600,ApprovedWords\morto_1770543485.wav
+credetelo,688530.5672,689130.5672,-0.0600,0.2000,0.0100,-0.1800,ApprovedWords\credetelo_1770543525.wav
+corpo,692270.5672,692710.5672,-0.0600,0.2000,0.0900,-0.0800,ApprovedWords\corpo_1770543570.wav
+cambiato,693990.5672,694750.5672,-0.0600,0.2000,0.2400,-0.1100,ApprovedWords\cambiato_1770543592.wav
+tanto cambiato,694043.3582,694723.3582,0.0000,0.3000,-0.2300,0.0000,ApprovedWords\tanto cambiato_1770543922.wav
+no,695823.3582,696023.3582,0.0000,0.2000,0.0000,-0.1300,ApprovedWords\no_1770544081.wav
+Ebbene,703263.3582,703743.3582,0.0000,0.2000,0.0300,-0.1000,ApprovedWords\Ebbene_1770544118.wav
+precisamente,704383.3582,704923.3582,0.0000,0.2000,0.0500,0.3100,ApprovedWords\precisamente_1770544137.wav
+come non ritorna più,706383.3582,706703.3582,0.0000,0.2000,-0.7700,-0.0900,ApprovedWords\come non ritorna più_1770544191.wav
+corpo,720523.3582,720963.3582,0.0000,0.2000,0.0200,-0.0900,ApprovedWords\corpo_1770544286.wav
+corpo,722443.3582,722823.3582,0.0000,0.2000,0.0300,-0.0400,ApprovedWords\corpo_1770544341.wav
+dunque,727163.3582,727563.3582,0.0000,0.2000,-0.0300,-0.1300,ApprovedWords\dunque_1770544388.wav
+dunque,729963.3582,730463.3582,0.0000,0.2000,0.0000,-0.1100,ApprovedWords\dunque_1770544413.wav
+bastare,731483.3582,732103.3582,0.0000,0.2000,0.0100,-0.1400,ApprovedWords\bastare_1770544443.wav
+qua,738343.3582,738603.3582,0.0000,0.2000,0.0800,-0.0600,ApprovedWords\qua_1770544492.wav
+lui,740763.3582,741083.3582,0.0000,0.2000,0.0300,-0.1000,ApprovedWords\lui_1770544515.wav
+sorelle,751223.3582,751943.3582,0.0000,0.2000,0.2300,-0.0900,ApprovedWords\sorelle_1770544580.wav
+altro,752883.3582,753203.3582,0.0000,0.2000,0.0000,-0.0700,ApprovedWords\altro_1770544651.wav
+fuori di questa,766343.3582,766623.3582,0.0000,0.2000,-0.0400,0.5000,ApprovedWords\fuori di questa_1770544812.wav
+questa,766763.3582,767143.3582,0.0000,0.2000,0.0300,-0.0200,ApprovedWords\questa_1770544826.wav
+mese,770763.3582,771123.3582,0.0000,0.2000,-0.0100,-0.0500,ApprovedWords\mese_1770544854.wav
+inferma,773283.3582,773823.3582,0.0000,0.2000,0.0000,-0.0700,ApprovedWords\inferma_1770544888.wav
+Quindici,776363.3582,776763.3582,0.0000,0.2000,0.1500,0.1300,ApprovedWords\Quindici_1770545131.wav
+libro,779925.8955,780285.8955,-0.0600,0.2000,0.0100,-0.0500,ApprovedWords\libro_1770545519.wav
+vero,785385.8955,785705.8955,-0.0600,0.2000,0.0200,-0.1300,ApprovedWords\vero_1770545566.wav
+sì,787025.8955,787205.8955,-0.0600,0.2000,0.0300,-0.1300,ApprovedWords\sì_1770545611.wav
+madre,796125.8955,796545.8955,-0.0600,0.2000,0.1300,-0.0300,ApprovedWords\madre_1770545653.wav
+risposto,797225.8955,797845.8955,-0.0600,0.2000,0.1100,-0.0800,ApprovedWords\risposto_1770545691.wav
+luminosa,801745.8955,802385.8955,-0.0600,0.2000,0.1000,-0.1100,ApprovedWords\luminosa_1770545744.wav
+pensiero,806145.8955,806725.8955,-0.0600,0.2000,0.0600,-0.0900,ApprovedWords\pensiero_1770545769.wav
+seggiolone,822765.8955,823405.8955,-0.0600,0.2000,0.0600,-0.0600,ApprovedWords\seggiolone_1770545968.wav
+fronte,825705.8955,826305.8955,-0.0600,0.2000,0.0600,-0.1500,ApprovedWords\fronte_1770545999.wav
+casa,832785.8955,833265.8955,-0.0600,0.2000,0.2300,-0.0800,ApprovedWords\casa_1770546041.wav
+casa,834045.8955,834525.8955,-0.0600,0.2000,0.2100,-0.0300,ApprovedWords\casa_1770546062.wav
+domani,835085.8955,835545.8955,-0.0600,0.2000,0.1000,-0.0600,ApprovedWords\domani_1770546111.wav
+fratello,840885.8955,841485.8955,-0.0600,0.2000,0.0100,-0.1300,ApprovedWords\fratello_1770546162.wav
+lei,842725.8955,843005.8955,-0.0600,0.2000,0.0300,-0.0500,ApprovedWords\lei_1770546184.wav
+sì,843405.8955,843585.8955,-0.0600,0.2000,0.0000,-0.0700,ApprovedWords\sì_1770546206.wav
+purtroppo,843965.8955,844585.8955,-0.0600,0.2000,0.0400,-0.1100,ApprovedWords\purtroppo_1770546241.wav
+bambina,857019.7164,857559.7164,-0.0600,0.2000,0.1200,-0.0400,ApprovedWords\bambina_1770546463.wav
+ogni giorno,862159.7164,862639.7164,-0.0600,0.2000,-0.0500,-0.0800,ApprovedWords\ogni giorno_1770546559.wav
+certa,866299.7164,866759.7164,-0.0600,0.2000,0.1400,-0.0400,ApprovedWords\certa_1770546615.wav
+lei,867899.7164,868339.7164,-0.0600,0.2000,0.2300,-0.0900,ApprovedWords\lei_1770546648.wav
+lettera,877159.7164,877739.7164,-0.0600,0.2000,0.1000,-0.1400,ApprovedWords\lettera_1770546692.wav
+Sì,877739.7164,878879.7164,-0.0600,0.2000,0.9000,-0.1500,ApprovedWords\Sì_1770546722.wav
+ecco,886639.7164,887079.7164,-0.0600,0.2000,0.0700,-0.1400,ApprovedWords\ecco_1770546774.wav
+arrivato,891399.7164,891959.7164,-0.0600,0.2000,0.1200,-0.0800,ApprovedWords\arrivato_1770546807.wav
+Il fiore avvizziva,892959.7164,893639.7164,-0.0600,0.2000,-0.3400,-0.0400,ApprovedWords\Il fiore avvizziva_1770546859.wav
+restava,894459.7164,895059.7164,-0.0600,0.2000,0.1100,-0.1300,ApprovedWords\restava_1770546878.wav
+precedente,899939.7164,900679.7164,-0.0600,0.2000,0.1500,-0.0800,ApprovedWords\precedente_1770546919.wav
+finestra,908119.7164,908719.7164,-0.0600,0.2000,0.0500,-0.1300,ApprovedWords\finestra_1770547065.wav
+nuova,910799.7164,911219.7164,-0.0600,0.2000,0.0900,-0.1300,ApprovedWords\nuova_1770547091.wav
+nuovo,912999.7164,913279.7164,-0.0600,0.2000,0.1600,0.1000,ApprovedWords\nuovo_1770547126.wav
+lungo,914359.7164,914899.7164,-0.0600,0.2000,0.0500,-0.1800,ApprovedWords\lungo_1770547150.wav
+senza lettera,920979.7164,921699.7164,-0.0600,0.2000,-0.1700,-0.2000,ApprovedWords\senza lettera_1770547227.wav
+precedente,923579.7164,924339.7164,-0.0600,0.2000,0.1700,-0.0900,ApprovedWords\precedente_1770547254.wav
+scrivere,928906.3582,929346.3582,0.0000,0.2000,-0.0700,-0.0700,ApprovedWords\scrivere_1770547952.wav
+buste,935186.3582,936046.3582,0.0000,0.2000,0.0200,-0.4100,ApprovedWords\buste_1770548002.wav
+Veramente era così,937406.3582,937746.3582,0.0000,0.2000,-0.6400,-0.0900,ApprovedWords\Veramente era così_1770548263.wav
+giorno,940766.3582,941226.3582,0.0000,0.2000,0.1300,-0.1000,ApprovedWords\giorno_1770548314.wav
+stesso,944886.3582,945226.3582,0.0000,0.2000,-0.0100,0.0500,ApprovedWords\stesso_1770548341.wav
+tre volte,951986.3582,952386.3582,0.0000,0.2000,-0.1100,0.1100,ApprovedWords\tre volte_1770548432.wav
+due,953266.3582,953646.3582,0.0000,0.2000,0.0700,-0.0900,ApprovedWords\due_1770548451.wav
+nonna materna,960546.3582,961166.3582,0.0000,0.2000,-0.1900,-0.1300,ApprovedWords\nonna materna_1770548519.wav
+venire,963326.3582,963906.3582,0.0000,0.2000,0.1700,-0.1400,ApprovedWords\venire_1770548561.wav
+nero,971606.3582,971946.3582,0.0000,0.2000,0.0100,-0.0800,ApprovedWords\nero_1770548649.wav
+vestita di nero,971606.3582,971946.3582,0.0000,0.2000,-0.6400,-0.0800,ApprovedWords\vestita di nero_1770548674.wav
+Tutt’a un tratto,981206.3582,981786.3582,0.0000,0.2000,-0.3500,-0.1400,ApprovedWords\Tutt’a un tratto_1770548755.wav
+vestita di nero,982966.3582,983306.3582,0.0000,0.2000,-0.5500,-0.1100,ApprovedWords\vestita di nero_1770548786.wav
+entrata,983886.3582,984466.3582,0.0000,0.2000,0.0400,-0.1100,ApprovedWords\entrata_1770548841.wav
+disperato,988706.3582,989426.3582,0.0000,0.2000,0.0600,-0.1100,ApprovedWords\disperato_1770548867.wav
+pianto disperato,988706.3582,989426.3582,0.0000,0.2000,-0.3300,-0.1100,ApprovedWords\pianto disperato_1770548923.wav
+Perché,990386.3582,990986.3582,0.0000,0.2000,0.2700,0.0600,ApprovedWords\Perché_1770548946.wav
+angoscioso,997102.7463,997822.7463,0.0000,0.2000,0.0300,-0.0800,ApprovedWords\angoscioso_1770549357.wav
+abito nero,1008562.7463,1008962.7463,0.0000,0.2000,-0.2300,-0.0800,ApprovedWords\abito nero_1770549442.wav
+nonna,1010562.7463,1010982.7463,0.0000,0.2000,0.0300,-0.1300,ApprovedWords\nonna_1770549462.wav
+una volta la settimana,1014062.7463,1014342.7463,0.0000,0.2000,-0.1300,0.6600,ApprovedWords\una volta la settimana_1770549540.wav
+ritegno,1018802.7463,1019502.7463,0.0000,0.2000,0.1700,-0.0800,ApprovedWords\ritegno_1770549619.wav
+conducessero,1026022.7463,1026802.7463,0.0000,0.2000,0.0400,-0.1200,ApprovedWords\conducessero_1770549666.wav
+Tre mesi fa,1031062.7463,1031282.7463,0.0000,0.2000,-0.4500,-0.1000,ApprovedWords\Tre mesi fa_1770549694.wav
+fiore,1035942.7463,1036302.7463,0.0000,0.2000,-0.0300,-0.0900,ApprovedWords\fiore_1770549724.wav
+veduta,1042122.7463,1042602.7463,0.0000,0.2000,0.0400,-0.1100,ApprovedWords\veduta_1770549765.wav
+tanti fiori,1045442.7463,1046062.7463,0.0000,0.2000,-0.2600,-0.2300,ApprovedWords\tanti fiori_1770549799.wav
+scrivania,1052602.7463,1053182.7463,0.0000,0.2000,0.0500,-0.0400,ApprovedWords\scrivania_1770549874.wav
+cassettone,1054842.7463,1055522.7463,0.0000,0.2000,0.0200,-0.1300,ApprovedWords\cassettone_1770549908.wav
+sogno,1057682.7463,1058202.7463,0.0000,0.2000,0.0500,-0.1200,ApprovedWords\sogno_1770549958.wav
+stordimento,1073602.7463,1074202.7463,0.0000,0.2000,0.0700,0.1500,ApprovedWords\stordimento_1770550194.wav
+violenza crudele,1076282.7463,1076902.7463,0.0000,0.2000,-0.4100,-0.1400,ApprovedWords\violenza crudele_1770550243.wav
+silenzio di quell’attesa,1083282.7463,1083742.7463,0.0000,0.2000,-0.0100,0.6700,ApprovedWords\silenzio di quell’attesa_1770550301.wav
+scrivania,1109922.7164,1110402.7164,0.0000,0.2000,0.0300,-0.0100,ApprovedWords\scrivania_1770550644.wav
+due,1115602.7164,1115862.7164,0.0000,0.2000,0.0100,-0.0500,ApprovedWords\due_1770550744.wav
+centoventidue,1115602.7164,1115862.7164,0.0000,0.2000,-0.6400,-0.0500,ApprovedWords\centoventidue_1770550770.wav
+centoventitré,1116362.7164,1116982.7164,0.0000,0.2000,0.0800,0.1500,ApprovedWords\centoventitré_1770550845.wav
+tre,1116982.7164,1117242.7164,0.0000,0.2000,0.0600,-0.1000,ApprovedWords\tre_1770550876.wav
+inferma,1131962.7164,1132362.7164,0.0000,0.2000,-0.2200,-0.1400,ApprovedWords\inferma_1770551012.wav
+visita,1137142.7164,1137642.7164,0.0000,0.2000,0.0600,-0.1500,ApprovedWords\visita_1770551043.wav
+curioso,1138302.7164,1138902.7164,0.0000,0.2000,0.0900,-0.1600,ApprovedWords\curioso_1770551093.wav
+lei,1139702.7164,1139962.7164,0.0000,0.2000,0.0000,-0.1000,ApprovedWords\lei_1770551104.wav
+anzi,1153362.7164,1153802.7164,0.0000,0.2000,0.0000,-0.1300,ApprovedWords\anzi_1770551206.wav
+pronto,1165292.4328,1165732.4328,0.0000,0.2000,0.1100,-0.0300,ApprovedWords\pronto_1770551468.wav
+sposa,1170752.4328,1171152.4328,0.0000,0.2000,-0.0900,-0.0900,ApprovedWords\sposa_1770551513.wav
+notizia,1172732.4328,1173432.4328,0.0000,0.2000,0.1200,-0.1700,ApprovedWords\notizia_1770551537.wav
+vedere,1176352.4328,1176712.4328,0.0000,0.2000,0.0200,-0.0200,ApprovedWords\vedere_1770551553.wav
+altro,1191801.6567,1192181.6567,0.0000,0.2000,0.0100,-0.0400,ApprovedWords\altro_1770551989.wav
+ritorno,1198241.6567,1198781.6567,0.0000,0.2000,-0.0100,-0.1500,ApprovedWords\ritorno_1770552043.wav
+questa pena,1223901.6567,1224301.6567,0.0000,0.2000,-0.2200,-0.1000,ApprovedWords\questa pena_1770552781.wav
+riso di luce,1226461.6567,1226701.6567,0.0000,0.2000,-0.0400,0.3500,ApprovedWords\riso di luce_1770552875.wav
+luce,1226801.6567,1227141.6567,0.0000,0.2000,0.0200,-0.0500,ApprovedWords\luce_1770552892.wav
+con invidia accorata,1231401.6567,1231961.6567,0.0000,0.2000,-0.5000,-0.1000,ApprovedWords\con invidia accorata_1770552953.wav
+poco,1233201.6567,1233601.6567,0.0000,0.2000,0.1900,0.0200,ApprovedWords\poco_1770552983.wav
+lunghissima attesa,1238081.6567,1238661.6567,0.0000,0.2000,0.0400,0.4100,ApprovedWords\lunghissima attesa_1770553052.wav
+attesa,1238661.6567,1239141.6567,0.0000,0.2000,-0.0300,-0.0800,ApprovedWords\attesa_1770553077.wav
+quest’annunzio,1248341.6567,1248981.6567,0.0000,0.2000,-0.1800,-0.1500,ApprovedWords\quest’annunzio_1770553158.wav
+non lo dice,1254621.6567,1254941.6567,0.0000,0.2000,-0.3400,-0.0400,ApprovedWords\non lo dice_1770553207.wav
+credere,1262701.6567,1263241.6567,0.0000,0.2000,0.0300,-0.1100,ApprovedWords\credere_1770553239.wav
+loro,1265461.6567,1265821.6567,0.0000,0.2000,0.0400,-0.1100,ApprovedWords\loro_1770553258.wav
+tanto aspettato,1290704.7015,1291484.7015,0.0000,0.2000,-0.1800,-0.0400,ApprovedWords\tanto aspettato_1770553616.wav
+quattro ceri funebri,1293204.7015,1293564.7015,0.0000,0.2000,0.0100,0.7600,ApprovedWords\quattro ceri funebri_1770553665.wav
+vacillare,1300284.7015,1301044.7015,0.0000,0.2000,0.1300,-0.0600,ApprovedWords\vacillare_1770553700.wav
+gialla,1302224.7015,1302704.7015,0.0000,0.2000,0.1300,-0.1200,ApprovedWords\gialla_1770553721.wav
+Tanto,1303464.7015,1304124.7015,0.0000,0.2000,0.1900,-0.0300,ApprovedWords\Tanto_1770553739.wav
+candela,1313584.7015,1314124.7015,0.0000,0.2000,0.0700,-0.0600,ApprovedWords\candela_1770553789.wav
+ingiallita,1314664.7015,1314864.7015,0.0000,0.2000,0.0700,0.5800,ApprovedWords\ingiallita_1770553834.wav
+smorfiose,1322684.7015,1323504.7015,0.0000,0.2000,0.0600,-0.0400,ApprovedWords\smorfiose_1770553904.wav
+fiammiferi,1324624.7015,1325364.7015,0.0000,0.2000,0.0200,-0.2400,ApprovedWords\fiammiferi_1770553929.wav
+sussulto,1327944.7015,1328704.7015,0.0000,0.2000,0.0000,-0.1400,ApprovedWords\sussulto_1770553953.wav
+qui,1333244.7015,1333544.7015,0.0000,0.2000,0.1000,-0.1400,ApprovedWords\qui_1770553992.wav
+attesa,1376044.7015,1376544.7015,0.0000,0.2000,-0.0100,0.0000,ApprovedWords\attesa_1770554099.wav
